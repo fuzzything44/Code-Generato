@@ -10,6 +10,7 @@
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    std::cout << "PC Master Race";
+    cout << "PC Master Race" << endl; //This is retarded john seriously
+    cout << "I have so many STDs" << endl; //Pinnacle of comedy
     return 0;
 }
