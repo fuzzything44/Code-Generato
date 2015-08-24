@@ -8,8 +8,11 @@
 
 #include <iostream>
 
+using namespace std;
+
 int main(int argc, const char * argv[]) {
     // insert code here...
-    std::cout << "PC Master Race";
+    cout << "PC Master Race";
+    cout << "Tucker Sucks Dick";
     return 0;
 }
