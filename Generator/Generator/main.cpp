@@ -8,6 +8,8 @@
 
 #include <iostream>
 
+using namespace std;
+
 int main(int argc, const char * argv[]) {
     // insert code here...
     cout << "PC Master Race" << endl; //This is retarded john seriously
