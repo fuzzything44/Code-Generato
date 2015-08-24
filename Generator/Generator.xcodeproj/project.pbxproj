@@ -57,9 +57,25 @@
 		39D679381B8BB95500DFF09D /* Generator */ = {
 			isa = PBXGroup;
 			children = (
+				39D679411B8BBCD300DFF09D /* public */,
+				39D679401B8BBCB900DFF09D /* private */,
 				39D679391B8BB95500DFF09D /* main.cpp */,
 			);
 			path = Generator;
+			sourceTree = "<group>";
+		};
+		39D679401B8BBCB900DFF09D /* private */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = private;
+			sourceTree = "<group>";
+		};
+		39D679411B8BBCD300DFF09D /* public */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = public;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
