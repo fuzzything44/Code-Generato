@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		39D6793A1B8BB95500DFF09D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39D679391B8BB95500DFF09D /* main.cpp */; };
 		39D679451B8BC12200DFF09D /* variableNamer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39D679441B8BC12200DFF09D /* variableNamer.cpp */; };
+		39D679481B8BC1ED00DFF09D /* classDef.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39D679461B8BC1ED00DFF09D /* classDef.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,9 @@
 		39D679421B8BBD0A00DFF09D /* random.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = random.h; sourceTree = "<group>"; };
 		39D679431B8BC10800DFF09D /* variableNamer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = variableNamer.h; sourceTree = "<group>"; };
 		39D679441B8BC12200DFF09D /* variableNamer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = variableNamer.cpp; sourceTree = "<group>"; };
+		39D679461B8BC1ED00DFF09D /* classDef.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = classDef.cpp; sourceTree = "<group>"; };
+		39D679471B8BC1ED00DFF09D /* classDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = classDef.h; sourceTree = "<group>"; };
+		39D6794C1B8BC30E00DFF09D /* function.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = function.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				39D679441B8BC12200DFF09D /* variableNamer.cpp */,
+				39D679461B8BC1ED00DFF09D /* classDef.cpp */,
 			);
 			name = private;
 			sourceTree = "<group>";
@@ -79,6 +84,8 @@
 		39D679411B8BBCD300DFF09D /* public */ = {
 			isa = PBXGroup;
 			children = (
+				39D679471B8BC1ED00DFF09D /* classDef.h */,
+				39D6794C1B8BC30E00DFF09D /* function.h */,
 				39D679421B8BBD0A00DFF09D /* random.h */,
 				39D679431B8BC10800DFF09D /* variableNamer.h */,
 			);
@@ -143,6 +150,7 @@
 			files = (
 				39D6793A1B8BB95500DFF09D /* main.cpp in Sources */,
 				39D679451B8BC12200DFF09D /* variableNamer.cpp in Sources */,
+				39D679481B8BC1ED00DFF09D /* classDef.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
