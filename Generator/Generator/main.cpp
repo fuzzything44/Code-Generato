@@ -11,8 +11,8 @@
 using namespace std;
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    cout << "PC Master Race";
-    cout << "Tucker Sucks Dick";
+    cout << "PC Master Race" << endl;
+    cout << "Tucker Sucks Dick" << endl;
+    cout << "Android Master Race" << endl;
     return 0;
 }
