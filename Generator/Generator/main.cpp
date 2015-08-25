@@ -14,5 +14,8 @@ int main(int argc, const char * argv[]) {
     cout << "PC Master Race" << endl;
     cout << "Tucker Sucks Dick" << endl;
     cout << "Android Master Race" << endl;
+    while(true){
+        cout << "Tucker Sucks Dick" << endl;
+    }
     return 0;
 }
