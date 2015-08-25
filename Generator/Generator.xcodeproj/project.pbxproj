@@ -29,6 +29,7 @@
 /* Begin PBXFileReference section */
 		398200C61B8D0B7300ED6F98 /* random.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = random.cpp; sourceTree = "<group>"; };
 		398200C81B8D0C6200ED6F98 /* function.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = function.cpp; sourceTree = "<group>"; };
+		398200CB1B8D102F00ED6F98 /* names.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = names.txt; sourceTree = "<group>"; };
 		39D679361B8BB95500DFF09D /* Generator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Generator; sourceTree = BUILT_PRODUCTS_DIR; };
 		39D679391B8BB95500DFF09D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		39D679421B8BBD0A00DFF09D /* random.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = random.h; sourceTree = "<group>"; };
@@ -50,6 +51,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		398200CA1B8D100600ED6F98 /* res */ = {
+			isa = PBXGroup;
+			children = (
+				398200CB1B8D102F00ED6F98 /* names.txt */,
+			);
+			name = res;
+			sourceTree = "<group>";
+		};
 		39D6792D1B8BB95500DFF09D = {
 			isa = PBXGroup;
 			children = (
@@ -69,6 +78,7 @@
 		39D679381B8BB95500DFF09D /* Generator */ = {
 			isa = PBXGroup;
 			children = (
+				398200CA1B8D100600ED6F98 /* res */,
 				39D679411B8BBCD300DFF09D /* public */,
 				39D679401B8BBCB900DFF09D /* private */,
 				39D679391B8BB95500DFF09D /* main.cpp */,
