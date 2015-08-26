@@ -2,7 +2,7 @@
 
 templateArgument::templateArgument(classDef argType) : arg(argType) {}
 
-bool templateArgument::fitsArg(<#classDef doesFit#>)
+bool templateArgument::fitsArg(classDef doesFit)
 {
     return false;
 }
