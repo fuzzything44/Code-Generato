@@ -19,7 +19,7 @@ void logger::setLogging(bool state)
 }
 
 template<typename T>
-logger& logger::operator<< (T toLog)
+logger& logger::operator<< (T&& toLog)
 {
     
     try {
