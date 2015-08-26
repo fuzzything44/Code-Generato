@@ -1,3 +1,15 @@
+-Prefix
 max
 min
 does
+Compile
+Genorate
+Execute
+upload
+download
+username
+embed
+tuna
+apple
+-Other
+Stuff
