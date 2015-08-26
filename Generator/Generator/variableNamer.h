@@ -14,10 +14,13 @@ public:
     
 private:
     std::string poop;
-    std::vector <std::string> name;
-    std::vector <std::string> name2;
+    std::vector <std::string> prefixLines;
+    std::vector <std::string> funcLines;
+    std::vector <std::string> varLines;
     bool preCheck;
-    bool otherCheck;
+    bool funcCheck;
+    bool varCheck;
     int varNum;
     int funNum;
+    int preNum;
 };

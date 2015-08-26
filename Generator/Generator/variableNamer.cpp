@@ -4,36 +4,50 @@ using namespace std;
 
 genName::genName(){
     preCheck = false;
-    otherCheck = false;
-    int varNum = 0;
-    vector <string> name;
-    vector <string> name2;
+    funcCheck = false;
+    varCheck = false;
     
+    varNum = 0;
+    preNum = 0;
+    funNum =0;
+    
+    vector <string> prefixLines;
+    vector <string> funcLines;
+    vector <string> varLines;
+
     ifstream infile;
     infile.open("names.txt");
-    string poop ;
+    string lineInfo ;
     
     while(!infile.eof()){
 
         
-        getline(infile,poop);
+        getline(infile,lineInfo);
         
         
-        if( poop == "-Prefix")
+        if( lineInfo == "-Prefix")
             preCheck = true;
         
-        if(preCheck == true && poop!="-Prefix"){
+        if(preCheck == true && lineInfo!="-Prefix"){
+            preNum ++;
+            prefixLines.push_back(lineInfo);
+        }
+        
+        if( lineInfo == "-Func")
+            funcCheck = true;
+        
+        if(preCheck == true && lineInfo!="-Func"){
             
-            name.push_back(poop);
-    }
+            funNum ++;
+            funcLines.push_back(lineInfo);
+        }
+        if( lineInfo == "-Var")
+            varCheck = true;
         
-        if( poop == "-Other")
-            otherCheck = true;
-        
-        if(preCheck == true && poop!="-Other"){
+        if(preCheck == true && lineInfo!="-Var"){
             
             varNum ++;
-            name2.push_back(poop);
+            varLines.push_back(lineInfo);
         }
         
         
@@ -45,11 +59,40 @@ genName::genName(){
 
 string genName::getFunc(){
     
-    string name;
-    randRange(1, 1);
+    string nameTemp;
+    nameTemp = prefixLines[randRange(0, preNum)] + funcLines[randRange(0, preNum)];
+
     
-    
-    
-    
-    return name;
+    return nameTemp;
 }
+
+
+string genName::getVar(){
+    
+    string nameTemp;
+    nameTemp = prefixLines[randRange(0, preNum)] + varLines[randRange(0, preNum)];
+    
+    
+    return nameTemp;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
