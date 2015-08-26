@@ -3,6 +3,8 @@
 
 class classDef
 {
+public:
+    classDef();
     
     
 };
