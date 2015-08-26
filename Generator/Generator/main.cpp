@@ -1,15 +1,18 @@
-//
-//  main.cpp
-//  Generator
-//
-//  Created by Tanner McCormack on 8/24/15.
-//  Copyright (c) 2015 Tanner McCormack. All rights reserved.
-//
-
 #include <iostream>
-
+#include "variableNamer.h"
 using namespace std;
 
 int main(int argc, const char * argv[]) {
-    return 0;
+    genName g;
+    while (true)
+    {
+        string type;
+        cin >> type;
+        if (type == "var" )
+            cout << g.getVar() << endl;
+        if (type == "const")
+            cout << g.getConst() << endl;
+        if (type == "func")
+            cout << g.getFunc() << endl;
+    }
 }
