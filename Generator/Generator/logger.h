@@ -4,15 +4,25 @@
 
 class logger
 {
-    std::ofstream code;
-    std::ofstream log;
-    bool isLogging;
 public:
-    logger(std::string fname);
-    ~logger();
-    
-    // Sets if it logs the statement or counts it as code. true = log, false = code.
-    void setLogging(bool state);
-    
-    template<typename T> logger& operator<< (T toLog);
+    static std::ofstream code;
+    static std::ofstream log;
+    static void init(std::string fname);
+    static void close();
 };
+
+#define LOG(ans) if (logger::log.is_open() ) { logger::init("default"); }               \
+    try {                                                                               \
+        std::cout << "LOG: " << ans; logger::log << ans;                                \
+    } catch(std::exception e)   {                                                       \
+        std::cout << std::endl << "An error occurred: " << e.what() << std::endl;       \
+        std::cout << "Attempted log: " << #ans << std::endl;                            \
+        exit(-1); }
+
+#define CODE(ans) if (logger::code.is_open() ) { logger::init("default"); }             \
+    try {                                                                               \
+        std::cout << "    #" << ans; logger::code << ans;                               \
+    } catch(std::exception e)   {                                                       \
+        std::cout << std::endl << "An error occurred: " << e.what() << std::endl;       \
+        std::cout << "Attempted code: " << #ans << std::endl;                           \
+        exit(-1); }

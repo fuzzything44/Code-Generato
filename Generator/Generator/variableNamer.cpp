@@ -2,7 +2,7 @@
 
 using namespace std;
 
-genName::genName(){
+genName::genName() {
     numNames =0;
     
     //Check Vars
@@ -174,6 +174,7 @@ string genName::getConst(){
     return nameTemp;
 }
 
+genName::~genName() {};
 
 
 
