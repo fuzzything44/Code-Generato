@@ -2,14 +2,12 @@
 #include <fstream>
 #include <string>
 
-class logger
-{
-public:
+namespace logger {
     static std::ofstream code;
     static std::ofstream log;
-    static void init(std::string fname);
-    static void close();
-};
+    void init(std::string fname);
+    void close();
+}
 
 #define LOG(ans) if (logger::log.is_open() ) { logger::init("default"); }               \
     try {                                                                               \

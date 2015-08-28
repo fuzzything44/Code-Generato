@@ -4,8 +4,8 @@
 using namespace std;
 
 int main() {
+    
     logger::init("TEST");
-    LOG("TEST");
     
     genName g;
     while (true)

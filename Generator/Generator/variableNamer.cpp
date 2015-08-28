@@ -1,4 +1,5 @@
 #include "variableNamer.h"
+#include "logger.h"
 
 using namespace std;
 
@@ -26,13 +27,16 @@ genName::genName() {
     infile.open("names.txt");
     string lineInfo ;
     
+    LOG("Reading file..." << std::endl)
     
     //While the file hasn't fully been read
     while(!infile.eof()){
-
+        
+        LOG("Line started..." << std::endl);
+        
         //Store line in LineInfo
         getline(infile,lineInfo);
-        
+        LOG("Line reads: " << lineInfo << std::endl)
         //Check if in prefix section
         if( lineInfo == "-Prefix")
             preCheck = true;
@@ -70,6 +74,8 @@ genName::genName() {
             constNum ++;
             varLines.push_back(lineInfo);
         }
+        
+        LOG("Line read" << std::endl)
         
     }
     infile.close();
