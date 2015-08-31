@@ -9,7 +9,7 @@ namespace logger {
     void close();
 }
 
-#define LOG(ans) if (!logger::log.is_open() ) { logger::init("default"); }               \
+#define LOG(ans) if (!logger::log.is_open() ) { logger::init("default"); }              \
     try {                                                                               \
         std::cout << "LOG: " << ans << std::endl; logger::log << ans << std::endl;      \
     } catch(std::exception e)   {                                                       \
@@ -17,7 +17,7 @@ namespace logger {
         std::cout << "Attempted log: " << #ans << std::endl;                            \
         exit(-1); }
 
-#define CODE(ans) if (!logger::code.is_open() ) { logger::init("default"); }             \
+#define CODE(ans) if (!logger::code.is_open() ) { logger::init("default"); }            \
     try {                                                                               \
         std::cout << "    #" << ans << std::endl; logger::code << ans << std::endl;     \
     } catch(std::exception e)   {                                                       \

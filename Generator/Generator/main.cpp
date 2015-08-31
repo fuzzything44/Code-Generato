@@ -4,9 +4,14 @@
 using namespace std;
 
 int main() {
-    
     logger::init("TEST");
+    if(logger::log.is_open()) {
+        LOG("ABCD")
+    } else { cout << "FAILED!!! LOG IS NOT OPEN!!!" << endl; }
+    logger::close();
     
+    
+    exit(0);
     genName g;
     while (true)
     {
