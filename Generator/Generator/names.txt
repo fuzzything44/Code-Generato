@@ -479,7 +479,7 @@ Stylesheet
 Subprogram
 Subroutine
 Subscript
-Substring
+-Func
 Subversion
 Superclass
 Switch statement
@@ -521,5 +521,9 @@ While
 Whole number
 WML
 Workspace
--Func
+-Const
+AAAA
+VVV
+VDd
+DD
 
