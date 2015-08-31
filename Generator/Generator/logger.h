@@ -3,8 +3,8 @@
 #include <string>
 
 namespace logger {
-    static std::ofstream code;
-    static std::ofstream log;
+    extern std::ofstream code;
+    extern std::ofstream log;
     void init(std::string fname);
     void close();
 }
