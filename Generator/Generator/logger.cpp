@@ -1,5 +1,8 @@
 #include "logger.h"
 
+std::ofstream logger::log;
+std::ofstream logger::code;
+
 void logger::init(std::string fname)
 {
     logger::code.open(fname + "_code");
