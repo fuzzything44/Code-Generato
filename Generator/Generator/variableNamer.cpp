@@ -18,10 +18,10 @@ genName::genName() {
     funNum = 0;
     constNum = 0;
     //Store Lines Info
-    vector <string> prefixLines;
-    vector <string> funcLines;
-    vector <string> varLines;
-    vector <string> constLines;
+    prefixLines.push_back("");
+    funcLines.push_back("");
+    varLines.push_back("");
+    constLines.push_back("");
     
     ifstream infile;
     infile.open("names.txt");
@@ -72,11 +72,11 @@ genName::genName() {
         if(constCheck == true && lineInfo!="-Const"){
             
             constNum ++;
-            varLines.push_back(lineInfo);
+            constLines.push_back(lineInfo);
         }
         
         LOG("Line read" << std::endl)
-        
+        cout<< constLines[constNum] <<endl;
     }
     infile.close();
     preCheck = false;
@@ -152,7 +152,7 @@ string genName::getVar(){
 string genName::getConst(){
     
     string nameTemp;
-    nameTemp =  constLines[randRange(0, preNum)];
+    nameTemp =  constLines[0];
     
     usedNames.push_back(nameTemp);
     

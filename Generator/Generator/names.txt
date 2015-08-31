@@ -8,44 +8,44 @@ Action statement
 ActionScript
 ActiveX
 Ada
-Advanced SCSI Programming Interface
+AdvancedSCSIProgrammingInterface
 Aggregation
-Agile development methods
-Agile Manifesto
+Agile developmentmethods
+AgileManifesto
 Alert
 Algol
 Algorithm
-Ambient Occlusion
+AmbientOcclusion
 AOP
 API
 Applet
 Argument
-Arithmetic operator
+Arithmeticoperator
 Array
-Array of pointers
+Arrayofpointers
 ASCII
 ASPI
 Assembler
 Assembly
-Associative operation
+Associativeoperation
 AutoHotkey
-Automata-based programming
-Automated unit testing
+Automata-basedprogramming
+Automatedunittesting
 Babel
 Backend
-Back-face culling
-Background thread
-Backpropagation neural network
-Base address
-Batch file
-Batch job
+Back-faceculling
+Backgroundthread
+Backpropagationneuralnetwork
+Baseaddress
+Batchfile
+Batchjob
 BCPL
 Bean
 BeanShell
-Binary Search
+BinarySearch
 Bind
-Bit shift
-Bitwise operators
+Bitshift
+Bitwiseoperators
 Block
 BOM
 Bool
@@ -60,15 +60,15 @@ Build computer
 Bytecode
 Camel book
 CamelCase
-Captured variable
+Capturedvariable
 CC
-Chaos model
+Chaosmodel
 Char
-Character code
-Character encoding
-Character set
-Chaos model
-Circuit satisfiability problem
+Charactercode
+Characterencoding
+Characterset
+Chaosmodel
+Circuitsatisfiability problem
 Class
 Class
 Classpath
@@ -77,9 +77,9 @@ Closure
 CLR
 COBOL
 Cocoa
-Cocoa touch
+Cocoatouch
 Code
-Code refactoring
+Codeefactoring
 Codepage
 CoffeeScript
 Command language
@@ -145,20 +145,19 @@ DOM
 Dragon book
 Dribbleware
 Dump
-Dylan programming language
-Dynamic dump
+Dynamicdump
 Eclipse
 ECMAScript
-Eight queens problem
+Eightqueensproblem
 Element
 Ellipsis
 Else
-Else if
+Elseif
 Elsif
-Embedded Java
+EmbeddedJava
 Encapsulation
 Endian
-Endless loop
+Endlessloop
 EOF
 Epoch
 Eq
@@ -166,30 +165,27 @@ Error
 Errorlevel
 Esac
 Escape
-Escape character
-Escape sequence
+Escapecharacter
+Escapesequence
 Eval
 Event
-Event handler
-Event listener
-Event-driven programming
+Eventhandler
+Eventlistener
+Event-drivenprogramming
 Exec
 Exception
-Exception handling
+Exceptionhandling
 Exists
-Exponential backoff
+Exponentialbackoff
 Expression
 False
-Fifth generation language
-First generation language
-First-class object
+First-classobject
 Flag
-Flat file
+Flatfile
 Floating-point
 For
 Foreach
 Forth
-Forth generation language
 FORTRAN
 Framework
 Front end
@@ -199,36 +195,29 @@ Game of Life
 Gang of four
 Garbage collection
 Gaussian pyramid
-General-purpose language
-Generation language
-Genetic programming
+General-purpose anguage
+Generationlanguage
+Geneticprogramming
 GIGO
 Glitch
 Glue code
-Go language
+Golanguage
 Goto
 GPL
 GT
 GTK
 GW BASIC
 HAL
-Hard code
+Hardcode
 Hash
 Haskell
 Heap
-Hello world
-Heuristic evaluation
-Hex editor
+Helloworld
+Heuristicevaluation
+Hexeditor
 HDML
 Hiew
-High-level language
 HTML
-HTML element
-HTML form element
-HTML head
-Hungarian notation
-Hwclock
-Hypertext Markup Language
 If else
 If statement
 Immutable object
@@ -238,15 +227,12 @@ Indirection operator
 Inherent error
 Inheritance
 Inline
-Input/output statement
+Input/outputstatement
 Instance
 Instantiation
 Instructions
 Int
 Integer
-Integrated Development Environment
-IntelliJ IDEA
-Intermediate language
 Interpreted
 Interpreter
 Invalid
@@ -423,57 +409,57 @@ Ruby
 Run time
 Rust
 S-expression
-Safe font
+Safefont
 Sandbox
 Scala
 Scanf
-Schema matching
-Scheme programming language
+Schemamatching
+Schemeprogramminglanguage
 Scratch
 SDK
-Second generation language
+Secondgenerationlanguage
 Section
-Security Descriptor Definition Language
+SecurityDescriptorDefinition Language
 Seed
 Segfault
 Separator
-Server side
-Server side scripting
+Serverside
+Serversidescripting
 Servlet
 SGML
 Shebang
 Shell scripts
-Short-circuit operator
+Short-circuitoperator
 Signedness
-Simulated annealing
-Single step
+Simulateannealing
+Singlestep
 Smalltalk
 SMIL
 SOAP
 Socket
 Soft
-Software development phases
-Software development process
-Software engineering
-Software library
-Software life cycle
+Softwaredevelopmentphases
+Softwaredevelopmentprocess
+Softwareengineering
+Softwarelibrary
+Softwarelife cycle
 Source
-Source code
-Source computer
-Source data
-Spaghetti code
-Sparse matrix
+Sourcecode
+Sourcecomputer
+Sourcedata
+Spaghetticode
+Sparsematrix
 Sparsity
-Special purpose language
+Specialpurposelanguage
 SPL
 Spooling
 SQL
 Stack
-Stack pointer
-Standard attribute
+Stackpointer
+Standardattribute
 Statement
 Stdin
-Strong typed language
+Strongtypedlanguage
 Stubroutine
 Stylesheet
 Subprogram
@@ -482,17 +468,17 @@ Subscript
 -Func
 Subversion
 Superclass
-Switch statement
-Syntactic sugar
-Syntax error
-System development
-Systems Engineer
-Systems Programming Language
+Switchstatement
+Syntacticsugar
+Syntaxerror
+Systemdevelopment
+SystemsEngineer
+SystemsProgrammingLanguage
 Tail recursion
 Tcl
 Tcl/Tk
 Ternary operator
-Third-generation language
+Third-generationlanguage
 Thread
 Thunk
 Tk
@@ -505,7 +491,7 @@ Turbo Pascal
 Turing completeness
 Unary operator
 Undefined
-Undefined variable
+Undefinedvariable
 Underflow
 Unit test
 Value
