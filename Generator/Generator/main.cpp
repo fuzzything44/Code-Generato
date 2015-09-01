@@ -4,14 +4,8 @@
 using namespace std;
 
 int main() {
+    
     logger::init("TEST");
-    if(logger::log.is_open()) {
-        LOG("ABCD")
-    } else { cout << "FAILED!!! LOG IS NOT OPEN!!!" << endl; }
-    logger::close();
-    
-    
-    exit(0);
     genName g;
     while (true)
     {
@@ -19,12 +13,21 @@ int main() {
         string type;
         cin >> type;
         if (type == "var" )
-            cout << g.getVar() << endl;
-        if (type == "const")
-            cout << g.getConst() << endl;
-        if (type == "func")
-            cout << g.getFunc() << endl;
-        if (type == "end")
-            return 0;
+        {
+            LOG("Getting variable name...")
+            CODE(g.getVar())
+        } else if (type == "const")
+        {
+            LOG("Getting const name...")
+            CODE(g.getConst())
+        } else if (type == "func")
+        {
+            LOG("Getting function name...")
+            CODE(g.getFunc())
+        } else if (type == "end")
+        {
+            break;
+        }
     }
+    logger::close();
 }

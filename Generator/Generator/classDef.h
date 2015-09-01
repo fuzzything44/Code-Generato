@@ -1,7 +1,9 @@
 #pragma once
-#include "function.h"
 #include <vector>
 #include <string>
+
+// We know functions exist.
+class function;
 
 // Defines what a class is
 
@@ -27,3 +29,6 @@ private:
     std::vector<classDef> parents;
     std::vector<classDef> templateArguments;
 };
+
+// Now we can know what a function is.
+#include "function.h"

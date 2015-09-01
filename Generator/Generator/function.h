@@ -1,14 +1,12 @@
 #pragma once
 #include <string>
 #include <vector>
-
-// We need to know templateArgument is a class. We don't need to know what it does.
-class classDef;
+#include "classDef.h"
 
 class function
 {
 public:
-    function(std::string name, std::vector<classDef>& templateArgs, std::vector<classDef>& args, std::string ret);
+    function(std::string name, std::vector<classDef>& templateArgs, std::vector<classDef>& args, classDef ret);
     
     // Returns function name
     std::string getName() const;
@@ -20,13 +18,14 @@ public:
     std::vector<classDef> getArgs() const;
     
     // Returns return type
-    std::string getRet() const;
+    classDef getRet() const;
     
 private:
     std::string name;
     std::vector<classDef> templateArgs;
     std::vector<classDef> args;
-    std::string ret;
+    classDef ret;
     
 };
+
 

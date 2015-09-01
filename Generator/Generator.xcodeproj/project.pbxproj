@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		398200C71B8D0B7300ED6F98 /* random.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 398200C61B8D0B7300ED6F98 /* random.cpp */; };
 		398200C91B8D0C6200ED6F98 /* function.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 398200C81B8D0C6200ED6F98 /* function.cpp */; };
-		39B3AD251B8E4BAB00179832 /* templateArgument.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39B3AD241B8E4BAB00179832 /* templateArgument.cpp */; };
 		39B3AD281B8E590600179832 /* logger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39B3AD271B8E590600179832 /* logger.cpp */; };
 		39D6793A1B8BB95500DFF09D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39D679391B8BB95500DFF09D /* main.cpp */; };
 		39D679451B8BC12200DFF09D /* variableNamer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39D679441B8BC12200DFF09D /* variableNamer.cpp */; };
@@ -32,8 +31,6 @@
 		398200C61B8D0B7300ED6F98 /* random.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = random.cpp; sourceTree = "<group>"; };
 		398200C81B8D0C6200ED6F98 /* function.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = function.cpp; sourceTree = "<group>"; };
 		398200CB1B8D102F00ED6F98 /* names.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = names.txt; sourceTree = "<group>"; };
-		39B3AD231B8E4B9300179832 /* templateArgument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = templateArgument.h; sourceTree = "<group>"; };
-		39B3AD241B8E4BAB00179832 /* templateArgument.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = templateArgument.cpp; sourceTree = "<group>"; };
 		39B3AD261B8E57DE00179832 /* logger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = logger.h; sourceTree = "<group>"; };
 		39B3AD271B8E590600179832 /* logger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = logger.cpp; sourceTree = "<group>"; };
 		39D679361B8BB95500DFF09D /* Generator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Generator; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,7 +96,6 @@
 				39D679461B8BC1ED00DFF09D /* classDef.cpp */,
 				398200C61B8D0B7300ED6F98 /* random.cpp */,
 				398200C81B8D0C6200ED6F98 /* function.cpp */,
-				39B3AD241B8E4BAB00179832 /* templateArgument.cpp */,
 				39B3AD271B8E590600179832 /* logger.cpp */,
 			);
 			name = private;
@@ -112,7 +108,6 @@
 				39D6794C1B8BC30E00DFF09D /* function.h */,
 				39D679421B8BBD0A00DFF09D /* random.h */,
 				39D679431B8BC10800DFF09D /* variableNamer.h */,
-				39B3AD231B8E4B9300179832 /* templateArgument.h */,
 				39B3AD261B8E57DE00179832 /* logger.h */,
 			);
 			name = public;
@@ -179,7 +174,6 @@
 				39D679451B8BC12200DFF09D /* variableNamer.cpp in Sources */,
 				398200C91B8D0C6200ED6F98 /* function.cpp in Sources */,
 				39B3AD281B8E590600179832 /* logger.cpp in Sources */,
-				39B3AD251B8E4BAB00179832 /* templateArgument.cpp in Sources */,
 				39D679481B8BC1ED00DFF09D /* classDef.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
