@@ -25,3 +25,20 @@ vector<classDef> function::getTemplateArgs() const
     return templateArgs;
 }
 
+bool function::operator==(const function& f) const
+{
+    return name == f.name;
+}
+
+function& function::operator=(const function& f)
+{
+    if(&f != this)
+    {
+        name = f.getName();
+        ret = f.getRet();
+        templateArgs = f.getTemplateArgs();
+        args = f.getArgs();
+    }
+    return *this;
+}
+

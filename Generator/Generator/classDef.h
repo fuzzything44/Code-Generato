@@ -20,8 +20,11 @@ public:
     
     // Operators
     
-    // If b is a subclass of a, a == b but b != a
+    // If b is a subclass of a, a >= b
+    bool operator>=(const classDef& isEqual) const;
+    bool operator<=(const classDef& isEqual) const;
     bool operator==(const classDef& isEqual) const;
+    bool operator!=(const classDef& isEqual) const;
     classDef& operator=(const classDef& set);
 private:
     std::string name;
