@@ -1,4 +1,3 @@
-Opened log with name=TEST
 Reading file...
 
 Line started...
@@ -63,7 +62,7 @@ Line read
 
 Line started...
 
-Line reads: Advanced SCSI Programming Interface
+Line reads: AdvancedSCSIProgrammingInterface
 
 Line read
 
@@ -75,13 +74,13 @@ Line read
 
 Line started...
 
-Line reads: Agile development methods
+Line reads: Agile developmentmethods
 
 Line read
 
 Line started...
 
-Line reads: Agile Manifesto
+Line reads: AgileManifesto
 
 Line read
 
@@ -105,7 +104,7 @@ Line read
 
 Line started...
 
-Line reads: Ambient Occlusion
+Line reads: AmbientOcclusion
 
 Line read
 
@@ -135,7 +134,7 @@ Line read
 
 Line started...
 
-Line reads: Arithmetic operator
+Line reads: Arithmeticoperator
 
 Line read
 
@@ -147,7 +146,7 @@ Line read
 
 Line started...
 
-Line reads: Array of pointers
+Line reads: Arrayofpointers
 
 Line read
 
@@ -177,7 +176,7 @@ Line read
 
 Line started...
 
-Line reads: Associative operation
+Line reads: Associativeoperation
 
 Line read
 
@@ -189,13 +188,13 @@ Line read
 
 Line started...
 
-Line reads: Automata-based programming
+Line reads: Automata-basedprogramming
 
 Line read
 
 Line started...
 
-Line reads: Automated unit testing
+Line reads: Automatedunittesting
 
 Line read
 
@@ -213,37 +212,37 @@ Line read
 
 Line started...
 
-Line reads: Back-face culling
+Line reads: Back-faceculling
 
 Line read
 
 Line started...
 
-Line reads: Background thread
+Line reads: Backgroundthread
 
 Line read
 
 Line started...
 
-Line reads: Backpropagation neural network
+Line reads: Backpropagationneuralnetwork
 
 Line read
 
 Line started...
 
-Line reads: Base address
+Line reads: Baseaddress
 
 Line read
 
 Line started...
 
-Line reads: Batch file
+Line reads: Batchfile
 
 Line read
 
 Line started...
 
-Line reads: Batch job
+Line reads: Batchjob
 
 Line read
 
@@ -267,7 +266,7 @@ Line read
 
 Line started...
 
-Line reads: Binary Search
+Line reads: BinarySearch
 
 Line read
 
@@ -279,13 +278,13 @@ Line read
 
 Line started...
 
-Line reads: Bit shift
+Line reads: Bitshift
 
 Line read
 
 Line started...
 
-Line reads: Bitwise operators
+Line reads: Bitwiseoperators
 
 Line read
 
@@ -375,7 +374,7 @@ Line read
 
 Line started...
 
-Line reads: Captured variable
+Line reads: Capturedvariable
 
 Line read
 
@@ -387,7 +386,7 @@ Line read
 
 Line started...
 
-Line reads: Chaos model
+Line reads: Chaosmodel
 
 Line read
 
@@ -399,31 +398,31 @@ Line read
 
 Line started...
 
-Line reads: Character code
+Line reads: Charactercode
 
 Line read
 
 Line started...
 
-Line reads: Character encoding
+Line reads: Characterencoding
 
 Line read
 
 Line started...
 
-Line reads: Character set
+Line reads: Characterset
 
 Line read
 
 Line started...
 
-Line reads: Chaos model
+Line reads: Chaosmodel
 
 Line read
 
 Line started...
 
-Line reads: Circuit satisfiability problem
+Line reads: Circuitsatisfiability problem
 
 Line read
 
@@ -477,7 +476,7 @@ Line read
 
 Line started...
 
-Line reads: Cocoa touch
+Line reads: Cocoatouch
 
 Line read
 
@@ -489,7 +488,7 @@ Line read
 
 Line started...
 
-Line reads: Code refactoring
+Line reads: Codeefactoring
 
 Line read
 
@@ -885,13 +884,7 @@ Line read
 
 Line started...
 
-Line reads: Dylan programming language
-
-Line read
-
-Line started...
-
-Line reads: Dynamic dump
+Line reads: Dynamicdump
 
 Line read
 
@@ -909,7 +902,7 @@ Line read
 
 Line started...
 
-Line reads: Eight queens problem
+Line reads: Eightqueensproblem
 
 Line read
 
@@ -933,7 +926,7 @@ Line read
 
 Line started...
 
-Line reads: Else if
+Line reads: Elseif
 
 Line read
 
@@ -945,7 +938,7 @@ Line read
 
 Line started...
 
-Line reads: Embedded Java
+Line reads: EmbeddedJava
 
 Line read
 
@@ -963,7 +956,7 @@ Line read
 
 Line started...
 
-Line reads: Endless loop
+Line reads: Endlessloop
 
 Line read
 
@@ -1011,13 +1004,13 @@ Line read
 
 Line started...
 
-Line reads: Escape character
+Line reads: Escapecharacter
 
 Line read
 
 Line started...
 
-Line reads: Escape sequence
+Line reads: Escapesequence
 
 Line read
 
@@ -1035,19 +1028,19 @@ Line read
 
 Line started...
 
-Line reads: Event handler
+Line reads: Eventhandler
 
 Line read
 
 Line started...
 
-Line reads: Event listener
+Line reads: Eventlistener
 
 Line read
 
 Line started...
 
-Line reads: Event-driven programming
+Line reads: Event-drivenprogramming
 
 Line read
 
@@ -1065,7 +1058,7 @@ Line read
 
 Line started...
 
-Line reads: Exception handling
+Line reads: Exceptionhandling
 
 Line read
 
@@ -1077,7 +1070,7 @@ Line read
 
 Line started...
 
-Line reads: Exponential backoff
+Line reads: Exponentialbackoff
 
 Line read
 
@@ -1095,19 +1088,7 @@ Line read
 
 Line started...
 
-Line reads: Fifth generation language
-
-Line read
-
-Line started...
-
-Line reads: First generation language
-
-Line read
-
-Line started...
-
-Line reads: First-class object
+Line reads: First-classobject
 
 Line read
 
@@ -1119,7 +1100,7 @@ Line read
 
 Line started...
 
-Line reads: Flat file
+Line reads: Flatfile
 
 Line read
 
@@ -1144,12 +1125,6 @@ Line read
 Line started...
 
 Line reads: Forth
-
-Line read
-
-Line started...
-
-Line reads: Forth generation language
 
 Line read
 
@@ -1209,19 +1184,19 @@ Line read
 
 Line started...
 
-Line reads: General-purpose language
+Line reads: General-purpose anguage
 
 Line read
 
 Line started...
 
-Line reads: Generation language
+Line reads: Generationlanguage
 
 Line read
 
 Line started...
 
-Line reads: Genetic programming
+Line reads: Geneticprogramming
 
 Line read
 
@@ -1245,7 +1220,7 @@ Line read
 
 Line started...
 
-Line reads: Go language
+Line reads: Golanguage
 
 Line read
 
@@ -1287,7 +1262,7 @@ Line read
 
 Line started...
 
-Line reads: Hard code
+Line reads: Hardcode
 
 Line read
 
@@ -1311,19 +1286,19 @@ Line read
 
 Line started...
 
-Line reads: Hello world
+Line reads: Helloworld
 
 Line read
 
 Line started...
 
-Line reads: Heuristic evaluation
+Line reads: Heuristicevaluation
 
 Line read
 
 Line started...
 
-Line reads: Hex editor
+Line reads: Hexeditor
 
 Line read
 
@@ -1341,49 +1316,7 @@ Line read
 
 Line started...
 
-Line reads: High-level language
-
-Line read
-
-Line started...
-
 Line reads: HTML
-
-Line read
-
-Line started...
-
-Line reads: HTML element
-
-Line read
-
-Line started...
-
-Line reads: HTML form element
-
-Line read
-
-Line started...
-
-Line reads: HTML head
-
-Line read
-
-Line started...
-
-Line reads: Hungarian notation
-
-Line read
-
-Line started...
-
-Line reads: Hwclock
-
-Line read
-
-Line started...
-
-Line reads: Hypertext Markup Language
 
 Line read
 
@@ -1443,7 +1376,7 @@ Line read
 
 Line started...
 
-Line reads: Input/output statement
+Line reads: Input/outputstatement
 
 Line read
 
@@ -1474,24 +1407,6 @@ Line read
 Line started...
 
 Line reads: Integer
-
-Line read
-
-Line started...
-
-Line reads: Integrated Development Environment
-
-Line read
-
-Line started...
-
-Line reads: IntelliJ IDEA
-
-Line read
-
-Line started...
-
-Line reads: Intermediate language
 
 Line read
 
@@ -2553,7 +2468,7 @@ Line read
 
 Line started...
 
-Line reads: Safe font
+Line reads: Safefont
 
 Line read
 
@@ -2577,13 +2492,13 @@ Line read
 
 Line started...
 
-Line reads: Schema matching
+Line reads: Schemamatching
 
 Line read
 
 Line started...
 
-Line reads: Scheme programming language
+Line reads: Schemeprogramminglanguage
 
 Line read
 
@@ -2601,7 +2516,7 @@ Line read
 
 Line started...
 
-Line reads: Second generation language
+Line reads: Secondgenerationlanguage
 
 Line read
 
@@ -2613,7 +2528,7 @@ Line read
 
 Line started...
 
-Line reads: Security Descriptor Definition Language
+Line reads: SecurityDescriptorDefinition Language
 
 Line read
 
@@ -2637,13 +2552,13 @@ Line read
 
 Line started...
 
-Line reads: Server side
+Line reads: Serverside
 
 Line read
 
 Line started...
 
-Line reads: Server side scripting
+Line reads: Serversidescripting
 
 Line read
 
@@ -2673,7 +2588,7 @@ Line read
 
 Line started...
 
-Line reads: Short-circuit operator
+Line reads: Short-circuitoperator
 
 Line read
 
@@ -2685,13 +2600,13 @@ Line read
 
 Line started...
 
-Line reads: Simulated annealing
+Line reads: Simulateannealing
 
 Line read
 
 Line started...
 
-Line reads: Single step
+Line reads: Singlestep
 
 Line read
 
@@ -2727,31 +2642,31 @@ Line read
 
 Line started...
 
-Line reads: Software development phases
+Line reads: Softwaredevelopmentphases
 
 Line read
 
 Line started...
 
-Line reads: Software development process
+Line reads: Softwaredevelopmentprocess
 
 Line read
 
 Line started...
 
-Line reads: Software engineering
+Line reads: Softwareengineering
 
 Line read
 
 Line started...
 
-Line reads: Software library
+Line reads: Softwarelibrary
 
 Line read
 
 Line started...
 
-Line reads: Software life cycle
+Line reads: Softwarelife cycle
 
 Line read
 
@@ -2763,31 +2678,31 @@ Line read
 
 Line started...
 
-Line reads: Source code
+Line reads: Sourcecode
 
 Line read
 
 Line started...
 
-Line reads: Source computer
+Line reads: Sourcecomputer
 
 Line read
 
 Line started...
 
-Line reads: Source data
+Line reads: Sourcedata
 
 Line read
 
 Line started...
 
-Line reads: Spaghetti code
+Line reads: Spaghetticode
 
 Line read
 
 Line started...
 
-Line reads: Sparse matrix
+Line reads: Sparsematrix
 
 Line read
 
@@ -2799,7 +2714,7 @@ Line read
 
 Line started...
 
-Line reads: Special purpose language
+Line reads: Specialpurposelanguage
 
 Line read
 
@@ -2829,13 +2744,13 @@ Line read
 
 Line started...
 
-Line reads: Stack pointer
+Line reads: Stackpointer
 
 Line read
 
 Line started...
 
-Line reads: Standard attribute
+Line reads: Standardattribute
 
 Line read
 
@@ -2853,7 +2768,7 @@ Line read
 
 Line started...
 
-Line reads: Strong typed language
+Line reads: Strongtypedlanguage
 
 Line read
 
@@ -2907,37 +2822,37 @@ Line read
 
 Line started...
 
-Line reads: Switch statement
+Line reads: Switchstatement
 
 Line read
 
 Line started...
 
-Line reads: Syntactic sugar
+Line reads: Syntacticsugar
 
 Line read
 
 Line started...
 
-Line reads: Syntax error
+Line reads: Syntaxerror
 
 Line read
 
 Line started...
 
-Line reads: System development
+Line reads: Systemdevelopment
 
 Line read
 
 Line started...
 
-Line reads: Systems Engineer
+Line reads: SystemsEngineer
 
 Line read
 
 Line started...
 
-Line reads: Systems Programming Language
+Line reads: SystemsProgrammingLanguage
 
 Line read
 
@@ -2967,7 +2882,7 @@ Line read
 
 Line started...
 
-Line reads: Third-generation language
+Line reads: Third-generationlanguage
 
 Line read
 
@@ -3045,7 +2960,7 @@ Line read
 
 Line started...
 
-Line reads: Undefined variable
+Line reads: Undefinedvariable
 
 Line read
 
@@ -3169,17 +3084,9 @@ Line reads: DD
 
 Line read
 
-Line started...
-
-Line reads: 
-
-Line read
-
-Line started...
-
-Line reads: 
-
-Line read
-
-ENDING
-Closing log...
+Getting const name...
+Getting variable name...
+Getting variable name...
+Getting function name...
+Getting function name...
+Getting const name...

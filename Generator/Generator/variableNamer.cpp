@@ -87,7 +87,7 @@ genName::genName() {
 string genName::getFunc(){
     
     string nameTemp;
-    nameTemp = prefixLines[randRange(0, preNum)] + funcLines[randRange(0, preNum)];
+    nameTemp = prefixLines[randRange(0, preNum)] + funcLines[randRange(0, funNum)];
     
     usedNames.push_back(nameTemp);
     
@@ -98,7 +98,7 @@ string genName::getFunc(){
             
             if(nameTemp == usedNames[d]){
             
-            nameTemp = prefixLines[randRange(0, preNum)] + funcLines[randRange(0, preNum)];
+            nameTemp = prefixLines[randRange(0, preNum)] + funcLines[randRange(0, funNum)];
                 check = true;
             }
             
@@ -129,7 +129,7 @@ string genName::getVar(){
             
             if(nameTemp == usedNames[d]){
                 
-                nameTemp = prefixLines[randRange(0, preNum)] + varLines[randRange(0, preNum)];
+                nameTemp = prefixLines[randRange(0, preNum)] + varLines[randRange(0, varNum)];
                 check = true;
             }
             
@@ -152,7 +152,7 @@ string genName::getVar(){
 string genName::getConst(){
     
     string nameTemp;
-    nameTemp =  constLines[0];
+    nameTemp =  constLines[randRange(0, constNum)];
     
     usedNames.push_back(nameTemp);
     
@@ -163,7 +163,7 @@ string genName::getConst(){
             
             if(nameTemp == usedNames[d]){
                 
-                nameTemp = constLines[randRange(0, preNum)];
+                nameTemp = constLines[randRange(0, constNum)];
                 check = true;
             }
             
