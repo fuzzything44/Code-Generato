@@ -1,16 +1,16 @@
 -Prefix
 Abend
-Absolute address
-Absolute Coding
-Access violation
+Absoluteaddress
+AbsoluteCoding
+Accessviolation
 ACM
-Action statement
+Actionstatement
 ActionScript
 ActiveX
 Ada
 AdvancedSCSIProgrammingInterface
 Aggregation
-Agile developmentmethods
+Agiledevelopmentmethods
 AgileManifesto
 Alert
 Algol
@@ -68,7 +68,7 @@ Charactercode
 Characterencoding
 Characterset
 Chaosmodel
-Circuitsatisfiability problem
+Circuitsatisfiabilityproblem
 Class
 Class
 Classpath
@@ -82,61 +82,61 @@ Code
 Codeefactoring
 Codepage
 CoffeeScript
-Command language
+Commandlanguage
 Comment
-Common business oriented language
-Common Gateway Interface
+Commonbusinessorientedlanguage
+CommonGatewayInterface
 Compilation
 Compile
 Compiler
 Complementarity
 Compute
-Computer science
-Commutative operation
+Computerscience
+Commutativeoperation
 Concat
 Concatenation
 Concurrency
-Conditional expression
-Conditional statement
-Constructor chaining
-Content migration
-Control flow
+Conditionalexpression
+Conditionalstatement
+Constructorhaining
+Contentmigration
+Controlflow
 CPAN
 CPL
 Crapplet
 CSAT
 CSS
-CSS compressor
-CSS editor
-Curly bracket
+CSScompressor
+CSSeditor
+Curlybracket
 Curry
 CVS
 DarkBASIC
-Dataflow Programming
-Data-flow analysis
-Data flow diagram
-Data source
-Data type
+DataflowProgramming
+Data-flowanalysis
+Dataflowdiagram
+Datasource
+Datatype
 Datalog
 DDE
-Dead code
+Deadcode
 Debug
 Debugger
 Debugging
 Declaration
-Declarative programming
+Declarativeprogramming
 Declare
 Decompiler
-Deductive database
-Dense matrix
-Dereference operator
-Dependent variable
+Deductivedatabase
+Densematrix
+Dereferenceoperator
+Dependentvariable
 Developer
 DHTML
 Die
 Diff
-Direct address
-Discrete optimization
+Directaddress
+Discreteoptimization
 Dissembler
 Django
 DML
@@ -188,14 +188,14 @@ Foreach
 Forth
 FORTRAN
 Framework
-Front end
+Frontend
 Function
-Functional programming
-Game of Life
-Gang of four
-Garbage collection
-Gaussian pyramid
-General-purpose anguage
+Functionalprogramming
+GameofLife
+Gangoffour
+Garbagecollection
+Gaussianpyramid
+General-purposeanguage
 Generationlanguage
 Geneticprogramming
 GIGO
@@ -220,8 +220,8 @@ Hiew
 HTML
 If else
 If statement
-Immutable object
-Imperative programming
+Immutableobject
+Imperativeprogramming
 Implicit parallelism
 Indirection operator
 Inherent error
@@ -244,34 +244,34 @@ Kit
 Kludge
 Kluge
 Label
-Lambda calculus
+Lambdacalculus
 Language
-Language processor
-Lexical analysis
+Languageprocessor
+Lexicalanalysis
 Lexicon
 Linker
 LISP
-Live script
+Livecript
 Literal
 LLVM
-Local optimum
-Logic programming
-Logical operation
+Localoptimum
+Logicprogramming
+Logicaloperation
 LOGO
 Lookup table
 Loony bin
 Loop
 Loophole
-Loosely typed language
-Low-level language
+Looselytypedlanguage
+Low-levellanguage
 Library
 LT
 Lua
 LUT
-Machine language
-Magic quotes
+Machinelanguage
+Magicquotes
 Map
-Markup language
+Markuplanguage
 Math
 Matlab
 Mbean
@@ -281,41 +281,41 @@ Meta-character
 Metaclass
 Metalanguage
 Method
-Method overloading
+Methodoverloading
 Middleware
 Module
-Monte Carlo Method
+MonteCarloMethod
 MSDN
 MSVC
-Multi-pass compiler
+Multi-passcompiler
 MUMPS
 Mutex
 N
 NaN
 Ne
 .NET
-Native compiler
-Native language
-Natural language
+Nativecompiler
+Nativelanguage
+Naturallanguage
 NBSP
 NDA
-Nested function
-Nested loop join
+Nestedfunction
+Nestedloopjoin
 Newline
-Nil pointer
+Nilpointer
 Node.js
 Nodelist
-Noncontiguous data structure
-Non-Disclosure Agreement
-Nonexecutable statement
-NO-OPeration instructions
+Noncontiguousdatastructure
+Non-DisclosureAgreement
+Nonexecutablestatement
+NO-OPerationinstructions
 Null
-Null character
-Null pointer
-Object code
-Object file
-Object module
-Object-oriented programming
+Nullcharacter
+Nullpointer
+Objectcode
+Objectfile
+Objectmodule
+Object-orientedprogramming
 Objective-C
 Obfuscated code
 OCaml
@@ -327,10 +327,10 @@ Open DataBase Connectivity
 OpenGL polygon
 Operand
 Operator
-Operator associatively
-Operator precedence
+Operatorassociatively
+Operatorprecedence
 OR operator
-Overflow error
+Overflowerror
 Overload
 P-code
 Package
@@ -341,32 +341,32 @@ Pascal case
 Pastebin
 PDL
 Perl
-Persistent memory
+Persistentmemory
 PersonalJava
 PHP
-Phrase tag
+Phrasetag
 Pick
 Pickling
 PicoJava
 Pipe
-Pixel shader
+Pixelshader
 POD
 Pointer
 Polymorphism
 Pop
 Private
-Procedural language
+Procedurallanguage
 Procedure
 Process
 Program
-Program generator
-Program listing
+Programgenerator
+Programlisting
 Programmable
 Programmer
 Programming
-Programming in logic
-Programming language
-Programming tools
+Programminginlogic
+Programminglanguage
+Programmingtools
 Prolog
 Pseudocode
 Pseudolanguage
@@ -375,38 +375,38 @@ Public
 PureBasic
 Push
 Python
-Python pickling
+Pythonpickling
 Qi
-Race condition
+Racecondition
 Racket
 RAD
 Random
-Random seed
+Randomseed
 RCS
-Real number
+Realnumber
 Recursion
 Recursive
 Regex
-Regular expression
+Regularexpression
 Reia
-Relational algebra
-Religion of Chi
+Relationalalgebra
+ReligionofChi
 REM
 Remark
-Repeat counter
+Repeatcounter
 REPL
-Reserved character
+Reservedharacter
 Reserved word
-Return address
-Return statement
-Reverse engineering
-Revision control
-ROM BASIC
+Returnaddress
+Returnsatement
+Reverseengineering
+Revisioncontrol
+ROMBASIC
 Routine
-Routing algorithm
+Routingalgorithm
 RPG
 Ruby
-Run time
+Runtime
 Rust
 S-expression
 Safefont
@@ -419,7 +419,7 @@ Scratch
 SDK
 Secondgenerationlanguage
 Section
-SecurityDescriptorDefinition Language
+SecurityDescriptorDefinitionLanguage
 Seed
 Segfault
 Separator
@@ -428,7 +428,7 @@ Serversidescripting
 Servlet
 SGML
 Shebang
-Shell scripts
+Shellscripts
 Short-circuitoperator
 Signedness
 Simulateannealing
@@ -499,12 +499,12 @@ Variable
 VB
 VHDL
 VIM
-Visual Basic
-Visual Studio
+VisualBasic
+VisualStudio
 Void
 WebGL
 While
-Whole number
+Wholenumber
 WML
 Workspace
 -Const

@@ -14,19 +14,19 @@ Line read
 
 Line started...
 
-Line reads: Absolute address
+Line reads: Absoluteaddress
 
 Line read
 
 Line started...
 
-Line reads: Absolute Coding
+Line reads: AbsoluteCoding
 
 Line read
 
 Line started...
 
-Line reads: Access violation
+Line reads: Accessviolation
 
 Line read
 
@@ -38,7 +38,7 @@ Line read
 
 Line started...
 
-Line reads: Action statement
+Line reads: Actionstatement
 
 Line read
 
@@ -422,7 +422,7 @@ Line read
 
 Line started...
 
-Line reads: Circuitsatisfiability problem
+Line reads: Circuitsatisfiabilityproblem
 
 Line read
 
@@ -506,7 +506,7 @@ Line read
 
 Line started...
 
-Line reads: Command language
+Line reads: Commandlanguage
 
 Line read
 
@@ -518,13 +518,13 @@ Line read
 
 Line started...
 
-Line reads: Common business oriented language
+Line reads: Commonbusinessorientedlanguage
 
 Line read
 
 Line started...
 
-Line reads: Common Gateway Interface
+Line reads: CommonGatewayInterface
 
 Line read
 
@@ -560,13 +560,13 @@ Line read
 
 Line started...
 
-Line reads: Computer science
+Line reads: Computerscience
 
 Line read
 
 Line started...
 
-Line reads: Commutative operation
+Line reads: Commutativeoperation
 
 Line read
 
@@ -590,31 +590,31 @@ Line read
 
 Line started...
 
-Line reads: Conditional expression
+Line reads: Conditionalexpression
 
 Line read
 
 Line started...
 
-Line reads: Conditional statement
+Line reads: Conditionalstatement
 
 Line read
 
 Line started...
 
-Line reads: Constructor chaining
+Line reads: Constructorhaining
 
 Line read
 
 Line started...
 
-Line reads: Content migration
+Line reads: Contentmigration
 
 Line read
 
 Line started...
 
-Line reads: Control flow
+Line reads: Controlflow
 
 Line read
 
@@ -650,19 +650,19 @@ Line read
 
 Line started...
 
-Line reads: CSS compressor
+Line reads: CSScompressor
 
 Line read
 
 Line started...
 
-Line reads: CSS editor
+Line reads: CSSeditor
 
 Line read
 
 Line started...
 
-Line reads: Curly bracket
+Line reads: Curlybracket
 
 Line read
 
@@ -686,19 +686,19 @@ Line read
 
 Line started...
 
-Line reads: Dataflow Programming
+Line reads: DataflowProgramming
 
 Line read
 
 Line started...
 
-Line reads: Data-flow analysis
+Line reads: Data-flowanalysis
 
 Line read
 
 Line started...
 
-Line reads: Data flow diagram
+Line reads: Data flowdiagram
 
 Line read
 
@@ -758,7 +758,7 @@ Line read
 
 Line started...
 
-Line reads: Declarative programming
+Line reads: Declarativeprogramming
 
 Line read
 
@@ -776,7 +776,7 @@ Line read
 
 Line started...
 
-Line reads: Deductive database
+Line reads: Deductivedatabase
 
 Line read
 
@@ -1142,7 +1142,7 @@ Line read
 
 Line started...
 
-Line reads: Front end
+Line reads: Frontend
 
 Line read
 
@@ -1154,37 +1154,37 @@ Line read
 
 Line started...
 
-Line reads: Functional programming
+Line reads: Functionalprogramming
 
 Line read
 
 Line started...
 
-Line reads: Game of Life
+Line reads: GameofLife
 
 Line read
 
 Line started...
 
-Line reads: Gang of four
+Line reads: Gangoffour
 
 Line read
 
 Line started...
 
-Line reads: Garbage collection
+Line reads: Garbagecollection
 
 Line read
 
 Line started...
 
-Line reads: Gaussian pyramid
+Line reads: Gaussianpyramid
 
 Line read
 
 Line started...
 
-Line reads: General-purpose anguage
+Line reads: General-purposeanguage
 
 Line read
 
@@ -1778,19 +1778,19 @@ Line read
 
 Line started...
 
-Line reads: Native compiler
+Line reads: Nativecompiler
 
 Line read
 
 Line started...
 
-Line reads: Native language
+Line reads: Nativelanguage
 
 Line read
 
 Line started...
 
-Line reads: Natural language
+Line reads: Naturallanguage
 
 Line read
 
@@ -1808,13 +1808,13 @@ Line read
 
 Line started...
 
-Line reads: Nested function
+Line reads: Nestedfunction
 
 Line read
 
 Line started...
 
-Line reads: Nested loop join
+Line reads: Nestedloopjoin
 
 Line read
 
@@ -1826,7 +1826,7 @@ Line read
 
 Line started...
 
-Line reads: Nil pointer
+Line reads: Nilpointer
 
 Line read
 
@@ -1844,25 +1844,25 @@ Line read
 
 Line started...
 
-Line reads: Noncontiguous data structure
+Line reads: Noncontiguousdatastructure
 
 Line read
 
 Line started...
 
-Line reads: Non-Disclosure Agreement
+Line reads: Non-DisclosureAgreement
 
 Line read
 
 Line started...
 
-Line reads: Nonexecutable statement
+Line reads: Nonexecutablestatement
 
 Line read
 
 Line started...
 
-Line reads: NO-OPeration instructions
+Line reads: NO-OPerationinstructions
 
 Line read
 
@@ -1874,37 +1874,37 @@ Line read
 
 Line started...
 
-Line reads: Null character
+Line reads: Nullcharacter
 
 Line read
 
 Line started...
 
-Line reads: Null pointer
+Line reads: Nullpointer
 
 Line read
 
 Line started...
 
-Line reads: Object code
+Line reads: Objectcode
 
 Line read
 
 Line started...
 
-Line reads: Object file
+Line reads: Objectfile
 
 Line read
 
 Line started...
 
-Line reads: Object module
+Line reads: Objectmodule
 
 Line read
 
 Line started...
 
-Line reads: Object-oriented programming
+Line reads: Object-orientedprogramming
 
 Line read
 
@@ -2060,7 +2060,7 @@ Line read
 
 Line started...
 
-Line reads: Persistent memory
+Line reads: Persistentmemory
 
 Line read
 
@@ -2078,7 +2078,7 @@ Line read
 
 Line started...
 
-Line reads: Phrase tag
+Line reads: Phrasetag
 
 Line read
 
@@ -2108,7 +2108,7 @@ Line read
 
 Line started...
 
-Line reads: Pixel shader
+Line reads: Pixelshader
 
 Line read
 
@@ -2144,7 +2144,7 @@ Line read
 
 Line started...
 
-Line reads: Procedural language
+Line reads: Procedurallanguage
 
 Line read
 
@@ -2168,13 +2168,13 @@ Line read
 
 Line started...
 
-Line reads: Program generator
+Line reads: Programgenerator
 
 Line read
 
 Line started...
 
-Line reads: Program listing
+Line reads: Programlisting
 
 Line read
 
@@ -2198,19 +2198,19 @@ Line read
 
 Line started...
 
-Line reads: Programming in logic
+Line reads: Programminginlogic
 
 Line read
 
 Line started...
 
-Line reads: Programming language
+Line reads: Programminglanguage
 
 Line read
 
 Line started...
 
-Line reads: Programming tools
+Line reads: Programmingtools
 
 Line read
 
@@ -2264,7 +2264,7 @@ Line read
 
 Line started...
 
-Line reads: Python pickling
+Line reads: Pythonpickling
 
 Line read
 
@@ -2276,7 +2276,7 @@ Line read
 
 Line started...
 
-Line reads: Race condition
+Line reads: Racecondition
 
 Line read
 
@@ -2300,7 +2300,7 @@ Line read
 
 Line started...
 
-Line reads: Random seed
+Line reads: Randomseed
 
 Line read
 
@@ -2312,7 +2312,7 @@ Line read
 
 Line started...
 
-Line reads: Real number
+Line reads: Realnumber
 
 Line read
 
@@ -2336,7 +2336,7 @@ Line read
 
 Line started...
 
-Line reads: Regular expression
+Line reads: Regularexpression
 
 Line read
 
@@ -2348,13 +2348,13 @@ Line read
 
 Line started...
 
-Line reads: Relational algebra
+Line reads: Relationalalgebra
 
 Line read
 
 Line started...
 
-Line reads: Religion of Chi
+Line reads: ReligionofChi
 
 Line read
 
@@ -2372,7 +2372,7 @@ Line read
 
 Line started...
 
-Line reads: Repeat counter
+Line reads: Repeatcounter
 
 Line read
 
@@ -2384,7 +2384,7 @@ Line read
 
 Line started...
 
-Line reads: Reserved character
+Line reads: Reservedharacter
 
 Line read
 
@@ -2396,31 +2396,31 @@ Line read
 
 Line started...
 
-Line reads: Return address
+Line reads: Returnaddress
 
 Line read
 
 Line started...
 
-Line reads: Return statement
+Line reads: Returnsatement
 
 Line read
 
 Line started...
 
-Line reads: Reverse engineering
+Line reads: Reverseengineering
 
 Line read
 
 Line started...
 
-Line reads: Revision control
+Line reads: Revisioncontrol
 
 Line read
 
 Line started...
 
-Line reads: ROM BASIC
+Line reads: ROMBASIC
 
 Line read
 
@@ -2432,7 +2432,7 @@ Line read
 
 Line started...
 
-Line reads: Routing algorithm
+Line reads: Routingalgorithm
 
 Line read
 
@@ -2450,7 +2450,7 @@ Line read
 
 Line started...
 
-Line reads: Run time
+Line reads: Runtime
 
 Line read
 
@@ -2528,7 +2528,7 @@ Line read
 
 Line started...
 
-Line reads: SecurityDescriptorDefinition Language
+Line reads: SecurityDescriptorDefinitionLanguage
 
 Line read
 
@@ -2582,7 +2582,7 @@ Line read
 
 Line started...
 
-Line reads: Shell scripts
+Line reads: Shellscripts
 
 Line read
 
@@ -3008,13 +3008,13 @@ Line read
 
 Line started...
 
-Line reads: Visual Basic
+Line reads: VisualBasic
 
 Line read
 
 Line started...
 
-Line reads: Visual Studio
+Line reads: VisualStudio
 
 Line read
 
@@ -3038,7 +3038,7 @@ Line read
 
 Line started...
 
-Line reads: Whole number
+Line reads: Wholenumber
 
 Line read
 
@@ -3084,11 +3084,13 @@ Line reads: DD
 
 Line read
 
+Getting const name...
 Getting variable name...
 Getting variable name...
 Getting variable name...
 Getting variable name...
 Getting variable name...
-Getting variable name...
-Getting variable name...
-Getting variable name...
+Getting function name...
+Getting function name...
+Getting function name...
+Getting function name...
