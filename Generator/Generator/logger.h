@@ -1,6 +1,7 @@
 #pragma once
 #include <fstream>
 #include <string>
+#include <iostream>
 
 namespace logger {
     extern std::ofstream code;

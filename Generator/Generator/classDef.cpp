@@ -25,6 +25,11 @@ vector<classDef> classDef::getTemplateArgs() const
     return templateArguments;
 }
 
+void classDef::addFunction(function f)
+{
+    funcs.push_back(f);
+}
+
 bool classDef::operator<=(const classDef& isEqual) const
 {
     return isEqual >= *this;
@@ -32,22 +37,6 @@ bool classDef::operator<=(const classDef& isEqual) const
 
 bool classDef::operator==(const classDef& isEqual) const
 {
-    /*
-     
-     DOES NOT WORK!!! vectors may not check each individual element!!!!!!!!!
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     */
     return name == isEqual.name && templateArguments == isEqual.getTemplateArgs();
 }
 
@@ -86,26 +75,8 @@ bool classDef::operator>=(const classDef &isEqual) const
         // Loop through all functions.
         for (vector<function>::const_iterator i = isEqual.getFuncs().begin(); i != isEqual.getFuncs().end(); i++)
         {
-            // THIS NEEDS CHANGING. CHECK OPERATOR RETURN TYPE!!!!!!!!!!!!!!!!!!!!!
-            /*
-             
-             
-             Space so I notice this
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             
-             */
-            // If the name is "operator CLASS", it is a proper conversion operator.
-            if (i->getName() == ("operator " + name))
+            // If a function is an operator and returns a type that is a subclass or the same, it works.
+            if (i->getName().substr(0, 8) == ("operator") && *this >= i->getRet())
             {
                 return true;
             }

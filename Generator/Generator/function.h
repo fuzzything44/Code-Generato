@@ -6,7 +6,7 @@
 class function
 {
 public:
-    function(std::string name, std::vector<classDef>& templateArgs, std::vector<classDef>& args, classDef ret);
+    function(std::string name, std::vector<classDef> templateArgs, std::vector<classDef> args, classDef ret );
     
     // Returns function name
     std::string getName() const;
