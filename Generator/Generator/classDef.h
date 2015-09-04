@@ -10,15 +10,20 @@ class function;
 class classDef
 {
 public:
-    classDef(std::string name, std::vector<classDef> parents, std::vector<function> funcs, std::vector<classDef> templateArguments);
+    typedef std::pair<std::string, classDef> variable;
+    
+    classDef(std::string name);
     // Getter functions
     std::vector<function> getFuncs() const;
     std::string getName() const;
     std::vector<classDef> getParents() const;
     std::vector<classDef> getTemplateArgs() const;
+    std::vector<variable> getVars();
     
     // Function to add functions
     void addFunction(function f);
+    void addVar(std::pair<std::string, classDef> v);
+    void addParent(classDef p);
     
     // Operators
     
@@ -35,6 +40,7 @@ private:
     std::vector<function> funcs;
     std::vector<classDef> parents;
     std::vector<classDef> templateArguments;
+    std::vector<variable> vars;
 };
 
 // Now we can know what a function is.

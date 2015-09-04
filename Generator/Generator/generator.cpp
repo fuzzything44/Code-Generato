@@ -30,7 +30,7 @@ globalNamespace::globalNamespace()
     // Create void
     {
         LOG("Creating void")
-        classDef voidClass{ "void", vector<classDef>(), vector<function>(), vector<classDef>() };
+        classDef voidClass{ "void",};
         types.push_back(voidClass);
         LOG("Finished void" << std::endl)
     }
@@ -38,7 +38,7 @@ globalNamespace::globalNamespace()
     // Create bool
     {
         LOG("Creating bool")
-        classDef boolClass{ "bool", vector<classDef>(), vector<function>(), vector<classDef>() };
+        classDef boolClass{ "bool",};
         
         // Holds function arguments.
         vector<classDef> args;
@@ -59,7 +59,7 @@ globalNamespace::globalNamespace()
     // Create int
     {
         LOG("Creating int")
-        classDef intClass{ "int", vector<classDef>(), vector<function>(), vector<classDef>() };
+        classDef intClass{ "int",};
         
         // Holds int function arguments.
         vector<classDef> args;
@@ -92,7 +92,7 @@ void globalNamespace::generate(int length)
         // We can create a class or a function.
         if (randRange(0,1) == 0)
         {
-            LOG("Generating class")        
+            LOG("Generating class")
             // We create the class. It has its own scope.
             classScope c{ this };
             types.push_back(c.generate() );
@@ -127,5 +127,43 @@ classScope::classScope(globalNamespace* parent)
 
 classDef classScope::generate()
 {
+    // Create class being generated.
+    string name = genName::get("class");
+    classDef ret { name };
+    // Decide if we will have parents.
+    if (randRange(0, 10) == 0 && types.size() > 0) {
+        // Determine what parents. Currently we just have one.
+        classDef parent = types[randRange(0, types.size() - 1)];
+        ret.addParent(parent);
+        CODE("class " << name << " : public " << parent.getName() )
+    } else {
+        CODE("class " << name)
+    }
+    CODE("{")
+    
+    // Now that we have parents, we can determine what functions we generate.
+    // Start with not caring about parent functions & inheritance.
+    // Any private variables will not be added to ret.
 
+    CODE("private:")
+    
+    // Determine number of private variables.
+    LOG("Creating private variables (not functions)" )
+    for (int i = randRange(0, 10); i > 0; i--) {
+        // Choose random type.
+        classDef type = types[randRange(0, types.size() - 1)];
+        
+        // Choose name.
+        string name = genName::get(type.getName());
+        
+        // Print it out.
+        CODE("    " << type.getName() << " " << name << ";")
+        
+        // Add it to variables available.
+        
+    }
+    
+    
+    CODE("};")
+    return ret;
 }

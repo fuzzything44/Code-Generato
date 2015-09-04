@@ -33,7 +33,7 @@ public:
 private:
     std::vector<function> functions;
     std::vector<classDef> types;
-    std::vector<std::pair<std::string, classDef> > variables;
+    std::vector<classDef::variable > variables;
 };
 
 class functionScope
@@ -48,7 +48,7 @@ public:
 private:
     std::vector<function> functions;
     std::vector<classDef> types;
-    std::vector<std::pair<std::string, classDef> > variables;
+    std::vector<classDef::variable > variables;
 };
 
 
@@ -62,5 +62,5 @@ public:
 private:
     std::vector<function> functions;
     std::vector<classDef> types;
-    std::vector<std::pair<std::string, classDef> > variables;
+    std::vector<classDef::variable > variables;
 };

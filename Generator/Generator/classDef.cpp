@@ -3,7 +3,7 @@ using std::string;
 using std::vector;
 
 
-classDef::classDef(string name, vector<classDef> parents, vector<function> funcs, vector<classDef> templateArguments) : name(name), parents(parents), funcs(funcs), templateArguments(templateArguments) {};
+classDef::classDef(string name) : name(name) {};
 
 vector<function> classDef::getFuncs() const
 {
@@ -28,6 +28,16 @@ vector<classDef> classDef::getTemplateArgs() const
 void classDef::addFunction(function f)
 {
     funcs.push_back(f);
+}
+
+void classDef::addParent(classDef p)
+{
+    parents.push_back(p);
+}
+
+void classDef::addVar(<#std::pair<std::string, classDef> v#>)
+{
+    
 }
 
 bool classDef::operator<=(const classDef& isEqual) const
