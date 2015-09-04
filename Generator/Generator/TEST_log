@@ -74,7 +74,7 @@ Line read
 
 Line started...
 
-Line reads: Agile developmentmethods
+Line reads: Agiledevelopmentmethods
 
 Line read
 
@@ -698,19 +698,19 @@ Line read
 
 Line started...
 
-Line reads: Data flowdiagram
+Line reads: Dataflowdiagram
 
 Line read
 
 Line started...
 
-Line reads: Data source
+Line reads: Datasource
 
 Line read
 
 Line started...
 
-Line reads: Data type
+Line reads: Datatype
 
 Line read
 
@@ -728,7 +728,7 @@ Line read
 
 Line started...
 
-Line reads: Dead code
+Line reads: Deadcode
 
 Line read
 
@@ -782,19 +782,19 @@ Line read
 
 Line started...
 
-Line reads: Dense matrix
+Line reads: Densematrix
 
 Line read
 
 Line started...
 
-Line reads: Dereference operator
+Line reads: Dereferenceoperator
 
 Line read
 
 Line started...
 
-Line reads: Dependent variable
+Line reads: Dependentvariable
 
 Line read
 
@@ -824,13 +824,13 @@ Line read
 
 Line started...
 
-Line reads: Direct address
+Line reads: Directaddress
 
 Line read
 
 Line started...
 
-Line reads: Discrete optimization
+Line reads: Discreteoptimization
 
 Line read
 
@@ -1334,13 +1334,13 @@ Line read
 
 Line started...
 
-Line reads: Immutable object
+Line reads: Immutableobject
 
 Line read
 
 Line started...
 
-Line reads: Imperative programming
+Line reads: Imperativeprogramming
 
 Line read
 
@@ -1478,7 +1478,7 @@ Line read
 
 Line started...
 
-Line reads: Lambda calculus
+Line reads: Lambdacalculus
 
 Line read
 
@@ -1490,13 +1490,13 @@ Line read
 
 Line started...
 
-Line reads: Language processor
+Line reads: Languageprocessor
 
 Line read
 
 Line started...
 
-Line reads: Lexical analysis
+Line reads: Lexicalanalysis
 
 Line read
 
@@ -1520,7 +1520,7 @@ Line read
 
 Line started...
 
-Line reads: Live script
+Line reads: Livecript
 
 Line read
 
@@ -1538,19 +1538,19 @@ Line read
 
 Line started...
 
-Line reads: Local optimum
+Line reads: Localoptimum
 
 Line read
 
 Line started...
 
-Line reads: Logic programming
+Line reads: Logicprogramming
 
 Line read
 
 Line started...
 
-Line reads: Logical operation
+Line reads: Logicaloperation
 
 Line read
 
@@ -1586,13 +1586,13 @@ Line read
 
 Line started...
 
-Line reads: Loosely typed language
+Line reads: Looselytypedlanguage
 
 Line read
 
 Line started...
 
-Line reads: Low-level language
+Line reads: Low-levellanguage
 
 Line read
 
@@ -1622,13 +1622,13 @@ Line read
 
 Line started...
 
-Line reads: Machine language
+Line reads: Machinelanguage
 
 Line read
 
 Line started...
 
-Line reads: Magic quotes
+Line reads: Magicquotes
 
 Line read
 
@@ -1640,7 +1640,7 @@ Line read
 
 Line started...
 
-Line reads: Markup language
+Line reads: Markuplanguage
 
 Line read
 
@@ -1700,7 +1700,7 @@ Line read
 
 Line started...
 
-Line reads: Method overloading
+Line reads: Methodoverloading
 
 Line read
 
@@ -1718,7 +1718,7 @@ Line read
 
 Line started...
 
-Line reads: Monte Carlo Method
+Line reads: MonteCarloMethod
 
 Line read
 
@@ -1736,7 +1736,7 @@ Line read
 
 Line started...
 
-Line reads: Multi-pass compiler
+Line reads: Multi-passcompiler
 
 Line read
 
@@ -1976,13 +1976,13 @@ Line read
 
 Line started...
 
-Line reads: Operator associatively
+Line reads: Operatorassociatively
 
 Line read
 
 Line started...
 
-Line reads: Operator precedence
+Line reads: Operatorprecedence
 
 Line read
 
@@ -1994,7 +1994,7 @@ Line read
 
 Line started...
 
-Line reads: Overflow error
+Line reads: Overflowerror
 
 Line read
 
@@ -3085,12 +3085,3 @@ Line reads: DD
 Line read
 
 Getting const name...
-Getting variable name...
-Getting variable name...
-Getting variable name...
-Getting variable name...
-Getting variable name...
-Getting function name...
-Getting function name...
-Getting function name...
-Getting function name...

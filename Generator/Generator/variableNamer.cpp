@@ -1,22 +1,20 @@
 #include "variableNamer.h"
 #include "logger.h"
+#include "classDef.h"
 
 using namespace std;
 
-genName::genName() {
-    numNames =0;
+void genName::init() {
+
     
     //Check Vars
-    preCheck = false;
-    funcCheck = false;
-    varCheck = false;
-    constCheck =false;
-    
+    bool preCheck = false;
+    bool funcCheck = false;
+    bool varCheck = false;
+    bool constCheck = false;
     //Number of names
-    varNum = 0;
-    preNum = 0;
-    funNum = 0;
-    constNum = 0;
+   
+   
     //Store Lines Info
     prefixLines.push_back("");
     funcLines.push_back("");
@@ -39,10 +37,12 @@ genName::genName() {
         LOG("Line reads: " << lineInfo << std::endl)
         //Check if in prefix section
         if( lineInfo == "-Prefix")
+            
             preCheck = true;
+        
         //If in section but not the sectopn Title
         if(preCheck == true && lineInfo!="-Prefix"){
-            preNum ++;
+           
             prefixLines.push_back(lineInfo);
         }
         
@@ -52,7 +52,7 @@ genName::genName() {
         
         //If in section but not the sectopn Title
         if(preCheck == true && lineInfo!="-Func"){
-            funNum ++;
+            
             funcLines.push_back(lineInfo);
         }
         
@@ -62,7 +62,7 @@ genName::genName() {
         //If in section but not the sectopn Title
         if(preCheck == true && lineInfo!="-Var"){
             
-            varNum ++;
+           
             varLines.push_back(lineInfo);
         }
         
@@ -71,77 +71,36 @@ genName::genName() {
         //If in section but not the sectopn Title
         if(constCheck == true && lineInfo!="-Const"){
             
-            constNum ++;
+            
             constLines.push_back(lineInfo);
         }
         
         LOG("Line read" << std::endl)
-        cout<< constLines[constNum] <<endl;
+        cout<< constLines[constLines.size()] <<endl;
     }
     infile.close();
+    
     preCheck = false;
-    varCheck =false;
-    funcCheck =false;
+    funcCheck = false;
+    varCheck = false;
+    constCheck = false;
 }
 
-string genName::getFunc(){
-    
+ string genName::getFunc(){
+    //Var to store randome name
     string nameTemp;
-    nameTemp = prefixLines[randRange(0, preNum)] + funcLines[randRange(0, funNum)];
+     //Store random name in nametemp
+    nameTemp = prefixLines[randRange(0, prefixLines.size())] + funcLines[randRange(0, funcLines.size())];
     
-    usedNames.push_back(nameTemp);
-    
-    for(int i = 0; i<5;i++){
-        int d = 0;
-        bool check = false;
-        while(d<numNames){
-            
-            if(nameTemp == usedNames[d]){
-            
-            nameTemp = prefixLines[randRange(0, preNum)] + funcLines[randRange(0, funNum)];
-                check = true;
-            }
-            
-            d++;
-        }
-        if(check == false) break;
-        
-    }
-    
-    numNames ++;
-    
-    
+    //return nameTemp
     return nameTemp;
 }
 
 
-string genName::getVar(){
+ string genName::getVar(){
     
     string nameTemp;
-    nameTemp = prefixLines[randRange(0, preNum)] + varLines[randRange(0, preNum)];
-
-    usedNames.push_back(nameTemp);
-    
-    for(int i = 0; i<5;i++){
-        int d = 0;
-        bool check = false;
-        while(d<numNames){
-            
-            if(nameTemp == usedNames[d]){
-                
-                nameTemp = prefixLines[randRange(0, preNum)] + varLines[randRange(0, varNum)];
-                check = true;
-            }
-            
-            d++;
-        }
-        if(check == false) break;
-        
-    }
-    
-    numNames ++;
-    
-
+    nameTemp = prefixLines[randRange(0, prefixLines.size())] + varLines[randRange(0, prefixLines.size())];
     
     return nameTemp;
 }
@@ -152,35 +111,12 @@ string genName::getVar(){
 string genName::getConst(){
     
     string nameTemp;
-    nameTemp =  constLines[randRange(0, constNum)];
-    
-    usedNames.push_back(nameTemp);
-    
-    for(int i = 0; i<5;i++){
-        int d = 0;
-        bool check = false;
-        while(d<numNames){
-            
-            if(nameTemp == usedNames[d]){
-                
-                nameTemp = constLines[randRange(0, constNum)];
-                check = true;
-            }
-            
-            d++;
-        }
-        if(check == false) break;
-        
-    }
-    
-    numNames ++;
-    
-    
+    nameTemp = constLines[randRange(0, prefixLines.size())];
     
     return nameTemp;
 }
 
-genName::~genName() {};
+
 
 
 

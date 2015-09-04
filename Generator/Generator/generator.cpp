@@ -92,8 +92,7 @@ void globalNamespace::generate(int length)
         // We can create a class or a function.
         if (randRange(0,1) == 0)
         {
-            LOG("Generating class")
-        
+            LOG("Generating class")        
             // We create the class. It has its own scope.
             classScope c{ this };
             types.push_back(c.generate() );
