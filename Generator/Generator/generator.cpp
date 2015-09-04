@@ -128,5 +128,5 @@ classScope::classScope(globalNamespace* parent)
 
 classDef classScope::generate()
 {
-    
+
 }
