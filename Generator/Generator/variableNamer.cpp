@@ -20,6 +20,7 @@ void genName::init() {
     funcLines.push_back("");
     varLines.push_back("");
     constLines.push_back("");
+    usedNames.push_back("");
     
     ifstream infile;
     infile.open("names.txt");
@@ -91,7 +92,9 @@ void genName::init() {
     string nameTemp;
      //Store random name in nametemp
     nameTemp = prefixLines[randRange(0, prefixLines.size())] + funcLines[randRange(0, funcLines.size())];
-    
+    usedNames.push_back(nameTemp);
+     
+     
     //return nameTemp
     return nameTemp;
 }
@@ -101,7 +104,9 @@ void genName::init() {
     
     string nameTemp;
     nameTemp = prefixLines[randRange(0, prefixLines.size())] + varLines[randRange(0, prefixLines.size())];
-    
+    usedNames.push_back(nameTemp);
+     
+     
     return nameTemp;
 }
 
@@ -112,6 +117,7 @@ string genName::getConst(){
     
     string nameTemp;
     nameTemp = constLines[randRange(0, prefixLines.size())];
+    usedNames.push_back(nameTemp);
     
     return nameTemp;
 }
