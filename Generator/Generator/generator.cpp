@@ -89,7 +89,7 @@ void globalNamespace::generate(int length)
     {
         LOG("Generating class")
         // First we need a class name.
-        string name = genName::getClass();
+        string name = genName::getFunc();
         
         // Now we create the class. It has its own scope.
         

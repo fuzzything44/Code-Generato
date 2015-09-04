@@ -1,5 +1,6 @@
 #include "variableNamer.h"
 #include "logger.h"
+#include "classDef.h"
 
 using namespace std;
 
@@ -86,11 +87,12 @@ void genName::init() {
 }
 
  string genName::getFunc(){
-    
+    //Var to store randome name
     string nameTemp;
+     //Store random name in nametemp
     nameTemp = prefixLines[randRange(0, prefixLines.size())] + funcLines[randRange(0, funcLines.size())];
     
-    
+    //return nameTemp
     return nameTemp;
 }
 
