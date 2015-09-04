@@ -8,6 +8,9 @@
 using std::vector;
 using std::string;
 
+
+
+// globalNamespace
 globalNamespace::globalNamespace()
 {
     // Start logging
@@ -16,6 +19,7 @@ globalNamespace::globalNamespace()
     
     LOG("Creating basic data types" << std::endl)
     // Initialize basic data types.
+    
     // classDef takes:
     // std::string name, std::vector<classDef> parents, std::vector<function> funcs, std::vector<classDef> templateArguments
     
@@ -84,21 +88,45 @@ void globalNamespace::generate(int length)
 {
     // And now we generate!
     
-    // We can create a class or a function.
-    if (randRange(0,1) == 0)
-    {
-        LOG("Generating class")
-        // First we need a class name.
-        string name = genName::getClass();
+    for(; length > 0; length--) {
+        // We can create a class or a function.
+        if (randRange(0,1) == 0)
+        {
+            LOG("Generating class")
         
-        // Now we create the class. It has its own scope.
-        
-        
-    } else {
-        LOG("Generating function")
-        // First we need a function name.
-        string name = genName::getFunc();
-        
-        // Now we create the function. It has its own scope.
+            // We create the class. It has its own scope.
+            classScope c{ this };
+            types.push_back(c.generate() );
+            
+        } else {
+            LOG("Generating function")
+            // We create the function. It has its own scope.
+            functionScope f{ this };
+            functions.push_back(f.generate() );
+        }
     }
+    
+    LOG("Finished all classes and functions. Generating main")
+    
+    // Generate main. Pretty much a function generate, just with a set name.
+    
+}
+
+
+
+
+
+
+
+
+// classScope
+classScope::classScope(globalNamespace* parent)
+{
+    functions = parent->functions;
+    types = parent->types;
+}
+
+classDef classScope::generate()
+{
+    
 }

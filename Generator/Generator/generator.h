@@ -4,9 +4,16 @@
 #include "function.h"
 #include <vector>
 
+class classScope;
+class functionScope;
+class smallScope;
+
 class globalNamespace
 {
 public:
+    friend classScope;
+    friend functionScope;
+    
     globalNamespace();
     void generate(int length);
 private:
@@ -18,6 +25,8 @@ private:
 class classScope
 {
 public:
+    friend functionScope;
+    
     classScope(globalNamespace* parent);
     classDef generate();
     
@@ -30,6 +39,8 @@ private:
 class functionScope
 {
 public:
+    friend smallScope;
+    
     functionScope(classScope* parent);
     functionScope(globalNamespace* parent);
     function generate();
@@ -40,7 +51,16 @@ private:
     std::vector<std::pair<std::string, classDef> > variables;
 };
 
-class scope
+
+// For for loops, while loops, if statements, etc.
+class smallScope
 {
-    
+public:
+    smallScope(functionScope* parent);
+    void generate();
+
+private:
+    std::vector<function> functions;
+    std::vector<classDef> types;
+    std::vector<std::pair<std::string, classDef> > variables;
 };

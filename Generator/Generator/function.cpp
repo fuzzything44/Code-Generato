@@ -3,7 +3,7 @@
 using std::string;
 using std::vector;
 
-function::function(std::string name, std::vector<classDef>& templateArgs, std::vector<classDef>& args, classDef ret) : name(name), templateArgs(templateArgs), args(args), ret(ret) {}
+function::function(std::string name, std::vector<classDef> templateArgs, std::vector<classDef> args, classDef ret) : name(name), templateArgs(templateArgs), args(args), ret(ret) {}
 
 vector<classDef> function::getArgs() const
 {
