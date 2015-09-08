@@ -180,7 +180,7 @@ classDef classScope::generate()
     for (int i = randRange(0, 10); i > 0; i--) {
         // Create variable parameters.
         classDef& type = types[randRange(0, types.size() - 1)];
-        string varName = genName::getName(type.getName() );
+        string varName = genName::get(type.getName() );
         
         // Create variable and add it.
         classDef::variable var{ varName, type };
