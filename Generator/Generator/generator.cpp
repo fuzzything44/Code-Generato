@@ -118,6 +118,29 @@ void globalNamespace::generate(int length)
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // classScope
 classScope::classScope(globalNamespace* parent)
 {
@@ -203,7 +226,10 @@ classDef classScope::generate()
     
     
     // Create constructor...
-    
+    // We only have one now. Just basic constructor.
+    CODE(name << "() {}")
+    // Cheese function. Just name and return of void.
+    ret.addFunction(function{ name, vector<classDef>(), vector<classDef>(), types[0] } );
     CODE("};")
     return ret;
 }
