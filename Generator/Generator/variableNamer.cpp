@@ -45,7 +45,7 @@ void genName::init() {
         
         //If in section but not the sectopn Title
         if(preCheck == true && lineInfo!="-Prefix"){
-           
+            lines[0].second.push_back(lineInfo);
             prefixLines.push_back(lineInfo);
         }
         
@@ -55,7 +55,7 @@ void genName::init() {
         
         //If in section but not the sectopn Title
         if(preCheck == true && lineInfo!="-Func"){
-            
+            lines[1].second.push_back(lineInfo);
             funcLines.push_back(lineInfo);
         }
         
@@ -65,7 +65,7 @@ void genName::init() {
         //If in section but not the sectopn Title
         if(preCheck == true && lineInfo!="-Var"){
             
-           
+           lines[2].second.push_back(lineInfo);
             varLines.push_back(lineInfo);
         }
         
@@ -74,7 +74,7 @@ void genName::init() {
         //If in section but not the sectopn Title
         if(constCheck == true && lineInfo!="-Const"){
             
-            
+            lines[3].second.push_back(lineInfo);
             constLines.push_back(lineInfo);
         }
         
@@ -90,10 +90,12 @@ void genName::init() {
 }
 
  string genName::getFunc(){
+     lines[1].first ="Func";
+     
     //Var to store randome name
     string nameTemp;
      //Store random name in nametemp
-    nameTemp = prefixLines[randRange(0, prefixLines.size())] + funcLines[randRange(0, funcLines.size())];
+     nameTemp = lines[0].second[randRange(0, lines[0].second.size())] +lines[1].second[randRange(0, lines[1].second.size())] ;
     usedNames.push_back(nameTemp);
      
      
@@ -103,9 +105,9 @@ void genName::init() {
 
 
  string genName::getVar(){
-    
+     lines[2].first ="Var";
     string nameTemp;
-    nameTemp = prefixLines[randRange(0, prefixLines.size())] + varLines[randRange(0, prefixLines.size())];
+     nameTemp = lines[0].second[randRange(0, lines[0].second.size())] +lines[2].second[randRange(0, lines[2].second.size())] ;
     usedNames.push_back(nameTemp);
      
      
@@ -116,9 +118,10 @@ void genName::init() {
 
 
 string genName::getConst(){
-    
+     lines[3].first ="Const";
     string nameTemp;
-    nameTemp = constLines[randRange(0, prefixLines.size())];
+    nameTemp = lines[0].second[randRange(0, lines[0].second.size())] +lines[3].second[randRange(0, lines[3].second.size())] ;
+
     usedNames.push_back(nameTemp);
     
     return nameTemp;
@@ -126,10 +129,17 @@ string genName::getConst(){
 
 string genName::get(string type){
     
+    string name;
+    if(type == "Func" )
+     name=    genName::getFunc();
     
+    if(type == "Var" )
+       name = genName::getVar();
     
+    if(type == "Const" )
+       name = genName::getConst();
     
-   return "";
+   return name;
 }
 
 
