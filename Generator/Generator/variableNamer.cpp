@@ -6,7 +6,7 @@ using namespace std;
 
 void genName::init() {
 
-    
+    int numDef = 0;
     //Check Vars
     bool preCheck = false;
     bool funcCheck = false;
@@ -21,6 +21,8 @@ void genName::init() {
     varLines.push_back("");
     constLines.push_back("");
     usedNames.push_back("");
+    
+    lines[0].second.push_back("");
     
     ifstream infile;
     infile.open("names.txt");
@@ -122,6 +124,13 @@ string genName::getConst(){
     return nameTemp;
 }
 
+string genName::get(string type){
+    
+    
+    
+    
+   return "";
+}
 
 
 
