@@ -44,7 +44,7 @@ void genName::init() {
         //If in section but not the sectopn Title
         if(preCheck == true && lineInfo!="-Prefix"){
            lines["Prefix"].push_back(lineInfo);
-            prefixLines.push_back(lineInfo);
+           
         }
         
         if( lineInfo == "-Func")
@@ -54,7 +54,7 @@ void genName::init() {
         //If in section but not the sectopn Title
         if(preCheck == true && lineInfo!="-Func"){
             lines["Func"].push_back(lineInfo);
-            funcLines.push_back(lineInfo);
+           
         }
         
         
@@ -64,7 +64,7 @@ void genName::init() {
         if(preCheck == true && lineInfo!="-Var"){
             
           lines["Func"].push_back(lineInfo);
-            varLines.push_back(lineInfo);
+           
         }
         
         if( lineInfo == "-Const")
@@ -73,12 +73,11 @@ void genName::init() {
         if(constCheck == true && lineInfo!="-Const"){
             
             lines["Const"].push_back(lineInfo);
-            constLines.push_back(lineInfo);
+            
         }
         
         LOG("Line read" << std::endl)
-        cout<< constLines[constLines.size()] <<endl;
-    }
+            }
     infile.close();
     
     preCheck = false;
