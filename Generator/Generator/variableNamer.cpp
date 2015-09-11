@@ -16,11 +16,7 @@ void genName::init() {
    
    
     //Store Lines Info
-    prefixLines.push_back("");
-    funcLines.push_back("");
-    varLines.push_back("");
-    constLines.push_back("");
-    usedNames.push_back("");
+  
     
     
     lines["Prefix"] = vector<string>();
@@ -91,7 +87,7 @@ void genName::init() {
     constCheck = false;
 }
 
-
+///
 
 
 
