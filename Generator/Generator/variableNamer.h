@@ -1,8 +1,9 @@
 #pragma once
-#include"iostream"
-#include"random.h"
-#include"fstream"
-#include"string"
+#include "iostream"
+#include "random.h"
+#include "fstream"
+#include "string"
+#include <map>
 
 class genName{
 public:
@@ -13,7 +14,7 @@ public:
     static std::string getConst();
 
 private:
-    static std::vector<std::pair<std::string, std::vector<std::string> > > lines;
+    static std::map<std::string, std::vector<std::string> > lines;
     static std::vector<std::string> prefixLines;
     static std::vector<std::string> funcLines;
     static std::vector<std::string> varLines;
