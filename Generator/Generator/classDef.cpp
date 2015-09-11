@@ -35,9 +35,9 @@ void classDef::addParent(classDef p)
     parents.push_back(p);
 }
 
-void classDef::addVar(<#std::pair<std::string, classDef> v#>)
+void classDef::addVar(std::pair<std::string, classDef> v)
 {
-    
+    vars.push_back(v);
 }
 
 bool classDef::operator<=(const classDef& isEqual) const
