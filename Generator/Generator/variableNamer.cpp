@@ -6,12 +6,9 @@ using namespace std;
 
 void genName::init() {
 
-    int numDef = 0;
+    
     //Check Vars
-    bool preCheck = false;
-    bool funcCheck = false;
-    bool varCheck = false;
-    bool constCheck = false;
+   
     //Number of names
    
    
@@ -25,6 +22,8 @@ void genName::init() {
     ifstream infile;
     infile.open("names.txt");
     string lineInfo ;
+    string varKey;
+    
     
     LOG("Reading file..." << std::endl)
     
@@ -35,55 +34,23 @@ void genName::init() {
         
         //Store line in LineInfo
         getline(infile,lineInfo);
-        LOG("Line reads: " << lineInfo << std::endl)
-        //Check if in prefix section
-        if( lineInfo == "-Prefix")
-            
-            preCheck = true;
         
-        //If in section but not the sectopn Title
-        if(preCheck == true && lineInfo!="-Prefix"){
-           lines["Prefix"].push_back(lineInfo);
-           
-        }
-        
-        if( lineInfo == "-Func")
-            funcCheck = true;
-        
-        
-        //If in section but not the sectopn Title
-        if(preCheck == true && lineInfo!="-Func"){
-            lines["Func"].push_back(lineInfo);
-           
-        }
-        
-        
-        if( lineInfo == "-Var")
-            varCheck = true;
-        //If in section but not the sectopn Title
-        if(preCheck == true && lineInfo!="-Var"){
-            
-          lines["Func"].push_back(lineInfo);
-           
-        }
-        
-        if( lineInfo == "-Const")
-            constCheck = true;
-        //If in section but not the sectopn Title
-        if(constCheck == true && lineInfo!="-Const"){
-            
-            lines["Const"].push_back(lineInfo);
+        if (lineInfo[0] == '-'){
+            varKey = lineInfo;
+            lines[varKey];
             
         }
+        
+        lines[varKey].push_back(lineInfo);
+        
+        
+        
         
         LOG("Line read" << std::endl)
             }
     infile.close();
     
-    preCheck = false;
-    funcCheck = false;
-    varCheck = false;
-    constCheck = false;
+    
 }
 
 ///

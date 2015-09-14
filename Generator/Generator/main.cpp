@@ -15,15 +15,15 @@ int main() {
         if (type == "var" )
         {
             LOG("Getting variable name...")
-            CODE(g.getVar())
+            CODE(g.get("-Var"))
         } else if (type == "const")
         {
             LOG("Getting const name...")
-            CODE(g.getConst())
+            CODE(g.get("-Const"))
         } else if (type == "func")
         {
             LOG("Getting function name...")
-            CODE(g.getFunc())
+            CODE(g.get("-Func"))
         } else if (type == "end")
         {
             break;
