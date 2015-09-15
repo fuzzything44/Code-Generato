@@ -7,6 +7,17 @@ using std::ifstream;
 
 void genName::init() {
    
+<<<<<<< Updated upstream
+=======
+   
+    //Store Lines Info
+  
+    
+    
+    
+    
+    
+>>>>>>> Stashed changes
     ifstream infile;
     infile.open("names.txt");
     string lineInfo ;
