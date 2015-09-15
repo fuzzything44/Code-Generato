@@ -13,9 +13,5 @@ public:
 
 private:
     static std::map<std::string, std::vector<std::string> > lines;
-<<<<<<< Updated upstream
-=======
-  
 
->>>>>>> Stashed changes
 };
