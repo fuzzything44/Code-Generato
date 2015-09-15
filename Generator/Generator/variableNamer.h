@@ -13,6 +13,4 @@ public:
 
 private:
     static std::map<std::string, std::vector<std::string> > lines;
-  
-    static std::vector<std::string> usedNames;
 };

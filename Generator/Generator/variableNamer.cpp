@@ -2,40 +2,28 @@
 #include "logger.h"
 #include "classDef.h"
 
-using namespace std;
+using std::string;
+using std::ifstream;
 
 void genName::init() {
-
-    
-    //Check Vars
    
-    //Number of names
-   
-   
-    //Store Lines Info
-  
-    
-    
-    lines["Prefix"] = vector<string>();
-    
-    
     ifstream infile;
     infile.open("names.txt");
     string lineInfo ;
+    
+    // For what vector to add the info to.
     string varKey;
     
     
     LOG("Reading file..." << std::endl)
     
-    //While the file hasn't fully been read
-    while(!infile.eof()){
-        
-        LOG("Line started..." << std::endl);
+    //While the file hasn't fully been read and no errors have happened in reading it.
+    while(infile) {
         
         //Store line in LineInfo
-        getline(infile,lineInfo);
+        getline(infile, lineInfo);
         
-        if (lineInfo[0] == '-'){
+        if (lineInfo[0] == '-') {
             varKey = lineInfo;
             lines[varKey];
             
@@ -43,33 +31,24 @@ void genName::init() {
         
         lines[varKey].push_back(lineInfo);
         
-        
-        
-        
-        LOG("Line read" << std::endl)
-            }
+        LOG("Line reads: " << std::endl)
+    }
+    
     infile.close();
     
     
 }
-
-///
-
-
 
 
 string genName::get(string type){
     
     
     string name;
+    const std::vector<string>& ref = lines[type];
     
     
-    if (type != "Const"){
-    name = lines[type][randRange(0, lines[type].size())] +lines[type][randRange(0, lines[type].size())];
-    }
-    name = lines[type][randRange(0, lines[type].size())];
     
-   return name;
+    return name;
 }
 
 
