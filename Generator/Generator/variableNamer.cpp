@@ -7,17 +7,6 @@ using std::ifstream;
 
 void genName::init() {
    
-<<<<<<< Updated upstream
-=======
-   
-    //Store Lines Info
-  
-    
-    
-    
-    
-    
->>>>>>> Stashed changes
     ifstream infile;
     infile.open("names.txt");
     string lineInfo ;
@@ -56,6 +45,10 @@ string genName::get(string type){
     
     string name;
     const std::vector<string>& ref = lines[type];
+    if (type != "Const"){
+        name = lines["-Prefix"][randRange(0, lines[type].size())] +ref[randRange(0, lines[type].size())];
+    }
+    name = ref[randRange(0, lines[type].size())];
     
     
     
