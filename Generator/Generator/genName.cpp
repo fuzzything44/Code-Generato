@@ -16,7 +16,7 @@ void genName::init() {
     // For what vector to add the info to.
     string varKey;
     
-    lines[""].push_back("");
+    
     LOG("Reading file..." << std::endl)
     
     //While the file hasn't fully been read and no errors have happened in reading it.
@@ -26,14 +26,12 @@ void genName::init() {
         getline(infile, lineInfo);
         
         if (lineInfo[0] == '-') {
-            varKey = lineInfo;
-            lines[varKey];
-            
+            varKey = lineInfo.substr(1, lineInfo.size() );
+        } else {
+            lines[varKey].push_back(lineInfo);
         }
         
-        lines[varKey].push_back(lineInfo);
-        
-        LOG("Line reads: " << std::endl)
+        LOG("Line reads: " << lineInfo)
     }
     
     infile.close();
@@ -44,14 +42,13 @@ void genName::init() {
 
 string genName::get(string type){
     
+    string name = "base_name";
+    LOG("Getting name of type " << type)
     
-    string name;
-    const std::vector<string>& ref = lines[type];
-    if (type != "Const"){
-        name = lines["-Prefix"][randRange(0, lines[type].size())] +ref[randRange(0, lines[type].size())];
+    std::vector<string> ref = lines[type];
+    if (ref.size() > 0) {
+        name = ref[randRange(0, ref.size() - 1)];
     }
-    name = ref[randRange(0, lines[type].size())];
-    
     
     
     return name;

@@ -17,7 +17,8 @@ int main() {
         cout << "What type?" << endl;
         string type;
         cin >> type;
-        CODE(genName::get(string("-") + type) );
+        string name = genName::get(type);
+        LOG("Name is " << name);
     }
     logger::close();
 }
