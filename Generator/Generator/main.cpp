@@ -2,6 +2,8 @@
 #include <iostream>
 #include "genName.h"
 #include "logger.h"
+#include "globalNamespace.h"
+
 using std::cout;
 using std::string;
 using std::cin;
@@ -12,13 +14,8 @@ int main() {
     logger::init("TEST");
     genName::init();
     
-    while (true)
-    {
-        cout << "What type?" << endl;
-        string type;
-        cin >> type;
-        string name = genName::get(type);
-        LOG("Name is " << name);
-    }
+    globalNamespace g;
+    g.generate(3);
+    
     logger::close();
 }
