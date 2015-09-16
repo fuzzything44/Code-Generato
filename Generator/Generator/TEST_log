@@ -1,3087 +1,517 @@
 Reading file...
 
-Line started...
-
 Line reads: -Prefix
-
-Line read
-
-Line started...
-
 Line reads: Abend
-
-Line read
-
-Line started...
-
 Line reads: Absoluteaddress
-
-Line read
-
-Line started...
-
 Line reads: AbsoluteCoding
-
-Line read
-
-Line started...
-
 Line reads: Accessviolation
-
-Line read
-
-Line started...
-
 Line reads: ACM
-
-Line read
-
-Line started...
-
 Line reads: Actionstatement
-
-Line read
-
-Line started...
-
 Line reads: ActionScript
-
-Line read
-
-Line started...
-
 Line reads: ActiveX
-
-Line read
-
-Line started...
-
 Line reads: Ada
-
-Line read
-
-Line started...
-
 Line reads: AdvancedSCSIProgrammingInterface
-
-Line read
-
-Line started...
-
 Line reads: Aggregation
-
-Line read
-
-Line started...
-
 Line reads: Agiledevelopmentmethods
-
-Line read
-
-Line started...
-
 Line reads: AgileManifesto
-
-Line read
-
-Line started...
-
 Line reads: Alert
-
-Line read
-
-Line started...
-
 Line reads: Algol
-
-Line read
-
-Line started...
-
 Line reads: Algorithm
-
-Line read
-
-Line started...
-
 Line reads: AmbientOcclusion
-
-Line read
-
-Line started...
-
 Line reads: AOP
-
-Line read
-
-Line started...
-
 Line reads: API
-
-Line read
-
-Line started...
-
 Line reads: Applet
-
-Line read
-
-Line started...
-
 Line reads: Argument
-
-Line read
-
-Line started...
-
 Line reads: Arithmeticoperator
-
-Line read
-
-Line started...
-
 Line reads: Array
-
-Line read
-
-Line started...
-
 Line reads: Arrayofpointers
-
-Line read
-
-Line started...
-
 Line reads: ASCII
-
-Line read
-
-Line started...
-
 Line reads: ASPI
-
-Line read
-
-Line started...
-
 Line reads: Assembler
-
-Line read
-
-Line started...
-
 Line reads: Assembly
-
-Line read
-
-Line started...
-
 Line reads: Associativeoperation
-
-Line read
-
-Line started...
-
 Line reads: AutoHotkey
-
-Line read
-
-Line started...
-
 Line reads: Automata-basedprogramming
-
-Line read
-
-Line started...
-
 Line reads: Automatedunittesting
-
-Line read
-
-Line started...
-
 Line reads: Babel
-
-Line read
-
-Line started...
-
 Line reads: Backend
-
-Line read
-
-Line started...
-
 Line reads: Back-faceculling
-
-Line read
-
-Line started...
-
 Line reads: Backgroundthread
-
-Line read
-
-Line started...
-
 Line reads: Backpropagationneuralnetwork
-
-Line read
-
-Line started...
-
 Line reads: Baseaddress
-
-Line read
-
-Line started...
-
 Line reads: Batchfile
-
-Line read
-
-Line started...
-
 Line reads: Batchjob
-
-Line read
-
-Line started...
-
 Line reads: BCPL
-
-Line read
-
-Line started...
-
 Line reads: Bean
-
-Line read
-
-Line started...
-
 Line reads: BeanShell
-
-Line read
-
-Line started...
-
 Line reads: BinarySearch
-
-Line read
-
-Line started...
-
 Line reads: Bind
-
-Line read
-
-Line started...
-
 Line reads: Bitshift
-
-Line read
-
-Line started...
-
 Line reads: Bitwiseoperators
-
-Line read
-
-Line started...
-
 Line reads: Block
-
-Line read
-
-Line started...
-
 Line reads: BOM
-
-Line read
-
-Line started...
-
 Line reads: Bool
-
-Line read
-
-Line started...
-
 Line reads: Boolean
-
-Line read
-
-Line started...
-
 Line reads: Bracket
-
-Line read
-
-Line started...
-
 Line reads: Branch
-
-Line read
-
-Line started...
-
 Line reads: Brooks
-
-Line read
-
-Line started...
-
 Line reads: Bug
-
-Line read
-
-Line started...
-
 Line reads: Bug tracking
-
-Line read
-
-Line started...
-
 Line reads: Bugfairy
-
-Line read
-
-Line started...
-
 Line reads: Build computer
-
-Line read
-
-Line started...
-
 Line reads: Bytecode
-
-Line read
-
-Line started...
-
 Line reads: Camel book
-
-Line read
-
-Line started...
-
 Line reads: CamelCase
-
-Line read
-
-Line started...
-
 Line reads: Capturedvariable
-
-Line read
-
-Line started...
-
 Line reads: CC
-
-Line read
-
-Line started...
-
 Line reads: Chaosmodel
-
-Line read
-
-Line started...
-
 Line reads: Char
-
-Line read
-
-Line started...
-
 Line reads: Charactercode
-
-Line read
-
-Line started...
-
 Line reads: Characterencoding
-
-Line read
-
-Line started...
-
 Line reads: Characterset
-
-Line read
-
-Line started...
-
 Line reads: Chaosmodel
-
-Line read
-
-Line started...
-
 Line reads: Circuitsatisfiabilityproblem
-
-Line read
-
-Line started...
-
 Line reads: Class
-
-Line read
-
-Line started...
-
 Line reads: Class
-
-Line read
-
-Line started...
-
 Line reads: Classpath
-
-Line read
-
-Line started...
-
 Line reads: Clojure
-
-Line read
-
-Line started...
-
 Line reads: Closure
-
-Line read
-
-Line started...
-
 Line reads: CLR
-
-Line read
-
-Line started...
-
 Line reads: COBOL
-
-Line read
-
-Line started...
-
 Line reads: Cocoa
-
-Line read
-
-Line started...
-
 Line reads: Cocoatouch
-
-Line read
-
-Line started...
-
 Line reads: Code
-
-Line read
-
-Line started...
-
 Line reads: Codeefactoring
-
-Line read
-
-Line started...
-
 Line reads: Codepage
-
-Line read
-
-Line started...
-
 Line reads: CoffeeScript
-
-Line read
-
-Line started...
-
 Line reads: Commandlanguage
-
-Line read
-
-Line started...
-
 Line reads: Comment
-
-Line read
-
-Line started...
-
 Line reads: Commonbusinessorientedlanguage
-
-Line read
-
-Line started...
-
 Line reads: CommonGatewayInterface
-
-Line read
-
-Line started...
-
 Line reads: Compilation
-
-Line read
-
-Line started...
-
 Line reads: Compile
-
-Line read
-
-Line started...
-
 Line reads: Compiler
-
-Line read
-
-Line started...
-
 Line reads: Complementarity
-
-Line read
-
-Line started...
-
 Line reads: Compute
-
-Line read
-
-Line started...
-
 Line reads: Computerscience
-
-Line read
-
-Line started...
-
 Line reads: Commutativeoperation
-
-Line read
-
-Line started...
-
 Line reads: Concat
-
-Line read
-
-Line started...
-
 Line reads: Concatenation
-
-Line read
-
-Line started...
-
 Line reads: Concurrency
-
-Line read
-
-Line started...
-
 Line reads: Conditionalexpression
-
-Line read
-
-Line started...
-
 Line reads: Conditionalstatement
-
-Line read
-
-Line started...
-
 Line reads: Constructorhaining
-
-Line read
-
-Line started...
-
 Line reads: Contentmigration
-
-Line read
-
-Line started...
-
 Line reads: Controlflow
-
-Line read
-
-Line started...
-
 Line reads: CPAN
-
-Line read
-
-Line started...
-
 Line reads: CPL
-
-Line read
-
-Line started...
-
 Line reads: Crapplet
-
-Line read
-
-Line started...
-
 Line reads: CSAT
-
-Line read
-
-Line started...
-
 Line reads: CSS
-
-Line read
-
-Line started...
-
 Line reads: CSScompressor
-
-Line read
-
-Line started...
-
 Line reads: CSSeditor
-
-Line read
-
-Line started...
-
 Line reads: Curlybracket
-
-Line read
-
-Line started...
-
 Line reads: Curry
-
-Line read
-
-Line started...
-
 Line reads: CVS
-
-Line read
-
-Line started...
-
 Line reads: DarkBASIC
-
-Line read
-
-Line started...
-
 Line reads: DataflowProgramming
-
-Line read
-
-Line started...
-
 Line reads: Data-flowanalysis
-
-Line read
-
-Line started...
-
 Line reads: Dataflowdiagram
-
-Line read
-
-Line started...
-
 Line reads: Datasource
-
-Line read
-
-Line started...
-
 Line reads: Datatype
-
-Line read
-
-Line started...
-
 Line reads: Datalog
-
-Line read
-
-Line started...
-
 Line reads: DDE
-
-Line read
-
-Line started...
-
 Line reads: Deadcode
-
-Line read
-
-Line started...
-
 Line reads: Debug
-
-Line read
-
-Line started...
-
 Line reads: Debugger
-
-Line read
-
-Line started...
-
 Line reads: Debugging
-
-Line read
-
-Line started...
-
 Line reads: Declaration
-
-Line read
-
-Line started...
-
 Line reads: Declarativeprogramming
-
-Line read
-
-Line started...
-
 Line reads: Declare
-
-Line read
-
-Line started...
-
 Line reads: Decompiler
-
-Line read
-
-Line started...
-
 Line reads: Deductivedatabase
-
-Line read
-
-Line started...
-
 Line reads: Densematrix
-
-Line read
-
-Line started...
-
 Line reads: Dereferenceoperator
-
-Line read
-
-Line started...
-
 Line reads: Dependentvariable
-
-Line read
-
-Line started...
-
 Line reads: Developer
-
-Line read
-
-Line started...
-
 Line reads: DHTML
-
-Line read
-
-Line started...
-
 Line reads: Die
-
-Line read
-
-Line started...
-
 Line reads: Diff
-
-Line read
-
-Line started...
-
 Line reads: Directaddress
-
-Line read
-
-Line started...
-
 Line reads: Discreteoptimization
-
-Line read
-
-Line started...
-
 Line reads: Dissembler
-
-Line read
-
-Line started...
-
 Line reads: Django
-
-Line read
-
-Line started...
-
 Line reads: DML
-
-Line read
-
-Line started...
-
 Line reads: Do
-
-Line read
-
-Line started...
-
 Line reads: DOM
-
-Line read
-
-Line started...
-
 Line reads: Dragon book
-
-Line read
-
-Line started...
-
 Line reads: Dribbleware
-
-Line read
-
-Line started...
-
 Line reads: Dump
-
-Line read
-
-Line started...
-
 Line reads: Dynamicdump
-
-Line read
-
-Line started...
-
 Line reads: Eclipse
-
-Line read
-
-Line started...
-
 Line reads: ECMAScript
-
-Line read
-
-Line started...
-
 Line reads: Eightqueensproblem
-
-Line read
-
-Line started...
-
 Line reads: Element
-
-Line read
-
-Line started...
-
 Line reads: Ellipsis
-
-Line read
-
-Line started...
-
 Line reads: Else
-
-Line read
-
-Line started...
-
 Line reads: Elseif
-
-Line read
-
-Line started...
-
 Line reads: Elsif
-
-Line read
-
-Line started...
-
 Line reads: EmbeddedJava
-
-Line read
-
-Line started...
-
 Line reads: Encapsulation
-
-Line read
-
-Line started...
-
 Line reads: Endian
-
-Line read
-
-Line started...
-
 Line reads: Endlessloop
-
-Line read
-
-Line started...
-
 Line reads: EOF
-
-Line read
-
-Line started...
-
 Line reads: Epoch
-
-Line read
-
-Line started...
-
 Line reads: Eq
-
-Line read
-
-Line started...
-
 Line reads: Error
-
-Line read
-
-Line started...
-
 Line reads: Errorlevel
-
-Line read
-
-Line started...
-
 Line reads: Esac
-
-Line read
-
-Line started...
-
 Line reads: Escape
-
-Line read
-
-Line started...
-
 Line reads: Escapecharacter
-
-Line read
-
-Line started...
-
 Line reads: Escapesequence
-
-Line read
-
-Line started...
-
 Line reads: Eval
-
-Line read
-
-Line started...
-
 Line reads: Event
-
-Line read
-
-Line started...
-
 Line reads: Eventhandler
-
-Line read
-
-Line started...
-
 Line reads: Eventlistener
-
-Line read
-
-Line started...
-
 Line reads: Event-drivenprogramming
-
-Line read
-
-Line started...
-
 Line reads: Exec
-
-Line read
-
-Line started...
-
 Line reads: Exception
-
-Line read
-
-Line started...
-
 Line reads: Exceptionhandling
-
-Line read
-
-Line started...
-
 Line reads: Exists
-
-Line read
-
-Line started...
-
 Line reads: Exponentialbackoff
-
-Line read
-
-Line started...
-
 Line reads: Expression
-
-Line read
-
-Line started...
-
 Line reads: False
-
-Line read
-
-Line started...
-
 Line reads: First-classobject
-
-Line read
-
-Line started...
-
 Line reads: Flag
-
-Line read
-
-Line started...
-
 Line reads: Flatfile
-
-Line read
-
-Line started...
-
 Line reads: Floating-point
-
-Line read
-
-Line started...
-
 Line reads: For
-
-Line read
-
-Line started...
-
 Line reads: Foreach
-
-Line read
-
-Line started...
-
 Line reads: Forth
-
-Line read
-
-Line started...
-
 Line reads: FORTRAN
-
-Line read
-
-Line started...
-
 Line reads: Framework
-
-Line read
-
-Line started...
-
 Line reads: Frontend
-
-Line read
-
-Line started...
-
 Line reads: Function
-
-Line read
-
-Line started...
-
 Line reads: Functionalprogramming
-
-Line read
-
-Line started...
-
 Line reads: GameofLife
-
-Line read
-
-Line started...
-
 Line reads: Gangoffour
-
-Line read
-
-Line started...
-
 Line reads: Garbagecollection
-
-Line read
-
-Line started...
-
 Line reads: Gaussianpyramid
-
-Line read
-
-Line started...
-
 Line reads: General-purposeanguage
-
-Line read
-
-Line started...
-
 Line reads: Generationlanguage
-
-Line read
-
-Line started...
-
 Line reads: Geneticprogramming
-
-Line read
-
-Line started...
-
 Line reads: GIGO
-
-Line read
-
-Line started...
-
 Line reads: Glitch
-
-Line read
-
-Line started...
-
 Line reads: Glue code
-
-Line read
-
-Line started...
-
 Line reads: Golanguage
-
-Line read
-
-Line started...
-
 Line reads: Goto
-
-Line read
-
-Line started...
-
 Line reads: GPL
-
-Line read
-
-Line started...
-
 Line reads: GT
-
-Line read
-
-Line started...
-
 Line reads: GTK
-
-Line read
-
-Line started...
-
 Line reads: GW BASIC
-
-Line read
-
-Line started...
-
 Line reads: HAL
-
-Line read
-
-Line started...
-
 Line reads: Hardcode
-
-Line read
-
-Line started...
-
 Line reads: Hash
-
-Line read
-
-Line started...
-
 Line reads: Haskell
-
-Line read
-
-Line started...
-
 Line reads: Heap
-
-Line read
-
-Line started...
-
 Line reads: Helloworld
-
-Line read
-
-Line started...
-
 Line reads: Heuristicevaluation
-
-Line read
-
-Line started...
-
 Line reads: Hexeditor
-
-Line read
-
-Line started...
-
 Line reads: HDML
-
-Line read
-
-Line started...
-
 Line reads: Hiew
-
-Line read
-
-Line started...
-
 Line reads: HTML
-
-Line read
-
-Line started...
-
 Line reads: If else
-
-Line read
-
-Line started...
-
 Line reads: If statement
-
-Line read
-
-Line started...
-
 Line reads: Immutableobject
-
-Line read
-
-Line started...
-
 Line reads: Imperativeprogramming
-
-Line read
-
-Line started...
-
 Line reads: Implicit parallelism
-
-Line read
-
-Line started...
-
 Line reads: Indirection operator
-
-Line read
-
-Line started...
-
 Line reads: Inherent error
-
-Line read
-
-Line started...
-
 Line reads: Inheritance
-
-Line read
-
-Line started...
-
 Line reads: Inline
-
-Line read
-
-Line started...
-
 Line reads: Input/outputstatement
-
-Line read
-
-Line started...
-
 Line reads: Instance
-
-Line read
-
-Line started...
-
 Line reads: Instantiation
-
-Line read
-
-Line started...
-
 Line reads: Instructions
-
-Line read
-
-Line started...
-
 Line reads: Int
-
-Line read
-
-Line started...
-
 Line reads: Integer
-
-Line read
-
-Line started...
-
 Line reads: Interpreted
-
-Line read
-
-Line started...
-
 Line reads: Interpreter
-
-Line read
-
-Line started...
-
 Line reads: Invalid
-
-Line read
-
-Line started...
-
 Line reads: IPC
-
-Line read
-
-Line started...
-
 Line reads: ISAPI
-
-Line read
-
-Line started...
-
 Line reads: Iteration
-
-Line read
-
-Line started...
-
 Line reads: Karel
-
-Line read
-
-Line started...
-
 Line reads: Kit
-
-Line read
-
-Line started...
-
 Line reads: Kludge
-
-Line read
-
-Line started...
-
 Line reads: Kluge
-
-Line read
-
-Line started...
-
 Line reads: Label
-
-Line read
-
-Line started...
-
 Line reads: Lambdacalculus
-
-Line read
-
-Line started...
-
 Line reads: Language
-
-Line read
-
-Line started...
-
 Line reads: Languageprocessor
-
-Line read
-
-Line started...
-
 Line reads: Lexicalanalysis
-
-Line read
-
-Line started...
-
 Line reads: Lexicon
-
-Line read
-
-Line started...
-
 Line reads: Linker
-
-Line read
-
-Line started...
-
 Line reads: LISP
-
-Line read
-
-Line started...
-
 Line reads: Livecript
-
-Line read
-
-Line started...
-
 Line reads: Literal
-
-Line read
-
-Line started...
-
 Line reads: LLVM
-
-Line read
-
-Line started...
-
 Line reads: Localoptimum
-
-Line read
-
-Line started...
-
 Line reads: Logicprogramming
-
-Line read
-
-Line started...
-
 Line reads: Logicaloperation
-
-Line read
-
-Line started...
-
 Line reads: LOGO
-
-Line read
-
-Line started...
-
 Line reads: Lookup table
-
-Line read
-
-Line started...
-
 Line reads: Loony bin
-
-Line read
-
-Line started...
-
 Line reads: Loop
-
-Line read
-
-Line started...
-
 Line reads: Loophole
-
-Line read
-
-Line started...
-
 Line reads: Looselytypedlanguage
-
-Line read
-
-Line started...
-
 Line reads: Low-levellanguage
-
-Line read
-
-Line started...
-
 Line reads: Library
-
-Line read
-
-Line started...
-
 Line reads: LT
-
-Line read
-
-Line started...
-
 Line reads: Lua
-
-Line read
-
-Line started...
-
 Line reads: LUT
-
-Line read
-
-Line started...
-
 Line reads: Machinelanguage
-
-Line read
-
-Line started...
-
 Line reads: Magicquotes
-
-Line read
-
-Line started...
-
 Line reads: Map
-
-Line read
-
-Line started...
-
 Line reads: Markuplanguage
-
-Line read
-
-Line started...
-
 Line reads: Math
-
-Line read
-
-Line started...
-
 Line reads: Matlab
-
-Line read
-
-Line started...
-
 Line reads: Mbean
-
-Line read
-
-Line started...
-
 Line reads: Memoization
-
-Line read
-
-Line started...
-
 Line reads: Mercurial
-
-Line read
-
-Line started...
-
 Line reads: Meta-character
-
-Line read
-
-Line started...
-
 Line reads: Metaclass
-
-Line read
-
-Line started...
-
 Line reads: Metalanguage
-
-Line read
-
-Line started...
-
 Line reads: Method
-
-Line read
-
-Line started...
-
 Line reads: Methodoverloading
-
-Line read
-
-Line started...
-
 Line reads: Middleware
-
-Line read
-
-Line started...
-
 Line reads: Module
-
-Line read
-
-Line started...
-
 Line reads: MonteCarloMethod
-
-Line read
-
-Line started...
-
 Line reads: MSDN
-
-Line read
-
-Line started...
-
 Line reads: MSVC
-
-Line read
-
-Line started...
-
 Line reads: Multi-passcompiler
-
-Line read
-
-Line started...
-
 Line reads: MUMPS
-
-Line read
-
-Line started...
-
 Line reads: Mutex
-
-Line read
-
-Line started...
-
 Line reads: N
-
-Line read
-
-Line started...
-
 Line reads: NaN
-
-Line read
-
-Line started...
-
 Line reads: Ne
-
-Line read
-
-Line started...
-
 Line reads: .NET
-
-Line read
-
-Line started...
-
 Line reads: Nativecompiler
-
-Line read
-
-Line started...
-
 Line reads: Nativelanguage
-
-Line read
-
-Line started...
-
 Line reads: Naturallanguage
-
-Line read
-
-Line started...
-
 Line reads: NBSP
-
-Line read
-
-Line started...
-
 Line reads: NDA
-
-Line read
-
-Line started...
-
 Line reads: Nestedfunction
-
-Line read
-
-Line started...
-
 Line reads: Nestedloopjoin
-
-Line read
-
-Line started...
-
 Line reads: Newline
-
-Line read
-
-Line started...
-
 Line reads: Nilpointer
-
-Line read
-
-Line started...
-
 Line reads: Node.js
-
-Line read
-
-Line started...
-
 Line reads: Nodelist
-
-Line read
-
-Line started...
-
 Line reads: Noncontiguousdatastructure
-
-Line read
-
-Line started...
-
 Line reads: Non-DisclosureAgreement
-
-Line read
-
-Line started...
-
 Line reads: Nonexecutablestatement
-
-Line read
-
-Line started...
-
 Line reads: NO-OPerationinstructions
-
-Line read
-
-Line started...
-
 Line reads: Null
-
-Line read
-
-Line started...
-
 Line reads: Nullcharacter
-
-Line read
-
-Line started...
-
 Line reads: Nullpointer
-
-Line read
-
-Line started...
-
 Line reads: Objectcode
-
-Line read
-
-Line started...
-
 Line reads: Objectfile
-
-Line read
-
-Line started...
-
 Line reads: Objectmodule
-
-Line read
-
-Line started...
-
 Line reads: Object-orientedprogramming
-
-Line read
-
-Line started...
-
 Line reads: Objective-C
-
-Line read
-
-Line started...
-
 Line reads: Obfuscated code
-
-Line read
-
-Line started...
-
 Line reads: OCaml
-
-Line read
-
-Line started...
-
 Line reads: Octave
-
-Line read
-
-Line started...
-
 Line reads: ODBC
-
-Line read
-
-Line started...
-
 Line reads: OOP
-
-Line read
-
-Line started...
-
 Line reads: One-pass compiler
-
-Line read
-
-Line started...
-
 Line reads: Open DataBase Connectivity
-
-Line read
-
-Line started...
-
 Line reads: OpenGL polygon
-
-Line read
-
-Line started...
-
 Line reads: Operand
-
-Line read
-
-Line started...
-
 Line reads: Operator
-
-Line read
-
-Line started...
-
 Line reads: Operatorassociatively
-
-Line read
-
-Line started...
-
 Line reads: Operatorprecedence
-
-Line read
-
-Line started...
-
 Line reads: OR operator
-
-Line read
-
-Line started...
-
 Line reads: Overflowerror
-
-Line read
-
-Line started...
-
 Line reads: Overload
-
-Line read
-
-Line started...
-
 Line reads: P-code
-
-Line read
-
-Line started...
-
 Line reads: Package
-
-Line read
-
-Line started...
-
 Line reads: Parenthesis
-
-Line read
-
-Line started...
-
 Line reads: Parse
-
-Line read
-
-Line started...
-
 Line reads: Pascal
-
-Line read
-
-Line started...
-
 Line reads: Pascal case
-
-Line read
-
-Line started...
-
 Line reads: Pastebin
-
-Line read
-
-Line started...
-
 Line reads: PDL
-
-Line read
-
-Line started...
-
 Line reads: Perl
-
-Line read
-
-Line started...
-
 Line reads: Persistentmemory
-
-Line read
-
-Line started...
-
 Line reads: PersonalJava
-
-Line read
-
-Line started...
-
 Line reads: PHP
-
-Line read
-
-Line started...
-
 Line reads: Phrasetag
-
-Line read
-
-Line started...
-
 Line reads: Pick
-
-Line read
-
-Line started...
-
 Line reads: Pickling
-
-Line read
-
-Line started...
-
 Line reads: PicoJava
-
-Line read
-
-Line started...
-
 Line reads: Pipe
-
-Line read
-
-Line started...
-
 Line reads: Pixelshader
-
-Line read
-
-Line started...
-
 Line reads: POD
-
-Line read
-
-Line started...
-
 Line reads: Pointer
-
-Line read
-
-Line started...
-
 Line reads: Polymorphism
-
-Line read
-
-Line started...
-
 Line reads: Pop
-
-Line read
-
-Line started...
-
 Line reads: Private
-
-Line read
-
-Line started...
-
 Line reads: Procedurallanguage
-
-Line read
-
-Line started...
-
 Line reads: Procedure
-
-Line read
-
-Line started...
-
 Line reads: Process
-
-Line read
-
-Line started...
-
 Line reads: Program
-
-Line read
-
-Line started...
-
 Line reads: Programgenerator
-
-Line read
-
-Line started...
-
 Line reads: Programlisting
-
-Line read
-
-Line started...
-
 Line reads: Programmable
-
-Line read
-
-Line started...
-
 Line reads: Programmer
-
-Line read
-
-Line started...
-
 Line reads: Programming
-
-Line read
-
-Line started...
-
 Line reads: Programminginlogic
-
-Line read
-
-Line started...
-
 Line reads: Programminglanguage
-
-Line read
-
-Line started...
-
 Line reads: Programmingtools
-
-Line read
-
-Line started...
-
 Line reads: Prolog
-
-Line read
-
-Line started...
-
 Line reads: Pseudocode
-
-Line read
-
-Line started...
-
 Line reads: Pseudolanguage
-
-Line read
-
-Line started...
-
 Line reads: Pseudo-operation
-
-Line read
-
-Line started...
-
 Line reads: Public
-
-Line read
-
-Line started...
-
 Line reads: PureBasic
-
-Line read
-
-Line started...
-
 Line reads: Push
-
-Line read
-
-Line started...
-
 Line reads: Python
-
-Line read
-
-Line started...
-
 Line reads: Pythonpickling
-
-Line read
-
-Line started...
-
 Line reads: Qi
-
-Line read
-
-Line started...
-
 Line reads: Racecondition
-
-Line read
-
-Line started...
-
 Line reads: Racket
-
-Line read
-
-Line started...
-
 Line reads: RAD
-
-Line read
-
-Line started...
-
 Line reads: Random
-
-Line read
-
-Line started...
-
 Line reads: Randomseed
-
-Line read
-
-Line started...
-
 Line reads: RCS
-
-Line read
-
-Line started...
-
 Line reads: Realnumber
-
-Line read
-
-Line started...
-
 Line reads: Recursion
-
-Line read
-
-Line started...
-
 Line reads: Recursive
-
-Line read
-
-Line started...
-
 Line reads: Regex
-
-Line read
-
-Line started...
-
 Line reads: Regularexpression
-
-Line read
-
-Line started...
-
 Line reads: Reia
-
-Line read
-
-Line started...
-
 Line reads: Relationalalgebra
-
-Line read
-
-Line started...
-
 Line reads: ReligionofChi
-
-Line read
-
-Line started...
-
 Line reads: REM
-
-Line read
-
-Line started...
-
 Line reads: Remark
-
-Line read
-
-Line started...
-
 Line reads: Repeatcounter
-
-Line read
-
-Line started...
-
 Line reads: REPL
-
-Line read
-
-Line started...
-
 Line reads: Reservedharacter
-
-Line read
-
-Line started...
-
 Line reads: Reserved word
-
-Line read
-
-Line started...
-
 Line reads: Returnaddress
-
-Line read
-
-Line started...
-
 Line reads: Returnsatement
-
-Line read
-
-Line started...
-
 Line reads: Reverseengineering
-
-Line read
-
-Line started...
-
 Line reads: Revisioncontrol
-
-Line read
-
-Line started...
-
 Line reads: ROMBASIC
-
-Line read
-
-Line started...
-
 Line reads: Routine
-
-Line read
-
-Line started...
-
 Line reads: Routingalgorithm
-
-Line read
-
-Line started...
-
 Line reads: RPG
-
-Line read
-
-Line started...
-
 Line reads: Ruby
-
-Line read
-
-Line started...
-
 Line reads: Runtime
-
-Line read
-
-Line started...
-
 Line reads: Rust
-
-Line read
-
-Line started...
-
 Line reads: S-expression
-
-Line read
-
-Line started...
-
 Line reads: Safefont
-
-Line read
-
-Line started...
-
 Line reads: Sandbox
-
-Line read
-
-Line started...
-
 Line reads: Scala
-
-Line read
-
-Line started...
-
 Line reads: Scanf
-
-Line read
-
-Line started...
-
 Line reads: Schemamatching
-
-Line read
-
-Line started...
-
 Line reads: Schemeprogramminglanguage
-
-Line read
-
-Line started...
-
 Line reads: Scratch
-
-Line read
-
-Line started...
-
 Line reads: SDK
-
-Line read
-
-Line started...
-
 Line reads: Secondgenerationlanguage
-
-Line read
-
-Line started...
-
 Line reads: Section
-
-Line read
-
-Line started...
-
 Line reads: SecurityDescriptorDefinitionLanguage
-
-Line read
-
-Line started...
-
 Line reads: Seed
-
-Line read
-
-Line started...
-
 Line reads: Segfault
-
-Line read
-
-Line started...
-
 Line reads: Separator
-
-Line read
-
-Line started...
-
 Line reads: Serverside
-
-Line read
-
-Line started...
-
 Line reads: Serversidescripting
-
-Line read
-
-Line started...
-
 Line reads: Servlet
-
-Line read
-
-Line started...
-
 Line reads: SGML
-
-Line read
-
-Line started...
-
 Line reads: Shebang
-
-Line read
-
-Line started...
-
 Line reads: Shellscripts
-
-Line read
-
-Line started...
-
 Line reads: Short-circuitoperator
-
-Line read
-
-Line started...
-
 Line reads: Signedness
-
-Line read
-
-Line started...
-
 Line reads: Simulateannealing
-
-Line read
-
-Line started...
-
 Line reads: Singlestep
-
-Line read
-
-Line started...
-
 Line reads: Smalltalk
-
-Line read
-
-Line started...
-
 Line reads: SMIL
-
-Line read
-
-Line started...
-
 Line reads: SOAP
-
-Line read
-
-Line started...
-
 Line reads: Socket
-
-Line read
-
-Line started...
-
 Line reads: Soft
-
-Line read
-
-Line started...
-
 Line reads: Softwaredevelopmentphases
-
-Line read
-
-Line started...
-
 Line reads: Softwaredevelopmentprocess
-
-Line read
-
-Line started...
-
 Line reads: Softwareengineering
-
-Line read
-
-Line started...
-
 Line reads: Softwarelibrary
-
-Line read
-
-Line started...
-
 Line reads: Softwarelife cycle
-
-Line read
-
-Line started...
-
 Line reads: Source
-
-Line read
-
-Line started...
-
 Line reads: Sourcecode
-
-Line read
-
-Line started...
-
 Line reads: Sourcecomputer
-
-Line read
-
-Line started...
-
 Line reads: Sourcedata
-
-Line read
-
-Line started...
-
 Line reads: Spaghetticode
-
-Line read
-
-Line started...
-
 Line reads: Sparsematrix
-
-Line read
-
-Line started...
-
 Line reads: Sparsity
-
-Line read
-
-Line started...
-
 Line reads: Specialpurposelanguage
-
-Line read
-
-Line started...
-
 Line reads: SPL
-
-Line read
-
-Line started...
-
 Line reads: Spooling
-
-Line read
-
-Line started...
-
 Line reads: SQL
-
-Line read
-
-Line started...
-
 Line reads: Stack
-
-Line read
-
-Line started...
-
 Line reads: Stackpointer
-
-Line read
-
-Line started...
-
 Line reads: Standardattribute
-
-Line read
-
-Line started...
-
 Line reads: Statement
-
-Line read
-
-Line started...
-
 Line reads: Stdin
-
-Line read
-
-Line started...
-
 Line reads: Strongtypedlanguage
-
-Line read
-
-Line started...
-
 Line reads: Stubroutine
-
-Line read
-
-Line started...
-
 Line reads: Stylesheet
-
-Line read
-
-Line started...
-
 Line reads: Subprogram
-
-Line read
-
-Line started...
-
 Line reads: Subroutine
-
-Line read
-
-Line started...
-
 Line reads: Subscript
-
-Line read
-
-Line started...
-
 Line reads: -Func
-
-Line read
-
-Line started...
-
 Line reads: Subversion
-
-Line read
-
-Line started...
-
 Line reads: Superclass
-
-Line read
-
-Line started...
-
 Line reads: Switchstatement
-
-Line read
-
-Line started...
-
 Line reads: Syntacticsugar
-
-Line read
-
-Line started...
-
 Line reads: Syntaxerror
-
-Line read
-
-Line started...
-
 Line reads: Systemdevelopment
-
-Line read
-
-Line started...
-
 Line reads: SystemsEngineer
-
-Line read
-
-Line started...
-
 Line reads: SystemsProgrammingLanguage
-
-Line read
-
-Line started...
-
 Line reads: Tail recursion
-
-Line read
-
-Line started...
-
 Line reads: Tcl
-
-Line read
-
-Line started...
-
 Line reads: Tcl/Tk
-
-Line read
-
-Line started...
-
 Line reads: Ternary operator
-
-Line read
-
-Line started...
-
 Line reads: Third-generationlanguage
-
-Line read
-
-Line started...
-
 Line reads: Thread
-
-Line read
-
-Line started...
-
 Line reads: Thunk
-
-Line read
-
-Line started...
-
 Line reads: Tk
-
-Line read
-
-Line started...
-
 Line reads: Token
-
-Line read
-
-Line started...
-
 Line reads: Transcompiler
-
-Line read
-
-Line started...
-
 Line reads: True
-
-Line read
-
-Line started...
-
 Line reads: True BASIC
-
-Line read
-
-Line started...
-
 Line reads: Tuple
-
-Line read
-
-Line started...
-
 Line reads: Turbo Pascal
-
-Line read
-
-Line started...
-
 Line reads: Turing completeness
-
-Line read
-
-Line started...
-
 Line reads: Unary operator
-
-Line read
-
-Line started...
-
 Line reads: Undefined
-
-Line read
-
-Line started...
-
 Line reads: Undefinedvariable
-
-Line read
-
-Line started...
-
 Line reads: Underflow
-
-Line read
-
-Line started...
-
 Line reads: Unit test
-
-Line read
-
-Line started...
-
 Line reads: Value
-
-Line read
-
-Line started...
-
 Line reads: Variable
-
-Line read
-
-Line started...
-
 Line reads: VB
-
-Line read
-
-Line started...
-
 Line reads: VHDL
-
-Line read
-
-Line started...
-
 Line reads: VIM
-
-Line read
-
-Line started...
-
 Line reads: VisualBasic
-
-Line read
-
-Line started...
-
 Line reads: VisualStudio
-
-Line read
-
-Line started...
-
 Line reads: Void
-
-Line read
-
-Line started...
-
 Line reads: WebGL
-
-Line read
-
-Line started...
-
 Line reads: While
-
-Line read
-
-Line started...
-
 Line reads: Wholenumber
-
-Line read
-
-Line started...
-
 Line reads: WML
-
-Line read
-
-Line started...
-
 Line reads: Workspace
-
-Line read
-
-Line started...
-
 Line reads: -Const
-
-Line read
-
-Line started...
-
 Line reads: AAAA
-
-Line read
-
-Line started...
-
 Line reads: VVV
-
-Line read
-
-Line started...
-
 Line reads: VDd
-
-Line read
-
-Line started...
-
 Line reads: DD
-
-Line read
-
-Getting const name...
+Line reads: DD

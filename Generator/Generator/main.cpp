@@ -10,28 +10,14 @@ using std::endl;
 int main() {
     
     logger::init("TEST");
-    genName g;
+    genName::init();
+    
     while (true)
     {
-        cout << "What type? var const func" << endl;
+        cout << "What type?" << endl;
         string type;
         cin >> type;
-        if (type == "var" )
-        {
-            LOG("Getting variable name...")
-            CODE(g.get("-Var"))
-        } else if (type == "const")
-        {
-            LOG("Getting const name...")
-            CODE(g.get("-Const"))
-        } else if (type == "func")
-        {
-            LOG("Getting function name...")
-            CODE(g.get("-Func"))
-        } else if (type == "end")
-        {
-            break;
-        }
+        CODE(genName::get(string("-") + type) );
     }
     logger::close();
 }
