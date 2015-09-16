@@ -1,7 +1,7 @@
 #include "functionScope.h"
 #include "random.h"
 #include <vector>
-#include "variableNamer.h"
+#include "genName.h"
 #include "logger.h"
 
 using std::string;

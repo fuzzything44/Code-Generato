@@ -1,5 +1,5 @@
 #pragma once
-
+#include "stdafx.h"
 #include "globalNamespace.h"
 #include "classDef.h"
 

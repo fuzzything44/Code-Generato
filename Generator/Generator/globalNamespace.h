@@ -1,5 +1,5 @@
 #pragma once
-
+#include "stdafx.h"
 #include "classDef.h"
 #include "function.h"
 #include <vector>
@@ -15,7 +15,7 @@ public:
     friend functionScope;
     
     globalNamespace();
-    void generate(int length);
+    void generate(int32 length);
 private:
     // Global namespace contains only functions and types. Not variables.
     std::vector<function> functions;

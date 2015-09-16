@@ -1,4 +1,4 @@
-#include "variableNamer.h"
+#include "genName.h"
 #include "logger.h"
 #include "classDef.h"
 

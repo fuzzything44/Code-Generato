@@ -1,5 +1,5 @@
 #pragma once
-
+#include "stdafx.h"
 #include "functionScope.h"
 #include <vector>
 #include "classDef.h"

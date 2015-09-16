@@ -15,7 +15,7 @@
 		398200C91B8D0C6200ED6F98 /* function.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 398200C81B8D0C6200ED6F98 /* function.cpp */; };
 		39B3AD281B8E590600179832 /* logger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39B3AD271B8E590600179832 /* logger.cpp */; };
 		39D6793A1B8BB95500DFF09D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39D679391B8BB95500DFF09D /* main.cpp */; };
-		39D679451B8BC12200DFF09D /* variableNamer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39D679441B8BC12200DFF09D /* variableNamer.cpp */; };
+		39D679451B8BC12200DFF09D /* genName.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39D679441B8BC12200DFF09D /* genName.cpp */; };
 		39D679481B8BC1ED00DFF09D /* classDef.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39D679461B8BC1ED00DFF09D /* classDef.cpp */; };
 /* End PBXBuildFile section */
 
@@ -43,13 +43,14 @@
 		398200C61B8D0B7300ED6F98 /* random.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = random.cpp; sourceTree = "<group>"; };
 		398200C81B8D0C6200ED6F98 /* function.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = function.cpp; sourceTree = "<group>"; };
 		398200CB1B8D102F00ED6F98 /* names.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = names.txt; sourceTree = "<group>"; };
+		3986098C1BA9F97C001736F5 /* stdafx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stdafx.h; sourceTree = "<group>"; };
 		39B3AD261B8E57DE00179832 /* logger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = logger.h; sourceTree = "<group>"; };
 		39B3AD271B8E590600179832 /* logger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = logger.cpp; sourceTree = "<group>"; };
 		39D679361B8BB95500DFF09D /* Generator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Generator; sourceTree = BUILT_PRODUCTS_DIR; };
 		39D679391B8BB95500DFF09D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		39D679421B8BBD0A00DFF09D /* random.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = random.h; sourceTree = "<group>"; };
-		39D679431B8BC10800DFF09D /* variableNamer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = variableNamer.h; sourceTree = "<group>"; };
-		39D679441B8BC12200DFF09D /* variableNamer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = variableNamer.cpp; sourceTree = "<group>"; };
+		39D679431B8BC10800DFF09D /* genName.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = genName.h; sourceTree = "<group>"; };
+		39D679441B8BC12200DFF09D /* genName.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = genName.cpp; sourceTree = "<group>"; };
 		39D679461B8BC1ED00DFF09D /* classDef.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = classDef.cpp; sourceTree = "<group>"; };
 		39D679471B8BC1ED00DFF09D /* classDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = classDef.h; sourceTree = "<group>"; };
 		39D6794C1B8BC30E00DFF09D /* function.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = function.h; sourceTree = "<group>"; };
@@ -104,7 +105,7 @@
 		39D679401B8BBCB900DFF09D /* private */ = {
 			isa = PBXGroup;
 			children = (
-				39D679441B8BC12200DFF09D /* variableNamer.cpp */,
+				39D679441B8BC12200DFF09D /* genName.cpp */,
 				39D679461B8BC1ED00DFF09D /* classDef.cpp */,
 				398200C61B8D0B7300ED6F98 /* random.cpp */,
 				398200C81B8D0C6200ED6F98 /* function.cpp */,
@@ -123,12 +124,13 @@
 				39D679471B8BC1ED00DFF09D /* classDef.h */,
 				39D6794C1B8BC30E00DFF09D /* function.h */,
 				39D679421B8BBD0A00DFF09D /* random.h */,
-				39D679431B8BC10800DFF09D /* variableNamer.h */,
+				39D679431B8BC10800DFF09D /* genName.h */,
 				39B3AD261B8E57DE00179832 /* logger.h */,
 				391B400F1B97858B007C3DDC /* globalNamespace.h */,
 				393D37DA1BA3773D00EA658D /* classScope.h */,
 				393D37DB1BA3779900EA658D /* functionScope.h */,
 				393D37DC1BA377E700EA658D /* smallScope.h */,
+				3986098C1BA9F97C001736F5 /* stdafx.h */,
 			);
 			name = public;
 			sourceTree = "<group>";
@@ -192,7 +194,7 @@
 				398200C71B8D0B7300ED6F98 /* random.cpp in Sources */,
 				39D6793A1B8BB95500DFF09D /* main.cpp in Sources */,
 				391B40111B978695007C3DDC /* globalNamespace.cpp in Sources */,
-				39D679451B8BC12200DFF09D /* variableNamer.cpp in Sources */,
+				39D679451B8BC12200DFF09D /* genName.cpp in Sources */,
 				398200C91B8D0C6200ED6F98 /* function.cpp in Sources */,
 				39B3AD281B8E590600179832 /* logger.cpp in Sources */,
 				393D37E21BA3789400EA658D /* smallScope.cpp in Sources */,

@@ -1,7 +1,10 @@
 #include <iostream>
-#include "variableNamer.h"
+#include "genName.h"
 #include "logger.h"
-using namespace std;
+using std::cout;
+using std::string;
+using std::cin;
+using std::endl;
 
 int main() {
     

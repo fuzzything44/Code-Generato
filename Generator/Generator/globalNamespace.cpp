@@ -3,7 +3,7 @@
 #include "function.h"
 #include "classDef.h"
 #include "random.h"
-#include "variableNamer.h"
+#include "genName.h"
 
 using std::vector;
 using std::string;

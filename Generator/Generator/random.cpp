@@ -1,13 +1,13 @@
 #include "random.h"
 
-int randRange(int low, int high)
+long randRange(long low, long high)
 {
     static bool randSeeded;
     
     // Seed rand if not already.
     if (!randSeeded) { std::srand(std::time(0)); randSeeded = true; }
     
-    int max = high - low;
+    long max = high - low;
     
     int rand;
     

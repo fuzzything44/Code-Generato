@@ -1,6 +1,6 @@
 #include "classScope.h"
 #include "logger.h"
-#include "variableNamer.h"
+#include "genName.h"
 
 using std::string;
 using std::vector;
