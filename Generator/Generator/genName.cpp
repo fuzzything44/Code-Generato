@@ -6,7 +6,7 @@ using std::string;
 using std::ifstream;
 
 std::map<string, std::vector<string> > genName::lines;
-
+ 
 void genName::init() {
    
     ifstream infile;
@@ -16,7 +16,7 @@ void genName::init() {
     // For what vector to add the info to.
     string varKey;
     
-    
+    lines[""].push_back("");
     LOG("Reading file..." << std::endl)
     
     //While the file hasn't fully been read and no errors have happened in reading it.
