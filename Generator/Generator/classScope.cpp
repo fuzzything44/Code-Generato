@@ -17,8 +17,11 @@ classDef classScope::generate()
     string name = genName::get("class");
     classDef ret { name };
     
+    LOG("Generating class with name " << name)
+    
     // Decide if we will have parents.
     if (randRange(0, 10) == 0 && types.size() > 0/* shouldn't be 0. Needs to be larger than base types */ && false /* to make it so we don't generate parents */) {
+        LOG("Adding parents...");
         // Determine what parents. Currently we don't choose any.
     } else {
         CODE("class " << name)
@@ -32,8 +35,8 @@ classDef classScope::generate()
     CODE("private:")
     
     // Determine number of private variables.
-    LOG("Creating private variables (not functions)" )
-    for (int i = randRange(1, 10); i > 0; i--) {
+    LOG("Creating private variables..." )
+    for (int64 i = randRange(1, 10); i > 0; i--) {
         // Choose random type.
         classDef type = types[randRange(1, types.size() - 1)];
         
@@ -47,20 +50,20 @@ classDef classScope::generate()
         
     }
     
-    LOG("Creating private functions")
+    LOG("Creating private functions...")
     // Determine number of functions
-    for (int i = randRange(0, 10); i > 0; i--) {
+    for (int64 i = randRange(0, 10); i > 0; i--) {
         // Create a function
         functionScope f(this);
         // Add generated function to given functions.
         functions.push_back(f.generate());
     }
     
-    LOG("Creating public variables")
+    LOG("Creating public variables...")
     CODE("public:")
     
     // Create public variables.
-    for (int i = randRange(0, 10); i > 0; i--) {
+    for (int64 i = randRange(0, 10); i > 0; i--) {
         // Create variable parameters.
         classDef& type = types[randRange(1, types.size() - 1)];
         string varName = genName::get(type.getName() );
@@ -74,8 +77,9 @@ classDef classScope::generate()
         CODE(type.getName() << " " << varName << ";");
     }
     
+    LOG("Creating public functions...")
     // Create public functions.
-    for (int i = randRange(0, 10); i > 0; i--) {
+    for (int64 i = randRange(0, 10); i > 0; i--) {
         // Make it
         functionScope f{ this };
         function func = f.generate();
@@ -84,6 +88,7 @@ classDef classScope::generate()
         ret.addFunction(func);
     }
     
+    LOG("Creating constructor...")
     
     // Create constructor...
     // We only have one now. Just basic constructor.
@@ -91,5 +96,9 @@ classDef classScope::generate()
     // Cheese function. Just name and return of void.
     ret.addFunction(function{ name, vector<classDef>(), vector<classDef>(), types[0] } );
     CODE("};")
+    
+    LOG("\n");
+    LOG("Constructor not created (only default added.) \n")
+    
     return ret;
 }

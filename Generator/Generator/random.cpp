@@ -1,15 +1,19 @@
 #include "random.h"
 
-long randRange(long low, long high)
+int64 randRange(int64 low, int64 high)
 {
     static bool randSeeded;
     
     // Seed rand if not already.
     if (!randSeeded) { std::srand(std::time(0)); randSeeded = true; }
     
-    long max = high - low;
+    int64 max = high - low;
     
-    int rand;
+    if ( max <= 0) {
+        return 0;
+    }
+    
+    int64 rand;
     
     // Make sure that the rand isn't slightly biased to lower numbers.
     do {

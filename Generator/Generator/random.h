@@ -3,4 +3,4 @@
 #include <random>
 #include <ctime>
 
-uint32 randRange(uint32 low, uint32 high);
+int64 randRange(int64 low, int64 high);

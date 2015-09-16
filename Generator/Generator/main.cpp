@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include <iostream>
 #include "genName.h"
 #include "logger.h"

@@ -54,13 +54,18 @@ function functionScope::generate()
     // Make name.
     string name = genName::get("function");
     
+    LOG("Creating function " << name)
+    
+    LOG("Creating template arguments...")
     // No template args.
     vector<classDef> templateArgs;
+    LOG("\nFailed to create template arguments: not programmed in yet.\n")
     
+    LOG("Creating arguments...")
     vector<classDef::variable> argTypes;
     // Choose random arguments.
     vector<classDef> args;
-    for (int argNum = randRange(0, 5); argNum > 0; argNum--) {
+    for (int64 argNum = randRange(0, 5); argNum > 0; argNum--) {
         // Choose argument type.
         classDef argType = types[randRange(1, types.size() - 1)];
         // Choose argument name.
@@ -74,11 +79,14 @@ function functionScope::generate()
         
     }
     
+    
+    LOG("Creating return type...")
     // Choose random return type.
     classDef retType = types[randRange(0, types.size() - 1)];
     
     function ret(name, templateArgs, args, retType);
     
+    LOG("Formatting function name...")
     // Format function name.
     {
         string funcName = retType.getName() + " " + name + "(";
@@ -97,10 +105,13 @@ function functionScope::generate()
         CODE(funcName);
     }
     
+    
+    LOG("Creating function body...")
     // Generate 10 to fifty statements/blocks.
-    for (int length = randRange(10, 50); length > 0; length--) {
+    for (int64 length = randRange(10, 50); length > 0; length--) {
         // Choose if we generate a line or call a function.
         if ( randRange(0, 10) == 0) {
+            LOG("Finding callable functions...")
             // Find all functions we can call.
             vector<function> callable;
             for (vector<function>::const_iterator i = functions.begin(); i != functions.end(); i++) {
@@ -109,7 +120,7 @@ function functionScope::generate()
                 }
             }
             // Now we call one...
-            
+            LOG("Calling function...")
             
             
             
@@ -122,7 +133,7 @@ function functionScope::generate()
             
         } else {
             // Generate a random line of code.
-            
+            LOG("Generating line of code...")
             
             
             

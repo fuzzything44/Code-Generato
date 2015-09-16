@@ -83,9 +83,10 @@ globalNamespace::globalNamespace()
     LOG("Finished creating basic data types" << std::endl << std::endl)
 }
 
-void globalNamespace::generate(int length)
+void globalNamespace::generate(int32 length)
 {
     // And now we generate!
+    LOG("Generating code with length " << length)
     
     for(; length > 0; length--) {
         // We can create a class or a function.
