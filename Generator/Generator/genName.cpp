@@ -5,6 +5,8 @@
 using std::string;
 using std::ifstream;
 
+std::map<string, std::vector<string> > genName::lines;
+
 void genName::init() {
    
     ifstream infile;
