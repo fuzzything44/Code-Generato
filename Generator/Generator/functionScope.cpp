@@ -26,6 +26,7 @@ inline bool canCall(const vector<classDef::variable>& vars, const function& func
     
     // Check all arguments of the function.
     for (vector<classDef>::const_iterator i = func.getArgs().begin(); i != func.getArgs().end(); i++) {
+        LOG("  Checking value")
         // Check all variable types we have.
         for (vector<classDef::variable>::const_iterator j = vars.begin(); j != vars.end(); j++) {
             if (j->second == *i) {

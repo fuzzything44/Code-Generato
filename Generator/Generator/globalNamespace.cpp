@@ -88,20 +88,22 @@ void globalNamespace::generate(int32 length)
     // And now we generate!
     LOG("Generating code with length " << length)
     
-    for(; length > 0; length--) {
+    for(; length > 0; length--) {        
         // We can create a class or a function.
         if (randRange(0,1) == 0)
         {
-            LOG("Generating class")
+            LOG("Generating class...")
             // We create the class. It has its own scope.
             classScope c{ this };
             types.push_back(c.generate() );
+            LOG("Class finished!")
             
         } else {
-            LOG("Generating function")
+            LOG("Generating function...")
             // We create the function. It has its own scope.
             functionScope f{ this };
             functions.push_back(f.generate() );
+            LOG("Function finished!")
         }
     }
     

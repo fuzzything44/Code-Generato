@@ -9,5 +9,5 @@ smallScope::smallScope(functionScope* parent)
 
 void smallScope::generate()
 {
-    
+
 }
