@@ -6,13 +6,14 @@ using std::string;
 using std::ifstream;
 
 std::map<string, std::vector<string> > genName::lines;
- 
+
+using namespace std;
+
 void genName::init() {
    
     ifstream infile;
     infile.open("names.txt");
     string lineInfo ;
-    
     // For what vector to add the info to.
     string varKey;
     
@@ -42,16 +43,23 @@ void genName::init() {
 }
 
 
-string genName::get(string type){
+string genName::get(string type,vector<classDef::variable> v){
     
     
     string name;
-    const std::vector<string>& ref = lines[type];
+    const vector<string>& ref = lines[type];
     if (type != "Const"){
         name = lines["-Prefix"][randRange(0, lines[type].size())] +ref[randRange(0, lines[type].size())];
-    }
+    }else {
     name = ref[randRange(0, lines[type].size())];
-    
+    }
+    for(vector<classDef::variable>::const_iterator i =v.begin();i != v.end();++i){
+        if(i->first == name){
+            return genName::get(type,v);
+            
+        }
+        
+    }
     
     
     return name;
