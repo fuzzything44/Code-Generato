@@ -26,6 +26,9 @@ void genName::init() {
         //Store line in LineInfo
         getline(infile, lineInfo);
         
+        
+        
+        
         if (lineInfo[0] == '-') {
             varKey = lineInfo.substr(1, lineInfo.size() );
         } else {
