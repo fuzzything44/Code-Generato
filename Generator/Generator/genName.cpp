@@ -46,7 +46,21 @@ string genName::get(const string& type, const vector<classDef::variable>& v){
     string name = "base_name";
     LOG("Getting name of type " << type)
 
-
+    /*
+     
+     Special symbols:
+        '!' = .
+        '@' = .
+        '#' = .
+        '$' = .
+        '%' = .pre
+        '^' = .
+        '&' = .
+        '*' = .
+        '~' = .
+        '+' = .
+        '?' = .
+     */
     
     const vector<string>& ref = lines[type];
     
