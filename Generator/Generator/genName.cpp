@@ -49,8 +49,14 @@ string genName::get(const string& type, const vector<classDef::variable>& v){
 
     
     const vector<string>& ref = lines[type];
+    
     if (type != "Const"){
-        name = lines["-Prefix"][randRange(0, lines[type].size())] +ref[randRange(0, lines[type].size())];
+        name =
+            lines["Prefix"]
+            [randRange(0,
+            lines["Prefix"].size())]
+            + ref[randRange(0,
+            lines[type].size())];
     }else {
     name = ref[randRange(0, lines[type].size())];
     }

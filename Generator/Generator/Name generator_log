@@ -1,0 +1,19 @@
+Reading file...
+
+Line reads: -typename
+Line reads: 
+Line reads: 
+Line reads: -bool.pre
+Line reads: is
+Line reads: does
+Line reads: needs
+Line reads: has
+Line reads: -bool
+Line reads: %Valid
+Line reads: %Run
+Line reads: %Generate
+Line reads: %Generate
+Getting name of type typename
+Seeding rand...
+Random value to check: 922226927
+Found valid value!
