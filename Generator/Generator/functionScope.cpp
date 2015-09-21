@@ -57,7 +57,7 @@ inline bool canCall(const function& func, const vector<classDef::variable>& vars
 function functionScope::generate()
 {
     // Make name.
-    string name = genName::get("function");
+    string name = genName::get("function", variables);
     
     LOG("Creating function " << name)
     
@@ -74,7 +74,7 @@ function functionScope::generate()
         // Choose argument type.
         classDef argType = types[randRange(1, types.size() - 1)];
         // Choose argument name.
-        string argName = genName::get(argType.getName());
+        string argName = genName::get(argType.getName(), variables);
         
         // Add argument type.
         args.push_back(argType);
