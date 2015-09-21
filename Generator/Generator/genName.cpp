@@ -49,17 +49,17 @@ string genName::get(const string& type, const vector<classDef::variable>& v){
     /*
      
      Special symbols:
-        '!' = .
-        '@' = .
-        '#' = .
-        '$' = .
+        '!' =
+        '@' =
+        '#' =
+        '$' =
         '%' = .pre
-        '^' = .
-        '&' = .
-        '*' = .
-        '~' = .
-        '+' = .
-        '?' = .
+        '^' =
+        '&' =
+        '*' =
+        '~' =
+        '+' =
+        '?' = 
      */
     
     const vector<string>& ref = lines[type];
