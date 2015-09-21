@@ -13,7 +13,7 @@ class classDef
 public:
     typedef std::pair<std::string, classDef> variable;
     
-    classDef(std::string name);
+    classDef(const std::string& name);
     // Getter functions
     std::vector<function> getFuncs() const;
     std::string getName() const;
@@ -22,9 +22,9 @@ public:
     std::vector<variable> getVars();
     
     // Function to add functions
-    void addFunction(function f);
-    void addVar(std::pair<std::string, classDef> v);
-    void addParent(classDef p);
+    void addFunction(const function& f);
+    void addVar(const variable& v);
+    void addParent(const classDef& p);
     
     // Operators
     

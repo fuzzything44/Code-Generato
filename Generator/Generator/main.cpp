@@ -11,9 +11,14 @@ using std::endl;
 
 int main() {
     
-    logger::init("TEST");
+    logger::init("Name generator");
     genName::init();
     
+    
+
+    
+
+        
     globalNamespace g;
     g.generate(3);
     

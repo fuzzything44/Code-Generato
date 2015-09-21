@@ -1,9 +1,10 @@
 #include "classDef.h"
+#include "logger.h"
 using std::string;
 using std::vector;
 
 
-classDef::classDef(string name) : name(name) {};
+classDef::classDef(const string& name) : name(name) {};
 
 vector<function> classDef::getFuncs() const
 {
@@ -25,17 +26,17 @@ vector<classDef> classDef::getTemplateArgs() const
     return templateArguments;
 }
 
-void classDef::addFunction(function f)
+void classDef::addFunction(const function& f)
 {
     funcs.push_back(f);
 }
 
-void classDef::addParent(classDef p)
+void classDef::addParent(const classDef& p)
 {
     parents.push_back(p);
 }
 
-void classDef::addVar(std::pair<std::string, classDef> v)
+void classDef::addVar(const variable& v)
 {
     vars.push_back(v);
 }
@@ -47,7 +48,7 @@ bool classDef::operator<=(const classDef& isEqual) const
 
 bool classDef::operator==(const classDef& isEqual) const
 {
-    return name == isEqual.name && templateArguments == isEqual.getTemplateArgs();
+    return name == isEqual.name;
 }
 
 bool classDef::operator!=(const classDef& isEqual) const
@@ -57,6 +58,10 @@ bool classDef::operator!=(const classDef& isEqual) const
 
 bool classDef::operator>=(const classDef &isEqual) const
 {
+    LOG("Checking >= on class " << this->name << " and " << isEqual.name)
+    static bool hasCalled = false;
+    
+    LOG("  Checking template arguments...")
     // Template arguments must be the same. ALWAYS!!!!!
     if (templateArguments.size() != isEqual.getTemplateArgs().size())
     {
@@ -75,24 +80,33 @@ bool classDef::operator>=(const classDef &isEqual) const
     }
     // Template arguments should be the same now.
     
+    LOG("  Checking the names...")
     // If the names are equal, they are the same class type.
     if (name == isEqual.getName() )
     {
         return true;
     } else {
-        
+        LOG("  Checking conversion operators...")
         // Look for conversion operators.
-        // Loop through all functions.
-        for (vector<function>::const_iterator i = isEqual.getFuncs().begin(); i != isEqual.getFuncs().end(); i++)
-        {
-            // If a function is an operator and returns a type that is a subclass or the same, it works.
-            if (i->getName().substr(0, 8) == ("operator") && *this >= i->getRet())
+        // Loop through all functions if we aren't already with a conversion operator.
+        if (!hasCalled) {
+            for (vector<function>::const_iterator i = isEqual.getFuncs().begin(); i != isEqual.getFuncs().end(); i++)
             {
-                return true;
+                // If a function is an operator and returns a type that is a subclass or the same, it works.
+                if (i->getName().substr(0, 8) == ("operator") && *this >= i->getRet())
+                {
+                    hasCalled = true;
+                    if ( *this >= i->getRet() ) {
+                        LOG("    Found conversion operator. Checking converted class...")
+                        hasCalled = false;
+                        return true;
+                    }
+                    hasCalled = false;
+                }
             }
         }
         
-        
+        LOG("  Checking parents...")
         // Look through all parents. If any parents work, they are the same class type.
         for (vector<classDef>::const_iterator i = isEqual.getParents().begin(); i != isEqual.getParents().end(); i++)
         {

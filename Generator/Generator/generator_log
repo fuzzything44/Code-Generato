@@ -1,0 +1,5324 @@
+Creating basic data types
+
+Creating void
+Finished void
+
+Creating bool
+Finished bool
+
+Creating int
+int left unfinished...
+char not added
+float not added
+Finished creating basic data types
+
+
+Generating code with length 3
+Seeding rand...
+Random value to check: 898125689
+Found valid value!
+Generating class...
+Getting name of type class
+Generating class with name base_name
+Random value to check: 135900260
+Found valid value!
+Creating private variables...
+Random value to check: 1300553059
+Found valid value!
+Getting name of type bool
+Getting name of type bool
+Getting name of type bool
+Getting name of type bool
+Getting name of type bool
+Creating private functions...
+Random value to check: 1306703447
+Found valid value!
+Getting name of type function
+Creating function base_name
+Creating template arguments...
+
+Failed to create template arguments: not programmed in yet.
+
+Creating arguments...
+Random value to check: 1597059507
+Found valid value!
+Getting name of type bool
+Getting name of type bool
+Creating return type...
+Random value to check: 381030296
+Found valid value!
+Formatting function name...
+Creating function body...
+Random value to check: 179949518
+Found valid value!
+Random value to check: 754574050
+Found valid value!
+Finding callable functions...
+Calling function...
+Random value to check: 1235122815
+Found valid value!
+Generating line of code...
+Random value to check: 1132219803
+Found valid value!
+Generating line of code...
+Random value to check: 365632954
+Found valid value!
+Generating line of code...
+Random value to check: 1242343811
+Found valid value!
+Generating line of code...
+Random value to check: 88931696
+Found valid value!
+Generating line of code...
+Random value to check: 26396360
+Found valid value!
+Finding callable functions...
+Calling function...
+Random value to check: 1261991238
+Found valid value!
+Generating line of code...
+Random value to check: 1738239294
+Found valid value!
+Generating line of code...
+Random value to check: 220280470
+Found valid value!
+Finding callable functions...
+Calling function...
+Random value to check: 2139535509
+Found valid value!
+Generating line of code...
+Random value to check: 1707114395
+Found valid value!
+Generating line of code...
+Random value to check: 1090112845
+Found valid value!
+Generating line of code...
+Random value to check: 1343593358
+Found valid value!
+Generating line of code...
+Random value to check: 983019701
+Found valid value!
+Generating line of code...
+Random value to check: 1020418336
+Found valid value!
+Generating line of code...
+Random value to check: 366568210
+Found valid value!
+Finding callable functions...
+Calling function...
+Random value to check: 1928805874
+Found valid value!
+Generating line of code...
+Random value to check: 1174672853
+Found valid value!
+Generating line of code...
+Random value to check: 909473500
+Found valid value!
+Finding callable functions...
+Calling function...
+Random value to check: 1879998801
+Found valid value!
+Generating line of code...
+Random value to check: 1212950096
+Found valid value!
+Generating line of code...
+Random value to check: 2137486148
+Found valid value!
+Generating line of code...
+Random value to check: 1623242420
+Found valid value!
+Finding callable functions...
+Calling function...
+Random value to check: 203101452
+Found valid value!
+Generating line of code...
+Random value to check: 1174588681
+Found valid value!
+Generating line of code...
+Random value to check: 1642278343
+Found valid value!
+Generating line of code...
+Random value to check: 164795910
+Found valid value!
+Finding callable functions...
+Calling function...
+Random value to check: 1618438387
+Found valid value!
+Generating line of code...
+Random value to check: 1066097407
+Found valid value!
+Generating line of code...
+Random value to check: 1443052528
+Found valid value!
+Generating line of code...
+Random value to check: 1851012525
+Found valid value!
+Generating line of code...
+Random value to check: 1519397233
+Found valid value!
+Generating line of code...
+Random value to check: 781248554
+Found valid value!
+Generating line of code...
+Random value to check: 729429320
+Found valid value!
+Finding callable functions...
+Calling function...
+Random value to check: 1681924164
+Found valid value!
+Generating line of code...
+Random value to check: 772178887
+Found valid value!
+Generating line of code...
+Random value to check: 766874988
+Found valid value!
+Generating line of code...
+Random value to check: 1818557669
+Found valid value!
+Generating line of code...
+Random value to check: 1511478779
+Found valid value!
+Generating line of code...
+Random value to check: 839778290
+Found valid value!
+Finding callable functions...
+Calling function...
+Random value to check: 891191946
+Found valid value!
+Generating line of code...
+Random value to check: 1712082244
+Found valid value!
+Generating line of code...
+Random value to check: 832888755
+Found valid value!
+Generating line of code...
+Random value to check: 1062894139
+Found valid value!
+Generating line of code...
+Random value to check: 1292818427
+Found valid value!
+Generating line of code...
+Random value to check: 159762243
+Found valid value!
+Generating line of code...
+Random value to check: 769459351
+Found valid value!
+Generating line of code...
+Getting name of type function
+Creating function base_name
+Creating template arguments...
+
+Failed to create template arguments: not programmed in yet.
+
+Creating arguments...
+Random value to check: 156790023
+Found valid value!
+Getting name of type bool
+Getting name of type bool
+Getting name of type bool
+Creating return type...
+Random value to check: 207481692
+Found valid value!
+Formatting function name...
+Creating function body...
+Random value to check: 1778838363
+Found valid value!
+Random value to check: 1816517054
+Found valid value!
+Generating line of code...
+Random value to check: 1574600826
+Found valid value!
+Generating line of code...
+Random value to check: 875100601
+Found valid value!
+Generating line of code...
+Random value to check: 1847786351
+Found valid value!
+Generating line of code...
+Random value to check: 984181990
+Found valid value!
+Finding callable functions...
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Calling function...
+Random value to check: 1227656736
+Found valid value!
+Generating line of code...
+Random value to check: 203881576
+Found valid value!
+Generating line of code...
+Random value to check: 1401230867
+Found valid value!
+Generating line of code...
+Random value to check: 1181508667
+Found valid value!
+Generating line of code...
+Random value to check: 1982366107
+Found valid value!
+Generating line of code...
+Random value to check: 1565860791
+Found valid value!
+Generating line of code...
+Random value to check: 10220352
+Found valid value!
+Generating line of code...
+Random value to check: 2122247951
+Found valid value!
+Generating line of code...
+Getting name of type function
+Creating function base_name
+Creating template arguments...
+
+Failed to create template arguments: not programmed in yet.
+
+Creating arguments...
+Random value to check: 1065419434
+Found valid value!
+Getting name of type bool
+Getting name of type bool
+Getting name of type bool
+Getting name of type bool
+Creating return type...
+Random value to check: 785778552
+Found valid value!
+Formatting function name...
+Creating function body...
+Random value to check: 1703178061
+Found valid value!
+Random value to check: 1504140364
+Found valid value!
+Generating line of code...
+Random value to check: 2057088911
+Found valid value!
+Generating line of code...
+Random value to check: 1154094124
+Found valid value!
+Generating line of code...
+Random value to check: 787642364
+Found valid value!
+Generating line of code...
+Random value to check: 816011640
+Found valid value!
+Finding callable functions...
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Calling function...
+Random value to check: 877063738
+Found valid value!
+Generating line of code...
+Random value to check: 482491558
+Found valid value!
+Generating line of code...
+Random value to check: 337364234
+Found valid value!
+Generating line of code...
+Random value to check: 723852758
+Found valid value!
+Generating line of code...
+Random value to check: 298443451
+Found valid value!
+Generating line of code...
+Random value to check: 1564765212
+Found valid value!
+Generating line of code...
+Random value to check: 924176922
+Found valid value!
+Generating line of code...
+Random value to check: 2039792950
+Found valid value!
+Finding callable functions...
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Calling function...
+Random value to check: 371169942
+Found valid value!
+Generating line of code...
+Random value to check: 1960704306
+Found valid value!
+Generating line of code...
+Random value to check: 420707727
+Found valid value!
+Generating line of code...
+Random value to check: 1318601765
+Found valid value!
+Generating line of code...
+Random value to check: 1856110962
+Found valid value!
+Generating line of code...
+Random value to check: 1309482012
+Found valid value!
+Generating line of code...
+Random value to check: 1051761228
+Found valid value!
+Generating line of code...
+Random value to check: 1013060539
+Found valid value!
+Generating line of code...
+Random value to check: 1258125557
+Found valid value!
+Generating line of code...
+Random value to check: 1192248137
+Found valid value!
+Generating line of code...
+Random value to check: 2092012049
+Found valid value!
+Generating line of code...
+Random value to check: 1844238859
+Found valid value!
+Generating line of code...
+Random value to check: 1491026062
+Found valid value!
+Generating line of code...
+Random value to check: 688347191
+Found valid value!
+Generating line of code...
+Random value to check: 556832748
+Found valid value!
+Generating line of code...
+Random value to check: 2101745657
+Found valid value!
+Generating line of code...
+Random value to check: 80747696
+Found valid value!
+Generating line of code...
+Random value to check: 2064345415
+Found valid value!
+Generating line of code...
+Getting name of type function
+Creating function base_name
+Creating template arguments...
+
+Failed to create template arguments: not programmed in yet.
+
+Creating arguments...
+Random value to check: 707588973
+Found valid value!
+Getting name of type bool
+Getting name of type bool
+Getting name of type bool
+Creating return type...
+Random value to check: 1830915772
+Found valid value!
+Formatting function name...
+Creating function body...
+Random value to check: 908202141
+Found valid value!
+Random value to check: 1987104558
+Found valid value!
+Generating line of code...
+Random value to check: 1748111809
+Found valid value!
+Generating line of code...
+Random value to check: 791399256
+Found valid value!
+Generating line of code...
+Random value to check: 1681069721
+Found valid value!
+Generating line of code...
+Random value to check: 1443940915
+Found valid value!
+Generating line of code...
+Random value to check: 1749747305
+Found valid value!
+Generating line of code...
+Random value to check: 361893117
+Found valid value!
+Generating line of code...
+Random value to check: 663929115
+Found valid value!
+Generating line of code...
+Random value to check: 331605993
+Found valid value!
+Generating line of code...
+Random value to check: 581860386
+Found valid value!
+Generating line of code...
+Random value to check: 1834462711
+Found valid value!
+Generating line of code...
+Random value to check: 392063798
+Found valid value!
+Generating line of code...
+Random value to check: 936423990
+Found valid value!
+Finding callable functions...
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Calling function...
+Random value to check: 1717834714
+Found valid value!
+Generating line of code...
+Random value to check: 877887930
+Found valid value!
+Finding callable functions...
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Calling function...
+Random value to check: 1449784620
+Found valid value!
+Finding callable functions...
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Calling function...
+Random value to check: 1180649478
+Found valid value!
+Generating line of code...
+Random value to check: 426878466
+Found valid value!
+Generating line of code...
+Random value to check: 1950997082
+Found valid value!
+Generating line of code...
+Random value to check: 480151131
+Found valid value!
+Generating line of code...
+Random value to check: 1803996938
+Found valid value!
+Generating line of code...
+Random value to check: 1602408620
+Found valid value!
+Finding callable functions...
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Calling function...
+Random value to check: 89259313
+Found valid value!
+Generating line of code...
+Random value to check: 1237687985
+Found valid value!
+Generating line of code...
+Random value to check: 1295359053
+Found valid value!
+Generating line of code...
+Random value to check: 2057874132
+Found valid value!
+Generating line of code...
+Random value to check: 1466401589
+Found valid value!
+Generating line of code...
+Random value to check: 1289173351
+Found valid value!
+Generating line of code...
+Random value to check: 1173995674
+Found valid value!
+Generating line of code...
+Random value to check: 265544282
+Found valid value!
+Generating line of code...
+Random value to check: 531729108
+Found valid value!
+Generating line of code...
+Getting name of type function
+Creating function base_name
+Creating template arguments...
+
+Failed to create template arguments: not programmed in yet.
+
+Creating arguments...
+Random value to check: 1091662989
+Found valid value!
+Getting name of type bool
+Getting name of type bool
+Getting name of type bool
+Getting name of type bool
+Creating return type...
+Random value to check: 1627059802
+Found valid value!
+Formatting function name...
+Creating function body...
+Random value to check: 2084814963
+Found valid value!
+Random value to check: 1141898689
+Found valid value!
+Generating line of code...
+Random value to check: 1977396431
+Found valid value!
+Generating line of code...
+Random value to check: 1792378492
+Found valid value!
+Generating line of code...
+Random value to check: 1752198575
+Found valid value!
+Generating line of code...
+Random value to check: 758198714
+Found valid value!
+Generating line of code...
+Random value to check: 2025308547
+Found valid value!
+Generating line of code...
+Random value to check: 1744944479
+Found valid value!
+Generating line of code...
+Random value to check: 1245175121
+Found valid value!
+Generating line of code...
+Random value to check: 430118632
+Found valid value!
+Generating line of code...
+Random value to check: 573892222
+Found valid value!
+Generating line of code...
+Random value to check: 1057516477
+Found valid value!
+Generating line of code...
+Random value to check: 1104766367
+Found valid value!
+Generating line of code...
+Random value to check: 664718207
+Found valid value!
+Generating line of code...
+Getting name of type function
+Creating function base_name
+Creating template arguments...
+
+Failed to create template arguments: not programmed in yet.
+
+Creating arguments...
+Random value to check: 708973355
+Found valid value!
+Creating return type...
+Random value to check: 1475903929
+Found valid value!
+Formatting function name...
+Creating function body...
+Random value to check: 2081211853
+Found valid value!
+Random value to check: 713971035
+Found valid value!
+Generating line of code...
+Random value to check: 1720049456
+Found valid value!
+Generating line of code...
+Random value to check: 1593834725
+Found valid value!
+Generating line of code...
+Random value to check: 2016694044
+Found valid value!
+Generating line of code...
+Random value to check: 842396907
+Found valid value!
+Generating line of code...
+Random value to check: 1952614925
+Found valid value!
+Generating line of code...
+Random value to check: 1901434668
+Found valid value!
+Generating line of code...
+Random value to check: 708314069
+Found valid value!
+Generating line of code...
+Random value to check: 1132702362
+Found valid value!
+Generating line of code...
+Random value to check: 2033551126
+Found valid value!
+Generating line of code...
+Random value to check: 691532677
+Found valid value!
+Generating line of code...
+Random value to check: 408204775
+Found valid value!
+Generating line of code...
+Random value to check: 1634884907
+Found valid value!
+Generating line of code...
+Random value to check: 457368584
+Found valid value!
+Generating line of code...
+Random value to check: 1149818675
+Found valid value!
+Generating line of code...
+Random value to check: 1944615019
+Found valid value!
+Generating line of code...
+Random value to check: 591000640
+Found valid value!
+Finding callable functions...
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Calling function...
+Random value to check: 835889105
+Found valid value!
+Generating line of code...
+Random value to check: 2097652708
+Found valid value!
+Generating line of code...
+Random value to check: 10030557
+Found valid value!
+Generating line of code...
+Random value to check: 1079847033
+Found valid value!
+Generating line of code...
+Random value to check: 604782834
+Found valid value!
+Generating line of code...
+Random value to check: 544989787
+Found valid value!
+Generating line of code...
+Getting name of type function
+Creating function base_name
+Creating template arguments...
+
+Failed to create template arguments: not programmed in yet.
+
+Creating arguments...
+Random value to check: 625595654
+Found valid value!
+Getting name of type bool
+Getting name of type bool
+Getting name of type bool
+Getting name of type bool
+Creating return type...
+Random value to check: 306221066
+Found valid value!
+Formatting function name...
+Creating function body...
+Random value to check: 1286638050
+Found valid value!
+Random value to check: 1512864707
+Found valid value!
+Generating line of code...
+Random value to check: 510750069
+Found valid value!
+Generating line of code...
+Random value to check: 684272624
+Found valid value!
+Generating line of code...
+Random value to check: 795061883
+Found valid value!
+Generating line of code...
+Random value to check: 961815947
+Found valid value!
+Generating line of code...
+Random value to check: 1131210260
+Found valid value!
+Finding callable functions...
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 0
+-Size of variables = 0
+  Match found. Returning true.
+Calling function...
+Random value to check: 578112929
+Found valid value!
+Generating line of code...
+Random value to check: 1127978675
+Found valid value!
+Generating line of code...
+Random value to check: 2099438656
+Found valid value!
+Generating line of code...
+Random value to check: 2109171182
+Found valid value!
+Generating line of code...
+Random value to check: 327494845
+Found valid value!
+Generating line of code...
+Random value to check: 205272654
+Found valid value!
+Generating line of code...
+Random value to check: 1158758696
+Found valid value!
+Generating line of code...
+Random value to check: 1875692676
+Found valid value!
+Generating line of code...
+Random value to check: 1854351219
+Found valid value!
+Generating line of code...
+Random value to check: 1798252469
+Found valid value!
+Generating line of code...
+Random value to check: 1691882252
+Found valid value!
+Generating line of code...
+Random value to check: 634039437
+Found valid value!
+Generating line of code...
+Random value to check: 486961245
+Found valid value!
+Generating line of code...
+Random value to check: 297465998
+Found valid value!
+Generating line of code...
+Creating public variables...
+Random value to check: 169098170
+Found valid value!
+Creating public functions...
+Random value to check: 912078209
+Found valid value!
+Getting name of type function
+Creating function base_name
+Creating template arguments...
+
+Failed to create template arguments: not programmed in yet.
+
+Creating arguments...
+Random value to check: 560186377
+Found valid value!
+Getting name of type bool
+Getting name of type bool
+Creating return type...
+Random value to check: 484129791
+Found valid value!
+Formatting function name...
+Creating function body...
+Random value to check: 2101342501
+Found valid value!
+Random value to check: 1894839392
+Found valid value!
+Generating line of code...
+Random value to check: 1530659981
+Found valid value!
+Generating line of code...
+Random value to check: 1095693254
+Found valid value!
+Generating line of code...
+Random value to check: 644246953
+Found valid value!
+Generating line of code...
+Random value to check: 245990897
+Found valid value!
+Generating line of code...
+Random value to check: 462985404
+Found valid value!
+Generating line of code...
+Random value to check: 1062431947
+Found valid value!
+Generating line of code...
+Random value to check: 2114692071
+Found valid value!
+Generating line of code...
+Random value to check: 775279447
+Found valid value!
+Generating line of code...
+Random value to check: 1338379380
+Found valid value!
+Finding callable functions...
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 0
+-Size of variables = 0
+  Match found. Returning true.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Calling function...
+Random value to check: 1398520982
+Found valid value!
+Generating line of code...
+Random value to check: 733628059
+Found valid value!
+Generating line of code...
+Random value to check: 1383170186
+Found valid value!
+Generating line of code...
+Random value to check: 430837327
+Found valid value!
+Generating line of code...
+Random value to check: 1915580852
+Found valid value!
+Generating line of code...
+Random value to check: 92543740
+Found valid value!
+Finding callable functions...
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 0
+-Size of variables = 0
+  Match found. Returning true.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Calling function...
+Random value to check: 604477752
+Found valid value!
+Generating line of code...
+Random value to check: 1859927554
+Found valid value!
+Generating line of code...
+Random value to check: 1030434346
+Found valid value!
+Generating line of code...
+Random value to check: 1201923814
+Found valid value!
+Generating line of code...
+Random value to check: 1502358216
+Found valid value!
+Generating line of code...
+Random value to check: 21814886
+Found valid value!
+Generating line of code...
+Random value to check: 1570569012
+Found valid value!
+Generating line of code...
+Random value to check: 1831879407
+Found valid value!
+Generating line of code...
+Random value to check: 2071630057
+Found valid value!
+Generating line of code...
+Random value to check: 733999188
+Found valid value!
+Generating line of code...
+Random value to check: 1178284348
+Found valid value!
+Generating line of code...
+Random value to check: 1478327849
+Found valid value!
+Generating line of code...
+Random value to check: 2017846000
+Found valid value!
+Finding callable functions...
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 0
+-Size of variables = 0
+  Match found. Returning true.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Calling function...
+Random value to check: 875968576
+Found valid value!
+Generating line of code...
+Random value to check: 1403456647
+Found valid value!
+Generating line of code...
+Getting name of type function
+Creating function base_name
+Creating template arguments...
+
+Failed to create template arguments: not programmed in yet.
+
+Creating arguments...
+Random value to check: 2082971128
+Found valid value!
+Getting name of type bool
+Getting name of type bool
+Getting name of type bool
+Creating return type...
+Random value to check: 217334902
+Found valid value!
+Formatting function name...
+Creating function body...
+Random value to check: 2025498014
+Found valid value!
+Random value to check: 634349054
+Found valid value!
+Generating line of code...
+Random value to check: 1395726870
+Found valid value!
+Finding callable functions...
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 0
+-Size of variables = 0
+  Match found. Returning true.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Calling function...
+Random value to check: 1017627909
+Found valid value!
+Generating line of code...
+Random value to check: 712501855
+Found valid value!
+Generating line of code...
+Random value to check: 649861313
+Found valid value!
+Generating line of code...
+Random value to check: 117258949
+Found valid value!
+Generating line of code...
+Random value to check: 1528651544
+Found valid value!
+Generating line of code...
+Random value to check: 1699630947
+Found valid value!
+Generating line of code...
+Random value to check: 2017337482
+Found valid value!
+Generating line of code...
+Random value to check: 919241138
+Found valid value!
+Generating line of code...
+Random value to check: 688449848
+Found valid value!
+Generating line of code...
+Random value to check: 134705300
+Found valid value!
+Finding callable functions...
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 0
+-Size of variables = 0
+  Match found. Returning true.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Calling function...
+Random value to check: 544213162
+Found valid value!
+Generating line of code...
+Random value to check: 457761161
+Found valid value!
+Generating line of code...
+Random value to check: 1305409373
+Found valid value!
+Generating line of code...
+Random value to check: 1322394259
+Found valid value!
+Generating line of code...
+Random value to check: 1172048210
+Found valid value!
+Finding callable functions...
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 0
+-Size of variables = 0
+  Match found. Returning true.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Calling function...
+Random value to check: 1894255186
+Found valid value!
+Generating line of code...
+Random value to check: 301844327
+Found valid value!
+Generating line of code...
+Random value to check: 741229675
+Found valid value!
+Generating line of code...
+Random value to check: 294511478
+Found valid value!
+Generating line of code...
+Random value to check: 2052088058
+Found valid value!
+Generating line of code...
+Random value to check: 856619986
+Found valid value!
+Generating line of code...
+Random value to check: 481735214
+Found valid value!
+Generating line of code...
+Getting name of type function
+Creating function base_name
+Creating template arguments...
+
+Failed to create template arguments: not programmed in yet.
+
+Creating arguments...
+Random value to check: 510392508
+Found valid value!
+Getting name of type bool
+Getting name of type bool
+Getting name of type bool
+Creating return type...
+Random value to check: 1117195838
+Found valid value!
+Formatting function name...
+Creating function body...
+Random value to check: 1260923545
+Found valid value!
+Random value to check: 973392219
+Found valid value!
+Generating line of code...
+Random value to check: 272601887
+Found valid value!
+Generating line of code...
+Random value to check: 1037295758
+Found valid value!
+Generating line of code...
+Random value to check: 557558360
+Found valid value!
+Finding callable functions...
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 0
+-Size of variables = 0
+  Match found. Returning true.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Calling function...
+Random value to check: 1412204659
+Found valid value!
+Generating line of code...
+Random value to check: 934437169
+Found valid value!
+Generating line of code...
+Random value to check: 537588872
+Found valid value!
+Generating line of code...
+Random value to check: 792468775
+Found valid value!
+Generating line of code...
+Random value to check: 329122731
+Found valid value!
+Generating line of code...
+Random value to check: 1795348892
+Found valid value!
+Generating line of code...
+Random value to check: 136103847
+Found valid value!
+Generating line of code...
+Random value to check: 427272474
+Found valid value!
+Generating line of code...
+Random value to check: 2130638597
+Found valid value!
+Generating line of code...
+Random value to check: 353086054
+Found valid value!
+Generating line of code...
+Random value to check: 819992917
+Found valid value!
+Generating line of code...
+Random value to check: 1218393220
+Found valid value!
+Finding callable functions...
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 0
+-Size of variables = 0
+  Match found. Returning true.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Calling function...
+Random value to check: 1278274395
+Found valid value!
+Generating line of code...
+Random value to check: 531352177
+Found valid value!
+Generating line of code...
+Random value to check: 1199034613
+Found valid value!
+Generating line of code...
+Random value to check: 188197243
+Found valid value!
+Generating line of code...
+Random value to check: 1935134717
+Found valid value!
+Generating line of code...
+Random value to check: 169354804
+Found valid value!
+Generating line of code...
+Random value to check: 930358553
+Found valid value!
+Generating line of code...
+Random value to check: 707766464
+Found valid value!
+Generating line of code...
+Random value to check: 519039715
+Found valid value!
+Generating line of code...
+Random value to check: 421915891
+Found valid value!
+Generating line of code...
+Random value to check: 149377643
+Found valid value!
+Generating line of code...
+Random value to check: 181662558
+Found valid value!
+Generating line of code...
+Random value to check: 1628349919
+Found valid value!
+Generating line of code...
+Random value to check: 145491265
+Found valid value!
+Generating line of code...
+Random value to check: 1435300569
+Found valid value!
+Generating line of code...
+Random value to check: 412856432
+Found valid value!
+Generating line of code...
+Random value to check: 358389167
+Found valid value!
+Generating line of code...
+Random value to check: 1902583581
+Found valid value!
+Generating line of code...
+Random value to check: 690742037
+Found valid value!
+Generating line of code...
+Getting name of type function
+Creating function base_name
+Creating template arguments...
+
+Failed to create template arguments: not programmed in yet.
+
+Creating arguments...
+Random value to check: 4820177
+Found valid value!
+Getting name of type bool
+Getting name of type bool
+Creating return type...
+Random value to check: 1555819900
+Found valid value!
+Formatting function name...
+Creating function body...
+Random value to check: 904173428
+Found valid value!
+Random value to check: 848518224
+Found valid value!
+Generating line of code...
+Random value to check: 1754374688
+Found valid value!
+Generating line of code...
+Random value to check: 824907906
+Found valid value!
+Generating line of code...
+Random value to check: 72751110
+Found valid value!
+Finding callable functions...
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 0
+-Size of variables = 0
+  Match found. Returning true.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Calling function...
+Random value to check: 809710627
+Found valid value!
+Generating line of code...
+Random value to check: 202636950
+Found valid value!
+Finding callable functions...
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 0
+-Size of variables = 0
+  Match found. Returning true.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Calling function...
+Random value to check: 1957638155
+Found valid value!
+Generating line of code...
+Random value to check: 427515398
+Found valid value!
+Generating line of code...
+Random value to check: 1918494971
+Found valid value!
+Generating line of code...
+Random value to check: 1825501539
+Found valid value!
+Generating line of code...
+Random value to check: 105501284
+Found valid value!
+Generating line of code...
+Random value to check: 1486071413
+Found valid value!
+Generating line of code...
+Random value to check: 1167423681
+Found valid value!
+Generating line of code...
+Random value to check: 1479207575
+Found valid value!
+Generating line of code...
+Random value to check: 1771015353
+Found valid value!
+Generating line of code...
+Random value to check: 1331690451
+Found valid value!
+Generating line of code...
+Random value to check: 646840923
+Found valid value!
+Generating line of code...
+Random value to check: 893171747
+Found valid value!
+Generating line of code...
+Random value to check: 626859299
+Found valid value!
+Generating line of code...
+Random value to check: 69466111
+Found valid value!
+Generating line of code...
+Random value to check: 1433307256
+Found valid value!
+Generating line of code...
+Random value to check: 1270983193
+Found valid value!
+Generating line of code...
+Random value to check: 394688042
+Found valid value!
+Generating line of code...
+Random value to check: 2092419958
+Found valid value!
+Generating line of code...
+Random value to check: 110030834
+Found valid value!
+Generating line of code...
+Random value to check: 304806971
+Found valid value!
+Generating line of code...
+Random value to check: 1142263502
+Found valid value!
+Generating line of code...
+Random value to check: 1666357581
+Found valid value!
+Generating line of code...
+Random value to check: 1137623340
+Found valid value!
+Finding callable functions...
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 0
+-Size of variables = 0
+  Match found. Returning true.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Calling function...
+Random value to check: 988566139
+Found valid value!
+Generating line of code...
+Random value to check: 1897604981
+Found valid value!
+Generating line of code...
+Random value to check: 767274070
+Found valid value!
+Finding callable functions...
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 0
+-Size of variables = 0
+  Match found. Returning true.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Calling function...
+Random value to check: 2083477902
+Found valid value!
+Generating line of code...
+Random value to check: 144750932
+Found valid value!
+Generating line of code...
+Random value to check: 1877425720
+Found valid value!
+Finding callable functions...
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 0
+-Size of variables = 0
+  Match found. Returning true.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Calling function...
+Random value to check: 916850669
+Found valid value!
+Generating line of code...
+Random value to check: 1314026658
+Found valid value!
+Generating line of code...
+Random value to check: 124215258
+Found valid value!
+Generating line of code...
+Getting name of type function
+Creating function base_name
+Creating template arguments...
+
+Failed to create template arguments: not programmed in yet.
+
+Creating arguments...
+Random value to check: 331736322
+Found valid value!
+Getting name of type bool
+Getting name of type bool
+Creating return type...
+Random value to check: 624816242
+Found valid value!
+Formatting function name...
+Creating function body...
+Random value to check: 91545464
+Found valid value!
+Random value to check: 1006322196
+Found valid value!
+Generating line of code...
+Random value to check: 1823428047
+Found valid value!
+Generating line of code...
+Random value to check: 1763543239
+Found valid value!
+Generating line of code...
+Random value to check: 301921979
+Found valid value!
+Generating line of code...
+Random value to check: 2046326839
+Found valid value!
+Generating line of code...
+Random value to check: 664576368
+Found valid value!
+Generating line of code...
+Random value to check: 472568929
+Found valid value!
+Generating line of code...
+Random value to check: 1071463097
+Found valid value!
+Generating line of code...
+Random value to check: 1429891184
+Found valid value!
+Generating line of code...
+Random value to check: 1839119558
+Found valid value!
+Generating line of code...
+Random value to check: 1350280035
+Found valid value!
+Generating line of code...
+Random value to check: 1696850396
+Found valid value!
+Generating line of code...
+Random value to check: 381773412
+Found valid value!
+Generating line of code...
+Random value to check: 1932081895
+Found valid value!
+Generating line of code...
+Random value to check: 400182978
+Found valid value!
+Generating line of code...
+Random value to check: 2104012489
+Found valid value!
+Generating line of code...
+Random value to check: 1672171121
+Found valid value!
+Generating line of code...
+Random value to check: 61542358
+Found valid value!
+Generating line of code...
+Random value to check: 1402776699
+Found valid value!
+Generating line of code...
+Random value to check: 1392503327
+Found valid value!
+Generating line of code...
+Random value to check: 526631883
+Found valid value!
+Generating line of code...
+Random value to check: 1321948294
+Found valid value!
+Generating line of code...
+Random value to check: 119165396
+Found valid value!
+Generating line of code...
+Random value to check: 1358051568
+Found valid value!
+Generating line of code...
+Random value to check: 1316503060
+Found valid value!
+Finding callable functions...
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 0
+-Size of variables = 0
+  Match found. Returning true.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Calling function...
+Random value to check: 942914379
+Found valid value!
+Generating line of code...
+Random value to check: 1280136640
+Found valid value!
+Finding callable functions...
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 0
+-Size of variables = 0
+  Match found. Returning true.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Calling function...
+Random value to check: 1765332834
+Found valid value!
+Generating line of code...
+Random value to check: 314874086
+Found valid value!
+Generating line of code...
+Random value to check: 689057194
+Found valid value!
+Generating line of code...
+Random value to check: 1752434934
+Found valid value!
+Generating line of code...
+Random value to check: 435717133
+Found valid value!
+Generating line of code...
+Random value to check: 178618061
+Found valid value!
+Generating line of code...
+Random value to check: 1999096368
+Found valid value!
+Generating line of code...
+Getting name of type function
+Creating function base_name
+Creating template arguments...
+
+Failed to create template arguments: not programmed in yet.
+
+Creating arguments...
+Random value to check: 1430999661
+Found valid value!
+Getting name of type bool
+Creating return type...
+Random value to check: 1141939674
+Found valid value!
+Formatting function name...
+Creating function body...
+Random value to check: 518747679
+Found valid value!
+Random value to check: 1956117780
+Found valid value!
+Finding callable functions...
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 0
+-Size of variables = 0
+  Match found. Returning true.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Calling function...
+Random value to check: 644376537
+Found valid value!
+Generating line of code...
+Random value to check: 276425538
+Found valid value!
+Generating line of code...
+Random value to check: 876888705
+Found valid value!
+Generating line of code...
+Random value to check: 1835679221
+Found valid value!
+Generating line of code...
+Random value to check: 1510594545
+Found valid value!
+Generating line of code...
+Random value to check: 1010842981
+Found valid value!
+Generating line of code...
+Random value to check: 494850250
+Found valid value!
+Finding callable functions...
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 0
+-Size of variables = 0
+  Match found. Returning true.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Calling function...
+Random value to check: 1891470566
+Found valid value!
+Generating line of code...
+Random value to check: 745376221
+Found valid value!
+Generating line of code...
+Random value to check: 1266033396
+Found valid value!
+Generating line of code...
+Random value to check: 955312096
+Found valid value!
+Generating line of code...
+Random value to check: 1342652500
+Found valid value!
+Finding callable functions...
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 0
+-Size of variables = 0
+  Match found. Returning true.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Calling function...
+Random value to check: 202404824
+Found valid value!
+Generating line of code...
+Random value to check: 203780120
+Found valid value!
+Finding callable functions...
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 0
+-Size of variables = 0
+  Match found. Returning true.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Calling function...
+Random value to check: 1843543522
+Found valid value!
+Generating line of code...
+Random value to check: 541915338
+Found valid value!
+Generating line of code...
+Random value to check: 492938839
+Found valid value!
+Generating line of code...
+Random value to check: 1978640594
+Found valid value!
+Generating line of code...
+Random value to check: 1228189563
+Found valid value!
+Generating line of code...
+Random value to check: 569170377
+Found valid value!
+Generating line of code...
+Random value to check: 1154362501
+Found valid value!
+Generating line of code...
+Random value to check: 1003287309
+Found valid value!
+Generating line of code...
+Random value to check: 208206119
+Found valid value!
+Generating line of code...
+Random value to check: 1069381070
+Found valid value!
+Finding callable functions...
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 0
+-Size of variables = 0
+  Match found. Returning true.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Calling function...
+Random value to check: 797001747
+Found valid value!
+Generating line of code...
+Random value to check: 1352855490
+Found valid value!
+Finding callable functions...
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 0
+-Size of variables = 0
+  Match found. Returning true.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Calling function...
+Random value to check: 2032849641
+Found valid value!
+Generating line of code...
+Random value to check: 1786576164
+Found valid value!
+Generating line of code...
+Random value to check: 869235994
+Found valid value!
+Generating line of code...
+Random value to check: 2065584264
+Found valid value!
+Generating line of code...
+Random value to check: 54087646
+Found valid value!
+Generating line of code...
+Random value to check: 665483641
+Found valid value!
+Generating line of code...
+Random value to check: 688720711
+Found valid value!
+Generating line of code...
+Random value to check: 392132447
+Found valid value!
+Generating line of code...
+Random value to check: 2090207733
+Found valid value!
+Generating line of code...
+Random value to check: 1583870905
+Found valid value!
+Generating line of code...
+Random value to check: 2058495770
+Found valid value!
+Finding callable functions...
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 0
+-Size of variables = 0
+  Match found. Returning true.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Calling function...
+Random value to check: 1176853220
+Found valid value!
+Finding callable functions...
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 0
+-Size of variables = 0
+  Match found. Returning true.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Calling function...
+Random value to check: 1047679670
+Found valid value!
+Finding callable functions...
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 0
+-Size of variables = 0
+  Match found. Returning true.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Calling function...
+Random value to check: 1133791937
+Found valid value!
+Generating line of code...
+Random value to check: 1018685328
+Found valid value!
+Generating line of code...
+Random value to check: 1304673812
+Found valid value!
+Generating line of code...
+Random value to check: 1844722414
+Found valid value!
+Generating line of code...
+Random value to check: 1028200359
+Found valid value!
+Generating line of code...
+Random value to check: 162526304
+Found valid value!
+Generating line of code...
+Random value to check: 2127875991
+Found valid value!
+Generating line of code...
+Random value to check: 1166607246
+Found valid value!
+Generating line of code...
+Random value to check: 642286412
+Found valid value!
+Generating line of code...
+Getting name of type function
+Creating function base_name
+Creating template arguments...
+
+Failed to create template arguments: not programmed in yet.
+
+Creating arguments...
+Random value to check: 1654916662
+Found valid value!
+Getting name of type bool
+Getting name of type bool
+Creating return type...
+Random value to check: 2123625937
+Found valid value!
+Formatting function name...
+Creating function body...
+Random value to check: 602910019
+Found valid value!
+Random value to check: 1280842787
+Found valid value!
+Generating line of code...
+Random value to check: 748643581
+Found valid value!
+Generating line of code...
+Random value to check: 345978094
+Found valid value!
+Generating line of code...
+Random value to check: 1615593429
+Found valid value!
+Generating line of code...
+Random value to check: 495528535
+Found valid value!
+Generating line of code...
+Random value to check: 406504679
+Found valid value!
+Generating line of code...
+Random value to check: 978658846
+Found valid value!
+Generating line of code...
+Random value to check: 741972349
+Found valid value!
+Generating line of code...
+Random value to check: 2039215161
+Found valid value!
+Generating line of code...
+Random value to check: 1397688454
+Found valid value!
+Generating line of code...
+Random value to check: 1773715492
+Found valid value!
+Generating line of code...
+Random value to check: 1615770037
+Found valid value!
+Generating line of code...
+Random value to check: 1316295544
+Found valid value!
+Generating line of code...
+Random value to check: 1750160261
+Found valid value!
+Generating line of code...
+Random value to check: 859993668
+Found valid value!
+Generating line of code...
+Random value to check: 1348633766
+Found valid value!
+Generating line of code...
+Random value to check: 1945294724
+Found valid value!
+Generating line of code...
+Random value to check: 1277384340
+Found valid value!
+Finding callable functions...
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 0
+-Size of variables = 0
+  Match found. Returning true.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 1
+-Size of variables = 0
+  No match found. Returning false.
+Calling function...
+Random value to check: 604583321
+Found valid value!
+Generating line of code...
+Random value to check: 1486742090
+Found valid value!
+Finding callable functions...
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 0
+-Size of variables = 0
+  Match found. Returning true.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 1
+-Size of variables = 0
+  No match found. Returning false.
+Calling function...
+Random value to check: 1702073785
+Found valid value!
+Generating line of code...
+Random value to check: 124442808
+Found valid value!
+Generating line of code...
+Random value to check: 2008685525
+Found valid value!
+Generating line of code...
+Random value to check: 1534687835
+Found valid value!
+Generating line of code...
+Random value to check: 72358728
+Found valid value!
+Generating line of code...
+Random value to check: 657397294
+Found valid value!
+Generating line of code...
+Random value to check: 72956443
+Found valid value!
+Generating line of code...
+Random value to check: 2113258711
+Found valid value!
+Generating line of code...
+Random value to check: 307118044
+Found valid value!
+Generating line of code...
+Getting name of type function
+Creating function base_name
+Creating template arguments...
+
+Failed to create template arguments: not programmed in yet.
+
+Creating arguments...
+Random value to check: 1329761767
+Found valid value!
+Getting name of type bool
+Getting name of type bool
+Creating return type...
+Random value to check: 443703640
+Found valid value!
+Formatting function name...
+Creating function body...
+Random value to check: 1263855096
+Found valid value!
+Random value to check: 851845995
+Found valid value!
+Generating line of code...
+Random value to check: 1849647063
+Found valid value!
+Generating line of code...
+Random value to check: 44913869
+Found valid value!
+Generating line of code...
+Random value to check: 1100636186
+Found valid value!
+Generating line of code...
+Random value to check: 2115726491
+Found valid value!
+Generating line of code...
+Random value to check: 980907211
+Found valid value!
+Generating line of code...
+Random value to check: 2023020905
+Found valid value!
+Generating line of code...
+Random value to check: 1951251031
+Found valid value!
+Generating line of code...
+Random value to check: 453304680
+Found valid value!
+Finding callable functions...
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 0
+-Size of variables = 0
+  Match found. Returning true.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 1
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Calling function...
+Random value to check: 1567260851
+Found valid value!
+Generating line of code...
+Random value to check: 2066192302
+Found valid value!
+Generating line of code...
+Random value to check: 1683447724
+Found valid value!
+Generating line of code...
+Random value to check: 608848043
+Found valid value!
+Generating line of code...
+Random value to check: 149480746
+Found valid value!
+Generating line of code...
+Random value to check: 1914514679
+Found valid value!
+Generating line of code...
+Random value to check: 1500726952
+Found valid value!
+Generating line of code...
+Random value to check: 522448249
+Found valid value!
+Generating line of code...
+Random value to check: 1874572007
+Found valid value!
+Generating line of code...
+Random value to check: 199136512
+Found valid value!
+Generating line of code...
+Random value to check: 1107835158
+Found valid value!
+Generating line of code...
+Random value to check: 702281016
+Found valid value!
+Generating line of code...
+Random value to check: 666912000
+Found valid value!
+Finding callable functions...
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 0
+-Size of variables = 0
+  Match found. Returning true.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 1
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Calling function...
+Random value to check: 1072830307
+Found valid value!
+Generating line of code...
+Random value to check: 786269537
+Found valid value!
+Generating line of code...
+Random value to check: 1365228368
+Found valid value!
+Generating line of code...
+Random value to check: 1677896428
+Found valid value!
+Generating line of code...
+Getting name of type function
+Creating function base_name
+Creating template arguments...
+
+Failed to create template arguments: not programmed in yet.
+
+Creating arguments...
+Random value to check: 1797496639
+Found valid value!
+Getting name of type bool
+Getting name of type bool
+Getting name of type bool
+Getting name of type bool
+Creating return type...
+Random value to check: 1873549324
+Found valid value!
+Formatting function name...
+Creating function body...
+Random value to check: 190772507
+Found valid value!
+Random value to check: 120440178
+Found valid value!
+Generating line of code...
+Random value to check: 1308476172
+Found valid value!
+Generating line of code...
+Random value to check: 1326477524
+Found valid value!
+Generating line of code...
+Random value to check: 1080006361
+Found valid value!
+Generating line of code...
+Random value to check: 1135124883
+Found valid value!
+Generating line of code...
+Random value to check: 1946672280
+Found valid value!
+Finding callable functions...
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 0
+-Size of variables = 0
+  Match found. Returning true.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 1
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Calling function...
+Random value to check: 807647915
+Found valid value!
+Generating line of code...
+Random value to check: 2041858365
+Found valid value!
+Generating line of code...
+Random value to check: 724861495
+Found valid value!
+Generating line of code...
+Random value to check: 72417034
+Found valid value!
+Generating line of code...
+Random value to check: 1637346236
+Found valid value!
+Generating line of code...
+Random value to check: 1022735794
+Found valid value!
+Generating line of code...
+Random value to check: 661379170
+Found valid value!
+Finding callable functions...
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 0
+-Size of variables = 0
+  Match found. Returning true.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 1
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Calling function...
+Random value to check: 424353318
+Found valid value!
+Generating line of code...
+Random value to check: 313023939
+Found valid value!
+Generating line of code...
+Random value to check: 1805891270
+Found valid value!
+Finding callable functions...
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 0
+-Size of variables = 0
+  Match found. Returning true.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 1
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Calling function...
+Random value to check: 1228191839
+Found valid value!
+Generating line of code...
+Random value to check: 607423109
+Found valid value!
+Generating line of code...
+Random value to check: 1970418772
+Found valid value!
+Generating line of code...
+Random value to check: 482980617
+Found valid value!
+Generating line of code...
+Random value to check: 2114527906
+Found valid value!
+Generating line of code...
+Random value to check: 163641939
+Found valid value!
+Generating line of code...
+Random value to check: 1551000613
+Found valid value!
+Generating line of code...
+Random value to check: 1510795405
+Found valid value!
+Generating line of code...
+Random value to check: 91729707
+Found valid value!
+Generating line of code...
+Random value to check: 1955410650
+Found valid value!
+Finding callable functions...
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 0
+-Size of variables = 0
+  Match found. Returning true.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 1
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Calling function...
+Random value to check: 1644544509
+Found valid value!
+Generating line of code...
+Random value to check: 1745025873
+Found valid value!
+Generating line of code...
+Random value to check: 465680432
+Found valid value!
+Generating line of code...
+Random value to check: 1260610956
+Found valid value!
+Generating line of code...
+Random value to check: 14676190
+Found valid value!
+Finding callable functions...
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 0
+-Size of variables = 0
+  Match found. Returning true.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 3
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 1
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 2
+-Size of variables = 0
+  No match found. Returning false.
+Calling function...
+Random value to check: 1849589572
+Found valid value!
+Generating line of code...
+Random value to check: 1226146279
+Found valid value!
+Generating line of code...
+Random value to check: 587434541
+Found valid value!
+Generating line of code...
+Random value to check: 1030005328
+Found valid value!
+Generating line of code...
+Random value to check: 433869229
+Found valid value!
+Generating line of code...
+Random value to check: 1333150238
+Found valid value!
+Generating line of code...
+Creating constructor...
+
+
+Constructor not created (only default added.) 
+
+Class finished!
+Random value to check: 1559160915
+Found valid value!
+Generating class...
+Getting name of type class
+Generating class with name base_name
+Random value to check: 1222037711
+Found valid value!
+Creating private variables...
+Random value to check: 254208869
+Found valid value!
+Random value to check: 1143487400
+Found valid value!
+Getting name of type bool
+Random value to check: 761574797
+Found valid value!
+Getting name of type bool
+Random value to check: 785077059
+Found valid value!
+Getting name of type bool
+Random value to check: 650603445
+Found valid value!
+Getting name of type bool
+Random value to check: 1852853238
+Found valid value!
+Getting name of type bool
+Random value to check: 244005919
+Found valid value!
+Getting name of type bool
+Random value to check: 1461198510
+Found valid value!
+Getting name of type bool
+Random value to check: 1887854125
+Found valid value!
+Getting name of type bool
+Random value to check: 93394450
+Found valid value!
+Getting name of type bool
+Creating private functions...
+Random value to check: 2017458840
+Found valid value!
+Creating public variables...
+Random value to check: 811421397
+Found valid value!
+Random value to check: 1038260929
+Found valid value!
+Getting name of type bool
+Random value to check: 1746801828
+Found valid value!
+Getting name of type bool
+Random value to check: 249385059
+Found valid value!
+Getting name of type bool
+Random value to check: 1674091316
+Found valid value!
+Getting name of type bool
+Random value to check: 122005018
+Found valid value!
+Getting name of type bool
+Random value to check: 1838938288
+Found valid value!
+Getting name of type bool
+Random value to check: 451158792
+Found valid value!
+Getting name of type bool
+Creating public functions...
+Random value to check: 2008543234
+Found valid value!
+Getting name of type function
+Creating function base_name
+Creating template arguments...
+
+Failed to create template arguments: not programmed in yet.
+
+Creating arguments...
+Random value to check: 1290686645
+Found valid value!
+Creating return type...
+Random value to check: 838124168
+Found valid value!
+Formatting function name...
+Creating function body...
+Random value to check: 1007650903
+Found valid value!
+Random value to check: 532686479
+Found valid value!
+Generating line of code...
+Random value to check: 2328210
+Found valid value!
+Finding callable functions...
+Calling function...
+Random value to check: 475519824
+Found valid value!
+Generating line of code...
+Random value to check: 1275031481
+Found valid value!
+Generating line of code...
+Random value to check: 1862271401
+Found valid value!
+Generating line of code...
+Random value to check: 1768765229
+Found valid value!
+Generating line of code...
+Random value to check: 21078382
+Found valid value!
+Generating line of code...
+Random value to check: 2077048166
+Found valid value!
+Generating line of code...
+Random value to check: 1601843977
+Found valid value!
+Generating line of code...
+Random value to check: 1336722647
+Found valid value!
+Generating line of code...
+Random value to check: 1471096862
+Found valid value!
+Generating line of code...
+Random value to check: 745731723
+Found valid value!
+Generating line of code...
+Random value to check: 798504569
+Found valid value!
+Generating line of code...
+Random value to check: 840981080
+Found valid value!
+Finding callable functions...
+Calling function...
+Random value to check: 1779130653
+Found valid value!
+Generating line of code...
+Random value to check: 286584143
+Found valid value!
+Generating line of code...
+Random value to check: 1961354827
+Found valid value!
+Generating line of code...
+Random value to check: 616595939
+Found valid value!
+Generating line of code...
+Random value to check: 1519349998
+Found valid value!
+Generating line of code...
+Random value to check: 2134853556
+Found valid value!
+Generating line of code...
+Random value to check: 326941616
+Found valid value!
+Generating line of code...
+Random value to check: 1644571086
+Found valid value!
+Generating line of code...
+Random value to check: 44221865
+Found valid value!
+Generating line of code...
+Random value to check: 207543193
+Found valid value!
+Generating line of code...
+Random value to check: 665002023
+Found valid value!
+Generating line of code...
+Random value to check: 1184101573
+Found valid value!
+Generating line of code...
+Random value to check: 464180662
+Found valid value!
+Generating line of code...
+Random value to check: 1823780330
+Found valid value!
+Finding callable functions...
+Calling function...
+Random value to check: 1241912679
+Found valid value!
+Generating line of code...
+Random value to check: 1432830760
+Found valid value!
+Finding callable functions...
+Calling function...
+Random value to check: 1852449509
+Found valid value!
+Generating line of code...
+Random value to check: 2048467204
+Found valid value!
+Generating line of code...
+Random value to check: 130468924
+Found valid value!
+Generating line of code...
+Getting name of type function
+Creating function base_name
+Creating template arguments...
+
+Failed to create template arguments: not programmed in yet.
+
+Creating arguments...
+Random value to check: 210402081
+Found valid value!
+Random value to check: 1469692405
+Found valid value!
+Getting name of type bool
+Creating return type...
+Random value to check: 763343041
+Found valid value!
+Formatting function name...
+Creating function body...
+Random value to check: 439182909
+Found valid value!
+Random value to check: 445856824
+Found valid value!
+Generating line of code...
+Random value to check: 945196585
+Found valid value!
+Generating line of code...
+Random value to check: 982467236
+Found valid value!
+Generating line of code...
+Random value to check: 325073669
+Found valid value!
+Generating line of code...
+Random value to check: 314756915
+Found valid value!
+Generating line of code...
+Random value to check: 867247844
+Found valid value!
+Generating line of code...
+Random value to check: 863001919
+Found valid value!
+Generating line of code...
+Random value to check: 368700795
+Found valid value!
+Generating line of code...
+Random value to check: 1263939970
+Found valid value!
+Finding callable functions...
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 0
+-Size of variables = 7
+  Match found. Returning true.
+Calling function...
+Random value to check: 130839666
+Found valid value!
+Generating line of code...
+Random value to check: 2146495581
+Found valid value!
+Generating line of code...
+Random value to check: 573443914
+Found valid value!
+Generating line of code...
+Random value to check: 2112738509
+Found valid value!
+Generating line of code...
+Random value to check: 154017618
+Found valid value!
+Generating line of code...
+Random value to check: 856311091
+Found valid value!
+Generating line of code...
+Random value to check: 1732587890
+Found valid value!
+Finding callable functions...
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 0
+-Size of variables = 7
+  Match found. Returning true.
+Calling function...
+Random value to check: 1873897557
+Found valid value!
+Generating line of code...
+Random value to check: 1748557244
+Found valid value!
+Generating line of code...
+Random value to check: 1835374360
+Found valid value!
+Finding callable functions...
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 0
+-Size of variables = 7
+  Match found. Returning true.
+Calling function...
+Random value to check: 681763012
+Found valid value!
+Generating line of code...
+Random value to check: 1565685939
+Found valid value!
+Generating line of code...
+Random value to check: 1366450082
+Found valid value!
+Generating line of code...
+Random value to check: 736407156
+Found valid value!
+Generating line of code...
+Random value to check: 846813231
+Found valid value!
+Generating line of code...
+Random value to check: 1015844748
+Found valid value!
+Generating line of code...
+Random value to check: 807685986
+Found valid value!
+Generating line of code...
+Random value to check: 534234015
+Found valid value!
+Generating line of code...
+Random value to check: 241961998
+Found valid value!
+Generating line of code...
+Random value to check: 1468756615
+Found valid value!
+Generating line of code...
+Random value to check: 67906040
+Found valid value!
+Finding callable functions...
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 0
+-Size of variables = 7
+  Match found. Returning true.
+Calling function...
+Random value to check: 982997723
+Found valid value!
+Generating line of code...
+Random value to check: 651034090
+Found valid value!
+Finding callable functions...
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 0
+-Size of variables = 7
+  Match found. Returning true.
+Calling function...
+Random value to check: 500769165
+Found valid value!
+Generating line of code...
+Random value to check: 438943562
+Found valid value!
+Generating line of code...
+Random value to check: 718119089
+Found valid value!
+Generating line of code...
+Random value to check: 569432683
+Found valid value!
+Generating line of code...
+Random value to check: 1267972149
+Found valid value!
+Generating line of code...
+Random value to check: 1327679062
+Found valid value!
+Generating line of code...
+Random value to check: 1946902704
+Found valid value!
+Generating line of code...
+Getting name of type function
+Creating function base_name
+Creating template arguments...
+
+Failed to create template arguments: not programmed in yet.
+
+Creating arguments...
+Random value to check: 385416789
+Found valid value!
+Random value to check: 889293371
+Found valid value!
+Getting name of type bool
+Random value to check: 2014986924
+Found valid value!
+Getting name of type bool
+Random value to check: 68118478
+Found valid value!
+Getting name of type bool
+Random value to check: 258475895
+Found valid value!
+Getting name of type bool
+Creating return type...
+Random value to check: 1992433031
+Found valid value!
+Formatting function name...
+Creating function body...
+Random value to check: 1109444346
+Found valid value!
+Random value to check: 1978099968
+Found valid value!
+Generating line of code...
+Random value to check: 731822969
+Found valid value!
+Generating line of code...
+Random value to check: 1109793614
+Found valid value!
+Generating line of code...
+Random value to check: 1405796303
+Found valid value!
+Generating line of code...
+Random value to check: 603380227
+Found valid value!
+Generating line of code...
+Random value to check: 593694055
+Found valid value!
+Generating line of code...
+Random value to check: 1006958423
+Found valid value!
+Generating line of code...
+Random value to check: 1779077001
+Found valid value!
+Generating line of code...
+Random value to check: 1532338626
+Found valid value!
+Generating line of code...
+Random value to check: 1391392358
+Found valid value!
+Generating line of code...
+Random value to check: 1181928723
+Found valid value!
+Generating line of code...
+Random value to check: 452312711
+Found valid value!
+Generating line of code...
+Random value to check: 2075107044
+Found valid value!
+Generating line of code...
+Random value to check: 1189661228
+Found valid value!
+Generating line of code...
+Random value to check: 1563505426
+Found valid value!
+Generating line of code...
+Random value to check: 1225790090
+Found valid value!
+Finding callable functions...
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 0
+-Size of variables = 7
+  Match found. Returning true.
+Checking if function base_name can be called.
+-Expected checks: 7
+-Size of function args = 1
+-Size of variables = 7
+  No match found. Returning false.
+Calling function...
+Random value to check: 1043416959
+Found valid value!
+Generating line of code...
+Random value to check: 357368511
+Found valid value!
+Generating line of code...
+Random value to check: 1928287365
+Found valid value!
+Generating line of code...
+Random value to check: 1050026678
+Found valid value!
+Generating line of code...
+Random value to check: 1925249747
+Found valid value!
+Generating line of code...
+Random value to check: 1536388480
+Found valid value!
+Finding callable functions...
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 0
+-Size of variables = 7
+  Match found. Returning true.
+Checking if function base_name can be called.
+-Expected checks: 7
+-Size of function args = 1
+-Size of variables = 7
+  Match found. Returning true.
+Calling function...
+Random value to check: 737811832
+Found valid value!
+Generating line of code...
+Random value to check: 832882646
+Found valid value!
+Generating line of code...
+Random value to check: 960220176
+Found valid value!
+Generating line of code...
+Random value to check: 80890827
+Found valid value!
+Generating line of code...
+Random value to check: 174980838
+Found valid value!
+Generating line of code...
+Random value to check: 997831523
+Found valid value!
+Generating line of code...
+Random value to check: 854607638
+Found valid value!
+Generating line of code...
+Random value to check: 1019940730
+Found valid value!
+Finding callable functions...
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 0
+-Size of variables = 7
+  Match found. Returning true.
+Checking if function base_name can be called.
+-Expected checks: 7
+-Size of function args = 1
+-Size of variables = 7
+  Match found. Returning true.
+Calling function...
+Random value to check: 929378756
+Found valid value!
+Generating line of code...
+Random value to check: 1420187461
+Found valid value!
+Generating line of code...
+Random value to check: 1957404269
+Found valid value!
+Generating line of code...
+Random value to check: 791560690
+Found valid value!
+Finding callable functions...
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 0
+-Size of variables = 7
+  Match found. Returning true.
+Checking if function base_name can be called.
+-Expected checks: 7
+-Size of function args = 1
+-Size of variables = 7
+  Match found. Returning true.
+Calling function...
+Random value to check: 99323665
+Found valid value!
+Generating line of code...
+Random value to check: 738043936
+Found valid value!
+Generating line of code...
+Getting name of type function
+Creating function base_name
+Creating template arguments...
+
+Failed to create template arguments: not programmed in yet.
+
+Creating arguments...
+Random value to check: 438887280
+Found valid value!
+Creating return type...
+Random value to check: 1919671162
+Found valid value!
+Formatting function name...
+Creating function body...
+Random value to check: 118907206
+Found valid value!
+Random value to check: 1313619532
+Found valid value!
+Generating line of code...
+Random value to check: 1871583164
+Found valid value!
+Generating line of code...
+Random value to check: 1505259739
+Found valid value!
+Generating line of code...
+Random value to check: 1543071713
+Found valid value!
+Generating line of code...
+Random value to check: 1393759219
+Found valid value!
+Generating line of code...
+Random value to check: 159572257
+Found valid value!
+Generating line of code...
+Random value to check: 1871331943
+Found valid value!
+Generating line of code...
+Random value to check: 1577955686
+Found valid value!
+Generating line of code...
+Random value to check: 1425657799
+Found valid value!
+Generating line of code...
+Random value to check: 1555578214
+Found valid value!
+Generating line of code...
+Random value to check: 1137124120
+Found valid value!
+Finding callable functions...
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 0
+-Size of variables = 7
+  Match found. Returning true.
+Checking if function base_name can be called.
+-Expected checks: 7
+-Size of function args = 1
+-Size of variables = 7
+  Match found. Returning true.
+Checking if function base_name can be called.
+-Expected checks: 28
+-Size of function args = 4
+-Size of variables = 7
+  No match found. Returning false.
+Calling function...
+Random value to check: 1188110187
+Found valid value!
+Generating line of code...
+Random value to check: 1264963103
+Found valid value!
+Generating line of code...
+Random value to check: 146766821
+Found valid value!
+Generating line of code...
+Random value to check: 1398733791
+Found valid value!
+Generating line of code...
+Random value to check: 15341628
+Found valid value!
+Generating line of code...
+Creating constructor...
+
+
+Constructor not created (only default added.) 
+
+Class finished!
+Random value to check: 148704156
+Found valid value!
+Generating class...
+Getting name of type class
+Generating class with name base_name
+Random value to check: 1747268431
+Found valid value!
+Creating private variables...
+Random value to check: 1649130739
+Found valid value!
+Random value to check: 1516382191
+Found valid value!
+Getting name of type base_name
+Random value to check: 1647045188
+Found valid value!
+Getting name of type bool
+Random value to check: 824264886
+Found valid value!
+Getting name of type bool
+Random value to check: 2932205
+Found valid value!
+Getting name of type base_name
+Random value to check: 2036929201
+Found valid value!
+Getting name of type base_name
+Random value to check: 1632264380
+Found valid value!
+Getting name of type bool
+Random value to check: 1511327882
+Found valid value!
+Getting name of type bool
+Random value to check: 451136058
+Found valid value!
+Getting name of type bool
+Creating private functions...
+Random value to check: 1626452896
+Found valid value!
+Getting name of type function
+Creating function base_name
+Creating template arguments...
+
+Failed to create template arguments: not programmed in yet.
+
+Creating arguments...
+Random value to check: 474480409
+Found valid value!
+Random value to check: 985452752
+Found valid value!
+Getting name of type bool
+Random value to check: 1110517200
+Found valid value!
+Getting name of type bool
+Random value to check: 682204323
+Found valid value!
+Getting name of type base_name
+Random value to check: 392865328
+Found valid value!
+Getting name of type bool
+Creating return type...
+Random value to check: 1522836818
+Found valid value!
+Formatting function name...
+Creating function body...
+Random value to check: 608295180
+Found valid value!
+Random value to check: 1594930540
+Found valid value!
+Finding callable functions...
+Calling function...
+Random value to check: 1106703926
+Found valid value!
+Generating line of code...
+Random value to check: 1017017615
+Found valid value!
+Generating line of code...
+Random value to check: 1192708832
+Found valid value!
+Generating line of code...
+Random value to check: 1244978326
+Found valid value!
+Generating line of code...
+Random value to check: 1417552361
+Found valid value!
+Generating line of code...
+Random value to check: 618951509
+Found valid value!
+Generating line of code...
+Random value to check: 307225695
+Found valid value!
+Generating line of code...
+Random value to check: 991568477
+Found valid value!
+Generating line of code...
+Random value to check: 818292219
+Found valid value!
+Generating line of code...
+Random value to check: 552049345
+Found valid value!
+Generating line of code...
+Random value to check: 1163986375
+Found valid value!
+Generating line of code...
+Random value to check: 1690464102
+Found valid value!
+Generating line of code...
+Random value to check: 421512504
+Found valid value!
+Generating line of code...
+Random value to check: 1959586922
+Found valid value!
+Generating line of code...
+Random value to check: 968187662
+Found valid value!
+Generating line of code...
+Random value to check: 846441915
+Found valid value!
+Generating line of code...
+Random value to check: 1217587677
+Found valid value!
+Generating line of code...
+Random value to check: 624415076
+Found valid value!
+Generating line of code...
+Random value to check: 1939083090
+Found valid value!
+Finding callable functions...
+Calling function...
+Random value to check: 2105150405
+Found valid value!
+Generating line of code...
+Random value to check: 1469772510
+Found valid value!
+Finding callable functions...
+Calling function...
+Random value to check: 2109667776
+Found valid value!
+Generating line of code...
+Random value to check: 83815615
+Found valid value!
+Generating line of code...
+Random value to check: 2087252520
+Found valid value!
+Finding callable functions...
+Calling function...
+Random value to check: 1307729895
+Found valid value!
+Generating line of code...
+Random value to check: 1668701867
+Found valid value!
+Generating line of code...
+Random value to check: 1883332496
+Found valid value!
+Generating line of code...
+Random value to check: 1407787139
+Found valid value!
+Generating line of code...
+Random value to check: 1851106174
+Found valid value!
+Generating line of code...
+Getting name of type function
+Creating function base_name
+Creating template arguments...
+
+Failed to create template arguments: not programmed in yet.
+
+Creating arguments...
+Random value to check: 945872329
+Found valid value!
+Random value to check: 1602278409
+Found valid value!
+Getting name of type base_name
+Random value to check: 48286683
+Found valid value!
+Getting name of type base_name
+Random value to check: 1952946262
+Found valid value!
+Getting name of type bool
+Random value to check: 1027764686
+Found valid value!
+Getting name of type bool
+Creating return type...
+Random value to check: 1430104781
+Found valid value!
+Formatting function name...
+Creating function body...
+Random value to check: 1134077043
+Found valid value!
+Random value to check: 1515494576
+Found valid value!
+Generating line of code...
+Random value to check: 1761285412
+Found valid value!
+Generating line of code...
+Random value to check: 1009329236
+Found valid value!
+Generating line of code...
+Random value to check: 823141799
+Found valid value!
+Generating line of code...
+Random value to check: 454561819
+Found valid value!
+Generating line of code...
+Random value to check: 1221159554
+Found valid value!
+Generating line of code...
+Random value to check: 527409699
+Found valid value!
+Generating line of code...
+Random value to check: 1509799924
+Found valid value!
+Generating line of code...
+Random value to check: 540549716
+Found valid value!
+Generating line of code...
+Random value to check: 1163250002
+Found valid value!
+Generating line of code...
+Random value to check: 51661326
+Found valid value!
+Generating line of code...
+Random value to check: 688512694
+Found valid value!
+Generating line of code...
+Random value to check: 1190958022
+Found valid value!
+Generating line of code...
+Getting name of type function
+Creating function base_name
+Creating template arguments...
+
+Failed to create template arguments: not programmed in yet.
+
+Creating arguments...
+Random value to check: 1883885714
+Found valid value!
+Random value to check: 2115787477
+Found valid value!
+Getting name of type base_name
+Random value to check: 2005898913
+Found valid value!
+Getting name of type base_name
+Random value to check: 1944740185
+Found valid value!
+Getting name of type base_name
+Random value to check: 547181955
+Found valid value!
+Getting name of type base_name
+Creating return type...
+Random value to check: 962141231
+Found valid value!
+Formatting function name...
+Creating function body...
+Random value to check: 155807507
+Found valid value!
+Random value to check: 874204456
+Found valid value!
+Generating line of code...
+Random value to check: 1818662865
+Found valid value!
+Generating line of code...
+Random value to check: 1132024304
+Found valid value!
+Generating line of code...
+Random value to check: 1374848555
+Found valid value!
+Generating line of code...
+Random value to check: 155622165
+Found valid value!
+Generating line of code...
+Random value to check: 2054128756
+Found valid value!
+Generating line of code...
+Random value to check: 794892920
+Found valid value!
+Finding callable functions...
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Calling function...
+Random value to check: 269538453
+Found valid value!
+Generating line of code...
+Random value to check: 1089768048
+Found valid value!
+Generating line of code...
+Random value to check: 1991041120
+Found valid value!
+Finding callable functions...
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Calling function...
+Random value to check: 1337916286
+Found valid value!
+Generating line of code...
+Random value to check: 57751065
+Found valid value!
+Generating line of code...
+Random value to check: 2107024658
+Found valid value!
+Generating line of code...
+Random value to check: 758087976
+Found valid value!
+Generating line of code...
+Random value to check: 164134981
+Found valid value!
+Generating line of code...
+Random value to check: 1247622919
+Found valid value!
+Generating line of code...
+Random value to check: 768070325
+Found valid value!
+Generating line of code...
+Random value to check: 433750158
+Found valid value!
+Generating line of code...
+Random value to check: 1479407588
+Found valid value!
+Generating line of code...
+Random value to check: 837666550
+Found valid value!
+Finding callable functions...
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Calling function...
+Random value to check: 1906399765
+Found valid value!
+Generating line of code...
+Random value to check: 404837115
+Found valid value!
+Generating line of code...
+Random value to check: 869198109
+Found valid value!
+Generating line of code...
+Random value to check: 1428851069
+Found valid value!
+Generating line of code...
+Random value to check: 1537775929
+Found valid value!
+Generating line of code...
+Random value to check: 434347058
+Found valid value!
+Generating line of code...
+Random value to check: 774087653
+Found valid value!
+Generating line of code...
+Random value to check: 635250445
+Found valid value!
+Generating line of code...
+Random value to check: 1513019878
+Found valid value!
+Generating line of code...
+Random value to check: 971225419
+Found valid value!
+Generating line of code...
+Random value to check: 362416286
+Found valid value!
+Generating line of code...
+Random value to check: 866895910
+Found valid value!
+Finding callable functions...
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Calling function...
+Random value to check: 1390498122
+Found valid value!
+Generating line of code...
+Random value to check: 1184889800
+Found valid value!
+Finding callable functions...
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Calling function...
+Random value to check: 827009969
+Found valid value!
+Generating line of code...
+Random value to check: 1042385599
+Found valid value!
+Generating line of code...
+Random value to check: 203170167
+Found valid value!
+Generating line of code...
+Getting name of type function
+Creating function base_name
+Creating template arguments...
+
+Failed to create template arguments: not programmed in yet.
+
+Creating arguments...
+Random value to check: 181998039
+Found valid value!
+Random value to check: 824328145
+Found valid value!
+Getting name of type base_name
+Random value to check: 1066126218
+Found valid value!
+Getting name of type bool
+Random value to check: 1927279005
+Found valid value!
+Getting name of type base_name
+Random value to check: 1282389334
+Found valid value!
+Getting name of type bool
+Creating return type...
+Random value to check: 971655246
+Found valid value!
+Formatting function name...
+Creating function body...
+Random value to check: 1144067734
+Found valid value!
+Random value to check: 1925313747
+Found valid value!
+Generating line of code...
+Random value to check: 464552833
+Found valid value!
+Generating line of code...
+Random value to check: 1636407386
+Found valid value!
+Generating line of code...
+Random value to check: 275869373
+Found valid value!
+Generating line of code...
+Random value to check: 119358138
+Found valid value!
+Generating line of code...
+Random value to check: 302499068
+Found valid value!
+Generating line of code...
+Random value to check: 1008043427
+Found valid value!
+Generating line of code...
+Random value to check: 687386406
+Found valid value!
+Generating line of code...
+Random value to check: 1588788429
+Found valid value!
+Generating line of code...
+Random value to check: 955459405
+Found valid value!
+Generating line of code...
+Random value to check: 1670991216
+Found valid value!
+Generating line of code...
+Random value to check: 1705715493
+Found valid value!
+Generating line of code...
+Random value to check: 1201087048
+Found valid value!
+Generating line of code...
+Random value to check: 323733936
+Found valid value!
+Generating line of code...
+Random value to check: 1420184501
+Found valid value!
+Generating line of code...
+Random value to check: 1907655549
+Found valid value!
+Generating line of code...
+Random value to check: 35962333
+Found valid value!
+Generating line of code...
+Random value to check: 976025924
+Found valid value!
+Generating line of code...
+Random value to check: 1587608882
+Found valid value!
+Generating line of code...
+Random value to check: 458165799
+Found valid value!
+Generating line of code...
+Random value to check: 1663709298
+Found valid value!
+Generating line of code...
+Random value to check: 1725087546
+Found valid value!
+Generating line of code...
+Random value to check: 369667475
+Found valid value!
+Generating line of code...
+Random value to check: 331061554
+Found valid value!
+Generating line of code...
+Getting name of type function
+Creating function base_name
+Creating template arguments...
+
+Failed to create template arguments: not programmed in yet.
+
+Creating arguments...
+Random value to check: 21408701
+Found valid value!
+Random value to check: 1186268658
+Found valid value!
+Getting name of type bool
+Creating return type...
+Random value to check: 379156258
+Found valid value!
+Formatting function name...
+Creating function body...
+Random value to check: 895247557
+Found valid value!
+Random value to check: 1155259617
+Found valid value!
+Generating line of code...
+Random value to check: 1048730392
+Found valid value!
+Generating line of code...
+Random value to check: 1613407415
+Found valid value!
+Generating line of code...
+Random value to check: 262413236
+Found valid value!
+Generating line of code...
+Random value to check: 1595330161
+Found valid value!
+Generating line of code...
+Random value to check: 1380683132
+Found valid value!
+Generating line of code...
+Random value to check: 1580593689
+Found valid value!
+Generating line of code...
+Random value to check: 665417633
+Found valid value!
+Generating line of code...
+Random value to check: 1726807902
+Found valid value!
+Generating line of code...
+Random value to check: 1366403356
+Found valid value!
+Generating line of code...
+Random value to check: 2098566921
+Found valid value!
+Generating line of code...
+Random value to check: 342822919
+Found valid value!
+Generating line of code...
+Random value to check: 126174732
+Found valid value!
+Generating line of code...
+Random value to check: 1052361135
+Found valid value!
+Generating line of code...
+Random value to check: 358279253
+Found valid value!
+Generating line of code...
+Random value to check: 55258983
+Found valid value!
+Generating line of code...
+Random value to check: 1024791777
+Found valid value!
+Generating line of code...
+Random value to check: 856547099
+Found valid value!
+Generating line of code...
+Random value to check: 1404207052
+Found valid value!
+Generating line of code...
+Random value to check: 1810126081
+Found valid value!
+Generating line of code...
+Random value to check: 1535699965
+Found valid value!
+Generating line of code...
+Random value to check: 2050842109
+Found valid value!
+Generating line of code...
+Random value to check: 1390791613
+Found valid value!
+Generating line of code...
+Random value to check: 1822625743
+Found valid value!
+Generating line of code...
+Random value to check: 1164121793
+Found valid value!
+Generating line of code...
+Random value to check: 1818950781
+Found valid value!
+Generating line of code...
+Random value to check: 1676061222
+Found valid value!
+Generating line of code...
+Random value to check: 1017960455
+Found valid value!
+Generating line of code...
+Random value to check: 2006635183
+Found valid value!
+Generating line of code...
+Random value to check: 1434328193
+Found valid value!
+Generating line of code...
+Random value to check: 1250002176
+Found valid value!
+Generating line of code...
+Random value to check: 2101537078
+Found valid value!
+Generating line of code...
+Random value to check: 870127737
+Found valid value!
+Generating line of code...
+Random value to check: 2020723336
+Found valid value!
+Generating line of code...
+Random value to check: 1990714494
+Found valid value!
+Generating line of code...
+Random value to check: 143280398
+Found valid value!
+Generating line of code...
+Random value to check: 784480899
+Found valid value!
+Generating line of code...
+Random value to check: 1368360560
+Found valid value!
+Finding callable functions...
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Calling function...
+Random value to check: 633556197
+Found valid value!
+Generating line of code...
+Random value to check: 955081153
+Found valid value!
+Generating line of code...
+Random value to check: 1756160793
+Found valid value!
+Generating line of code...
+Random value to check: 779203583
+Found valid value!
+Generating line of code...
+Random value to check: 719340075
+Found valid value!
+Generating line of code...
+Random value to check: 1763191562
+Found valid value!
+Generating line of code...
+Random value to check: 833737581
+Found valid value!
+Generating line of code...
+Random value to check: 296727192
+Found valid value!
+Generating line of code...
+Random value to check: 636887610
+Found valid value!
+Finding callable functions...
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Calling function...
+Getting name of type function
+Creating function base_name
+Creating template arguments...
+
+Failed to create template arguments: not programmed in yet.
+
+Creating arguments...
+Random value to check: 1111564622
+Found valid value!
+Random value to check: 1106356701
+Found valid value!
+Getting name of type base_name
+Random value to check: 1623657981
+Found valid value!
+Getting name of type base_name
+Creating return type...
+Random value to check: 744984238
+Found valid value!
+Formatting function name...
+Creating function body...
+Random value to check: 1120426056
+Found valid value!
+Random value to check: 1864106296
+Found valid value!
+Generating line of code...
+Random value to check: 395590789
+Found valid value!
+Generating line of code...
+Random value to check: 85019611
+Found valid value!
+Generating line of code...
+Random value to check: 847976822
+Found valid value!
+Generating line of code...
+Random value to check: 1244965862
+Found valid value!
+Generating line of code...
+Random value to check: 1208069913
+Found valid value!
+Generating line of code...
+Random value to check: 1720629053
+Found valid value!
+Generating line of code...
+Random value to check: 597703269
+Found valid value!
+Generating line of code...
+Random value to check: 1817825064
+Found valid value!
+Generating line of code...
+Random value to check: 2083488426
+Found valid value!
+Generating line of code...
+Random value to check: 321627800
+Found valid value!
+Finding callable functions...
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 4
+-Size of variables = 0
+  No match found. Returning false.
+Checking if function base_name can be called.
+-Expected checks: 0
+-Size of function args = 1
+-Size of variables = 0
+  No match found. Returning false.
+Calling function...
+Random value to check: 382095101
+Found valid value!
+Generating line of code...
+Random value to check: 896257977
+Found valid value!
+Generating line of code...
+Random value to check: 957519381
+Found valid value!
+Generating line of code...
+Random value to check: 1933269496
+Found valid value!
+Generating line of code...
+Random value to check: 1032840162
+Found valid value!
+Generating line of code...
+Random value to check: 834284033
+Found valid value!
+Generating line of code...
+Random value to check: 891011368
+Found valid value!
+Generating line of code...
+Random value to check: 824591445
+Found valid value!
+Generating line of code...
+Random value to check: 1196442024
+Found valid value!
+Generating line of code...
+Random value to check: 1711710507
+Found valid value!
+Generating line of code...
+Random value to check: 1027555937
+Found valid value!
+Generating line of code...
+Random value to check: 69143985
+Found valid value!
+Generating line of code...
+Random value to check: 314302868
+Found valid value!
+Generating line of code...
+Random value to check: 1826014503
+Found valid value!
+Generating line of code...
+Random value to check: 136952644
+Found valid value!
+Generating line of code...
+Creating public variables...
+Random value to check: 1808101771
+Found valid value!
+Random value to check: 1872860147
+Found valid value!
+Getting name of type base_name
+Creating public functions...
+Random value to check: 1492676550
+Found valid value!
+Creating constructor...
+
+
+Constructor not created (only default added.) 
+
+Class finished!
+Finished all classes and functions. Generating main
+Closing log...

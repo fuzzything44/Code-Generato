@@ -20,24 +20,28 @@ functionScope::functionScope(globalNamespace* parent)
     types = parent->types;
 }
 
-
-inline bool canCall(const vector<classDef::variable>& vars, const function& func)
+inline bool canCall(const function& func, const vector<classDef::variable>& vars)
 {
-    
+    LOG("Checking if function " << func.getName() << " can be called.")
+    LOG("-Expected checks: " << (func.getArgs().size() * vars.size() ) )
+    LOG("-Size of function args = " << func.getArgs().size() )
+    LOG("-Size of variables = " << vars.size())
     // Check all arguments of the function.
     for (vector<classDef>::const_iterator i = func.getArgs().begin(); i != func.getArgs().end(); i++) {
-        LOG("  Checking value")
         // Check all variable types we have.
+        bool foundMatch = false;
         for (vector<classDef::variable>::const_iterator j = vars.begin(); j != vars.end(); j++) {
             if (j->second == *i) {
+                foundMatch = true;
                 break;
-            } else if ( j == --vars.end() ) {
-                // We found no match for the variable.
-                return false;
             }
         }
+        if (!foundMatch) {
+            LOG("  No match found. Returning false.")
+            return false;
+        }
     }
-    
+    LOG("  Match found. Returning true.")
     return true;
 }
 
@@ -103,9 +107,9 @@ function functionScope::generate()
             funcName += i->second.getName() + " " + i->first;
         }
         // Output function name.
-        CODE(funcName);
+        CODE(funcName << ")");
     }
-    
+    CODE( "{" )
     
     LOG("Creating function body...")
     // Generate 10 to fifty statements/blocks.
@@ -116,7 +120,7 @@ function functionScope::generate()
             // Find all functions we can call.
             vector<function> callable;
             for (vector<function>::const_iterator i = functions.begin(); i != functions.end(); i++) {
-                if(canCall(variables, *i) ) {
+                if(canCall(*i, variables) ) {
                     callable.push_back(*i);
                 }
             }
@@ -150,5 +154,7 @@ function functionScope::generate()
         // Currently, we won't implement smallScope.
     }
     
+    // Finish function.
+    CODE("}")
     return ret;
 }

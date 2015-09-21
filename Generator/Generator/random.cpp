@@ -11,9 +11,12 @@ int64 randRange(int64 low, int64 high)
     
     int64 max = high - low;
     
-    if ( max <= 0) {
+    if ( max < 0) {
         LOG("Max <= 0. Failed rand.")
         return 0;
+    }
+    if ( max == 0) {
+        return low;
     }
     
     int64 rand;
