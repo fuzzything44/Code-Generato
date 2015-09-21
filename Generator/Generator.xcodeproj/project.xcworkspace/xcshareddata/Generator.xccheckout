@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>E4BB7B2E-285A-47E9-ACAC-6DBEB22DC5C2</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Generator</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>680F2862B1263290CCBDAE57045C2812DDE80CCA</key>
 		<string>https://github.com/fuzzything44/Code-Generato.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Generator/Generator.xcodeproj</string>
+	<string>Generator/Generator.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>680F2862B1263290CCBDAE57045C2812DDE80CCA</key>

@@ -41,13 +41,13 @@ void genName::init() {
 }
 
 
-string genName::get(string type,vector<classDef::variable> v){
+string genName::get(const string& type, const vector<classDef::variable>& v){
     
     string name = "base_name";
     LOG("Getting name of type " << type)
+
+
     
-<<<<<<< HEAD
-    string name;
     const vector<string>& ref = lines[type];
     if (type != "Const"){
         name = lines["-Prefix"][randRange(0, lines[type].size())] +ref[randRange(0, lines[type].size())];
@@ -59,12 +59,6 @@ string genName::get(string type,vector<classDef::variable> v){
             return genName::get(type,v);
             
         }
-        
-=======
-    std::vector<string> ref = lines[type];
-    if (ref.size() > 0) {
-        name = ref[randRange(0, ref.size() - 1)];
->>>>>>> origin/master
     }
     
     
