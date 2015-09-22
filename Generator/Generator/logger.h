@@ -9,6 +9,7 @@ namespace logger {
     extern std::ofstream log;
     void init(std::string fname);
     void close();
+    static std::string code_pre;
 }
 
 #define LOG(ans) if (!logger::log.is_open() ) { logger::init("default"); }              \
@@ -19,10 +20,10 @@ namespace logger {
         std::cout << "Attempted log: " << #ans << std::endl;                            \
         exit(-1); }
 
-#define CODE(ans) if (!logger::code.is_open() ) { logger::init("default"); }            \
-    try {                                                                               \
-        std::cout << "    #" << ans << std::endl; logger::code << ans << std::endl;     \
-    } catch(std::exception e)   {                                                       \
-        std::cout << std::endl << "An error occurred: " << e.what() << std::endl;       \
-        std::cout << "Attempted code: " << #ans << std::endl;                           \
+#define CODE(ans) if (!logger::code.is_open() ) { logger::init("default"); }                                \
+    try {                                                                                                   \
+        std::cout << "    #" << logger::code_pre << ans << std::endl; logger::code << ans << std::endl;     \
+    } catch(std::exception e)   {                                                                           \
+        std::cout << std::endl << "An error occurred: " << e.what() << std::endl;                           \
+        std::cout << "Attempted code: " << #ans << std::endl;                                               \
         exit(-1); }

@@ -1,5 +1,5 @@
-
-
+#   Crappy name log.
+#
 #   Special symbols:
 #       '!' = .post (postfix)
 #       '@' = type (the string passed in).

@@ -31,7 +31,7 @@ inline bool canCall(const function& func, const vector<classDef::variable>& vars
         // Check all variable types we have.
         bool foundMatch = false;
         for (auto j = vars.begin(); j != vars.end(); j++) {
-            if (j->second == *i) {
+            if (j->second <= *i) {
                 foundMatch = true;
                 break;
             }
@@ -110,12 +110,15 @@ function functionScope::generate()
         CODE(funcName << ")");
     }
     CODE( "{" )
+    // Add tab to all printed statements.
+    logger::code_pre += "\t";
     
     LOG("Creating function body...")
     // Generate 10 to fifty statements/blocks.
     for (int64 length = randRange(10, 50); length > 0; length--) {
         // Choose if we generate a line or call a function.
-        if ( randRange(0, 10) == 0) {
+        uint64 rand = randRange(0, 1);
+        if (rand == 0) {
             LOG("Finding callable functions...")
             // Find all functions we can call.
             vector<function> callable;
@@ -125,20 +128,28 @@ function functionScope::generate()
                 }
             }
             // Now we call one...
-            LOG("Calling function...")
-            
-            
-            
-            
-            
-            
-            
-            
-            
+        
+            if (callable.size() > 0) {
+                LOG("Calling function...")
+                function& func = callable[randRange(0, callable.size())];
+                
+                // Stores the arguments we will call the function with.
+                vector<classDef::variable> funcArgs;
+                
+                // Go through all arguments and find variables to match them.
+                for (auto i = func.getArgs().begin(); i != func.getArgs().end(); i ++) {
+                    
+                }
+                
+                
+            } else {
+                LOG("No callable functions found. No code generated.")
+            }
+
             
         } else {
-            // Generate a random line of code.
-            LOG("Generating line of code...")
+            // Set a value
+            LOG("Setting a variable...")
             
             
             
@@ -150,11 +161,11 @@ function functionScope::generate()
             
         }
         
-        
         // Currently, we won't implement smallScope.
     }
     
-    // Finish function.
+    // Finish function. Remove tab.
+    logger::code_pre.pop_back();
     CODE("}")
     return ret;
 }
