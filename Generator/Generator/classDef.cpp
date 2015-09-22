@@ -68,8 +68,8 @@ bool classDef::operator>=(const classDef &isEqual) const
         return false;
     } else {
         // Checking all template arguments.
-        vector<classDef>::const_iterator equal = isEqual.getTemplateArgs().begin();
-        for (vector<classDef>::const_iterator current = templateArguments.begin(); current != templateArguments.begin(); current++)
+        auto equal = isEqual.getTemplateArgs().begin();
+        for (auto current = templateArguments.begin(); current != templateArguments.begin(); current++)
         {
             if( *equal != *current)
             {
@@ -90,7 +90,7 @@ bool classDef::operator>=(const classDef &isEqual) const
         // Look for conversion operators.
         // Loop through all functions if we aren't already with a conversion operator.
         if (!hasCalled) {
-            for (vector<function>::const_iterator i = isEqual.getFuncs().begin(); i != isEqual.getFuncs().end(); i++)
+            for (auto i = isEqual.getFuncs().begin(); i != isEqual.getFuncs().end(); i++)
             {
                 // If a function is an operator and returns a type that is a subclass or the same, it works.
                 if (i->getName().substr(0, 8) == ("operator") && *this >= i->getRet())
@@ -108,7 +108,7 @@ bool classDef::operator>=(const classDef &isEqual) const
         
         LOG("  Checking parents...")
         // Look through all parents. If any parents work, they are the same class type.
-        for (vector<classDef>::const_iterator i = isEqual.getParents().begin(); i != isEqual.getParents().end(); i++)
+        for (auto i = isEqual.getParents().begin(); i != isEqual.getParents().end(); i++)
         {
             // Check the parent. *this == *i will call this function again on the parent.
             if ( *this >= *i)

@@ -52,9 +52,9 @@ string genName::get(const string& type, const vector<classDef::variable>& v){
     /*
      
      Special symbols:
-        '!' =
-        '@' =
-        '#' =
+        '!' = .post
+        '@' = type (the string passed in).
+        '#' = Comment line. Ignored when read in.
         '$' =
         '%' = .pre
         '^' =

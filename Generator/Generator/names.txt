@@ -1,4 +1,23 @@
+
+
+#   Special symbols:
+#       '!' = .post (postfix)
+#       '@' = type (the string passed in).
+#       '#' = Comment line. Ignored when read in.
+#       '$' =
+#       '%' = .pre (prefix)
+#       '^' =
+#       '&' =
+#       '*' =
+#       '~' =
+#       '+' =
+#       '?' =
+#       '|' =
+
 -typename
+Color
+Foo
+Bar
 
 
 -bool.pre
@@ -6,7 +25,14 @@ is
 does
 needs
 has
+-bool.post
+Set
+Initialized
+Exist
+
 -bool
 %Valid
 %Run
 %Generate
+%Done
+%@!

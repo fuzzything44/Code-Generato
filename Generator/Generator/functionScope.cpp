@@ -27,10 +27,10 @@ inline bool canCall(const function& func, const vector<classDef::variable>& vars
     LOG("-Size of function args = " << func.getArgs().size() )
     LOG("-Size of variables = " << vars.size())
     // Check all arguments of the function.
-    for (vector<classDef>::const_iterator i = func.getArgs().begin(); i != func.getArgs().end(); i++) {
+    for (auto i = func.getArgs().begin(); i != func.getArgs().end(); i++) {
         // Check all variable types we have.
         bool foundMatch = false;
-        for (vector<classDef::variable>::const_iterator j = vars.begin(); j != vars.end(); j++) {
+        for (auto j = vars.begin(); j != vars.end(); j++) {
             if (j->second == *i) {
                 foundMatch = true;
                 break;
@@ -97,7 +97,7 @@ function functionScope::generate()
         string funcName = retType.getName() + " " + name + "(";
         
         // loop through all arguments.
-        for (vector<classDef::variable>::const_iterator i = argTypes.begin(); i != argTypes.end(); i++) {
+        for (auto i = argTypes.begin(); i != argTypes.end(); i++) {
             // If it's not the first argument, put a comma before it.
             if (i != argTypes.begin()) {
                 funcName += ", ";
@@ -119,7 +119,7 @@ function functionScope::generate()
             LOG("Finding callable functions...")
             // Find all functions we can call.
             vector<function> callable;
-            for (vector<function>::const_iterator i = functions.begin(); i != functions.end(); i++) {
+            for (auto i = functions.begin(); i != functions.end(); i++) {
                 if(canCall(*i, variables) ) {
                     callable.push_back(*i);
                 }
