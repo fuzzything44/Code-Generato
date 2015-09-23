@@ -1,7 +1,18 @@
+!
+@
+#
+$
+%
+^
+&
+*
+$SYMBOLS$
+
 -typename
 
+-typename.pre
 
--bool.pre
+-bool.%
 is
 does
 needs

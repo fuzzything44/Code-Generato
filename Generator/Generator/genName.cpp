@@ -1,6 +1,7 @@
 #include "genName.h"
 #include "logger.h"
 #include "classDef.h"
+#include <iterator>
 
 using std::string;
 using std::ifstream;
@@ -17,6 +18,7 @@ void genName::init() {
     // For what vector to add the info to.
     string varKey;
     
+    bool symbols = true;
     
     LOG("Reading file..." << std::endl)
     
@@ -28,20 +30,37 @@ void genName::init() {
         
         
         
-        
+        if (symbols){
+            lines["Symbols"].push_back(lineInfo);
+            
+            if(lineInfo== "$SYMBOLS$"){
+                symbols = false;
+            }
+            
+        }else{
         if (lineInfo[0] == '-') {
             varKey = lineInfo.substr(1, lineInfo.size() );
-        } else {
+        } else if(lineInfo[0] == '#'){
+            //Nuthin
+        }else{
             lines[varKey].push_back(lineInfo);
         }
         
         LOG("Line reads: " << lineInfo)
+        }
     }
     
     infile.close();
     
     
 }
+inline bool isSpecial(const char c)
+{
+    
+    return c == '!' || c == '@' || c == '$' || c == '%' || c == '^' || c == '&' || c == '*' || c == '~'
+    || c == '+'|| c == '?' ;
+}
+
 
 
 string genName::get(const string& type, const vector<classDef::variable>& v){
@@ -67,21 +86,36 @@ string genName::get(const string& type, const vector<classDef::variable>& v){
     
     const vector<string>& ref = lines[type];
     
-    if (type != "Const"){
-        name =
-            lines["Prefix"]
-            [randRange(0,
-            lines["Prefix"].size())]
-            + ref[randRange(0,
-            lines[type].size())];
-    }else {
-    name = ref[randRange(0, lines[type].size())];
-    }
-    for(vector<classDef::variable>::const_iterator i =v.begin();i != v.end();++i){
-        if(i->first == name){
-            return genName::get(type,v);
+    if(ref.size() == 0){
+        for(int i ;i <4 ; ++i){
             
+        char c = randRange('a', 'z');
+        name +=c;
         }
+            
+        
+        
+        
+    } else {
+        name = ref[randRange(0, ref.size()-1)];
+        
+        for (auto i = name.begin() ; i < name.end();i++ ){
+            int b;
+            
+        insert_iterator<string> a(name, i);
+            
+            char c = name[b];
+            char h = '\0';
+            
+            if(isSpecial(c)==true){
+                h =c;
+                string add = genName::get(type + "." + h);
+                a = add[b];
+                
+            }
+            b++;
+        }
+        
     }
     
     
