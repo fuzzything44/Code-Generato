@@ -15,7 +15,8 @@ namespace logger {
 
 #define LOG(ans) if (!logger::log.is_open() ) { logger::init("default"); }                                              \
     try {                                                                                                               \
-        std::cout << "(" << logger::line << ")" << "LOG:" << ans << std::endl; logger::log << ans << std::endl;         \
+        std::cout << "(" << logger::line << ")" << "LOG:" << ans << std::endl;                                          \
+        logger::log << "(" << logger::line << ")" << ans << std::endl;                                                  \
     } catch(std::exception e)   {                                                                                       \
         std::cout << std::endl << "An error occurred: " << e.what() << std::endl;                                       \
         std::cout << "Attempted log: " << #ans << std::endl;                                                            \
@@ -23,7 +24,8 @@ namespace logger {
 
 #define CODE(ans) if (!logger::code.is_open() ) { logger::init("default"); }                                            \
     try {                                                                                                               \
-        std::cout << "    #" << logger::code_pre << ans << std::endl; logger::code << ans << std::endl;                 \
+        std::cout << "    #" << logger::code_pre << ans << std::endl;                                                   \
+        logger::code << logger::code_pre << ans << std::endl;                                                           \
         logger::line++;                                                                                                 \
     } catch(std::exception e)   {                                                                                       \
         std::cout << std::endl << "An error occurred: " << e.what() << std::endl;                                       \

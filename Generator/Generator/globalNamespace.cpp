@@ -46,8 +46,8 @@ globalNamespace::globalNamespace()
         args.push_back(boolClass);
         // Operators included:
         // ==     =
-        function opEq{ "operator==", vector<classDef>(), args, boolClass };
-        function opSet{ "operator=", vector<classDef>(), args, boolClass };
+        function opEq{ "operator==", args, boolClass };
+        function opSet{ "operator=", args, boolClass };
         
         boolClass.addFunction(opEq);
         boolClass.addFunction(opSet);

@@ -1,37 +1,37 @@
-Reading file...
+(1)Reading file...
 
-Line reads: #   Crappy name log.
-Line reads: #
-Line reads: #   Special symbols:
-Line reads: #       '!' = .post (postfix)
-Line reads: #       '@' = type (the string passed in).
-Line reads: #       '#' = Comment line. Ignored when read in.
-Line reads: #       '$' =
-Line reads: #       '%' = .pre (prefix)
-Line reads: #       '^' =
-Line reads: #       '&' =
-Line reads: #       '*' =
-Line reads: #       '~' =
-Line reads: #       '+' =
-Line reads: #       '?' =
-Line reads: #       '|' =
-Line reads: 
-Line reads: -typename
-Line reads: 
-Line reads: -bool.pre
-Line reads: is
-Line reads: does
-Line reads: needs
-Line reads: has
-Line reads: -bool.post
-Line reads: Set
-Line reads: Initialized
-Line reads: Exist
-Line reads: 
-Line reads: -bool
-Line reads: %Valid
-Line reads: %Run
-Line reads: %Generate
-Line reads: %Done
-Line reads: # %@! Will eventually work, but not now.
-Line reads: # %@! Will eventually work, but not now.
+(1)Line reads: 
+(1)Line reads: #   Crappy name log.
+(1)Line reads: #
+(1)Line reads: #   Special symbols:
+(1)Line reads: #       '!' = .post (postfix)
+(1)Line reads: #       '@' = type (the string passed in).
+(1)Line reads: #       '#' = Comment line. Ignored when read in.
+(1)Line reads: #       '$' =
+(1)Line reads: #       '%' = .pre (prefix)
+(1)Line reads: #       '^' =
+(1)Line reads: #       '&' =
+(1)Line reads: #       '*' =
+(1)Line reads: #       '~' =
+(1)Line reads: #       '+' =
+(1)Line reads: #       '?' =
+(1)Line reads: #       '|' =
+(1)Line reads: 
+(1)Line reads: -typename
+(1)Line reads: -bool.%
+(1)Line reads: is
+(1)Line reads: does
+(1)Line reads: needs
+(1)Line reads: has
+(1)Line reads: -bool.!
+(1)Line reads: Set
+(1)Line reads: Initialized
+(1)Line reads: Exist
+(1)Line reads: 
+(1)Line reads: -bool
+(1)Line reads: %Valid
+(1)Line reads: %Run
+(1)Line reads: %Generate
+(1)Line reads: %Done
+(1)Line reads: # %@! Will eventually work, but not now.
+(1)Line reads: # %@! Will eventually work, but not now.

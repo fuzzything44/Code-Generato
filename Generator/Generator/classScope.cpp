@@ -19,18 +19,8 @@ classDef classScope::generate()
     
     LOG("Generating class with name " << name)
     
-    // Decide if we will have parents.
-    if (randRange(0, 10) == 0 && types.size() > 0/* shouldn't be 0. Needs to be larger than base types */ && false /* to make it so we don't generate parents */) {
-        LOG("Adding parents...");
-        // Determine what parents. Currently we don't choose any.
-    } else {
-        CODE("class " << name)
-    }
+    CODE("class " << name)
     CODE("{")
-    // Now that we have parents, we can determine what functions we generate.
-    // Start with not caring about parent functions & inheritance.
-    // Any private variables will not be added to ret.
-    
     CODE("private:")
     
     // All lines now should have an extra indent.
@@ -101,7 +91,7 @@ classDef classScope::generate()
     // We only have one now. Just basic constructor.
     CODE(name << "() {}")
     // Cheese function. Just name and return of void.
-    ret.addFunction(function{ name, vector<classDef>(), vector<classDef>(), types[0] } );
+    ret.addFunction(function{ name, vector<classDef>(), types[0] } );
     
     // Remove tab.
     logger::code_pre.pop_back();

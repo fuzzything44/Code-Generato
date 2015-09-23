@@ -17,14 +17,12 @@ public:
     // Getter functions
     std::vector<function> getFuncs() const;
     std::string getName() const;
-    std::vector<classDef> getParents() const;
-    std::vector<classDef> getTemplateArgs() const;
     std::vector<variable> getVars();
     
     // Function to add functions
     void addFunction(const function& f);
     void addVar(const variable& v);
-    void addParent(const classDef& p);
+
     
     // Operators
     
@@ -39,8 +37,6 @@ public:
 private:
     std::string name;
     std::vector<function> funcs;
-    std::vector<classDef> parents;
-    std::vector<classDef> templateArguments;
     std::vector<variable> vars;
 };
 

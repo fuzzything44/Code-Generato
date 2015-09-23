@@ -27,10 +27,10 @@ inline bool canCall(const function& func, const vector<classDef::variable>& vars
     LOG("-Size of function args = " << func.getArgs().size() )
     LOG("-Size of variables = " << vars.size())
     // Check all arguments of the function.
-    for (auto i = func.getArgs().begin(); i != func.getArgs().end(); i++) {
+    for (vector<classDef>::const_iterator i = func.getArgs().begin(); i != func.getArgs().end(); i++) {
         // Check all variable types we have.
         bool foundMatch = false;
-        for (auto j = vars.begin(); j != vars.end(); j++) {
+        for (vector<classDef::variable>::const_iterator j = vars.begin(); j != vars.end(); j++) {
             
             if ((*i >= j->second) || (*i == vars[1].second) ) {
                 foundMatch = true;
@@ -56,11 +56,6 @@ function functionScope::generate()
     
     LOG("Creating function " << name)
     
-    LOG("Creating template arguments...")
-    // No template args.
-    vector<classDef> templateArgs;
-    LOG("\nFailed to create template arguments: not programmed in yet.\n")
-    
     LOG("Creating arguments...")
     vector<classDef::variable> argTypes;
     // Choose random arguments.
@@ -84,7 +79,7 @@ function functionScope::generate()
     // Choose random return type.
     classDef retType = types[randRange(0, types.size() - 1)];
     
-    function ret(name, templateArgs, args, retType);
+    function ret(name, args, retType);
     
     LOG("Formatting function name...")
     // Format function name.
@@ -117,7 +112,7 @@ function functionScope::generate()
             LOG("Finding callable functions...")
             // Find all functions we can call.
             vector<function> callable;
-            for (auto i = functions.begin(); i != functions.end(); i++) {
+            for (vector<function>::const_iterator i = functions.begin(); i != functions.end(); i++) {
                 if(canCall(*i, variables) ) {
                     callable.push_back(*i);
                 }

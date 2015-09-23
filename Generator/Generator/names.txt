@@ -24,7 +24,6 @@ $SYMBOLS$
 #       '|' =
 
 -typename
-
 -bool.%
 is
 does

@@ -99,7 +99,7 @@ string genName::get(const string& type, const vector<classDef::variable>& v){
     } else {
         name = ref[randRange(0, ref.size()-1)];
         
-        for (auto i = name.begin() ; i < name.end();i++ ){
+        for (string::iterator i = name.begin() ; i < name.end();i++ ){
             int b;
             
         insert_iterator<string> a(name, i);
