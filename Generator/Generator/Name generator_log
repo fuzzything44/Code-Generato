@@ -1,7 +1,7 @@
 Reading file...
 
-Line reads: 
-Line reads: 
+Line reads: #   Crappy name log.
+Line reads: #
 Line reads: #   Special symbols:
 Line reads: #       '!' = .post (postfix)
 Line reads: #       '@' = type (the string passed in).
@@ -17,10 +17,6 @@ Line reads: #       '?' =
 Line reads: #       '|' =
 Line reads: 
 Line reads: -typename
-Line reads: Color
-Line reads: Foo
-Line reads: Bar
-Line reads: 
 Line reads: 
 Line reads: -bool.pre
 Line reads: is
@@ -37,9 +33,5 @@ Line reads: %Valid
 Line reads: %Run
 Line reads: %Generate
 Line reads: %Done
-Line reads: %@!
-Line reads: %@!
-Getting name of type typename
-Seeding rand...
-Random value to check: 214918303
-Found valid value!
+Line reads: # %@! Will eventually work, but not now.
+Line reads: # %@! Will eventually work, but not now.

@@ -189,6 +189,8 @@ function functionScope::generate()
             // Determine variable name.
             string name = genName::get(type.getName(), variables);
             
+            CODE(name << ";");
+            variables.push_back(classDef::variable(name, type));
             LOG("Variable initialization failed - does not check constructors.")
             
         }
