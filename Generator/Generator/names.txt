@@ -30,7 +30,7 @@ is
 does
 needs
 has
--bool.post
+-bool.!
 Set
 Initialized
 Exist
