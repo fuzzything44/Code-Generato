@@ -10,20 +10,22 @@ namespace logger {
     void init(std::string fname);
     void close();
     static std::string code_pre;
+    static uint32 line = 1;
 }
 
-#define LOG(ans) if (!logger::log.is_open() ) { logger::init("default"); }              \
-    try {                                                                               \
-        std::cout << "LOG: " << ans << std::endl; logger::log << ans << std::endl;      \
-    } catch(std::exception e)   {                                                       \
-        std::cout << std::endl << "An error occurred: " << e.what() << std::endl;       \
-        std::cout << "Attempted log: " << #ans << std::endl;                            \
+#define LOG(ans) if (!logger::log.is_open() ) { logger::init("default"); }                                              \
+    try {                                                                                                               \
+        std::cout << "(" << logger::line << ")" << "LOG:" << ans << std::endl; logger::log << ans << std::endl;         \
+    } catch(std::exception e)   {                                                                                       \
+        std::cout << std::endl << "An error occurred: " << e.what() << std::endl;                                       \
+        std::cout << "Attempted log: " << #ans << std::endl;                                                            \
         exit(-1); }
 
-#define CODE(ans) if (!logger::code.is_open() ) { logger::init("default"); }                                \
-    try {                                                                                                   \
-        std::cout << "    #" << logger::code_pre << ans << std::endl; logger::code << ans << std::endl;     \
-    } catch(std::exception e)   {                                                                           \
-        std::cout << std::endl << "An error occurred: " << e.what() << std::endl;                           \
-        std::cout << "Attempted code: " << #ans << std::endl;                                               \
+#define CODE(ans) if (!logger::code.is_open() ) { logger::init("default"); }                                            \
+    try {                                                                                                               \
+        std::cout << "    #" << logger::code_pre << ans << std::endl; logger::code << ans << std::endl;                 \
+        logger::line++;                                                                                                 \
+    } catch(std::exception e)   {                                                                                       \
+        std::cout << std::endl << "An error occurred: " << e.what() << std::endl;                                       \
+        std::cout << "Attempted code: " << #ans << std::endl;                                                           \
         exit(-1); }

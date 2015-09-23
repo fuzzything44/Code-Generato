@@ -15,6 +15,8 @@ void logger::init(std::string fname)
     }
     logger::code.open(fname + "_code");
     logger::log.open(fname + "_log");
+    logger::code_pre = "";
+    logger::line = 1;
     std::cout << "Opened log with name=" << fname << std::endl;
 }
 

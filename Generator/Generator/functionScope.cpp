@@ -31,7 +31,8 @@ inline bool canCall(const function& func, const vector<classDef::variable>& vars
         // Check all variable types we have.
         bool foundMatch = false;
         for (auto j = vars.begin(); j != vars.end(); j++) {
-            if (j->second <= *i) {
+            
+            if ((*i >= j->second) || (*i == vars[1].second) ) {
                 foundMatch = true;
                 break;
             }
@@ -44,12 +45,6 @@ inline bool canCall(const function& func, const vector<classDef::variable>& vars
     LOG("  Match found. Returning true.")
     return true;
 }
-
-
-
-
-
-
 
 
 
@@ -117,7 +112,7 @@ function functionScope::generate()
     // Generate 10 to fifty statements/blocks.
     for (int64 length = randRange(10, 50); length > 0; length--) {
         // Choose if we generate a line or call a function.
-        uint64 rand = randRange(0, 1);
+        uint64 rand = randRange(0, 2);
         if (rand == 0) {
             LOG("Finding callable functions...")
             // Find all functions we can call.
@@ -137,17 +132,42 @@ function functionScope::generate()
                 vector<classDef::variable> funcArgs;
                 
                 // Go through all arguments and find variables to match them.
-                for (auto i = func.getArgs().begin(); i != func.getArgs().end(); i ++) {
-                    
+                for (auto i = func.getArgs().begin(); i != func.getArgs().end(); i++) {
+                    vector<classDef::variable> possibleArgs;
+                    for (auto j = variables.begin(); j != variables.end(); j++) {
+                        if (*i >= j->second) {
+                            // Add the argument as a possible option.
+                            possibleArgs.push_back(*j);
+                        }
+                    }
+                    funcArgs.push_back(possibleArgs[randRange(0, possibleArgs.size() - 1) ]);
                 }
                 
+                // Now that we found options, we can call the function.
+                string functionCall;
+                // Format the function name.
+                functionCall += func.getName();
+                functionCall += "(";
+                for (auto i = funcArgs.begin(); i != funcArgs.end(); i++) {
+                    // If it isn't the first variable, add a comma to separate the list.
+                    if (i != funcArgs.begin()) {
+                        functionCall += ", ";
+                    }
+                    // Add the variable name to call it with.
+                    functionCall += i->first;
+                    
+                }
+                functionCall += ");";
+                
+                // Call the function.
+                CODE(functionCall)
                 
             } else {
                 LOG("No callable functions found. No code generated.")
             }
 
             
-        } else {
+        } else if (rand == 1) {
             // Set a value
             LOG("Setting a variable...")
             
@@ -158,6 +178,18 @@ function functionScope::generate()
             
             
             
+            
+        } else {
+            // Create a variable.
+            LOG("Creating a variable...")
+            
+            // Determine variable type.
+            classDef type = types[randRange(1, types.size() - 1)];
+            
+            // Determine variable name.
+            string name = genName::get(type.getName(), variables);
+            
+            LOG("Variable initialization failed - does not check constructors.")
             
         }
         

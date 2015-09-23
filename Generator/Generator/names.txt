@@ -15,10 +15,6 @@
 #       '|' =
 
 -typename
-Color
-Foo
-Bar
-
 
 -bool.pre
 is
@@ -35,4 +31,4 @@ Exist
 %Run
 %Generate
 %Done
-%@!
+# %@! Will eventually work, but not now.
