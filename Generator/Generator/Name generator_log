@@ -1,19 +1,37 @@
 Reading file...
 
-Line reads: -typename
+Line reads: #   Crappy name log.
+Line reads: #
+Line reads: #   Special symbols:
+Line reads: #       '!' = .post (postfix)
+Line reads: #       '@' = type (the string passed in).
+Line reads: #       '#' = Comment line. Ignored when read in.
+Line reads: #       '$' =
+Line reads: #       '%' = .pre (prefix)
+Line reads: #       '^' =
+Line reads: #       '&' =
+Line reads: #       '*' =
+Line reads: #       '~' =
+Line reads: #       '+' =
+Line reads: #       '?' =
+Line reads: #       '|' =
 Line reads: 
+Line reads: -typename
 Line reads: 
 Line reads: -bool.pre
 Line reads: is
 Line reads: does
 Line reads: needs
 Line reads: has
+Line reads: -bool.post
+Line reads: Set
+Line reads: Initialized
+Line reads: Exist
+Line reads: 
 Line reads: -bool
 Line reads: %Valid
 Line reads: %Run
 Line reads: %Generate
-Line reads: %Generate
-Getting name of type typename
-Seeding rand...
-Random value to check: 922226927
-Found valid value!
+Line reads: %Done
+Line reads: # %@! Will eventually work, but not now.
+Line reads: # %@! Will eventually work, but not now.

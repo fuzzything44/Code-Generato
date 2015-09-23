@@ -1,6 +1,5 @@
 !
 @
-#
 $
 %
 ^
@@ -8,16 +7,37 @@ $
 *
 $SYMBOLS$
 
--typename
+#   Crappy name log.
+#
+#   Special symbols:
+#       '!' = .post (postfix)
+#       '@' = type (the string passed in).
+#       '#' = Comment line. Ignored when read in.
+#       '$' =
+#       '%' = .pre (prefix)
+#       '^' =
+#       '&' =
+#       '*' =
+#       '~' =
+#       '+' =
+#       '?' =
+#       '|' =
 
--typename.pre
+-typename
 
 -bool.%
 is
 does
 needs
 has
+-bool.post
+Set
+Initialized
+Exist
+
 -bool
 %Valid
 %Run
 %Generate
+%Done
+# %@! Will eventually work, but not now.

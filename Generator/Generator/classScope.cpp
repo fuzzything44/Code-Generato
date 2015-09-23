@@ -27,12 +27,14 @@ classDef classScope::generate()
         CODE("class " << name)
     }
     CODE("{")
-    
     // Now that we have parents, we can determine what functions we generate.
     // Start with not caring about parent functions & inheritance.
     // Any private variables will not be added to ret.
     
     CODE("private:")
+    
+    // All lines now should have an extra indent.
+    logger::code_pre += "\t";
     
     // Determine number of private variables.
     LOG("Creating private variables..." )
@@ -60,7 +62,12 @@ classDef classScope::generate()
     }
     
     LOG("Creating public variables...")
+    
+    // Remove tab for public:
+    logger::code_pre.pop_back();
     CODE("public:")
+    // Add tab back
+    logger::code_pre += "\t";
     
     // Create public variables.
     for (int64 i = randRange(0, 10); i > 0; i--) {
@@ -95,6 +102,9 @@ classDef classScope::generate()
     CODE(name << "() {}")
     // Cheese function. Just name and return of void.
     ret.addFunction(function{ name, vector<classDef>(), vector<classDef>(), types[0] } );
+    
+    // Remove tab.
+    logger::code_pre.pop_back();
     CODE("};")
     
     LOG("\n");
