@@ -3,7 +3,8 @@
 
 std::ofstream logger::log;
 std::ofstream logger::code;
-std::string code_pre = "";
+std::string logger::code_pre;
+uint32 logger::line;
 
 void logger::init(std::string fname)
 {
