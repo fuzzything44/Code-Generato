@@ -1,5 +1,6 @@
 #include "function.h"
 #include "classDef.h"
+#include "logger.h"
 using std::string;
 using std::vector;
 
@@ -12,6 +13,7 @@ vector<classDef> function::getArgs() const
 
 string function::getName() const
 {
+
     return name;
 }
 

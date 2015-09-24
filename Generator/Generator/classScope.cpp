@@ -40,6 +40,8 @@ classDef classScope::generate()
         
         // Add it to variables available.
         
+        variables.push_back(classDef::variable(name ,type));
+        
     }
     
     LOG("Creating private functions...")

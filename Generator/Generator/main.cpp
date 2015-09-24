@@ -26,7 +26,7 @@ int main() {
     }
 #else
     globalNamespace g;
-    g.generate(3);
+    g.generate(1);
 #endif
     
     
