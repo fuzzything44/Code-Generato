@@ -1,37 +1,37 @@
-(0)Reading file...
+(1)Reading file...
 
-(0)Line reads: 
-(0)Line reads: #   Crappy name log.
-(0)Line reads: #
-(0)Line reads: #   Special symbols:
-(0)Line reads: #       '!' = .post (postfix)
-(0)Line reads: #       '@' = type (the string passed in).
-(0)Line reads: #       '#' = Comment line. Ignored when read in.
-(0)Line reads: #       '$' =
-(0)Line reads: #       '%' = .pre (prefix)
-(0)Line reads: #       '^' =
-(0)Line reads: #       '&' =
-(0)Line reads: #       '*' =
-(0)Line reads: #       '~' =
-(0)Line reads: #       '+' =
-(0)Line reads: #       '?' =
-(0)Line reads: #       '|' =
-(0)Line reads: 
-(0)Line reads: -typename
-(0)Line reads: -bool.%
-(0)Line reads: is
-(0)Line reads: does
-(0)Line reads: needs
-(0)Line reads: has
-(0)Line reads: -bool.!
-(0)Line reads: Set
-(0)Line reads: Initialized
-(0)Line reads: Exist
-(0)Line reads: 
-(0)Line reads: -bool
-(0)Line reads: %Valid
-(0)Line reads: %Run
-(0)Line reads: %Generate
-(0)Line reads: %Done
-(0)Line reads: # %@! Will eventually work, but not now.
-(0)Line reads: # %@! Will eventually work, but not now.
+(1)Line reads: 
+(1)Line reads: #   Crappy name log.
+(1)Line reads: #
+(1)Line reads: #   Special symbols:
+(1)Line reads: #       '!' = .post (postfix)
+(1)Line reads: #       '@' = type (the string passed in).
+(1)Line reads: #       '#' = Comment line. Ignored when read in.
+(1)Line reads: #       '$' =
+(1)Line reads: #       '%' = .pre (prefix)
+(1)Line reads: #       '^' =
+(1)Line reads: #       '&' =
+(1)Line reads: #       '*' =
+(1)Line reads: #       '~' =
+(1)Line reads: #       '+' =
+(1)Line reads: #       '?' =
+(1)Line reads: #       '|' =
+(1)Line reads: 
+(1)Line reads: -typename
+(1)Line reads: -bool.%
+(1)Line reads: is
+(1)Line reads: does
+(1)Line reads: needs
+(1)Line reads: has
+(1)Line reads: -bool.!
+(1)Line reads: Set
+(1)Line reads: Initialized
+(1)Line reads: Exist
+(1)Line reads: 
+(1)Line reads: -bool
+(1)Line reads: %Valid
+(1)Line reads: %Run
+(1)Line reads: %Generate
+(1)Line reads: %Done
+(1)Line reads: # %@! Will eventually work, but not now.
+(1)Line reads: # %@! Will eventually work, but not now.

@@ -1,9 +1,11 @@
-class base_namecgmi
+class base_name
 {
 private:
+	bool %Run;
+	bool %Run;
 	bool %Generate;
-void base_namebvwv(bool %Valid, bool %Generate, bool %Run)
-{
-}
-void base_namerjj(bool %Valid)
-{
+	void base_namepqaf(bool %Run, bool %Generate, bool %Generate, bool %Valid)
+	{
+	}
+	void base_nameelcs(bool %Run, bool %Valid)
+	{

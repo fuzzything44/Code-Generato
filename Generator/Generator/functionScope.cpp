@@ -20,17 +20,17 @@ functionScope::functionScope(globalNamespace* parent)
     types = parent->types;
 }
 
-inline bool canCall(const function& func, const vector<classDef::variable>& vars)
+inline bool canCall(const function func, const vector<classDef::variable> vars)
 {
     LOG("Checking if function " << func.getName() << " can be called.")
     LOG("-Expected checks: " << (func.getArgs().size() * vars.size() ) )
     LOG("-Size of function args = " << func.getArgs().size() )
     LOG("-Size of variables = " << vars.size())
     // Check all arguments of the function.
-    for (vector<classDef>::const_iterator i = func.getArgs().begin(); i != func.getArgs().end(); i++) {
+    for (auto i = func.getArgs().cbegin(); i != func.getArgs().cend(); i++) {
         // Check all variable types we have.
         bool foundMatch = false;
-        for (vector<classDef::variable>::const_iterator j = vars.begin(); j != vars.end(); j++) {
+        for (auto j = vars.cbegin(); j != vars.cend(); j++) {
             
             if ((*i >= j->second) || (*i == vars[1].second) ) {
                 foundMatch = true;
@@ -70,7 +70,7 @@ function functionScope::generate()
         args.push_back(argType);
         
         // Add argument type and name to the argument array.
-        argTypes.push_back(std::pair<string, classDef>(argName, argType));
+        argTypes.push_back(classDef::variable(argName, argType));
         
     }
     
@@ -112,7 +112,7 @@ function functionScope::generate()
             LOG("Finding callable functions...")
             // Find all functions we can call.
             vector<function> callable;
-            for (vector<function>::const_iterator i = functions.begin(); i != functions.end(); i++) {
+            for (auto i = functions.cbegin(); i != functions.cend(); i++) {
                 if(canCall(*i, variables) ) {
                     callable.push_back(*i);
                 }
@@ -127,9 +127,11 @@ function functionScope::generate()
                 vector<classDef::variable> funcArgs;
                 
                 // Go through all arguments and find variables to match them.
-                for (auto i = func.getArgs().begin(); i != func.getArgs().end(); i++) {
+                for (auto i = func.getArgs().cbegin(); i != func.getArgs().cend(); i++) {
+                    
+                    // Holds all the variables we have that we can call it with.
                     vector<classDef::variable> possibleArgs;
-                    for (auto j = variables.begin(); j != variables.end(); j++) {
+                    for (auto j = variables.cbegin(); j != variables.cend(); j++) {
                         if (*i >= j->second) {
                             // Add the argument as a possible option.
                             possibleArgs.push_back(*j);

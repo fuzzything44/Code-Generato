@@ -11,13 +11,16 @@ class function;
 class classDef
 {
 public:
-    typedef std::pair<std::string, classDef> variable;
+    typedef pair_type<std::string, classDef> variable;
     
     classDef(const std::string& name);
     // Getter functions
     std::vector<function> getFuncs() const;
+    const std::vector<function>& cgetFuncs() const;
     std::string getName() const;
-    std::vector<variable> getVars();
+    const std::string& cgetName() const;
+    std::vector<variable> getVars() const;
+    const std::vector<variable>& cgetVars() const;
     
     // Function to add functions
     void addFunction(const function& f);

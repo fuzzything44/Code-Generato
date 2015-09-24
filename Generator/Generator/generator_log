@@ -1,281 +1,267 @@
-(0)Creating basic data types
+(1)Creating basic data types
 
-(0)Creating void
-(0)Finished void
+(1)Creating void
+(1)Finished void
 
-(0)Creating bool
-(0)Finished bool
+(1)Creating bool
+(1)Finished bool
 
-(0)Creating int
-(0)int left unfinished...
-(0)char not added
-(0)float not added
-(0)Finished creating basic data types
+(1)Creating int
+(1)int left unfinished...
+(1)char not added
+(1)float not added
+(1)Finished creating basic data types
 
 
-(0)Generating code with length 1
-(0)Seeding rand...
-(0)Random value to check: 1704724397
-(0)Found valid value!
-(0)Generating class...
-(0)Getting name of type class
-(0)Random value to check: 1723605752
-(0)Found valid value!
-(0)Random value to check: 1234959481
-(0)Found valid value!
-(0)Random value to check: 534548912
-(0)Found valid value!
-(0)Random value to check: 1239468583
-(0)Found valid value!
-(0)Generating class with name base_namecgmi
-(3)Creating private variables...
-(0)Random value to check: 1157098581
-(0)Found valid value!
-(0)Getting name of type bool
-(0)Random value to check: 1891427282
-(0)Found valid value!
-(4)Creating private functions...
-(0)Random value to check: 17902033
-(0)Found valid value!
-(0)Getting name of type function
-(0)Random value to check: 231758051
-(0)Found valid value!
-(0)Random value to check: 1769711146
-(0)Found valid value!
-(0)Random value to check: 886719872
-(0)Found valid value!
-(0)Random value to check: 1711862171
-(0)Found valid value!
-(0)Creating function base_namebvwv
-(0)Creating arguments...
-(0)Random value to check: 1429089138
-(0)Found valid value!
-(0)Getting name of type bool
-(0)Random value to check: 1244034318
-(0)Found valid value!
-(0)Getting name of type bool
-(0)Random value to check: 583995434
-(0)Found valid value!
-(0)Getting name of type bool
-(0)Random value to check: 1210992448
-(0)Found valid value!
-(0)Creating return type...
-(0)Random value to check: 1447550917
-(0)Found valid value!
-(0)Formatting function name...
-(2)Creating function body...
-(0)Random value to check: 146025156
-(0)Found valid value!
-(0)Random value to check: 1818472018
-(0)Found valid value!
-(2)Finding callable functions...
-(2)No callable functions found. No code generated.
-(0)Random value to check: 71942422
-(0)Found valid value!
-(2)Finding callable functions...
-(2)No callable functions found. No code generated.
-(0)Random value to check: 102993293
-(0)Found valid value!
-(2)Setting a variable...
-(0)Random value to check: 136455969
-(0)Found valid value!
-(2)Setting a variable...
-(0)Random value to check: 2050419634
-(0)Found valid value!
-(2)Finding callable functions...
-(2)No callable functions found. No code generated.
-(0)Random value to check: 732705229
-(0)Found valid value!
-(2)Setting a variable...
-(0)Random value to check: 905551905
-(0)Found valid value!
-(2)Setting a variable...
-(0)Random value to check: 394261046
-(0)Found valid value!
-(2)Finding callable functions...
-(2)No callable functions found. No code generated.
-(0)Random value to check: 1358349127
-(0)Found valid value!
-(2)Setting a variable...
-(0)Random value to check: 2022609879
-(0)Found valid value!
-(2)Setting a variable...
-(0)Random value to check: 1485587990
-(0)Found valid value!
-(2)Finding callable functions...
-(2)No callable functions found. No code generated.
-(0)Random value to check: 1632467908
-(0)Found valid value!
-(2)Finding callable functions...
-(2)No callable functions found. No code generated.
-(0)Random value to check: 637055684
-(0)Found valid value!
-(2)Finding callable functions...
-(2)No callable functions found. No code generated.
-(0)Random value to check: 1788900693
-(0)Found valid value!
-(2)Setting a variable...
-(0)Random value to check: 1282889251
-(0)Found valid value!
-(2)Setting a variable...
-(0)Random value to check: 783825677
-(0)Found valid value!
-(2)Setting a variable...
-(0)Random value to check: 1093462641
-(0)Found valid value!
-(2)Setting a variable...
-(0)Random value to check: 1809039908
-(0)Found valid value!
-(2)Finding callable functions...
-(2)No callable functions found. No code generated.
-(0)Random value to check: 460259530
-(0)Found valid value!
-(2)Finding callable functions...
-(2)No callable functions found. No code generated.
-(0)Random value to check: 345824216
-(0)Found valid value!
-(2)Finding callable functions...
-(2)No callable functions found. No code generated.
-(0)Random value to check: 1176849530
-(0)Found valid value!
-(2)Finding callable functions...
-(2)No callable functions found. No code generated.
-(0)Random value to check: 985661840
-(0)Found valid value!
-(2)Finding callable functions...
-(2)No callable functions found. No code generated.
-(0)Random value to check: 329691922
-(0)Found valid value!
-(2)Finding callable functions...
-(2)No callable functions found. No code generated.
-(0)Random value to check: 624323794
-(0)Found valid value!
-(2)Finding callable functions...
-(2)No callable functions found. No code generated.
-(0)Random value to check: 404906516
-(0)Found valid value!
-(2)Finding callable functions...
-(2)No callable functions found. No code generated.
-(0)Random value to check: 2035620716
-(0)Found valid value!
-(2)Finding callable functions...
-(2)No callable functions found. No code generated.
-(0)Random value to check: 1115393455
-(0)Found valid value!
-(2)Setting a variable...
-(0)Random value to check: 1033043522
-(0)Found valid value!
-(2)Finding callable functions...
-(2)No callable functions found. No code generated.
-(0)Random value to check: 2104671906
-(0)Found valid value!
-(2)Finding callable functions...
-(2)No callable functions found. No code generated.
-(0)Random value to check: 2017574405
-(0)Found valid value!
-(2)Setting a variable...
-(0)Random value to check: 606238705
-(0)Found valid value!
-(2)Setting a variable...
-(0)Random value to check: 1391493567
-(0)Found valid value!
-(2)Setting a variable...
-(0)Random value to check: 735464739
-(0)Found valid value!
-(2)Setting a variable...
-(0)Random value to check: 39996241
-(0)Found valid value!
-(2)Setting a variable...
-(0)Random value to check: 54440976
-(0)Found valid value!
-(2)Finding callable functions...
-(2)No callable functions found. No code generated.
-(0)Random value to check: 161450010
-(0)Found valid value!
-(2)Finding callable functions...
-(2)No callable functions found. No code generated.
-(0)Random value to check: 1218471909
-(0)Found valid value!
-(2)Setting a variable...
-(0)Random value to check: 453316771
-(0)Found valid value!
-(2)Setting a variable...
-(0)Random value to check: 1770474288
-(0)Found valid value!
-(2)Finding callable functions...
-(2)No callable functions found. No code generated.
-(0)Random value to check: 827945584
-(0)Found valid value!
-(2)Finding callable functions...
-(2)No callable functions found. No code generated.
-(0)Random value to check: 1734881375
-(0)Found valid value!
-(2)Setting a variable...
-(0)Random value to check: 1765794306
-(0)Found valid value!
-(2)Finding callable functions...
-(2)No callable functions found. No code generated.
-(0)Random value to check: 1628383049
-(0)Found valid value!
-(2)Setting a variable...
-(0)Random value to check: 702307175
-(0)Found valid value!
-(2)Setting a variable...
-(0)Random value to check: 1106566313
-(0)Found valid value!
-(2)Setting a variable...
-(0)Random value to check: 851639571
-(0)Found valid value!
-(2)Setting a variable...
-(0)Getting name of type function
-(0)Random value to check: 527762542
-(0)Found valid value!
-(0)Random value to check: 997581284
-(0)Found valid value!
-(0)Random value to check: 943808059
-(0)Found valid value!
-(3)Creating function base_namerjj
-(3)Creating arguments...
-(0)Random value to check: 1267830871
-(0)Found valid value!
-(0)Getting name of type bool
-(0)Random value to check: 1100703363
-(0)Found valid value!
-(3)Creating return type...
-(0)Random value to check: 1097286683
-(0)Found valid value!
-(3)Formatting function name...
-(5)Creating function body...
-(0)Random value to check: 1655204392
-(0)Found valid value!
-(0)Random value to check: 517053106
-(0)Found valid value!
-(5)Finding callable functions...
-(5)Checking if function base_namebvwv can be called.
-(5)-Expected checks: 3
-(5)-Size of function args = 3
-(5)-Size of variables = 1
-(0)Checking >= on class bool and bool
-(0)  Checking the names...
-(0) Returning true
-(0)Checking >= on class bool and bool
-(0)  Checking the names...
-(0) Returning true
-(0)Checking >= on class bool and bool
-(0)  Checking the names...
-(0) Returning true
-(0)Checking >= on class  and bool
-(0)  Checking the names...
-(0)  Checking conversion operators...
-(0)Checking >= on class  and bool
-(0)  Checking the names...
-(0)  Checking conversion operators...
-(0) Returning false
-(0)Checking >= on class  and bool
-(0)  Checking the names...
-(0)  Checking conversion operators...
-(0) Returning false
-(0)Checking >= on class  and bool
-(0)  Checking the names...
-(0)  Checking conversion operators...
-(0) Returning false
+(1)Generating code with length 1
+(1)Seeding rand...
+(1)Random value to check: 987667713
+(1)Found valid value!
+(1)Generating class...
+(1)Getting name of type class
+(1)Generating class with name base_name
+(4)Creating private variables...
+(4)Random value to check: 1830144728
+(4)Found valid value!
+(4)Getting name of type bool
+(4)Random value to check: 834167515
+(4)Found valid value!
+(5)Getting name of type bool
+(5)Random value to check: 1080176989
+(5)Found valid value!
+(6)Getting name of type bool
+(6)Random value to check: 1855386032
+(6)Found valid value!
+(7)Creating private functions...
+(7)Random value to check: 2010485384
+(7)Found valid value!
+(7)Getting name of type function
+(7)Random value to check: 1720146990
+(7)Found valid value!
+(7)Random value to check: 1085605016
+(7)Found valid value!
+(7)Random value to check: 742439000
+(7)Found valid value!
+(7)Random value to check: 1292283930
+(7)Found valid value!
+(7)Creating function base_namepqaf
+(7)Creating arguments...
+(7)Random value to check: 1913889399
+(7)Found valid value!
+(7)Getting name of type bool
+(7)Random value to check: 1729064227
+(7)Found valid value!
+(7)Getting name of type bool
+(7)Random value to check: 633751985
+(7)Found valid value!
+(7)Getting name of type bool
+(7)Random value to check: 2098206422
+(7)Found valid value!
+(7)Getting name of type bool
+(7)Random value to check: 726367167
+(7)Found valid value!
+(7)Creating return type...
+(7)Random value to check: 1755926221
+(7)Found valid value!
+(7)Formatting function name...
+(9)Creating function body...
+(9)Random value to check: 1131719273
+(9)Found valid value!
+(9)Random value to check: 543159832
+(9)Found valid value!
+(9)Finding callable functions...
+(9)No callable functions found. No code generated.
+(9)Random value to check: 2081796674
+(9)Found valid value!
+(9)Finding callable functions...
+(9)No callable functions found. No code generated.
+(9)Random value to check: 1953122994
+(9)Found valid value!
+(9)Finding callable functions...
+(9)No callable functions found. No code generated.
+(9)Random value to check: 1850615763
+(9)Found valid value!
+(9)Setting a variable...
+(9)Random value to check: 1293469240
+(9)Found valid value!
+(9)Finding callable functions...
+(9)No callable functions found. No code generated.
+(9)Random value to check: 360558099
+(9)Found valid value!
+(9)Setting a variable...
+(9)Random value to check: 1848601706
+(9)Found valid value!
+(9)Finding callable functions...
+(9)No callable functions found. No code generated.
+(9)Random value to check: 1802951593
+(9)Found valid value!
+(9)Setting a variable...
+(9)Random value to check: 1213164381
+(9)Found valid value!
+(9)Setting a variable...
+(9)Random value to check: 1444006849
+(9)Found valid value!
+(9)Setting a variable...
+(9)Random value to check: 710416396
+(9)Found valid value!
+(9)Finding callable functions...
+(9)No callable functions found. No code generated.
+(9)Random value to check: 2106773899
+(9)Found valid value!
+(9)Setting a variable...
+(9)Random value to check: 838548757
+(9)Found valid value!
+(9)Setting a variable...
+(9)Random value to check: 1701267285
+(9)Found valid value!
+(9)Setting a variable...
+(9)Random value to check: 1601982837
+(9)Found valid value!
+(9)Setting a variable...
+(9)Random value to check: 1523059020
+(9)Found valid value!
+(9)Finding callable functions...
+(9)No callable functions found. No code generated.
+(9)Random value to check: 47876900
+(9)Found valid value!
+(9)Finding callable functions...
+(9)No callable functions found. No code generated.
+(9)Random value to check: 1508174322
+(9)Found valid value!
+(9)Finding callable functions...
+(9)No callable functions found. No code generated.
+(9)Random value to check: 1136344313
+(9)Found valid value!
+(9)Setting a variable...
+(9)Random value to check: 966795820
+(9)Found valid value!
+(9)Finding callable functions...
+(9)No callable functions found. No code generated.
+(9)Random value to check: 1076073538
+(9)Found valid value!
+(9)Finding callable functions...
+(9)No callable functions found. No code generated.
+(9)Random value to check: 1608161779
+(9)Found valid value!
+(9)Setting a variable...
+(9)Random value to check: 145838511
+(9)Found valid value!
+(9)Setting a variable...
+(9)Random value to check: 829013150
+(9)Found valid value!
+(9)Finding callable functions...
+(9)No callable functions found. No code generated.
+(9)Random value to check: 350110314
+(9)Found valid value!
+(9)Finding callable functions...
+(9)No callable functions found. No code generated.
+(9)Random value to check: 198854618
+(9)Found valid value!
+(9)Finding callable functions...
+(9)No callable functions found. No code generated.
+(9)Random value to check: 665009994
+(9)Found valid value!
+(9)Finding callable functions...
+(9)No callable functions found. No code generated.
+(9)Random value to check: 1318070170
+(9)Found valid value!
+(9)Finding callable functions...
+(9)No callable functions found. No code generated.
+(9)Random value to check: 1511528385
+(9)Found valid value!
+(9)Setting a variable...
+(9)Random value to check: 1673506332
+(9)Found valid value!
+(9)Finding callable functions...
+(9)No callable functions found. No code generated.
+(9)Random value to check: 1027597165
+(9)Found valid value!
+(9)Setting a variable...
+(9)Random value to check: 762062981
+(9)Found valid value!
+(9)Setting a variable...
+(9)Random value to check: 400050959
+(9)Found valid value!
+(9)Setting a variable...
+(9)Random value to check: 2032652803
+(9)Found valid value!
+(9)Setting a variable...
+(9)Random value to check: 625803545
+(9)Found valid value!
+(9)Setting a variable...
+(9)Random value to check: 1652761456
+(9)Found valid value!
+(9)Finding callable functions...
+(9)No callable functions found. No code generated.
+(9)Random value to check: 260817047
+(9)Found valid value!
+(9)Setting a variable...
+(9)Random value to check: 537985402
+(9)Found valid value!
+(9)Finding callable functions...
+(9)No callable functions found. No code generated.
+(9)Random value to check: 1014497544
+(9)Found valid value!
+(9)Finding callable functions...
+(9)No callable functions found. No code generated.
+(9)Random value to check: 1787548475
+(9)Found valid value!
+(9)Setting a variable...
+(9)Random value to check: 30997795
+(9)Found valid value!
+(9)Setting a variable...
+(9)Random value to check: 1288897991
+(9)Found valid value!
+(9)Setting a variable...
+(9)Random value to check: 840987448
+(9)Found valid value!
+(9)Finding callable functions...
+(9)No callable functions found. No code generated.
+(10)Getting name of type function
+(10)Random value to check: 1886157629
+(10)Found valid value!
+(10)Random value to check: 1645157236
+(10)Found valid value!
+(10)Random value to check: 1305710327
+(10)Found valid value!
+(10)Random value to check: 2085560843
+(10)Found valid value!
+(10)Creating function base_nameelcs
+(10)Creating arguments...
+(10)Random value to check: 793001967
+(10)Found valid value!
+(10)Getting name of type bool
+(10)Random value to check: 700546087
+(10)Found valid value!
+(10)Getting name of type bool
+(10)Random value to check: 1572731355
+(10)Found valid value!
+(10)Creating return type...
+(10)Random value to check: 1667156209
+(10)Found valid value!
+(10)Formatting function name...
+(12)Creating function body...
+(12)Random value to check: 1675262254
+(12)Found valid value!
+(12)Random value to check: 474607161
+(12)Found valid value!
+(12)Setting a variable...
+(12)Random value to check: 968289969
+(12)Found valid value!
+(12)Setting a variable...
+(12)Random value to check: 418432017
+(12)Found valid value!
+(12)Setting a variable...
+(12)Random value to check: 1725449441
+(12)Found valid value!
+(12)Setting a variable...
+(12)Random value to check: 9585799
+(12)Found valid value!
+(12)Setting a variable...
+(12)Random value to check: 47250268
+(12)Found valid value!
+(12)Finding callable functions...
+(12)Checking if function base_namepqaf can be called.
+(12)-Expected checks: 12
+(12)-Size of function args = 4
+(12)-Size of variables = 3

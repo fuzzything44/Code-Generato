@@ -10,14 +10,28 @@ vector<classDef> function::getArgs() const
 {
     return args;
 }
+const vector<classDef>& function::cgetArgs() const
+{
+    return args;
+}
+
 
 string function::getName() const
 {
 
     return name;
 }
+const string& function::cgetName() const
+{
+    
+    return name;
+}
 
 classDef function::getRet() const
+{
+    return ret;
+}
+const classDef& function::cgetRet() const
 {
     return ret;
 }

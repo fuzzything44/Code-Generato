@@ -11,3 +11,11 @@ typedef unsigned int uint32;
 
 typedef long int64;
 typedef unsigned long uint64;
+
+template<typename first_type, typename second_type>
+struct pair_type
+{
+    first_type first;
+    second_type second;
+    pair_type(first_type f, second_type s) : first(f), second(s) {}
+};

@@ -10,11 +10,29 @@ vector<function> classDef::getFuncs() const
 {
     return funcs;
 }
+const vector<function>& classDef::cgetFuncs() const
+{
+    return funcs;
+}
 
 string classDef::getName() const
 {
     return name;
 }
+const string& classDef::cgetName() const
+{
+    return name;
+}
+
+vector<classDef::variable> classDef::getVars() const
+{
+    return vars;
+}
+const vector<classDef::variable>& classDef::cgetVars() const
+{
+    return vars;
+}
+
 
 void classDef::addFunction(const function& f)
 {
