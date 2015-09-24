@@ -9,8 +9,8 @@ namespace logger {
     extern std::ofstream log;
     void init(std::string fname);
     void close();
-    static std::string code_pre;
-    static uint32 line = 1;
+    extern std::string code_pre;
+    extern uint32 line;
 }
 
 #define LOG(ans) if (!logger::log.is_open() ) { logger::init("default"); }                                              \
