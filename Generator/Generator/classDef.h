@@ -15,12 +15,9 @@ public:
     
     classDef(const std::string& name);
     // Getter functions
-    std::vector<function> getFuncs() const;
-    const std::vector<function>& cgetFuncs() const;
-    std::string getName() const;
-    const std::string& cgetName() const;
-    std::vector<variable> getVars() const;
-    const std::vector<variable>& cgetVars() const;
+    const std::vector<function>& getFuncs() const;
+    const std::string& getName() const;
+    const std::vector<variable>& getVars() const;
     
     // Function to add functions
     void addFunction(const function& f);

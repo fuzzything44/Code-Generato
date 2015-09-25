@@ -6,29 +6,17 @@ using std::vector;
 
 classDef::classDef(const string& name) : name(name) {};
 
-vector<function> classDef::getFuncs() const
-{
-    return funcs;
-}
-const vector<function>& classDef::cgetFuncs() const
+const vector<function>& classDef::getFuncs() const
 {
     return funcs;
 }
 
-string classDef::getName() const
-{
-    return name;
-}
-const string& classDef::cgetName() const
+const string& classDef::getName() const
 {
     return name;
 }
 
-vector<classDef::variable> classDef::getVars() const
-{
-    return vars;
-}
-const vector<classDef::variable>& classDef::cgetVars() const
+const vector<classDef::variable>& classDef::getVars() const
 {
     return vars;
 }

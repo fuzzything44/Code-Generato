@@ -6,32 +6,19 @@ using std::vector;
 
 function::function(std::string name, std::vector<classDef> args, classDef ret) : name(name), args(args), ret(ret) {}
 
-vector<classDef> function::getArgs() const
-{
-    return args;
-}
-const vector<classDef>& function::cgetArgs() const
+const vector<classDef>& function::getArgs() const
 {
     return args;
 }
 
 
-string function::getName() const
-{
-
-    return name;
-}
-const string& function::cgetName() const
+const string& function::getName() const
 {
     
     return name;
 }
 
-classDef function::getRet() const
-{
-    return ret;
-}
-const classDef& function::cgetRet() const
+const classDef& function::getRet() const
 {
     return ret;
 }

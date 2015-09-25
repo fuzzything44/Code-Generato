@@ -10,16 +10,13 @@ public:
     function(std::string name, std::vector<classDef> args, classDef ret );
     
     // Returns function name
-    std::string getName() const;
-    const std::string& cgetName() const;
+    const std::string& getName() const;
     
     // Returns function arguments. Vector holds types, not names.
-    std::vector<classDef> getArgs() const;
-    const std::vector<classDef>& cgetArgs() const;
+    const std::vector<classDef>& getArgs() const;
     
     // Returns return type
-    classDef getRet() const;
-    const classDef& cgetRet() const;
+    const classDef& getRet() const;
     
     // Operators.
     bool operator==(const function& f) const;
