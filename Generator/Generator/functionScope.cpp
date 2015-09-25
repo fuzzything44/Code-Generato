@@ -31,8 +31,11 @@ inline bool canCall(const function func, const vector<classDef::variable> vars)
         // Check all variable types we have.
         bool foundMatch = false;
         for (auto j = vars.cbegin(); j != vars.cend(); j++) {
-            
-            if ((*i >= j->second) || (*i == vars[1].second) ) {
+            // vars[0] = void
+            // vars[1] = bool
+            // vars[2] = int
+            // vars[3] = char
+            if ((*i >= j->second) || (*i == vars[1].second) || (*i == vars[2].second) || (*i == vars[3].second) ) {
                 foundMatch = true;
                 break;
             }
@@ -168,13 +171,29 @@ function functionScope::generate()
             // Set a value
             LOG("Setting a variable...")
             
+            // Determine variable to set...
+            classDef::variable toSet = variables[randRange(0, variables.size() - 1) ];
+            
+            vector<string> possibleSets;
+            // Determine what to set it to.
+            for (auto i = variables.cbegin(); i != variables.cend(); i++) {
+                if ( (i->first != toSet.first) && (toSet.second >= i->second) ) {
+                    possibleSets.push_back(i->first);
+                }
+            }
+            
+            // If it's a bool, it can be set to true or false.
+            if (toSet.second >= types[1] ) {
+                LOG("  Adding bool options...")
+                possibleSets.push_back("true");
+                possibleSets.push_back("false");
+            }
+            
+            LOG("  NO INT, CHAR OPTIONS CREATED!")
             
             
-            
-            
-            
-            
-            
+            // Now we set it.
+            CODE(toSet.first << " = " << possibleSets[randRange(0, possibleSets.size() -1 )] << ";")
             
         } else {
             // Create a variable.
@@ -186,9 +205,9 @@ function functionScope::generate()
             // Determine variable name.
             string name = genName::get(type.getName(), variables);
             
-            CODE(name << ";");
+            CODE(type.getName() << " " << name << ";");
             variables.push_back(classDef::variable(name, type));
-            LOG("Variable initialization failed - does not check constructors.")
+            LOG("Variable initialization failed - does not check constructors. ")
             
         }
         

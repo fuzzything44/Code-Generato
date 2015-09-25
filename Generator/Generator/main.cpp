@@ -9,7 +9,7 @@ using std::string;
 using std::cin;
 using std::endl;
 
-#define TEST_CODE_GEN
+//#define TEST_NAME_GEN
 
 
 int main() {
@@ -19,6 +19,7 @@ int main() {
     
 #ifdef TEST_NAME_GEN
     while (true) {
+        cout << "Enter name type: ";
         string s;
         cin >> s;
         cout << genName::get(s) << endl;
@@ -26,7 +27,7 @@ int main() {
     }
 #else
     globalNamespace g;
-    g.generate(5);
+    g.generate(1);
 #endif
     
     logger::close();
