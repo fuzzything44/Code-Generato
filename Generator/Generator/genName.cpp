@@ -95,8 +95,8 @@ string genName::get(const string& type, const vector<classDef::variable>& v){
     
     const vector<string>& ref = lines[type];
     
-    if(ref.size() == 0){
-        for(int64 i = randRange(10, 20); i >0 ; i--){
+    if(ref.size() == 0) {
+        for(int64 i = randRange(10, 20); i > 0 ; i--) {
             
         char c = randRange('a', 'z');
         name += c;
@@ -118,13 +118,13 @@ string genName::get(const string& type, const vector<classDef::variable>& v){
                         a = *j;
                     } else {
                         *i = *j;
-                    }
-                }
+                    } // End if/else for insert.s
+                } // End insert for.
                 
-            }
-        }
+            } // End if it needs an insert
+        } // End for
         
-    }
+    } // End if/else.
     
     
     return name;
