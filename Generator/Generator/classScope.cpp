@@ -14,7 +14,7 @@ classScope::classScope(globalNamespace* parent)
 classDef classScope::generate()
 {
     // Create class being generated.
-    string name = genName::get("class", variables);
+    string name = genName::get("class", types);
     classDef ret { name };
     
     LOG("Generating class with name " << name)
