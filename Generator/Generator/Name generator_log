@@ -35,3 +35,10 @@
 (1)Line reads: %Done
 (1)Line reads: # %@! Will eventually work, but not now.
 (1)Line reads: # %@! Will eventually work, but not now.
+(1)Getting name of type bool
+(1)Seeding rand...
+(1)Random value to check: 321412918
+(1)Found valid value!
+(1)Getting name of type bool
+(1)Random value to check: 1065540621
+(1)Found valid value!
