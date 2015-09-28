@@ -108,6 +108,7 @@ string genName::get(const string& type, const vector<classDef::variable>& v){
     } else {
         name = ref[randRange(0, ref.size()-1)];
         
+<<<<<<< Updated upstream
         for (auto i = name.begin() ; i < name.end();i++ ) {
             if(containsChar(*i, lines["Symbols"]) ) {
                 insert_iterator<string> a(name, i);
@@ -120,6 +121,20 @@ string genName::get(const string& type, const vector<classDef::variable>& v){
                         *i = *j;
                     } // End if/else for insert.s
                 } // End insert for.
+=======
+        for (auto i = name.begin() ; i < name.end();i++ ){
+            int b = 0;
+            
+        insert_iterator<string> a(name, i);
+            
+            char c = name[b];
+            char h = '\0';
+            
+            if(isSpecial(c)==true){
+                h =c;
+                string add = genName::get(type + "." + h);
+                a = add[b];
+>>>>>>> Stashed changes
                 
             } // End if it needs an insert
         } // End for
