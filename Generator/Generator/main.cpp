@@ -23,7 +23,6 @@ int main() {
         string s;
         cin >> s;
         cout << genName::get(s) << endl;
-        
     }
 #else
     globalNamespace g;

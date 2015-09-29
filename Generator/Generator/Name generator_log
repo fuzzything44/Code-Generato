@@ -14,9 +14,9 @@
 (1)Line reads: %Done
 (1)Getting name of type bool
 (1)Seeding rand...
-(1)Random value to check: 1808361822
+(1)Random value to check: 1810361855
 (1)Found valid value!
 (1)Getting name of type bool.%
-(1)Random value to check: 1948570010
+(1)Random value to check: 1203386289
 (1)Found valid value!
-(1) Inserting string "needs" to string"%Valid"
+(1) Inserting string "does" to string"%Done"

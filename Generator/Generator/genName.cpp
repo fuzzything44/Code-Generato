@@ -69,8 +69,70 @@ inline bool isSpecial(const char c){
     return (c == '!') || (c == '@')|| (c=='#')|| (c == '$')|| (c == '%')|| (c == '^')|| (c == '*');
 }
 
+string genName::get(const string& type, const vector<classDef::variable>& v)
+{
+    // Tries 20 times before giving up.
+    for (int i = 0; i < 20; i++) {
+        // String to test if used.
+        string test = genName::get(type);
+        bool isUsed = false;
+        for (auto i = v.cbegin(); i != v.cend(); i++) {
+            if (test == i->first) {
+                isUsed = true;
+            }
+        }
+        if (!isUsed) {
+            return test;
+        }
+    }
+    // Generate a completely unique name.
+    string::size_type maxl = 0;
+    for (auto i = v.cbegin(); i != v.cend(); i++) {
+        if (i->first.size() > maxl) {
+            maxl = i->first.size();
+        }
+    }
+    // Create a string 1 longer than maxl.
+    string ret;
+    for (string::size_type i = 0; i <= maxl; i++) {
+        char c = randRange('a', 'z');
+        ret += c;
+    }
+    return ret;
+}
+string genName::get(const string& type, const vector<classDef>& v)
+{
+    // Tries 20 times before giving up.
+    for (int i = 0; i < 20; i++) {
+        // String to test if used.
+        string test = genName::get(type);
+        bool isUsed = false;
+        for (auto i = v.cbegin(); i != v.cend(); i++) {
+            if (test == i->getName() ) {
+                isUsed = true;
+            }
+        }
+        if (!isUsed) {
+            return test;
+        }
+    }
+    // Generate a completely unique name.
+    string::size_type maxl = 0;
+    for (auto i = v.cbegin(); i != v.cend(); i++) {
+        if (i->getName().size() > maxl) {
+            maxl = i->getName().size();
+        }
+    }
+    // Create a string 1 longer than maxl.
+    string ret;
+    for (string::size_type i = 0; i <= maxl; i++) {
+        char c = randRange('a', 'z');
+        ret += c;
+    }
+    return ret;
+}
 
-string genName::get(const string& type, const vector<classDef::variable>& v){
+string genName::get(const string& type){
     
     string name = "";
     LOG("Getting name of type " << type)
@@ -122,7 +184,6 @@ string genName::get(const string& type, const vector<classDef::variable>& v){
 
                     } // End if/else for inserts
                 } // End insert for.
-                
             } // End if it needs an insert
         } // End for
         

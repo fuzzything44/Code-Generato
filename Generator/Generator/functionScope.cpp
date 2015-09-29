@@ -35,7 +35,7 @@ inline bool canCall(const function func, const vector<classDef::variable> vars)
             // vars[1] = bool
             // vars[2] = int
             // vars[3] = char
-            if ((*i >= j->second) || (*i == vars[1].second) || (*i == vars[2].second) || (*i == vars[3].second) ) {
+            if ((*i >= j->second) || (*i == vars[1].second) /*|| (*i == vars[2].second) || (*i == vars[3].second) */ ) {
                 foundMatch = true;
                 break;
             }
@@ -124,7 +124,7 @@ function functionScope::generate()
         
             if (callable.size() > 0) {
                 LOG("Calling function...")
-                function& func = callable[randRange(0, callable.size())];
+                function& func = callable[randRange(0, callable.size() - 1)];
                 
                 // Stores the arguments we will call the function with.
                 vector<classDef::variable> funcArgs;
