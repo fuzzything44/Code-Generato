@@ -49,7 +49,7 @@ bool classDef::operator!=(const classDef& isEqual) const
 
 bool classDef::operator>=(const classDef &isEqual) const
 {
-    LOG("Checking >= on class " << this->name << " and " << isEqual.name)
+    LOG("Checking >= on class " << name << " and " << isEqual.getName() )
     static bool hasCalled = false;
     
     LOG("  Checking the names...")
