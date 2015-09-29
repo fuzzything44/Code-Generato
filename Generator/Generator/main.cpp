@@ -9,7 +9,7 @@ using std::string;
 using std::cin;
 using std::endl;
 
-//#define TEST_NAME_GEN
+#define TEST_NAME_GEN
 
 
 int main() {

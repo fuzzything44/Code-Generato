@@ -1,37 +1,22 @@
 (1)Reading file...
 
 (1)Line reads: 
-(1)Line reads: #   Crappy name log.
-(1)Line reads: #
-(1)Line reads: #   Special symbols:
-(1)Line reads: #       '!' = .post (postfix)
-(1)Line reads: #       '@' = type (the string passed in).
-(1)Line reads: #       '#' = Comment line. Ignored when read in.
-(1)Line reads: #       '$' =
-(1)Line reads: #       '%' = .pre (prefix)
-(1)Line reads: #       '^' =
-(1)Line reads: #       '&' =
-(1)Line reads: #       '*' =
-(1)Line reads: #       '~' =
-(1)Line reads: #       '+' =
-(1)Line reads: #       '?' =
-(1)Line reads: #       '|' =
-(1)Line reads: 
-(1)Line reads: -typename
-(1)Line reads: -bool.%
 (1)Line reads: is
 (1)Line reads: does
 (1)Line reads: needs
 (1)Line reads: has
-(1)Line reads: -bool.!
 (1)Line reads: Set
 (1)Line reads: Initialized
 (1)Line reads: Exist
-(1)Line reads: 
-(1)Line reads: -bool
 (1)Line reads: %Valid
 (1)Line reads: %Run
 (1)Line reads: %Generate
 (1)Line reads: %Done
-(1)Line reads: # %@! Will eventually work, but not now.
-(1)Line reads: # %@! Will eventually work, but not now.
+(1)Getting name of type bool
+(1)Seeding rand...
+(1)Random value to check: 1808361822
+(1)Found valid value!
+(1)Getting name of type bool.%
+(1)Random value to check: 1948570010
+(1)Found valid value!
+(1) Inserting string "needs" to string"%Valid"

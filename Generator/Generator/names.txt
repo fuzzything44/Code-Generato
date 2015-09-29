@@ -1,12 +1,3 @@
-!
-@
-$
-%
-^
-&
-*
-$SYMBOLS$
-
 #   Crappy name log.
 #
 #   Special symbols:
@@ -33,7 +24,6 @@ has
 Set
 Initialized
 Exist
-
 -bool
 %Valid
 %Run
