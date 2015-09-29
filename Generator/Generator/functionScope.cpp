@@ -74,7 +74,7 @@ function functionScope::generate()
         
         // Add argument type and name to the argument array.
         argTypes.push_back(classDef::variable(argName, argType));
-        
+        variables.push_back(classDef::variable(argName, argType));
     }
     
     
@@ -194,8 +194,11 @@ function functionScope::generate()
                 
                 
                 // Now we set it.
-                CODE(toSet.first << " = " << possibleSets[randRange(0, possibleSets.size() -1 )] << ";")
-                
+                if (possibleSets.size() > 0) {
+                    CODE(toSet.first << " = " << possibleSets[randRange(0, possibleSets.size() -1 )] << ";")
+                } else {
+                    CODE(toSet.first << ";");
+                }
             } else {
                 LOG("Failed to set variable: No variables to set.")
             }
