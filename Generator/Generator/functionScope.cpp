@@ -171,29 +171,34 @@ function functionScope::generate()
             // Set a value
             LOG("Setting a variable...")
             
-            // Determine variable to set...
-            classDef::variable toSet = variables[randRange(0, variables.size() - 1) ];
-            
-            vector<string> possibleSets;
-            // Determine what to set it to.
-            for (auto i = variables.cbegin(); i != variables.cend(); i++) {
-                if ( (i->first != toSet.first) && (toSet.second >= i->second) ) {
-                    possibleSets.push_back(i->first);
+            if (variables.size() > 0) {
+                // Determine variable to set...
+                classDef::variable toSet = variables[randRange(0, variables.size() - 1) ];
+                
+                vector<string> possibleSets;
+                // Determine what to set it to.
+                for (auto i = variables.cbegin(); i != variables.cend(); i++) {
+                    if ( (i->first != toSet.first) && (toSet.second >= i->second) ) {
+                        possibleSets.push_back(i->first);
+                    }
                 }
+                
+                // If it's a bool, it can be set to true or false.
+                if (toSet.second >= types[1] ) {
+                    LOG("  Adding bool options...")
+                    possibleSets.push_back("true");
+                    possibleSets.push_back("false");
+                }
+                
+                LOG("  NO INT, CHAR OPTIONS CREATED!")
+                
+                
+                // Now we set it.
+                CODE(toSet.first << " = " << possibleSets[randRange(0, possibleSets.size() -1 )] << ";")
+                
+            } else {
+                LOG("Failed to set variable: No variables to set.")
             }
-            
-            // If it's a bool, it can be set to true or false.
-            if (toSet.second >= types[1] ) {
-                LOG("  Adding bool options...")
-                possibleSets.push_back("true");
-                possibleSets.push_back("false");
-            }
-            
-            LOG("  NO INT, CHAR OPTIONS CREATED!")
-            
-            
-            // Now we set it.
-            CODE(toSet.first << " = " << possibleSets[randRange(0, possibleSets.size() -1 )] << ";")
             
         } else {
             // Create a variable.

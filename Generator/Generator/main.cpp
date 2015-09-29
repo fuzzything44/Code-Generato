@@ -26,7 +26,7 @@ int main() {
     }
 #else
     globalNamespace g;
-    g.generate(1);
+    g.generate(5);
 #endif
     
     logger::close();
