@@ -11,8 +11,8 @@ std::map<string, std::vector<string> > genName::lines;
 using namespace std;
 
 void genName::init() {
-    ENTER_FUNC(genName::init())
-    
+    ENTER_FUNC("genName::init()")
+
     ifstream infile;
     infile.open("names.txt");
     string lineInfo ;
@@ -43,14 +43,14 @@ void genName::init() {
     
     infile.close();
     
-    LEAVE_FUNC_VOID(genName::init())
+    LEAVE_FUNC_VOID("genName::init()")
 } // End function
 
 
 // Determines if the vector has a 1-char length string equal to the given char.
 inline bool containsChar(const char c, const vector<string>& symbols)
 {
-    ENTER_FUNC(containsChar(const char, const vector<string>&))
+    ENTER_FUNC("containsChar(const char, const vector<string>&)")
     
     
     
@@ -58,18 +58,18 @@ inline bool containsChar(const char c, const vector<string>& symbols)
     for (auto i = symbols.cbegin(); i != symbols.cend(); i++) {
         // If a symbol matches the character, return true.
         if (*i == to_string(c) ) {
-            LEAVE_FUNC_LITERAL(containsChar(const char, const vector<string>&), true)
+            LEAVE_FUNC("containsChar(const char, const vector<string>&)", true)
         }
     }
     
     // No match found. Return false.
-    LEAVE_FUNC_LITERAL(containsChar(const char, const vector<string>&), false)
+    LEAVE_FUNC("containsChar(const char, const vector<string>&)", false)
 }
 
 inline bool isSpecial(const char c)
 {
-    ENTER_FUNC(isSpecial(const char))
-    LEAVE_FUNC_LITERAL(isSpecial(const char), (c == '!') || (c == '@')|| (c=='#')|| (c == '$')|| (c == '%')|| (c == '^')|| (c == '*'))
+    ENTER_FUNC("isSpecial(const char)")
+    LEAVE_FUNC("isSpecial(const char)", (c == '!') || (c == '@')|| (c=='#')|| (c == '$')|| (c == '%')|| (c == '^')|| (c == '*'))
 }
 
 string genName::get(const string& type, const vector<classDef::variable>& v)
@@ -105,6 +105,7 @@ string genName::get(const string& type, const vector<classDef::variable>& v)
 }
 string genName::get(const string& type, const vector<classDef>& v)
 {
+    ENTER_FUNC("genName::get(const string&, const vector<classDef>&")
     // Tries 20 times before giving up.
     for (int i = 0; i < 20; i++) {
         // String to test if used.
@@ -132,11 +133,11 @@ string genName::get(const string& type, const vector<classDef>& v)
         char c = randRange('a', 'z');
         ret += c;
     }
-    return ret;
+    LEAVE_FUNC("genName::get(const string&, const vector<classDef>&", ret)
 }
 
 string genName::get(const string& type){
-    
+    ENTER_FUNC("genName::get(const string&")
     string name = "";
     LOG("Getting name of type " << type)
 
@@ -193,7 +194,7 @@ string genName::get(const string& type){
     } // End if/else.
     
     
-    return name;
+    LEAVE_FUNC("genName::get(const string&)", name)
 }
 
 

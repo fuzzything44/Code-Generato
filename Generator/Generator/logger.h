@@ -3,7 +3,6 @@
 #include <fstream>
 #include <string>
 #include <iostream>
-#include <typeinfo>
 
 namespace logger {
     extern std::ofstream code;
@@ -34,17 +33,13 @@ namespace logger {
         std::cout << "Attempted code: " << #ans << std::endl;                                                           \
         exit(-1); }
 
-#define ENTER_FUNC(name) LOG("Entering function " << #name)                                                              \
+#define ENTER_FUNC(name) LOG("Entering function " << name)                                                              \
     logger::log_pre += "  ";
 
 #define LEAVE_FUNC(name, ret) logger::log_pre.pop_back(); logger::log_pre.pop_back();                                   \
-    LOG("Leaving function " << #name << ", returning " << #ret << " which is of type " << typeid(ret).name() )           \
+    LOG("Leaving function " << name)                                                                                    \
     return ret;
 
 #define LEAVE_FUNC_VOID(name) logger::log_pre.pop_back(); logger::log_pre.pop_back();                                   \
-    LOG("Leaving function " << #name << ", returning void.")                                                             \
+    LOG("Leaving function " << name << ", returning void.")                                                             \
     return;
-
-#define LEAVE_FUNC_LITERAL(name, ret) logger::log_pre.pop_back(); logger::log_pre.pop_back();                           \
-    LOG("Leaving function " << #name << ", returning " << #ret)                                                          \
-    return ret;
