@@ -10,14 +10,14 @@ using std::string;
 using std::cin;
 using std::endl;
 
-#define TEST_NAME_GEN
+//#define TEST_NAME_GEN
 
 
 int main() {
     
     logger::init("Name generator");
     genName::init();
-    int i = 5;
+
 #ifdef TEST_NAME_GEN
     while (true) {
         cout << "Enter name type: ";
@@ -27,7 +27,7 @@ int main() {
     }
 #else
     globalNamespace g;
-    g.generate(5);
+    g.generate(3);
 #endif
     
     logger::close();

@@ -65,14 +65,13 @@ bool classDef::operator>=(const classDef &isEqual) const
     LOG("Checking >= on class " << name << " and " << isEqual.getName() )
     static bool hasCalled = false;
     
-    LOG("  Checking the names...")
+    LOG("Checking the names...")
     // If the names are equal, they are the same class type.
     if (name == isEqual.getName() )
     {
-        LOG(" Returning true")
         LEAVE_FUNC("classDef::operator>=(const classDef &isEqual)", true)
     } else {
-        LOG("  Checking conversion operators...")
+        LOG("Checking conversion operators...")
         // Look for conversion operators.
         // Loop through all functions if we aren't already with a conversion operator.
         if (!hasCalled) {
@@ -83,10 +82,8 @@ bool classDef::operator>=(const classDef &isEqual) const
                 {
                     hasCalled = true;
                     if ( *this >= i->getRet() ) {
-                        LOG("    Found conversion operator. Checking converted class...")
+                        LOG("Found conversion operator. Checking converted class...")
                         hasCalled = false;
-                        
-                        LOG(" Returning true")
                         LEAVE_FUNC("classDef::operator>=(const classDef &isEqual)", true)
                     }
                     hasCalled = false;

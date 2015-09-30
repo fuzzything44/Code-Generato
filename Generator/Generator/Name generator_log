@@ -1,52 +1,17 @@
 (1)Entering function genName::init()
-(1)Reading file...
+(1)  Reading file...
 
-(1)Line reads: 
-(1)Line reads: is
-(1)Line reads: does
-(1)Line reads: needs
-(1)Line reads: has
-(1)Line reads: Set
-(1)Line reads: Initialized
-(1)Line reads: Exist
-(1)Line reads: %Valid
-(1)Line reads: %Run
-(1)Line reads: %Generate
-(1)Line reads: %Done
+(1)  Line reads: 
+(1)  Line reads: is
+(1)  Line reads: does
+(1)  Line reads: needs
+(1)  Line reads: has
+(1)  Line reads: Set
+(1)  Line reads: Initialized
+(1)  Line reads: Exist
+(1)  Line reads: %Valid
+(1)  Line reads: %Run
+(1)  Line reads: %Generate
+(1)  Line reads: %Done
 (1)Leaving function genName::init(), returning void.
-(1)Getting name of type bool
-(1)Seeding rand...
-(1)Random value to check: 1040800103
-(1)Found valid value!
-(1)Entering function isSpecial(const char)
-(1)Leaving function isSpecial(const char), returning (c == '!') || (c == '@')|| (c=='#')|| (c == '$')|| (c == '%')|| (c == '^')|| (c == '*')
-(1)Getting name of type bool.%
-(1)Random value to check: 1473026306
-(1)Found valid value!
-(1)Entering function isSpecial(const char)
-(1)Leaving function isSpecial(const char), returning (c == '!') || (c == '@')|| (c=='#')|| (c == '$')|| (c == '%')|| (c == '^')|| (c == '*')
-(1)Entering function isSpecial(const char)
-(1)Leaving function isSpecial(const char), returning (c == '!') || (c == '@')|| (c=='#')|| (c == '$')|| (c == '%')|| (c == '^')|| (c == '*')
-(1)Entering function isSpecial(const char)
-(1)Leaving function isSpecial(const char), returning (c == '!') || (c == '@')|| (c=='#')|| (c == '$')|| (c == '%')|| (c == '^')|| (c == '*')
-(1)Entering function isSpecial(const char)
-(1)Leaving function isSpecial(const char), returning (c == '!') || (c == '@')|| (c=='#')|| (c == '$')|| (c == '%')|| (c == '^')|| (c == '*')
-(1)Entering function isSpecial(const char)
-(1)Leaving function isSpecial(const char), returning (c == '!') || (c == '@')|| (c=='#')|| (c == '$')|| (c == '%')|| (c == '^')|| (c == '*')
-(1) Inserting string "needs" to string"%Done"
-(1)Entering function isSpecial(const char)
-(1)Leaving function isSpecial(const char), returning (c == '!') || (c == '@')|| (c=='#')|| (c == '$')|| (c == '%')|| (c == '^')|| (c == '*')
-(1)Entering function isSpecial(const char)
-(1)Leaving function isSpecial(const char), returning (c == '!') || (c == '@')|| (c=='#')|| (c == '$')|| (c == '%')|| (c == '^')|| (c == '*')
-(1)Entering function isSpecial(const char)
-(1)Leaving function isSpecial(const char), returning (c == '!') || (c == '@')|| (c=='#')|| (c == '$')|| (c == '%')|| (c == '^')|| (c == '*')
-(1)Entering function isSpecial(const char)
-(1)Leaving function isSpecial(const char), returning (c == '!') || (c == '@')|| (c=='#')|| (c == '$')|| (c == '%')|| (c == '^')|| (c == '*')
-(1)Entering function isSpecial(const char)
-(1)Leaving function isSpecial(const char), returning (c == '!') || (c == '@')|| (c=='#')|| (c == '$')|| (c == '%')|| (c == '^')|| (c == '*')
-(1)Entering function isSpecial(const char)
-(1)Leaving function isSpecial(const char), returning (c == '!') || (c == '@')|| (c=='#')|| (c == '$')|| (c == '%')|| (c == '^')|| (c == '*')
-(1)Entering function isSpecial(const char)
-(1)Leaving function isSpecial(const char), returning (c == '!') || (c == '@')|| (c=='#')|| (c == '$')|| (c == '%')|| (c == '^')|| (c == '*')
-(1)Entering function isSpecial(const char)
-(1)Leaving function isSpecial(const char), returning (c == '!') || (c == '@')|| (c=='#')|| (c == '$')|| (c == '%')|| (c == '^')|| (c == '*')
+(1)Entering function globalNamespace::globalNamespace()
