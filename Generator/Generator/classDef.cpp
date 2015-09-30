@@ -8,7 +8,9 @@ classDef::classDef(const string& name) : name(name) {};
 
 const vector<function>& classDef::getFuncs() const
 {
-    return funcs;
+    ENTER_FUNC("classDef::getFuncs()")
+    LEAVE_FUNC("classDef::getFuncs()", funcs)
+
 }
 
 const string& classDef::getName() const
@@ -18,37 +20,47 @@ const string& classDef::getName() const
 
 const vector<classDef::variable>& classDef::getVars() const
 {
-    return vars;
+    ENTER_FUNC("classDef::getName()")
+    LEAVE_FUNC("classDef::getName()", vars)
 }
 
 
 void classDef::addFunction(const function& f)
 {
+    ENTER_FUNC("classDef::addFunction(const function& f)")
     funcs.push_back(f);
+    LEAVE_FUNC_VOID("classDef::addFunction(const function& f)")
 }
 
 void classDef::addVar(const variable& v)
 {
+    ENTER_FUNC("classDef::addVar(const variable& v)")
     vars.push_back(v);
+    LEAVE_FUNC_VOID("classDef::addVar(const variable& v)")
 }
 
 bool classDef::operator<=(const classDef& isEqual) const
 {
-    return isEqual >= *this;
+    ENTER_FUNC("classDef::operator<=(const classDef& isEqual)")
+    bool ret = isEqual >= *this;
+    LEAVE_FUNC("classDef::operator<=(const classDef& isEqual)", ret)
 }
 
 bool classDef::operator==(const classDef& isEqual) const
 {
-    return name == isEqual.name;
+    ENTER_FUNC("classDef::operator==(const classDef& isEqual")
+    LEAVE_FUNC("classDef::operator==(const classDef& isEqual)", name == isEqual.getName())
 }
 
 bool classDef::operator!=(const classDef& isEqual) const
 {
-    return !(*this == isEqual);
+    ENTER_FUNC("classDef::operator!=(const classDef& isEqual)")
+    LEAVE_FUNC("classDef::operator!=(const classDef& isEqual)",!(*this == isEqual) )
 }
 
 bool classDef::operator>=(const classDef &isEqual) const
 {
+    ENTER_FUNC("classDef::operator>=(const classDef &isEqual)")
     LOG("Checking >= on class " << name << " and " << isEqual.getName() )
     static bool hasCalled = false;
     
@@ -57,7 +69,7 @@ bool classDef::operator>=(const classDef &isEqual) const
     if (name == isEqual.getName() )
     {
         LOG(" Returning true")
-        return true;
+        LEAVE_FUNC("classDef::operator>=(const classDef &isEqual)", true)
     } else {
         LOG("  Checking conversion operators...")
         // Look for conversion operators.
@@ -74,23 +86,23 @@ bool classDef::operator>=(const classDef &isEqual) const
                         hasCalled = false;
                         
                         LOG(" Returning true")
-                        return true;
+                        LEAVE_FUNC("classDef::operator>=(const classDef &isEqual)", true)
                     }
                     hasCalled = false;
                 }
             }
         }
     } // End else
-    LOG(" Returning false")
-    return false;
+    LEAVE_FUNC("classDef::operator>=(const classDef &isEqual)", false)
 }
 
 classDef& classDef::operator=(const classDef& set)
 {
+    ENTER_FUNC("classDef::operator=(const classDef& set)")
     if (&set != this)
     {
         name = set.name;
         funcs = set.funcs;
     }
-    return *this;
+    LEAVE_FUNC("classDef::operator=(const classDef& set)", *this)
 }
