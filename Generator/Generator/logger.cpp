@@ -4,6 +4,7 @@
 std::ofstream logger::log;
 std::ofstream logger::code;
 std::string logger::code_pre;
+std::string logger::log_pre;
 uint32 logger::line;
 
 void logger::init(std::string fname)

@@ -221,6 +221,23 @@ function functionScope::generate()
         
         // Currently, we won't implement smallScope.
     }
+    if (retType != types[0]) {
+        // Generate return statement. Only if return type is not void.
+        LOG("Generating return statement...")
+        // Find all variables we can return.
+        vector<string> retOptions;
+        for (auto i = variables.cbegin(); i != variables.cend(); i++) {
+            if (retType >= i->second) {
+                retOptions.push_back(i->first);
+            }
+        }
+        
+        // Use default constructor for the return type.
+        retOptions.push_back(retType.getName() + "{}");
+        
+        // And make the statement...
+        CODE("return " << retOptions[randRange(0, retOptions.size() - 1)] << ";")
+    }
     
     // Finish function. Remove tab.
     logger::code_pre.pop_back();

@@ -11,7 +11,8 @@ std::map<string, std::vector<string> > genName::lines;
 using namespace std;
 
 void genName::init() {
-   
+    ENTER_FUNC(genName::init())
+    
     ifstream infile;
     infile.open("names.txt");
     string lineInfo ;
@@ -42,14 +43,14 @@ void genName::init() {
     
     infile.close();
     
-    
+    LEAVE_FUNC_VOID(genName::init())
 } // End function
 
 
 // Determines if the vector has a 1-char length string equal to the given char.
 inline bool containsChar(const char c, const vector<string>& symbols)
 {
-    
+    ENTER_FUNC(containsChar(const char, const vector<string>&))
     
     
     
@@ -57,16 +58,18 @@ inline bool containsChar(const char c, const vector<string>& symbols)
     for (auto i = symbols.cbegin(); i != symbols.cend(); i++) {
         // If a symbol matches the character, return true.
         if (*i == to_string(c) ) {
-            return true;
+            LEAVE_FUNC_LITERAL(containsChar(const char, const vector<string>&), true)
         }
     }
     
     // No match found. Return false.
-    return false;
+    LEAVE_FUNC_LITERAL(containsChar(const char, const vector<string>&), false)
 }
-inline bool isSpecial(const char c){
-    
-    return (c == '!') || (c == '@')|| (c=='#')|| (c == '$')|| (c == '%')|| (c == '^')|| (c == '*');
+
+inline bool isSpecial(const char c)
+{
+    ENTER_FUNC(isSpecial(const char))
+    LEAVE_FUNC_LITERAL(isSpecial(const char), (c == '!') || (c == '@')|| (c=='#')|| (c == '$')|| (c == '%')|| (c == '^')|| (c == '*'))
 }
 
 string genName::get(const string& type, const vector<classDef::variable>& v)
