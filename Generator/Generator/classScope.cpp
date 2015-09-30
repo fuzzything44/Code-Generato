@@ -7,12 +7,15 @@ using std::vector;
 
 classScope::classScope(globalNamespace* parent)
 {
+    ENTER_FUNC("classScope::classScope(globalNamespace* parent)")
     functions = parent->functions;
     types = parent->types;
+    LEAVE_FUNC_VOID("classScope::classScope(globalNamespace* parent)")
 }
 
 classDef classScope::generate()
 {
+    ENTER_FUNC("classScope::generate()")
     // Create class being generated.
     string name = genName::get("class", types);
     classDef ret { name };
@@ -101,6 +104,6 @@ classDef classScope::generate()
     
     LOG("\n");
     LOG("Constructor not created (only default added.) \n")
-    
+    LEAVE_FUNC("classScope::generate()", ret)
     return ret;
 }

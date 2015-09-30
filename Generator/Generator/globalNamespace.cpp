@@ -13,6 +13,7 @@ using std::string;
 // globalNamespace
 globalNamespace::globalNamespace()
 {
+    ENTER_FUNC("globalNamespace::globalNamespace()")
     // Start logging
     logger::init("generator");
     
@@ -81,10 +82,12 @@ globalNamespace::globalNamespace()
     }
     
     LOG("Finished creating basic data types" << std::endl << std::endl)
+    LEAVE_FUNC_VOID("globalNamespace::globalNamespace()")
 }
 
 void globalNamespace::generate(int32 length)
 {
+    ENTER_FUNC("globalNamespace::generate(int32 length)")
     // And now we generate!
     LOG("Generating code with length " << length)
     
@@ -108,7 +111,7 @@ void globalNamespace::generate(int32 length)
     }
     
     LOG("Finished all classes and functions. Generating main")
-    
+    LEAVE_FUNC_VOID("globalNamespace::generate(int32 length)")
     // Generate main. Pretty much a function generate, just with a set name.
     
 }

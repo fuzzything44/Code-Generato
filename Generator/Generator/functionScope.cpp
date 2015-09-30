@@ -9,19 +9,26 @@ using std::vector;
 
 functionScope::functionScope(classScope* parent)
 {
+    ENTER_FUNC("functionScope::functionScope(classScope* parent")
+
     functions = parent->functions;
     types = parent->types;
     variables = parent->variables;
+    LEAVE_FUNC_VOID("functionScope::functionScope(classScope* parent)")
 }
 
 functionScope::functionScope(globalNamespace* parent)
 {
+    ENTER_FUNC("functionScope::functionScope(globalNamespace* parent)")
     functions = parent->functions;
     types = parent->types;
+    LEAVE_FUNC_VOID("functionScope::functionScope(globalNamespace* parent)")
 }
 
 inline bool canCall(const function func, const vector<classDef::variable> vars)
 {
+    ENTER_FUNC("canCall(const function func, const vector<classDef::variable> vars)")
+    
     LOG("Checking if function " << func.getName() << " can be called.")
     LOG("-Expected checks: " << (func.getArgs().size() * vars.size() ) )
     LOG("-Size of function args = " << func.getArgs().size() )
@@ -46,7 +53,7 @@ inline bool canCall(const function func, const vector<classDef::variable> vars)
         }
     }
     LOG("  Match found. Returning true.")
-    return true;
+    LEAVE_FUNC("canCall(const function func, const vector<classDef::variable> vars)", true)
 }
 
 
@@ -54,6 +61,7 @@ inline bool canCall(const function func, const vector<classDef::variable> vars)
 // Generating function.
 function functionScope::generate()
 {
+    ENTER_FUNC("functionScope::generate()")
     // Make name.
     string name = genName::get("function", variables);
     
@@ -242,5 +250,5 @@ function functionScope::generate()
     // Finish function. Remove tab.
     logger::code_pre.pop_back();
     CODE("}")
-    return ret;
+    LEAVE_FUNC("functionScope::generate()", ret)
 }
