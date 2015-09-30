@@ -74,6 +74,7 @@ inline bool isSpecial(const char c)
 
 string genName::get(const string& type, const vector<classDef::variable>& v)
 {
+    ENTER_FUNC("genName::get(const string& type, const vector<classDef::variable>& v)")
     // Tries 20 times before giving up.
     for (int i = 0; i < 20; i++) {
         // String to test if used.
@@ -85,7 +86,7 @@ string genName::get(const string& type, const vector<classDef::variable>& v)
             }
         }
         if (!isUsed) {
-            return test;
+            LEAVE_FUNC("genName::get(const string& type, const vector<classDef::variable>& v)", test)
         }
     }
     // Generate a completely unique name.
@@ -101,8 +102,9 @@ string genName::get(const string& type, const vector<classDef::variable>& v)
         char c = randRange('a', 'z');
         ret += c;
     }
-    return ret;
+    LEAVE_FUNC("genName::get(const string& type, const vector<classDef::variable>& v)", ret)
 }
+
 string genName::get(const string& type, const vector<classDef>& v)
 {
     ENTER_FUNC("genName::get(const string&, const vector<classDef>&")
@@ -117,7 +119,7 @@ string genName::get(const string& type, const vector<classDef>& v)
             }
         }
         if (!isUsed) {
-            return test;
+            LEAVE_FUNC("genName::get(const string& type, const vector<classDef::variable>& v)", test)
         }
     }
     // Generate a completely unique name.

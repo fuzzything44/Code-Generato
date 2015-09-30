@@ -31,7 +31,6 @@ int64 randRange(int64 low, int64 high)
     
     LOG("Found valid value!")
     
-    LEAVE_FUNC("random::randRange(int64 low, int64 high)",rand % max + low)
-    //return rand % max + low;
+    LEAVE_FUNC("random::randRange(int64 low, int64 high)", rand % max + low)
         
 }

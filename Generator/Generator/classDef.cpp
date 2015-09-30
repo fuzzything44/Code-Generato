@@ -15,7 +15,8 @@ const vector<function>& classDef::getFuncs() const
 
 const string& classDef::getName() const
 {
-    return name;
+    ENTER_FUNC("classDef::getName()")
+    LEAVE_FUNC("classDef::getName()", name)
 }
 
 const vector<classDef::variable>& classDef::getVars() const
