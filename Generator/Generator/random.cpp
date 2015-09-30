@@ -5,6 +5,7 @@
 
 int64 randRange(int64 low, int64 high)
 {
+    ENTER_FUNC("random::randRange(int64 low, int64 high)")
     static bool randSeeded;
     
     // Seed rand if not already.
@@ -29,6 +30,8 @@ int64 randRange(int64 low, int64 high)
     } while ( ((RAND_MAX / max) * max) < rand);
     
     LOG("Found valid value!")
-    return rand % max + low;
+    
+    LEAVE_FUNC("random::randRange(int64 low, int64 high)",rand % max + low)
+    //return rand % max + low;
         
 }
