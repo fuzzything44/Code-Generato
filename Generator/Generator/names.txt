@@ -10,11 +10,17 @@
 #       '&' =
 #       '*' =
 #       '~' =
-#       '+' =
-#       '?' =
+ #       '?' =
 #       '|' =
 
 -typename
+A
+B
+C
+-typename.%
+%abc^
+-typename.^
+def
 -bool.%
 is
 does

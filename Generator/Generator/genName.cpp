@@ -161,6 +161,8 @@ string genName::get(const string& type){
     
     const vector<string>& ref = lines[type];
     
+    
+    string typeHolder = type;
     if(ref.size() == 0) {
         for(int64 i = randRange(10, 20); i > 0 ; i--) {
             
@@ -180,10 +182,18 @@ string genName::get(const string& type){
             if(isSpecial(*i)) {
                 insert_iterator<string> a(name, ++i);
                 i--;
-                string add = genName::get(type + "." + *i);
+                for(int i = typeHolder.size();i <type.size();i++){
+                    if (isSpecial(type[i]) && type[i+1] == '.'){
+                        typeHolder.pop_back();
+                        typeHolder.pop_back();
+                        break;
+                    }
+                }
+                string add = genName::get(typeHolder + "." + *i);
                 LOG(" Inserting string \"" << add << "\" to string\"" << name << "\"")
                 for (auto j = add.cbegin(); j != add.cend(); j++) {
                     if ( j != add.cbegin() ) {
+
                         a = *j;
                     } else {
                         *i = *j;
@@ -198,7 +208,6 @@ string genName::get(const string& type){
     
     LEAVE_FUNC("genName::get(const string&)", name)
 }
-
 
 
 
