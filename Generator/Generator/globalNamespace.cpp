@@ -31,7 +31,7 @@ globalNamespace::globalNamespace()
     // Create void
     {
         LOG("Creating void")
-        classDef voidClass{ "void",};
+        classDef* voidClass = new classDef("void");
         types.push_back(voidClass);
         LOG("Finished void" << std::endl)
     }
@@ -39,19 +39,7 @@ globalNamespace::globalNamespace()
     // Create bool
     {
         LOG("Creating bool")
-        classDef boolClass{ "bool",};
-        
-        // Holds function arguments.
-        vector<classDef> args;
-        
-        args.push_back(boolClass);
-        // Operators included:
-        // ==     =
-        function opEq{ "operator==", args, boolClass };
-        function opSet{ "operator=", args, boolClass };
-        
-        boolClass.addFunction(opEq);
-        boolClass.addFunction(opSet);
+        classDef* boolClass = new classDef("bool");
         
         types.push_back(boolClass);
         LOG("Finished bool" << std::endl)
@@ -60,14 +48,13 @@ globalNamespace::globalNamespace()
     // Create int
     {
         LOG("Creating int")
-        classDef intClass{ "int",};
+        classDef* intClass = new classDef("int");
         
         // Holds int function arguments.
-        vector<classDef> args;
         
         // Operators needed:
         // +     -     /     *     +=     -=     *=     /=     =     ==
-        
+        delete intClass;
         LOG("int left unfinished...")
     }
     
@@ -111,7 +98,13 @@ void globalNamespace::generate(int32 length)
     }
     
     LOG("Finished all classes and functions. Generating main")
-    LEAVE_FUNC_VOID("globalNamespace::generate(int32 length)")
     // Generate main. Pretty much a function generate, just with a set name.
+    CODE("int main()")
+    CODE("{")
+    CODE("\t" << types[types.size() -1]->getName() << "{};")
+    CODE("\treturn 0;")
+    CODE("}")
+    
+    LEAVE_FUNC_VOID("globalNamespace::generate(int32 length)")
     
 }

@@ -14,15 +14,6 @@ namespace logger {
     extern uint32 line;
 }
 
-#define LOG(ans) if (!logger::log.is_open() ) { logger::init("default"); }                                              \
-    try {                                                                                                               \
-        std::cout << "(" << logger::line << ")" << logger::log_pre << "LOG:" << ans << std::endl;                       \
-        logger::log << "(" << logger::line << ")" << logger::log_pre << ans << std::endl;                               \
-    } catch(std::exception e)   {                                                                                       \
-        std::cout << std::endl << "An error occurred: " << e.what() << std::endl;                                       \
-        std::cout << "Attempted log: " << #ans << std::endl;                                                            \
-        exit(-1); }
-
 #define CODE(ans) if (!logger::code.is_open() ) { logger::init("default"); }                                            \
     try {                                                                                                               \
         std::cout << "    #" << logger::code_pre << ans << std::endl;                                                   \
@@ -32,6 +23,18 @@ namespace logger {
         std::cout << std::endl << "An error occurred: " << e.what() << std::endl;                                       \
         std::cout << "Attempted code: " << #ans << std::endl;                                                           \
         exit(-1); }
+
+#ifndef LOGGING_MINIMAL
+
+#define LOG(ans) if (!logger::log.is_open() ) { logger::init("default"); }                                              \
+    try {                                                                                                               \
+        std::cout << "(" << logger::line << ")" << logger::log_pre << "LOG:" << ans << std::endl;                       \
+        logger::log << "(" << logger::line << ")" << logger::log_pre << ans << std::endl;                               \
+    } catch(std::exception e)   {                                                                                       \
+        std::cout << std::endl << "An error occurred: " << e.what() << std::endl;                                       \
+        std::cout << "Attempted log: " << #ans << std::endl;                                                            \
+        exit(-1); }
+
 
 #define ENTER_FUNC(name) LOG("Entering function " << name)                                                              \
     logger::log_pre += "  ";
@@ -43,3 +46,12 @@ namespace logger {
 #define LEAVE_FUNC_VOID(name) logger::log_pre.pop_back(); logger::log_pre.pop_back();                                   \
     LOG("Leaving function " << name << ", returning void.")                                                             \
     return;
+
+#else
+
+#define LOG(ans) ;
+#define ENTER_FUNC(name) ;
+#define LEAVE_FUNC(name, ret) return ret;
+#define LEAVE_FUNC_VOID(name) return;
+
+#endif

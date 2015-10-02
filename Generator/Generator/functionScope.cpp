@@ -30,9 +30,9 @@ inline bool canCall(const function func, const vector<classDef::variable> vars)
     ENTER_FUNC("canCall(const function func, const vector<classDef::variable> vars)")
     
     LOG("Checking if function " << func.getName() << " can be called.")
-    LOG("-Expected checks: " << (func.getArgs().size() * vars.size() ) )
-    LOG("-Size of function args = " << func.getArgs().size() )
-    LOG("-Size of variables = " << vars.size())
+    LOG("Expected checks: " << (func.getArgs().size() * vars.size() ) )
+    LOG("Size of function args = " << func.getArgs().size() )
+    LOG("Size of variables = " << vars.size())
     // Check all arguments of the function.
     for (auto i = func.getArgs().cbegin(); i != func.getArgs().cend(); i++) {
         // Check all variable types we have.
@@ -221,7 +221,7 @@ function functionScope::generate()
             // Determine variable name.
             string name = genName::get(type.getName(), variables);
             
-            CODE(type.getName() << " " << name << ";");
+            CODE(type.getName() << " " << name << "{};");
             variables.push_back(classDef::variable(name, type));
             LOG("Variable initialization failed - does not check constructors. ")
             

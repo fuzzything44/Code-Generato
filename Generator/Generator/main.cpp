@@ -10,8 +10,6 @@ using std::string;
 using std::cin;
 using std::endl;
 
-//#define TEST_NAME_GEN
-
 
 int main() {
     
@@ -27,9 +25,18 @@ int main() {
     }
 #else
     globalNamespace g;
-    g.generate(3);
+    int length;
+    cout << "How much code to generate?" << endl;
+    cin >> length;
+    if (length > 10) {
+        cout << "That's too long. 1 to 10 please." << endl;
+        length = 10;
+    } else if (length <= 0) {
+        cout << "Please actually ask to generate code. 10 to 10 please." << endl;
+        exit(0);
+    }
+    g.generate(length);
 #endif
     
     logger::close();
 }
-
