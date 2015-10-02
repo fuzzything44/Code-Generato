@@ -18,7 +18,7 @@ classDef* classScope::generate()
     ENTER_FUNC("classScope::generate()")
     // Create class being generated.
     string name = genName::get("class", types);
-    classDef ret { name };
+    classDef* ret = new classDef(name);
     
     LOG("Generating class with name " << name)
     
@@ -33,17 +33,17 @@ classDef* classScope::generate()
     LOG("Creating private variables..." )
     for (int64 i = randRange(1, 10); i > 0; i--) {
         // Choose random type.
-        classDef type = types[randRange(1, types.size() - 1)];
+        classDef* type = types[randRange(1, types.size() - 1)];
         
         // Choose name.
-        string name = genName::get(type.getName(), variables);
+        string name = genName::get(type->getName(), variables);
         
         // Print it out.
-        CODE(type.getName() << " " << name << ";")
+        CODE(type->getName() << " " << name << ";")
         
         // Add it to variables available.
         
-        variables.push_back(classDef::variable(name ,type));
+        variables.push_back(classDef::variable(name ,type) );
         
     }
     
@@ -67,16 +67,16 @@ classDef* classScope::generate()
     // Create public variables.
     for (int64 i = randRange(0, 10); i > 0; i--) {
         // Create variable parameters.
-        classDef type = types[randRange(1, types.size() - 1)];
-        string varName = genName::get(type.getName(), variables);
+        const classDef* type = types[randRange(1, types.size() - 1)];
+        string varName = genName::get(type->getName(), variables);
         
         // Create variable and add it.
         classDef::variable var{ varName, type };
         variables.push_back(var);
-        ret.addVar(var);
+        ret->addVar(var);
         
         // Output it.
-        CODE(type.getName() << " " << varName << ";");
+        CODE(type->getName() << " " << varName << ";");
     }
     
     LOG("Creating public functions...")
@@ -84,10 +84,10 @@ classDef* classScope::generate()
     for (int64 i = randRange(0, 10); i > 0; i--) {
         // Make it
         functionScope f{ this };
-        function func = f.generate();
+        const function* func = f.generate();
         // Add it
         functions.push_back(func);
-        ret.addFunction(func);
+        ret->addFunction(func);
     }
     
     LOG("Creating constructor...")
@@ -96,7 +96,8 @@ classDef* classScope::generate()
     // We only have one now. Just basic constructor.
     CODE(name << "() {}")
     // Cheese function. Just name and return of void.
-    ret.addFunction(function{ name, vector<classDef>(), types[0] } );
+    function* constructor = new function(name, vector<const classDef*>(), types[0]);
+    ret->addFunction(constructor);
     
     // Remove tab.
     logger::code_pre.pop_back();

@@ -26,10 +26,10 @@ const vector<classDef::variable>& classDef::getVars() const
 }
 
 
-void classDef::addFunction(const function& f)
+void classDef::addFunction(const function* f)
 {
     ENTER_FUNC("classDef::addFunction(const function& f)")
-    funcs.push_back(&f);
+    funcs.push_back(f);
     LEAVE_FUNC_VOID("classDef::addFunction(const function& f)")
 }
 

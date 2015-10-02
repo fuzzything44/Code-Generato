@@ -11,16 +11,16 @@ class function;
 class classDef
 {
 public:
-    typedef pair_type<std::string, classDef*> variable;
+    typedef pair_type<std::string, const classDef*> variable;
     
     classDef(const std::string& name);
     // Getter functions
     const std::vector<const function*>& getFuncs() const;
     const std::string& getName() const;
-    const std::vector<variable>& getVars() const;
+    const std::vector<const variable>& getVars() const;
     
     // Function to add functions
-    void addFunction(const function& f);
+    void addFunction(const function* f);
     void addVar(const variable& v);
 
     
@@ -37,7 +37,7 @@ public:
 private:
     std::string name;
     std::vector<const function*> funcs;
-    std::vector<variable> vars;
+    std::vector<const variable> vars;
 };
 
 // Now we can know what a function is.
