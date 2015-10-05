@@ -6,7 +6,7 @@ using std::vector;
 
 classDef::classDef(const string& name) : name(name) {};
 
-const vector<function>& classDef::getFuncs() const
+const vector<const function*>& classDef::getFuncs() const
 {
     ENTER_FUNC("classDef::getFuncs()")
     LEAVE_FUNC("classDef::getFuncs()", funcs)
@@ -29,7 +29,7 @@ const vector<classDef::variable>& classDef::getVars() const
 void classDef::addFunction(const function& f)
 {
     ENTER_FUNC("classDef::addFunction(const function& f)")
-    funcs.push_back(f);
+    funcs.push_back(&f);
     LEAVE_FUNC_VOID("classDef::addFunction(const function& f)")
 }
 
@@ -75,13 +75,13 @@ bool classDef::operator>=(const classDef &isEqual) const
         // Look for conversion operators.
         // Loop through all functions if we aren't already with a conversion operator.
         if (!hasCalled) {
-            for (vector<function>::const_iterator i = isEqual.getFuncs().begin(); i != isEqual.getFuncs().end(); i++)
+            for (vector<const function*>::const_iterator i = isEqual.funcs.begin(); i != isEqual.funcs.end(); i++)
             {
                 // If a function is an operator and returns a type that is a subclass or the same, it works.
-                if (i->getName().substr(0, 8) == ("operator") && *this >= i->getRet())
+                if ( (**i).getName().substr(0, 8) == ("operator") && *this >= (**i).getRet() )
                 {
                     hasCalled = true;
-                    if ( *this >= i->getRet() ) {
+                    if ( *this >= (**i).getRet() ) {
                         LOG("Found conversion operator. Checking converted class...")
                         hasCalled = false;
                         LEAVE_FUNC("classDef::operator>=(const classDef &isEqual)", true)

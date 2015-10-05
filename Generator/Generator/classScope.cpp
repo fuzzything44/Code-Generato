@@ -13,7 +13,7 @@ classScope::classScope(globalNamespace* parent)
     LEAVE_FUNC_VOID("classScope::classScope(globalNamespace* parent)")
 }
 
-classDef classScope::generate()
+classDef* classScope::generate()
 {
     ENTER_FUNC("classScope::generate()")
     // Create class being generated.
@@ -67,7 +67,7 @@ classDef classScope::generate()
     // Create public variables.
     for (int64 i = randRange(0, 10); i > 0; i--) {
         // Create variable parameters.
-        classDef& type = types[randRange(1, types.size() - 1)];
+        classDef type = types[randRange(1, types.size() - 1)];
         string varName = genName::get(type.getName(), variables);
         
         // Create variable and add it.

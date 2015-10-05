@@ -19,3 +19,6 @@ struct pair_type
     second_type second;
     pair_type(first_type f, second_type s) : first(f), second(s) {}
 };
+
+#define LOGGING_EXTRA
+//#define LOGGING_MIMINAL

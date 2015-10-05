@@ -11,11 +11,11 @@ class function;
 class classDef
 {
 public:
-    typedef pair_type<std::string, classDef> variable;
+    typedef pair_type<std::string, classDef*> variable;
     
     classDef(const std::string& name);
     // Getter functions
-    const std::vector<function>& getFuncs() const;
+    const std::vector<const function*>& getFuncs() const;
     const std::string& getName() const;
     const std::vector<variable>& getVars() const;
     
@@ -36,7 +36,7 @@ public:
     classDef& operator=(const classDef& set);
 private:
     std::string name;
-    std::vector<function> funcs;
+    std::vector<const function*> funcs;
     std::vector<variable> vars;
 };
 

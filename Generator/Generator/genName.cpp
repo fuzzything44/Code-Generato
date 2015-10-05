@@ -105,9 +105,9 @@ string genName::get(const string& type, const vector<classDef::variable>& v)
     LEAVE_FUNC("genName::get(const string& type, const vector<classDef::variable>& v)", ret)
 }
 
-string genName::get(const string& type, const vector<classDef>& v)
+string genName::get(const string& type, const vector< classDef   >& v)
 {
-    ENTER_FUNC("genName::get(const string&, const vector<classDef>&")
+  ENTER_FUNC("genName::get(const string&, const vector<classDef>&")
     // Tries 20 times before giving up.
     for (int i = 0; i < 20; i++) {
         // String to test if used.

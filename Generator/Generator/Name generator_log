@@ -8,10 +8,12 @@
 (1)  Line reads: has
 (1)  Line reads: Set
 (1)  Line reads: Initialized
-(1)  Line reads: Exist
+(1)  Line reads: Existing
 (1)  Line reads: %Valid
 (1)  Line reads: %Run
 (1)  Line reads: %Generate
 (1)  Line reads: %Done
+(1)  Line reads: %Vars!
+(1)  Line reads: 
 (1)Leaving function genName::init(), returning void.
 (1)Entering function globalNamespace::globalNamespace()

@@ -7,13 +7,13 @@
 class function
 {
 public:
-    function(std::string name, std::vector<classDef> args, classDef ret );
+    function(std::string name, std::vector<const classDef*> args, const classDef* ret );
     
     // Returns function name
     const std::string& getName() const;
     
     // Returns function arguments. Vector holds types, not names.
-    const std::vector<classDef>& getArgs() const;
+    const std::vector<const classDef*>& getArgs() const;
     
     // Returns return type
     const classDef& getRet() const;
@@ -23,8 +23,8 @@ public:
     function& operator=(const function& f);
 private:
     std::string name;
-    std::vector<classDef> args;
-    classDef ret;
+    std::vector<classDef*> args;
+    classDef* ret;
     
 };
 

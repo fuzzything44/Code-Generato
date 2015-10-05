@@ -10,13 +10,18 @@
 #       '&' =
 #       '*' =
 #       '~' =
- #       '?' =
+#       '?' =
 #       '|' =
 
 -typename
 A
 B
 C
+D
+E
+F
+G
+H
 -typename.%
 %abc^
 -typename.^
@@ -29,10 +34,10 @@ has
 -bool.!
 Set
 Initialized
-Exist
+Existing
 -bool
 %Valid
 %Run
 %Generate
 %Done
-# %@! Will eventually work, but not now.
+%Vars!
