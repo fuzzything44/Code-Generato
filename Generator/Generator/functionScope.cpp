@@ -10,18 +10,24 @@ using std::vector;
 functionScope::functionScope(classScope* parent)
 {
     ENTER_FUNC("functionScope::functionScope(classScope* parent")
-
-    functions = parent->functions;
+    // Initialize variables.
+    functions = parent->parentFuncs;
+    classFuncs = &(parent->functions);
     types = parent->types;
-    variables = parent->variables;
+    parentVars = &(parent->variables);
+    variables = vector<classDef::variable>();
     LEAVE_FUNC_VOID("functionScope::functionScope(classScope* parent)")
 }
 
 functionScope::functionScope(globalNamespace* parent)
 {
     ENTER_FUNC("functionScope::functionScope(globalNamespace* parent)")
-    functions = parent->functions;
-    types = parent->types;
+    // Initialize variables.
+    functions = &(parent->functions);
+    classFuncs = nullptr;
+    types = &(parent->types);
+    variables = vector<classDef::variable>();
+    parentVars = nullptr;
     LEAVE_FUNC_VOID("functionScope::functionScope(globalNamespace* parent)")
 }
 
@@ -59,7 +65,7 @@ inline bool canCall(const function* func, const vector<classDef::variable> vars)
 
 
 // Generating function.
-const function* functionScope::generate()
+function* functionScope::generate()
 {
     ENTER_FUNC("functionScope::generate()")
     // Make name.
@@ -73,7 +79,7 @@ const function* functionScope::generate()
     vector<const classDef*> args;
     for (int64 argNum = randRange(0, 5); argNum > 0; argNum--) {
         // Choose argument type.
-        const classDef* argType = types[randRange(1, types.size() - 1)];
+        classDef* argType = types[randRange(1, types->size() - 1)];
         // Choose argument name.
         string argName = genName::get(argType->getName(), variables);
         

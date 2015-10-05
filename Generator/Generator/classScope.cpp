@@ -8,9 +8,45 @@ using std::vector;
 classScope::classScope(globalNamespace* parent)
 {
     ENTER_FUNC("classScope::classScope(globalNamespace* parent)")
-    functions = parent->functions;
-    types = parent->types;
+    parentFuncs = &(parent->functions);
+    types = &(parent->types);
     LEAVE_FUNC_VOID("classScope::classScope(globalNamespace* parent)")
+}
+
+classDef* classScope::get_random_type()
+{
+    ENTER_FUNC("classScope::get_random_type()")
+    LEAVE_FUNC("classScope::get_random_type()", (*types)[randRange(0, types->size() - 1)].get() )
+}
+
+function* classScope::get_random_func()
+{
+    ENTER_FUNC("get_random_func()")
+    if (functions.size() == 0) {
+        if ((*parentFuncs).size() == 0) {
+            // Neither have a size.
+            LEAVE_FUNC("classScope::get_random_func()", nullptr)
+        } else {
+            // parentFuncs has a size.
+            LEAVE_FUNC("classScope::get_random_func()", (*parentFuncs)[randRange(0, parentFuncs->size() - 1) ].get() )
+        }
+    } else if ((*parentFuncs).size() == 0) {
+        // functions has a size.
+        LEAVE_FUNC("classScope::get_random_func()", functions[randRange(0, functions.size() - 1)])
+    } else {
+        // Both have a size.
+        if (randRange(0, 1) == 0) {
+            LEAVE_FUNC("classScope::get_random_func()", functions[randRange(0, functions.size() - 1)])
+        } else {
+            LEAVE_FUNC("classScope::get_random_func()", (*parentFuncs)[randRange(0, parentFuncs->size())].get())
+        }
+    }
+}
+
+classDef::variable classScope::get_random_var()
+{
+    ENTER_FUNC("classScope::get_random_var()")
+    LEAVE_FUNC("classScope::get_random_var()", variables[randRange(0, variables.size() - 1)])
 }
 
 classDef* classScope::generate()
@@ -31,9 +67,9 @@ classDef* classScope::generate()
     
     // Determine number of private variables.
     LOG("Creating private variables..." )
-    for (int64 i = randRange(1, 10); i > 0; i--) {
+    while (randRange(0, 10) != 10) {
         // Choose random type.
-        classDef* type = types[randRange(1, types.size() - 1)];
+        classDef* type = get_random_type();
         
         // Choose name.
         string name = genName::get(type->getName(), variables);
@@ -49,7 +85,7 @@ classDef* classScope::generate()
     
     LOG("Creating private functions...")
     // Determine number of functions
-    for (int64 i = randRange(0, 10); i > 0; i--) {
+    while (randRange(0, 10) != 10) {
         // Create a function
         functionScope f(this);
         // Add generated function to given functions.
@@ -65,9 +101,9 @@ classDef* classScope::generate()
     logger::code_pre += "\t";
     
     // Create public variables.
-    for (int64 i = randRange(0, 10); i > 0; i--) {
+    while(randRange(0, 10) != 10) {
         // Create variable parameters.
-        const classDef* type = types[randRange(1, types.size() - 1)];
+        classDef* type = get_random_type();
         string varName = genName::get(type->getName(), variables);
         
         // Create variable and add it.
@@ -84,7 +120,7 @@ classDef* classScope::generate()
     for (int64 i = randRange(0, 10); i > 0; i--) {
         // Make it
         functionScope f{ this };
-        const function* func = f.generate();
+        function* func = f.generate();
         // Add it
         functions.push_back(func);
         ret->addFunction(func);
@@ -96,7 +132,7 @@ classDef* classScope::generate()
     // We only have one now. Just basic constructor.
     CODE(name << "() {}")
     // Cheese function. Just name and return of void.
-    function* constructor = new function(name, vector<const classDef*>(), types[0]);
+    function* constructor = new function(name, vector<const classDef*>(), (*types)[0].get() );
     ret->addFunction(constructor);
     
     // Remove tab.

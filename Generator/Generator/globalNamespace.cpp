@@ -87,14 +87,14 @@ void globalNamespace::generate(int32 length)
             LOG("Generating class...")
             // We create the class. It has its own scope.
             classScope c{ this };
-            types.push_back(c.generate() );
+            types.push_back(unique_ptr<classDef>(c.generate() ) );
             LOG("Class finished!")
             
         } else {
             LOG("Generating function...")
             // We create the function. It has its own scope.
             functionScope f{ this };
-            functions.push_back(f.generate() );
+            functions.push_back(unique_ptr<function>(f.generate() ) );
             LOG("Function finished!")
         }
     }
