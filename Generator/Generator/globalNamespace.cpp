@@ -32,7 +32,7 @@ globalNamespace::globalNamespace()
     {
         LOG("Creating void")
         classDef* voidType = new classDef("void");
-        types.push_back(unique_ptr<classDef>(voidType));
+        types.push_back(unique_ptr<classDef>(voidType) );
         LOG("Finished void" << std::endl)
     }
     
@@ -47,24 +47,27 @@ globalNamespace::globalNamespace()
     // Create int
     {
         LOG("Creating int")
-        classDef* ptr = new classDef("int");
+        classDef* intClass = new classDef("int");
+        types.push_back(unique_ptr<classDef>(intClass));
         
-        // Holds int function arguments.
         
-        // Operators needed:
-        // +     -     /     *     +=     -=     *=     /=     =     ==
-        delete ptr;
         LOG("int left unfinished...")
     }
     
     // Create char
     {
-        LOG("char not added")
+        LOG("Creating char")
+        classDef* charClass = new classDef("char");
+        types.push_back(unique_ptr<classDef>(charClass) );
+        LOG("Finished Char")
     }
     
     // Create float
     {
-        LOG("float not added")
+        LOG("Creating float")
+        classDef* floatClass = new classDef("float");
+        types.push_back(unique_ptr<classDef>(floatClass) );
+        LOG("Finished float")
     }
     
     LOG("Finished creating basic data types" << std::endl << std::endl)
