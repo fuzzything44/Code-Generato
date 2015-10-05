@@ -7,7 +7,7 @@
 
 using std::vector;
 using std::string;
-
+using std::unique_ptr;
 
 
 // globalNamespace
@@ -31,8 +31,8 @@ globalNamespace::globalNamespace()
     // Create void
     {
         LOG("Creating void")
-        classDef* voidClass = new classDef("void");
-        types.push_back(voidClass);
+        classDef* voidType = new classDef("void");
+        types.push_back(unique_ptr<classDef>(voidType));
         LOG("Finished void" << std::endl)
     }
     
@@ -40,21 +40,20 @@ globalNamespace::globalNamespace()
     {
         LOG("Creating bool")
         classDef* boolClass = new classDef("bool");
-        
-        types.push_back(boolClass);
+        types.push_back(unique_ptr<classDef>(boolClass) );
         LOG("Finished bool" << std::endl)
     }
     
     // Create int
     {
         LOG("Creating int")
-        classDef* intClass = new classDef("int");
+        classDef* ptr = new classDef("int");
         
         // Holds int function arguments.
         
         // Operators needed:
         // +     -     /     *     +=     -=     *=     /=     =     ==
-        delete intClass;
+        delete ptr;
         LOG("int left unfinished...")
     }
     
