@@ -25,16 +25,16 @@ functionScope::functionScope(globalNamespace* parent)
     LEAVE_FUNC_VOID("functionScope::functionScope(globalNamespace* parent)")
 }
 
-inline bool canCall(const function func, const vector<classDef::variable> vars)
+inline bool canCall(const function* func, const vector<classDef::variable> vars)
 {
     ENTER_FUNC("canCall(const function func, const vector<classDef::variable> vars)")
     
-    LOG("Checking if function " << func.getName() << " can be called.")
-    LOG("Expected checks: " << (func.getArgs().size() * vars.size() ) )
-    LOG("Size of function args = " << func.getArgs().size() )
+    LOG("Checking if function " << func->getName() << " can be called.")
+    LOG("Expected checks: " << (func->getArgs().size() * vars.size() ) )
+    LOG("Size of function args = " << func->getArgs().size() )
     LOG("Size of variables = " << vars.size())
     // Check all arguments of the function.
-    for (auto i = func.getArgs().cbegin(); i != func.getArgs().cend(); i++) {
+    for (auto i = func->getArgs().cbegin(); i != func->getArgs().cend(); i++) {
         // Check all variable types we have.
         bool foundMatch = false;
         for (auto j = vars.cbegin(); j != vars.cend(); j++) {
@@ -42,7 +42,7 @@ inline bool canCall(const function func, const vector<classDef::variable> vars)
             // vars[1] = bool
             // vars[2] = int
             // vars[3] = char
-            if ((*i >= j->second) || (*i == vars[1].second) /*|| (*i == vars[2].second) || (*i == vars[3].second) */ ) {
+            if ((**i >= *(j->second) ) || (**i == *(vars[1].second) ) ) {
                 foundMatch = true;
                 break;
             }
@@ -59,7 +59,7 @@ inline bool canCall(const function func, const vector<classDef::variable> vars)
 
 
 // Generating function.
-function functionScope::generate()
+const function* functionScope::generate()
 {
     ENTER_FUNC("functionScope::generate()")
     // Make name.
@@ -70,12 +70,12 @@ function functionScope::generate()
     LOG("Creating arguments...")
     vector<classDef::variable> argTypes;
     // Choose random arguments.
-    vector<classDef> args;
+    vector<const classDef*> args;
     for (int64 argNum = randRange(0, 5); argNum > 0; argNum--) {
         // Choose argument type.
-        classDef argType = types[randRange(1, types.size() - 1)];
+        const classDef* argType = types[randRange(1, types.size() - 1)];
         // Choose argument name.
-        string argName = genName::get(argType.getName(), variables);
+        string argName = genName::get(argType->getName(), variables);
         
         // Add argument type.
         args.push_back(argType);
@@ -88,14 +88,14 @@ function functionScope::generate()
     
     LOG("Creating return type...")
     // Choose random return type.
-    classDef retType = types[randRange(0, types.size() - 1)];
+    const classDef* retType = types[randRange(0, types.size() - 1)];
     
-    function ret(name, args, retType);
+    const function* ret = new function(name, args, retType);
     
     LOG("Formatting function name...")
     // Format function name.
     {
-        string funcName = retType.getName() + " " + name + "(";
+        string funcName = retType->getName() + " " + name + "(";
         
         // loop through all arguments.
         for (auto i = argTypes.begin(); i != argTypes.end(); i++) {
@@ -105,7 +105,7 @@ function functionScope::generate()
             }
             
             // Add the argument name. Type name and then variable name.
-            funcName += i->second.getName() + " " + i->first;
+            funcName += i->second->getName() + " " + i->first;
         }
         // Output function name.
         CODE(funcName << ")");
@@ -122,7 +122,7 @@ function functionScope::generate()
         if (rand == 0) {
             LOG("Finding callable functions...")
             // Find all functions we can call.
-            vector<function> callable;
+            vector<const function*> callable;
             for (auto i = functions.cbegin(); i != functions.cend(); i++) {
                 if(canCall(*i, variables) ) {
                     callable.push_back(*i);
@@ -132,16 +132,18 @@ function functionScope::generate()
         
             if (callable.size() > 0) {
                 LOG("Calling function...")
-                function& func = callable[randRange(0, callable.size() - 1)];
+                const function* func = callable[randRange(0, callable.size() - 1)];
                 
                 // Stores the arguments we will call the function with.
                 vector<classDef::variable> funcArgs;
                 
                 // Go through all arguments and find variables to match them.
-                for (auto i = func.getArgs().cbegin(); i != func.getArgs().cend(); i++) {
+                for (auto i = func->getArgs().cbegin(); i != func->getArgs().cend(); i++) {
                     
                     // Holds all the variables we have that we can call it with.
                     vector<classDef::variable> possibleArgs;
+                    
+                    ERRORS WITH ITERATORS!!!!!!! DOES NOT USE POINTERS!!!!!!!
                     for (auto j = variables.cbegin(); j != variables.cend(); j++) {
                         if (*i >= j->second) {
                             // Add the argument as a possible option.

@@ -23,7 +23,7 @@ public:
     function& operator=(const function& f);
 private:
     std::string name;
-    std::vector<classDef*> args;
+    std::vector<const classDef*> args;
     classDef* ret;
     
 };

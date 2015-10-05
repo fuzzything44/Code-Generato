@@ -14,10 +14,10 @@ public:
     
     functionScope(classScope* parent);
     functionScope(globalNamespace* parent);
-    function* generate();
+    const function* generate();
     
 private:
     std::vector<const function*> functions;
     std::vector<const classDef*> types;
-    std::vector<classDef::variable > variables;
+    std::vector<classDef::variable> variables;
 };

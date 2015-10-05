@@ -11,10 +11,10 @@ public:
     friend functionScope;
     
     classScope(globalNamespace* parent);
-    classDef* generate();
+    const classDef* generate();
     
 private:
     std::vector<const function*> functions;
     std::vector<const classDef*> types;
-    std::vector<classDef::variable > variables;
+    std::vector<classDef::variable> variables;
 };
