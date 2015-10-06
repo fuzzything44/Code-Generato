@@ -14,16 +14,10 @@ public:
     
     functionScope(classScope* parent);
     functionScope(globalNamespace* parent);
-    function* generate();
+    const function* generate();
     
-    classDef* get_random_type();
-    function* get_random_func();
-    classDef::variable get_random_var();
-
 private:
-    std::vector<std::unique_ptr<function> >* functions;
-    std::vector<function*>* classFuncs;
-    std::vector<std::unique_ptr<classDef> >* types;
-    std::vector<classDef::variable> variables;
-    std::vector<classDef::variable>* parentVars;
+    std::vector<const function*> functions;
+    std::vector<const classDef*> types;
+    std::vector<classDef::variable > variables;
 };

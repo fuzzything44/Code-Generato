@@ -11,15 +11,10 @@ public:
     friend functionScope;
     
     classScope(globalNamespace* parent);
-    classDef* generate();
-    
-    classDef* get_random_type();
-    function* get_random_func();
-    classDef::variable get_random_var();
-    
+    const classDef* generate();
+   
 private:
-    std::vector<std::unique_ptr<classDef> >* types;
-    std::vector<std::unique_ptr<function> >* parentFuncs;
-    std::vector<function*> functions;
+    std::vector<const function*> functions;
+    std::vector<const classDef*> types;
     std::vector<classDef::variable> variables;
 };

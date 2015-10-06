@@ -10,7 +10,7 @@ function::function(std::string name, std::vector<classDef> args, classDef ret) :
     LEAVE_FUNC_VOID("function::function(std::string name, std::vector<classDef> args, classDef ret)")
 }
 
-const vector<classDef>& function::getArgs() const
+const vector<const classDef*>& function::getArgs() const
 {
     ENTER_FUNC("function::getArgs()")
     LEAVE_FUNC("function::getArgs()", args)
@@ -25,7 +25,7 @@ const string& function::getName() const
 const classDef& function::getRet() const
 {
     ENTER_FUNC("function::getRet()")
-    LEAVE_FUNC("function::getRet()", ret)
+    LEAVE_FUNC("function::getRet()", *ret)
 }
 
 bool function::operator==(const function& f) const
@@ -39,9 +39,9 @@ function& function::operator=(const function& f)
     ENTER_FUNC("function::operator=(const function& f)")
     if(&f != this)
     {
-        name = f.getName();
-        ret = f.getRet();
-        args = f.getArgs();
+        name = f.name;
+        ret = f.ret;
+        args = f.args;
     }
     LEAVE_FUNC("function::operator=(const function& f)", *this)
 }

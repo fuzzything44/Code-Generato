@@ -21,6 +21,7 @@ public:
     // Operators.
     bool operator==(const function& f) const;
     function& operator=(const function& f);
+    
 private:
     std::string name;
     std::vector<const classDef*> args;

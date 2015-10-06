@@ -18,8 +18,8 @@ public:
     void generate(int32 length);
 private:
     // Global namespace contains only functions and types. Not variables.
-    std::vector<std::unique_ptr<function> > functions;
-    std::vector<std::unique_ptr<classDef> > types;
+    std::vector<const function*> functions;
+    std::vector<const classDef*> types;
 };
 
 #include "classScope.h"

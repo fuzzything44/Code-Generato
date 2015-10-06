@@ -7,7 +7,7 @@
 
 using std::vector;
 using std::string;
-using std::unique_ptr;
+
 
 
 // globalNamespace
@@ -31,8 +31,8 @@ globalNamespace::globalNamespace()
     // Create void
     {
         LOG("Creating void")
-        classDef* voidType = new classDef("void");
-        types.push_back(unique_ptr<classDef>(voidType) );
+        classDef* voidClass = new classDef("void");
+        types.push_back(voidClass);
         LOG("Finished void" << std::endl)
     }
     
@@ -40,7 +40,10 @@ globalNamespace::globalNamespace()
     {
         LOG("Creating bool")
         classDef* boolClass = new classDef("bool");
-        types.push_back(unique_ptr<classDef>(boolClass) );
+        
+        // Operators needed:
+        // =     ==     !     !=
+        types.push_back(boolClass);
         LOG("Finished bool" << std::endl)
     }
     
@@ -48,9 +51,10 @@ globalNamespace::globalNamespace()
     {
         LOG("Creating int")
         classDef* intClass = new classDef("int");
-        types.push_back(unique_ptr<classDef>(intClass));
         
-        
+        // Operators needed:
+        // +     -     /     *     +=     -=     *=     /=     =     ==
+        delete intClass;
         LOG("int left unfinished...")
     }
     
@@ -58,7 +62,7 @@ globalNamespace::globalNamespace()
     {
         LOG("Creating char")
         classDef* charClass = new classDef("char");
-        types.push_back(unique_ptr<classDef>(charClass) );
+        types.push_back(charClass);
         LOG("Finished Char")
     }
     
@@ -66,7 +70,7 @@ globalNamespace::globalNamespace()
     {
         LOG("Creating float")
         classDef* floatClass = new classDef("float");
-        types.push_back(unique_ptr<classDef>(floatClass) );
+        types.push_back(floatClass);
         LOG("Finished float")
     }
     
@@ -87,14 +91,14 @@ void globalNamespace::generate(int32 length)
             LOG("Generating class...")
             // We create the class. It has its own scope.
             classScope c{ this };
-            types.push_back(unique_ptr<classDef>(c.generate() ) );
+            types.push_back(c.generate() );
             LOG("Class finished!")
             
         } else {
             LOG("Generating function...")
             // We create the function. It has its own scope.
             functionScope f{ this };
-            functions.push_back(unique_ptr<function>(f.generate() ) );
+            functions.push_back(f.generate() );
             LOG("Function finished!")
         }
     }

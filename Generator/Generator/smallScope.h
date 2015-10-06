@@ -11,7 +11,7 @@ public:
     void generate();
     
 private:
-    std::vector<const classDef*> types;
-    std::vector<const function*> functions;
+    std::vector<classDef*> types;
+    std::vector<function*> functions;
     std::vector<classDef::variable> vars;
 };

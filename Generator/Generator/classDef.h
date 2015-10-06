@@ -17,7 +17,7 @@ public:
     // Getter functions
     const std::vector<const function*>& getFuncs() const;
     const std::string& getName() const;
-    const std::vector<const variable>& getVars() const;
+    const std::vector<variable>& getVars() const;
     
     // Function to add functions
     void addFunction(const function* f);
@@ -37,7 +37,7 @@ public:
 private:
     std::string name;
     std::vector<const function*> funcs;
-    std::vector<const variable> vars;
+    std::vector<variable> vars;
 };
 
 // Now we can know what a function is.
