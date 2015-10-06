@@ -27,7 +27,7 @@ functionScope::functionScope(globalNamespace* parent)
     LEAVE_FUNC_VOID("functionScope::functionScope(globalNamespace* parent)")
 }
 
-inline bool canCall(const function func, const vector<classDef::variable> vars)
+inline bool canCall(const function& func, const vector<classDef::variable>& vars)
 {
     ENTER_FUNC("canCall(const function func, const vector<classDef::variable> vars)")
     
@@ -253,4 +253,13 @@ const function* functionScope::generate()
     logger::code_pre.pop_back();
     CODE("}")
     LEAVE_FUNC("functionScope::generate()", ret)
+}
+
+functionScope::~functionScope()
+{
+    ENTER_FUNC("functionScope::~functionScope()")
+    for (auto i = death.begin(); i != death.end(); i++) {
+        delete *i;
+    }
+    LEAVE_FUNC_VOID("functionScope::~functionScope()")
 }

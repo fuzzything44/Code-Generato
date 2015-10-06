@@ -15,9 +15,10 @@ public:
     functionScope(classScope* parent);
     functionScope(globalNamespace* parent);
     const function* generate();
-    
+    virtual ~functionScope();
 private:
     std::vector<const function*> functions;
     std::vector<const classDef*> types;
     std::vector<classDef::variable > variables;
+    std::vector<destroyer*> death;
 };
