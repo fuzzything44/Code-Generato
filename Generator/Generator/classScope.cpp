@@ -84,10 +84,10 @@ const classDef* classScope::generate()
     for (int64 i = randRange(0, 10); i > 0; i--) {
         // Make it
         functionScope f{ this };
-        function* func = f.generate();
+        const function* func = f.generate();
         // Add it
         functions.push_back(func);
-        ret->addFunction(*func);
+        ret->addFunction(func);
     }
     
     LOG("Creating constructor...")
@@ -97,7 +97,7 @@ const classDef* classScope::generate()
     CODE(name << "() {}")
     // Cheese function. Just name and return of void.
     function* constructor = new function(name, vector<const classDef*>(), types[0]);
-    ret->addFunction(*constructor);
+    ret->addFunction(constructor);
     
     // Remove tab.
     logger::code_pre.pop_back();

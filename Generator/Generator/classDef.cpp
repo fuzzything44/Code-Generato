@@ -26,10 +26,10 @@ const vector<classDef::variable>& classDef::getVars() const
 }
 
 
-void classDef::addFunction(const function& f)
+void classDef::addFunction(const function* f)
 {
     ENTER_FUNC("classDef::addFunction(const function& f)")
-    funcs.push_back(&f);
+    funcs.push_back(f);
     LEAVE_FUNC_VOID("classDef::addFunction(const function& f)")
 }
 
@@ -78,10 +78,10 @@ bool classDef::operator>=(const classDef &isEqual) const
             for (vector<const function*>::const_iterator i = isEqual.funcs.begin(); i != isEqual.funcs.end(); i++)
             {
                 // If a function is an operator and returns a type that is a subclass or the same, it works.
-                if ( (**i).getName().substr(0, 8) == ("operator") && *this >= (**i).getRet() )
+                if ( (**i).getName().substr(0, 8) == ("operator") && *this >= *(**i).getRet() )
                 {
                     hasCalled = true;
-                    if ( *this >= (**i).getRet() ) {
+                    if ( *this >= *(**i).getRet() ) {
                         LOG("Found conversion operator. Checking converted class...")
                         hasCalled = false;
                         LEAVE_FUNC("classDef::operator>=(const classDef &isEqual)", true)

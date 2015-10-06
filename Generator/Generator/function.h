@@ -16,7 +16,7 @@ public:
     const std::vector<const classDef*>& getArgs() const;
     
     // Returns return type
-    const classDef& getRet() const;
+    const classDef* getRet() const;
     
     // Operators.
     bool operator==(const function& f) const;
@@ -25,7 +25,7 @@ public:
 private:
     std::string name;
     std::vector<const classDef*> args;
-    classDef* ret;
+    const classDef* ret;
     
 };
 

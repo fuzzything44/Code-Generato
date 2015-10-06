@@ -105,7 +105,7 @@ string genName::get(const string& type, const vector<classDef::variable>& v)
     LEAVE_FUNC("genName::get(const string& type, const vector<classDef::variable>& v)", ret)
 }
 
-string genName::get(const string& type, const vector< classDef   >& v)
+string genName::get(const string& type, const vector<const classDef*>& v)
 {
   ENTER_FUNC("genName::get(const string&, const vector<classDef>&")
     // Tries 20 times before giving up.
@@ -114,7 +114,7 @@ string genName::get(const string& type, const vector< classDef   >& v)
         string test = genName::get(type);
         bool isUsed = false;
         for (auto i = v.cbegin(); i != v.cend(); i++) {
-            if (test == i->getName() ) {
+            if (test == (**i).getName() ) {
                 isUsed = true;
             }
         }
@@ -125,8 +125,8 @@ string genName::get(const string& type, const vector< classDef   >& v)
     // Generate a completely unique name.
     string::size_type maxl = 0;
     for (auto i = v.cbegin(); i != v.cend(); i++) {
-        if (i->getName().size() > maxl) {
-            maxl = i->getName().size();
+        if ((**i).getName().size() > maxl) {
+            maxl = (**i).getName().size();
         }
     }
     // Create a string 1 longer than maxl.
