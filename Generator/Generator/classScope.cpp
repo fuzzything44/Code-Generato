@@ -52,8 +52,16 @@ const classDef* classScope::generate()
     while (randRange(0, 10) != 10) {
         // Create a function
         functionScope f(this);
+        const function* func = f.generate();
+        
         // Add generated function to given functions.
-        functions.push_back(f.generate());
+        functions.push_back(func);
+        
+        
+        //Delete...
+        destructor<const function>* d = new destructor<const function>(func);
+
+        
     }
     
     LOG("Creating public variables...")
@@ -75,6 +83,8 @@ const classDef* classScope::generate()
         variables.push_back(var);
         ret->addVar(var);
         
+    
+        
         // Output it.
         CODE(type->getName() << " " << varName << ";");
     }
@@ -88,6 +98,8 @@ const classDef* classScope::generate()
         // Add it
         functions.push_back(func);
         ret->addFunction(func);
+        
+        
     }
     
     LOG("Creating constructor...")
