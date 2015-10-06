@@ -20,5 +20,23 @@ struct pair_type
     pair_type(first_type f, second_type s) : first(f), second(s) {}
 };
 
+struct destroyer
+{
+    virtual ~destroyer() {}
+};
+
+template<typename T>
+struct destructor : destroyer
+{
+private:
+    T* needsKill;
+public:
+    destructor(T* toKill) : needsKill(toKill) {}
+    virtual ~destructor() { delete needsKill; }
+};
+
+
+
+
 #define LOGGING_EXTRA
 //#define LOGGING_MIMINAL

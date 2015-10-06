@@ -91,14 +91,22 @@ void globalNamespace::generate(int32 length)
             LOG("Generating class...")
             // We create the class. It has its own scope.
             classScope c{ this };
-            types.push_back(c.generate() );
+            const classDef* gen = c.generate();
+            types.push_back(gen);
+            // Add the destroyer.
+            destructor<const classDef>* d = new destructor<const classDef>(gen);
+            death.push_back(d);
             LOG("Class finished!")
             
         } else {
             LOG("Generating function...")
             // We create the function. It has its own scope.
             functionScope f{ this };
-            functions.push_back(f.generate() );
+            const function* gen = f.generate();
+            functions.push_back(gen);
+            // Add the destroyer.
+            destructor<const function>* d = new destructor<const function>(gen);
+            death.push_back(d);
             LOG("Function finished!")
         }
     }
@@ -114,3 +122,16 @@ void globalNamespace::generate(int32 length)
     LEAVE_FUNC_VOID("globalNamespace::generate(int32 length)")
     
 }
+
+globalNamespace::~globalNamespace()
+{
+    ENTER_FUNC("globalNamespace::~globalNamespace()")
+    
+    // Delete death.
+    for (auto i = death.begin(); i != death.end(); i++) {
+        delete *i;
+    }
+    LEAVE_FUNC_VOID("globalNamespace::~globalNamespace")
+}
+
+

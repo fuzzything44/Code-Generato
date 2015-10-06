@@ -108,3 +108,12 @@ const classDef* classScope::generate()
     
     LEAVE_FUNC("classScope::generate()", ret)
 }
+
+classScope::~classScope()
+{
+    ENTER_FUNC("classScope::~classScope()")
+    for (auto i = death.begin(); i != death.end(); i++) {
+        delete *i;
+    }
+    LEAVE_FUNC_VOID("classScope::~classScope()")
+}

@@ -12,9 +12,10 @@ public:
     
     classScope(globalNamespace* parent);
     const classDef* generate();
-   
+    virtual ~classScope();
 private:
     std::vector<const function*> functions;
     std::vector<const classDef*> types;
     std::vector<classDef::variable> variables;
+    std::vector<destroyer*> death;
 };
