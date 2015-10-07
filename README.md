@@ -1,3 +1,4 @@
 # Code-Generato
 Randomly generates C++ code.
-:trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface::trollface:
+
+If you want to work on this, just tell me and I'll probably let you.
