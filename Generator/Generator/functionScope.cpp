@@ -44,7 +44,7 @@ inline bool canCall(const function& func, const vector<classDef::variable>& vars
             // vars[1] = bool
             // vars[2] = int
             // vars[3] = char
-            if ((*i >= j->second) || (*i == vars[1].second) /*|| (*i == vars[2].second) || (*i == vars[3].second) */ ) {
+            if ((*i >= j->second) || (*i == vars[1].second) || (*i == vars[2].second) || (*i == vars[3].second) ) {
                 foundMatch = true;
                 break;
             }
@@ -75,10 +75,13 @@ const function* functionScope::generate()
     vector<const classDef*> args;
     for (int64 argNum = randRange(0, 5); argNum > 0; argNum--) {
         // Choose argument type.
+        LOG("Choosing argument type...")
         const classDef* argType = types[randRange(1, types.size() - 1)];
+        LOG("Type = " << argType->getName())
         // Choose argument name.
+        LOG("Choosing argument name...")
         string argName = genName::get(argType->getName(), variables);
-        
+        LOG("Name = " << argName)
         // Add argument type.
         args.push_back(argType);
         

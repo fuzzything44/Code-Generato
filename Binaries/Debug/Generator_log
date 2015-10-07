@@ -1,0 +1,1166 @@
+(1)Entering function genName::init(string file)
+(1)  File name: names.txt
+(1)  Reading file...
+
+(1)  Line reads: A
+(1)  Line reads: B
+(1)  Line reads: C
+(1)  Line reads: D
+(1)  Line reads: E
+(1)  Line reads: F
+(1)  Line reads: G
+(1)  Line reads: H
+(1)  Line reads: %abc^
+(1)  Line reads: def
+(1)  Line reads: is
+(1)  Line reads: does
+(1)  Line reads: needs
+(1)  Line reads: has
+(1)  Line reads: Set
+(1)  Line reads: Initialized
+(1)  Line reads: Existing
+(1)  Line reads: %Valid
+(1)  Line reads: %Run
+(1)  Line reads: %Generate
+(1)  Line reads: %Done
+(1)  Line reads: %Vars!
+(1)  Line reads: 
+(1)Leaving function genName::init(), returning void.
+(1)Entering function globalNamespace::globalNamespace()
+(1)  Creating basic data types
+
+(1)  Creating void
+(1)  Finished void
+
+(1)  Creating bool
+(1)  Finished bool
+
+(1)  Creating int
+(1)  int left unfinished...
+(1)  Creating char
+(1)  Finished Char
+(1)  Creating float
+(1)  Finished float
+(1)  Finished creating basic data types
+
+
+(1)Leaving function globalNamespace::globalNamespace(), returning void.
+(1)Entering function globalNamespace::generate(int32 length)
+(1)  Generating code with length 1
+(1)  Entering function random::randRange(int64 low, int64 high)
+(1)    Seeding rand...
+(1)    Random value to check: 486255765
+(1)    Found valid value!
+(1)  Leaving function random::randRange(int64 low, int64 high)
+(1)  Generating function...
+(1)  Entering function functionScope::functionScope(globalNamespace* parent)
+(1)  Leaving function functionScope::functionScope(globalNamespace* parent), returning void.
+(1)  Entering function functionScope::generate()
+(1)    Entering function genName::get(const string& type, const vector<classDef::variable>& v)
+(1)      Entering function genName::get(const string&
+(1)        Getting name of type function
+(1)        Entering function random::randRange(int64 low, int64 high)
+(1)          Random value to check: 1325365520
+(1)          Found valid value!
+(1)        Leaving function random::randRange(int64 low, int64 high)
+(1)        Entering function random::randRange(int64 low, int64 high)
+(1)          Random value to check: 1717907956
+(1)          Found valid value!
+(1)        Leaving function random::randRange(int64 low, int64 high)
+(1)        Entering function random::randRange(int64 low, int64 high)
+(1)          Random value to check: 2108866224
+(1)          Found valid value!
+(1)        Leaving function random::randRange(int64 low, int64 high)
+(1)        Entering function random::randRange(int64 low, int64 high)
+(1)          Random value to check: 1644516680
+(1)          Found valid value!
+(1)        Leaving function random::randRange(int64 low, int64 high)
+(1)        Entering function random::randRange(int64 low, int64 high)
+(1)          Random value to check: 1277303870
+(1)          Found valid value!
+(1)        Leaving function random::randRange(int64 low, int64 high)
+(1)        Entering function random::randRange(int64 low, int64 high)
+(1)          Random value to check: 1399607678
+(1)          Found valid value!
+(1)        Leaving function random::randRange(int64 low, int64 high)
+(1)        Entering function random::randRange(int64 low, int64 high)
+(1)          Random value to check: 1817858555
+(1)          Found valid value!
+(1)        Leaving function random::randRange(int64 low, int64 high)
+(1)        Entering function random::randRange(int64 low, int64 high)
+(1)          Random value to check: 498888016
+(1)          Found valid value!
+(1)        Leaving function random::randRange(int64 low, int64 high)
+(1)        Entering function random::randRange(int64 low, int64 high)
+(1)          Random value to check: 1034727024
+(1)          Found valid value!
+(1)        Leaving function random::randRange(int64 low, int64 high)
+(1)        Entering function random::randRange(int64 low, int64 high)
+(1)          Random value to check: 334518962
+(1)          Found valid value!
+(1)        Leaving function random::randRange(int64 low, int64 high)
+(1)        Entering function random::randRange(int64 low, int64 high)
+(1)          Random value to check: 148006488
+(1)          Found valid value!
+(1)        Leaving function random::randRange(int64 low, int64 high)
+(1)        Entering function random::randRange(int64 low, int64 high)
+(1)          Random value to check: 758980590
+(1)          Found valid value!
+(1)        Leaving function random::randRange(int64 low, int64 high)
+(1)        Entering function random::randRange(int64 low, int64 high)
+(1)          Random value to check: 133912950
+(1)          Found valid value!
+(1)        Leaving function random::randRange(int64 low, int64 high)
+(1)        Entering function random::randRange(int64 low, int64 high)
+(1)          Random value to check: 112088594
+(1)          Found valid value!
+(1)        Leaving function random::randRange(int64 low, int64 high)
+(1)        Entering function random::randRange(int64 low, int64 high)
+(1)          Random value to check: 529840939
+(1)          Found valid value!
+(1)        Leaving function random::randRange(int64 low, int64 high)
+(1)        Entering function random::randRange(int64 low, int64 high)
+(1)          Random value to check: 1569461311
+(1)          Found valid value!
+(1)        Leaving function random::randRange(int64 low, int64 high)
+(1)        Entering function random::randRange(int64 low, int64 high)
+(1)          Random value to check: 394617876
+(1)          Found valid value!
+(1)        Leaving function random::randRange(int64 low, int64 high)
+(1)        Name found: ykoyotqgygecurpq
+(1)      Leaving function genName::get(const string&)
+(1)    Leaving function genName::get(const string& type, const vector<classDef::variable>& v)
+(1)    Creating function ykoyotqgygecurpq
+(1)    Creating arguments...
+(1)    Entering function random::randRange(int64 low, int64 high)
+(1)      Random value to check: 913139996
+(1)      Found valid value!
+(1)    Leaving function random::randRange(int64 low, int64 high)
+(1)    Choosing argument type...
+(1)    Entering function random::randRange(int64 low, int64 high)
+(1)      Random value to check: 1225771310
+(1)      Found valid value!
+(1)    Leaving function random::randRange(int64 low, int64 high)
+(1)    Entering function classDef::getName()
+(1)    Leaving function classDef::getName()
+(1)    Type = (1)    Entering function classDef::getName()
+(1)    Leaving function classDef::getName()
+float
+(1)    Choosing argument name...
+(1)    Entering function classDef::getName()
+(1)    Leaving function classDef::getName()
+(1)    Entering function genName::get(const string& type, const vector<classDef::variable>& v)
+(1)      Entering function genName::get(const string&
+(1)        Getting name of type float
+(1)        Entering function random::randRange(int64 low, int64 high)
+(1)          Random value to check: 727781499
+(1)          Found valid value!
+(1)        Leaving function random::randRange(int64 low, int64 high)
+(1)        Entering function random::randRange(int64 low, int64 high)
+(1)          Random value to check: 1904284028
+(1)          Found valid value!
+(1)        Leaving function random::randRange(int64 low, int64 high)
+(1)        Entering function random::randRange(int64 low, int64 high)
+(1)          Random value to check: 1352867355
+(1)          Found valid value!
+(1)        Leaving function random::randRange(int64 low, int64 high)
+(1)        Entering function random::randRange(int64 low, int64 high)
+(1)          Random value to check: 84781049
+(1)          Found valid value!
+(1)        Leaving function random::randRange(int64 low, int64 high)
+(1)        Entering function random::randRange(int64 low, int64 high)
+(1)          Random value to check: 1133432582
+(1)          Found valid value!
+(1)        Leaving function random::randRange(int64 low, int64 high)
+(1)        Entering function random::randRange(int64 low, int64 high)
+(1)          Random value to check: 1421456784
+(1)          Found valid value!
+(1)        Leaving function random::randRange(int64 low, int64 high)
+(1)        Entering function random::randRange(int64 low, int64 high)
+(1)          Random value to check: 1816079460
+(1)          Found valid value!
+(1)        Leaving function random::randRange(int64 low, int64 high)
+(1)        Entering function random::randRange(int64 low, int64 high)
+(1)          Random value to check: 662409409
+(1)          Found valid value!
+(1)        Leaving function random::randRange(int64 low, int64 high)
+(1)        Entering function random::randRange(int64 low, int64 high)
+(1)          Random value to check: 559711015
+(1)          Found valid value!
+(1)        Leaving function random::randRange(int64 low, int64 high)
+(1)        Entering function random::randRange(int64 low, int64 high)
+(1)          Random value to check: 1084655245
+(1)          Found valid value!
+(1)        Leaving function random::randRange(int64 low, int64 high)
+(1)        Entering function random::randRange(int64 low, int64 high)
+(1)          Random value to check: 1959506979
+(1)          Found valid value!
+(1)        Leaving function random::randRange(int64 low, int64 high)
+(1)        Entering function random::randRange(int64 low, int64 high)
+(1)          Random value to check: 1772069308
+(1)          Found valid value!
+(1)        Leaving function random::randRange(int64 low, int64 high)
+(1)        Entering function random::randRange(int64 low, int64 high)
+(1)          Random value to check: 1865642960
+(1)          Found valid value!
+(1)        Leaving function random::randRange(int64 low, int64 high)
+(1)        Entering function random::randRange(int64 low, int64 high)
+(1)          Random value to check: 452498873
+(1)          Found valid value!
+(1)        Leaving function random::randRange(int64 low, int64 high)
+(1)        Entering function random::randRange(int64 low, int64 high)
+(1)          Random value to check: 908964484
+(1)          Found valid value!
+(1)        Leaving function random::randRange(int64 low, int64 high)
+(1)        Entering function random::randRange(int64 low, int64 high)
+(1)          Random value to check: 1914901477
+(1)          Found valid value!
+(1)        Leaving function random::randRange(int64 low, int64 high)
+(1)        Name found: kvpwuaztlbwmvmv
+(1)      Leaving function genName::get(const string&)
+(1)    Leaving function genName::get(const string& type, const vector<classDef::variable>& v)
+(1)    Name = kvpwuaztlbwmvmv
+(1)    Choosing argument type...
+(1)    Entering function random::randRange(int64 low, int64 high)
+(1)      Random value to check: 1559189997
+(1)      Found valid value!
+(1)    Leaving function random::randRange(int64 low, int64 high)
+(1)    Entering function classDef::getName()
+(1)    Leaving function classDef::getName()
+(1)    Type = (1)    Entering function classDef::getName()
+(1)    Leaving function classDef::getName()
+bool
+(1)    Choosing argument name...
+(1)    Entering function classDef::getName()
+(1)    Leaving function classDef::getName()
+(1)    Entering function genName::get(const string& type, const vector<classDef::variable>& v)
+(1)      Entering function genName::get(const string&
+(1)        Getting name of type bool
+(1)        Entering function random::randRange(int64 low, int64 high)
+(1)          Random value to check: 1710818885
+(1)          Found valid value!
+(1)        Leaving function random::randRange(int64 low, int64 high)
+(1)        Name found: 
+(1)      Leaving function genName::get(const string&)
+(1)    Leaving function genName::get(const string& type, const vector<classDef::variable>& v)
+(1)    Name = 
+(1)    Creating return type...
+(1)    Entering function random::randRange(int64 low, int64 high)
+(1)      Random value to check: 1074450512
+(1)      Found valid value!
+(1)    Leaving function random::randRange(int64 low, int64 high)
+(1)    Entering function function::function(std::string name, std::vector<classDef> args, classDef ret)
+(1)    Leaving function function::function(std::string name, std::vector<classDef> args, classDef ret), returning void.
+(1)    Formatting function name...
+(1)    Entering function classDef::getName()
+(1)    Leaving function classDef::getName()
+(1)    Entering function classDef::getName()
+(1)    Leaving function classDef::getName()
+(1)    Entering function classDef::getName()
+(1)    Leaving function classDef::getName()
+(3)    Creating function body...
+(3)    Entering function random::randRange(int64 low, int64 high)
+(3)      Random value to check: 99767561
+(3)      Found valid value!
+(3)    Leaving function random::randRange(int64 low, int64 high)
+(3)    Entering function random::randRange(int64 low, int64 high)
+(3)      Random value to check: 1756153067
+(3)      Found valid value!
+(3)    Leaving function random::randRange(int64 low, int64 high)
+(3)    Creating a variable...
+(3)    Entering function random::randRange(int64 low, int64 high)
+(3)      Random value to check: 649352701
+(3)      Found valid value!
+(3)    Leaving function random::randRange(int64 low, int64 high)
+(3)    Entering function classDef::getName()
+(3)    Leaving function classDef::getName()
+(3)    Entering function genName::get(const string& type, const vector<classDef::variable>& v)
+(3)      Entering function genName::get(const string&
+(3)        Getting name of type char
+(3)        Entering function random::randRange(int64 low, int64 high)
+(3)          Random value to check: 158951653
+(3)          Found valid value!
+(3)        Leaving function random::randRange(int64 low, int64 high)
+(3)        Entering function random::randRange(int64 low, int64 high)
+(3)          Random value to check: 30775103
+(3)          Found valid value!
+(3)        Leaving function random::randRange(int64 low, int64 high)
+(3)        Entering function random::randRange(int64 low, int64 high)
+(3)          Random value to check: 1841080841
+(3)          Found valid value!
+(3)        Leaving function random::randRange(int64 low, int64 high)
+(3)        Entering function random::randRange(int64 low, int64 high)
+(3)          Random value to check: 2101308711
+(3)          Found valid value!
+(3)        Leaving function random::randRange(int64 low, int64 high)
+(3)        Entering function random::randRange(int64 low, int64 high)
+(3)          Random value to check: 1326930862
+(3)          Found valid value!
+(3)        Leaving function random::randRange(int64 low, int64 high)
+(3)        Entering function random::randRange(int64 low, int64 high)
+(3)          Random value to check: 109323539
+(3)          Found valid value!
+(3)        Leaving function random::randRange(int64 low, int64 high)
+(3)        Entering function random::randRange(int64 low, int64 high)
+(3)          Random value to check: 1302201788
+(3)          Found valid value!
+(3)        Leaving function random::randRange(int64 low, int64 high)
+(3)        Entering function random::randRange(int64 low, int64 high)
+(3)          Random value to check: 1099604339
+(3)          Found valid value!
+(3)        Leaving function random::randRange(int64 low, int64 high)
+(3)        Entering function random::randRange(int64 low, int64 high)
+(3)          Random value to check: 1953343138
+(3)          Found valid value!
+(3)        Leaving function random::randRange(int64 low, int64 high)
+(3)        Entering function random::randRange(int64 low, int64 high)
+(3)          Random value to check: 1255608677
+(3)          Found valid value!
+(3)        Leaving function random::randRange(int64 low, int64 high)
+(3)        Entering function random::randRange(int64 low, int64 high)
+(3)          Random value to check: 1840718917
+(3)          Found valid value!
+(3)        Leaving function random::randRange(int64 low, int64 high)
+(3)        Entering function random::randRange(int64 low, int64 high)
+(3)          Random value to check: 313419337
+(3)          Found valid value!
+(3)        Leaving function random::randRange(int64 low, int64 high)
+(3)        Entering function random::randRange(int64 low, int64 high)
+(3)          Random value to check: 2008894515
+(3)          Found valid value!
+(3)        Leaving function random::randRange(int64 low, int64 high)
+(3)        Entering function random::randRange(int64 low, int64 high)
+(3)          Random value to check: 752215471
+(3)          Found valid value!
+(3)        Leaving function random::randRange(int64 low, int64 high)
+(3)        Name found: vpvknepgllxrh
+(3)      Leaving function genName::get(const string&)
+(3)    Leaving function genName::get(const string& type, const vector<classDef::variable>& v)
+(3)    Entering function classDef::getName()
+(3)    Leaving function classDef::getName()
+(3)    Entering function classDef::getName()
+(3)    Leaving function classDef::getName()
+(4)    Variable initialization failed - does not check constructors. 
+(4)    Entering function random::randRange(int64 low, int64 high)
+(4)      Random value to check: 249191208
+(4)      Found valid value!
+(4)    Leaving function random::randRange(int64 low, int64 high)
+(4)    Finding callable functions...
+(4)    No callable functions found. No code generated.
+(4)    Entering function random::randRange(int64 low, int64 high)
+(4)      Random value to check: 563521206
+(4)      Found valid value!
+(4)    Leaving function random::randRange(int64 low, int64 high)
+(4)    Finding callable functions...
+(4)    No callable functions found. No code generated.
+(4)    Entering function random::randRange(int64 low, int64 high)
+(4)      Random value to check: 698025972
+(4)      Found valid value!
+(4)    Leaving function random::randRange(int64 low, int64 high)
+(4)    Finding callable functions...
+(4)    No callable functions found. No code generated.
+(4)    Entering function random::randRange(int64 low, int64 high)
+(4)      Random value to check: 19347843
+(4)      Found valid value!
+(4)    Leaving function random::randRange(int64 low, int64 high)
+(4)    Finding callable functions...
+(4)    No callable functions found. No code generated.
+(4)    Entering function random::randRange(int64 low, int64 high)
+(4)      Random value to check: 909166604
+(4)      Found valid value!
+(4)    Leaving function random::randRange(int64 low, int64 high)
+(4)    Creating a variable...
+(4)    Entering function random::randRange(int64 low, int64 high)
+(4)      Random value to check: 1016965023
+(4)      Found valid value!
+(4)    Leaving function random::randRange(int64 low, int64 high)
+(4)    Entering function classDef::getName()
+(4)    Leaving function classDef::getName()
+(4)    Entering function genName::get(const string& type, const vector<classDef::variable>& v)
+(4)      Entering function genName::get(const string&
+(4)        Getting name of type bool
+(4)        Entering function random::randRange(int64 low, int64 high)
+(4)          Random value to check: 308795088
+(4)          Found valid value!
+(4)        Leaving function random::randRange(int64 low, int64 high)
+(4)        Entering function isSpecial(const char)
+(4)        Leaving function isSpecial(const char)
+(4)        Entering function genName::get(const string&
+(4)          Getting name of type bool.%
+(4)          Entering function random::randRange(int64 low, int64 high)
+(4)            Random value to check: 1598552864
+(4)            Found valid value!
+(4)          Leaving function random::randRange(int64 low, int64 high)
+(4)          Entering function isSpecial(const char)
+(4)          Leaving function isSpecial(const char)
+(4)          Entering function isSpecial(const char)
+(4)          Leaving function isSpecial(const char)
+(4)          Name found: is
+(4)        Leaving function genName::get(const string&)
+(4)         Inserting string "is" to string"%Valid"
+(4)        Entering function isSpecial(const char)
+(4)        Leaving function isSpecial(const char)
+(4)        Entering function isSpecial(const char)
+(4)        Leaving function isSpecial(const char)
+(4)        Entering function isSpecial(const char)
+(4)        Leaving function isSpecial(const char)
+(4)        Entering function isSpecial(const char)
+(4)        Leaving function isSpecial(const char)
+(4)        Entering function isSpecial(const char)
+(4)        Leaving function isSpecial(const char)
+(4)        Entering function isSpecial(const char)
+(4)        Leaving function isSpecial(const char)
+(4)        Name found: isValid
+(4)      Leaving function genName::get(const string&)
+(4)    Leaving function genName::get(const string& type, const vector<classDef::variable>& v)
+(4)    Entering function classDef::getName()
+(4)    Leaving function classDef::getName()
+(4)    Entering function classDef::getName()
+(4)    Leaving function classDef::getName()
+(5)    Variable initialization failed - does not check constructors. 
+(5)    Entering function random::randRange(int64 low, int64 high)
+(5)      Random value to check: 1857561278
+(5)      Found valid value!
+(5)    Leaving function random::randRange(int64 low, int64 high)
+(5)    Creating a variable...
+(5)    Entering function random::randRange(int64 low, int64 high)
+(5)      Random value to check: 2062622907
+(5)      Found valid value!
+(5)    Leaving function random::randRange(int64 low, int64 high)
+(5)    Entering function classDef::getName()
+(5)    Leaving function classDef::getName()
+(5)    Entering function genName::get(const string& type, const vector<classDef::variable>& v)
+(5)      Entering function genName::get(const string&
+(5)        Getting name of type bool
+(5)        Entering function random::randRange(int64 low, int64 high)
+(5)          Random value to check: 1822168075
+(5)          Found valid value!
+(5)        Leaving function random::randRange(int64 low, int64 high)
+(5)        Entering function isSpecial(const char)
+(5)        Leaving function isSpecial(const char)
+(5)        Entering function genName::get(const string&
+(5)          Getting name of type bool.%
+(5)          Entering function random::randRange(int64 low, int64 high)
+(5)            Random value to check: 2062030305
+(5)            Found valid value!
+(5)          Leaving function random::randRange(int64 low, int64 high)
+(5)          Entering function isSpecial(const char)
+(5)          Leaving function isSpecial(const char)
+(5)          Entering function isSpecial(const char)
+(5)          Leaving function isSpecial(const char)
+(5)          Entering function isSpecial(const char)
+(5)          Leaving function isSpecial(const char)
+(5)          Entering function isSpecial(const char)
+(5)          Leaving function isSpecial(const char)
+(5)          Name found: does
+(5)        Leaving function genName::get(const string&)
+(5)         Inserting string "does" to string"%Run"
+(5)        Entering function isSpecial(const char)
+(5)        Leaving function isSpecial(const char)
+(5)        Entering function isSpecial(const char)
+(5)        Leaving function isSpecial(const char)
+(5)        Entering function isSpecial(const char)
+(5)        Leaving function isSpecial(const char)
+(5)        Entering function isSpecial(const char)
+(5)        Leaving function isSpecial(const char)
+(5)        Entering function isSpecial(const char)
+(5)        Leaving function isSpecial(const char)
+(5)        Entering function isSpecial(const char)
+(5)        Leaving function isSpecial(const char)
+(5)        Name found: doesRun
+(5)      Leaving function genName::get(const string&)
+(5)    Leaving function genName::get(const string& type, const vector<classDef::variable>& v)
+(5)    Entering function classDef::getName()
+(5)    Leaving function classDef::getName()
+(5)    Entering function classDef::getName()
+(5)    Leaving function classDef::getName()
+(6)    Variable initialization failed - does not check constructors. 
+(6)    Entering function random::randRange(int64 low, int64 high)
+(6)      Random value to check: 452240849
+(6)      Found valid value!
+(6)    Leaving function random::randRange(int64 low, int64 high)
+(6)    Creating a variable...
+(6)    Entering function random::randRange(int64 low, int64 high)
+(6)      Random value to check: 867322410
+(6)      Found valid value!
+(6)    Leaving function random::randRange(int64 low, int64 high)
+(6)    Entering function classDef::getName()
+(6)    Leaving function classDef::getName()
+(6)    Entering function genName::get(const string& type, const vector<classDef::variable>& v)
+(6)      Entering function genName::get(const string&
+(6)        Getting name of type bool
+(6)        Entering function random::randRange(int64 low, int64 high)
+(6)          Random value to check: 2116232681
+(6)          Found valid value!
+(6)        Leaving function random::randRange(int64 low, int64 high)
+(6)        Name found: 
+(6)      Leaving function genName::get(const string&)
+(6)      Entering function genName::get(const string&
+(6)        Getting name of type bool
+(6)        Entering function random::randRange(int64 low, int64 high)
+(6)          Random value to check: 898507953
+(6)          Found valid value!
+(6)        Leaving function random::randRange(int64 low, int64 high)
+(6)        Entering function isSpecial(const char)
+(6)        Leaving function isSpecial(const char)
+(6)        Entering function genName::get(const string&
+(6)          Getting name of type bool.%
+(6)          Entering function random::randRange(int64 low, int64 high)
+(6)            Random value to check: 118160367
+(6)            Found valid value!
+(6)          Leaving function random::randRange(int64 low, int64 high)
+(6)          Entering function isSpecial(const char)
+(6)          Leaving function isSpecial(const char)
+(6)          Entering function isSpecial(const char)
+(6)          Leaving function isSpecial(const char)
+(6)          Entering function isSpecial(const char)
+(6)          Leaving function isSpecial(const char)
+(6)          Name found: has
+(6)        Leaving function genName::get(const string&)
+(6)         Inserting string "has" to string"%Done"
+(6)        Entering function isSpecial(const char)
+(6)        Leaving function isSpecial(const char)
+(6)        Entering function isSpecial(const char)
+(6)        Leaving function isSpecial(const char)
+(6)        Entering function isSpecial(const char)
+(6)        Leaving function isSpecial(const char)
+(6)        Entering function isSpecial(const char)
+(6)        Leaving function isSpecial(const char)
+(6)        Entering function isSpecial(const char)
+(6)        Leaving function isSpecial(const char)
+(6)        Entering function isSpecial(const char)
+(6)        Leaving function isSpecial(const char)
+(6)        Name found: hasDone
+(6)      Leaving function genName::get(const string&)
+(6)    Leaving function genName::get(const string& type, const vector<classDef::variable>& v)
+(6)    Entering function classDef::getName()
+(6)    Leaving function classDef::getName()
+(6)    Entering function classDef::getName()
+(6)    Leaving function classDef::getName()
+(7)    Variable initialization failed - does not check constructors. 
+(7)    Entering function random::randRange(int64 low, int64 high)
+(7)      Random value to check: 1646398341
+(7)      Found valid value!
+(7)    Leaving function random::randRange(int64 low, int64 high)
+(7)    Finding callable functions...
+(7)    No callable functions found. No code generated.
+(7)    Entering function random::randRange(int64 low, int64 high)
+(7)      Random value to check: 690125592
+(7)      Found valid value!
+(7)    Leaving function random::randRange(int64 low, int64 high)
+(7)    Finding callable functions...
+(7)    No callable functions found. No code generated.
+(7)    Entering function random::randRange(int64 low, int64 high)
+(7)      Random value to check: 381647297
+(7)      Found valid value!
+(7)    Leaving function random::randRange(int64 low, int64 high)
+(7)    Creating a variable...
+(7)    Entering function random::randRange(int64 low, int64 high)
+(7)      Random value to check: 1959950737
+(7)      Found valid value!
+(7)    Leaving function random::randRange(int64 low, int64 high)
+(7)    Entering function classDef::getName()
+(7)    Leaving function classDef::getName()
+(7)    Entering function genName::get(const string& type, const vector<classDef::variable>& v)
+(7)      Entering function genName::get(const string&
+(7)        Getting name of type char
+(7)        Entering function random::randRange(int64 low, int64 high)
+(7)          Random value to check: 640375426
+(7)          Found valid value!
+(7)        Leaving function random::randRange(int64 low, int64 high)
+(7)        Entering function random::randRange(int64 low, int64 high)
+(7)          Random value to check: 1749229665
+(7)          Found valid value!
+(7)        Leaving function random::randRange(int64 low, int64 high)
+(7)        Entering function random::randRange(int64 low, int64 high)
+(7)          Random value to check: 251852225
+(7)          Found valid value!
+(7)        Leaving function random::randRange(int64 low, int64 high)
+(7)        Entering function random::randRange(int64 low, int64 high)
+(7)          Random value to check: 190077338
+(7)          Found valid value!
+(7)        Leaving function random::randRange(int64 low, int64 high)
+(7)        Entering function random::randRange(int64 low, int64 high)
+(7)          Random value to check: 1321636677
+(7)          Found valid value!
+(7)        Leaving function random::randRange(int64 low, int64 high)
+(7)        Entering function random::randRange(int64 low, int64 high)
+(7)          Random value to check: 1324269418
+(7)          Found valid value!
+(7)        Leaving function random::randRange(int64 low, int64 high)
+(7)        Entering function random::randRange(int64 low, int64 high)
+(7)          Random value to check: 475590818
+(7)          Found valid value!
+(7)        Leaving function random::randRange(int64 low, int64 high)
+(7)        Entering function random::randRange(int64 low, int64 high)
+(7)          Random value to check: 320743992
+(7)          Found valid value!
+(7)        Leaving function random::randRange(int64 low, int64 high)
+(7)        Entering function random::randRange(int64 low, int64 high)
+(7)          Random value to check: 560319574
+(7)          Found valid value!
+(7)        Leaving function random::randRange(int64 low, int64 high)
+(7)        Entering function random::randRange(int64 low, int64 high)
+(7)          Random value to check: 575288123
+(7)          Found valid value!
+(7)        Leaving function random::randRange(int64 low, int64 high)
+(7)        Entering function random::randRange(int64 low, int64 high)
+(7)          Random value to check: 896104467
+(7)          Found valid value!
+(7)        Leaving function random::randRange(int64 low, int64 high)
+(7)        Entering function random::randRange(int64 low, int64 high)
+(7)          Random value to check: 524960458
+(7)          Found valid value!
+(7)        Leaving function random::randRange(int64 low, int64 high)
+(7)        Entering function random::randRange(int64 low, int64 high)
+(7)          Random value to check: 1147595730
+(7)          Found valid value!
+(7)        Leaving function random::randRange(int64 low, int64 high)
+(7)        Entering function random::randRange(int64 low, int64 high)
+(7)          Random value to check: 1090800403
+(7)          Found valid value!
+(7)        Leaving function random::randRange(int64 low, int64 high)
+(7)        Entering function random::randRange(int64 low, int64 high)
+(7)          Random value to check: 14478782
+(7)          Found valid value!
+(7)        Leaving function random::randRange(int64 low, int64 high)
+(7)        Entering function random::randRange(int64 low, int64 high)
+(7)          Random value to check: 679236963
+(7)          Found valid value!
+(7)        Leaving function random::randRange(int64 low, int64 high)
+(7)        Entering function random::randRange(int64 low, int64 high)
+(7)          Random value to check: 2060053336
+(7)          Found valid value!
+(7)        Leaving function random::randRange(int64 low, int64 high)
+(7)        Entering function random::randRange(int64 low, int64 high)
+(7)          Random value to check: 1585061218
+(7)          Found valid value!
+(7)        Leaving function random::randRange(int64 low, int64 high)
+(7)        Entering function random::randRange(int64 low, int64 high)
+(7)          Random value to check: 589249891
+(7)          Found valid value!
+(7)        Leaving function random::randRange(int64 low, int64 high)
+(7)        Entering function random::randRange(int64 low, int64 high)
+(7)          Random value to check: 1475821720
+(7)          Found valid value!
+(7)        Leaving function random::randRange(int64 low, int64 high)
+(7)        Name found: bbwxeokwhlwirgpqajw
+(7)      Leaving function genName::get(const string&)
+(7)    Leaving function genName::get(const string& type, const vector<classDef::variable>& v)
+(7)    Entering function classDef::getName()
+(7)    Leaving function classDef::getName()
+(7)    Entering function classDef::getName()
+(7)    Leaving function classDef::getName()
+(8)    Variable initialization failed - does not check constructors. 
+(8)    Entering function random::randRange(int64 low, int64 high)
+(8)      Random value to check: 699525190
+(8)      Found valid value!
+(8)    Leaving function random::randRange(int64 low, int64 high)
+(8)    Setting a variable...
+(8)    Entering function random::randRange(int64 low, int64 high)
+(8)      Random value to check: 1594384652
+(8)      Found valid value!
+(8)    Leaving function random::randRange(int64 low, int64 high)
+(8)    Entering function classDef::operator>=(const classDef &isEqual)
+(8)      Entering function classDef::getName()
+(8)      Leaving function classDef::getName()
+(8)      Checking >= on class float and (8)      Entering function classDef::getName()
+(8)      Leaving function classDef::getName()
+bool
+(8)      Checking the names...
+(8)      Entering function classDef::getName()
+(8)      Leaving function classDef::getName()
+(8)      Checking conversion operators...
+(8)    Leaving function classDef::operator>=(const classDef &isEqual)
+(8)    Entering function classDef::operator>=(const classDef &isEqual)
+(8)      Entering function classDef::getName()
+(8)      Leaving function classDef::getName()
+(8)      Checking >= on class float and (8)      Entering function classDef::getName()
+(8)      Leaving function classDef::getName()
+char
+(8)      Checking the names...
+(8)      Entering function classDef::getName()
+(8)      Leaving function classDef::getName()
+(8)      Checking conversion operators...
+(8)    Leaving function classDef::operator>=(const classDef &isEqual)
+(8)    Entering function classDef::operator>=(const classDef &isEqual)
+(8)      Entering function classDef::getName()
+(8)      Leaving function classDef::getName()
+(8)      Checking >= on class float and (8)      Entering function classDef::getName()
+(8)      Leaving function classDef::getName()
+bool
+(8)      Checking the names...
+(8)      Entering function classDef::getName()
+(8)      Leaving function classDef::getName()
+(8)      Checking conversion operators...
+(8)    Leaving function classDef::operator>=(const classDef &isEqual)
+(8)    Entering function classDef::operator>=(const classDef &isEqual)
+(8)      Entering function classDef::getName()
+(8)      Leaving function classDef::getName()
+(8)      Checking >= on class float and (8)      Entering function classDef::getName()
+(8)      Leaving function classDef::getName()
+bool
+(8)      Checking the names...
+(8)      Entering function classDef::getName()
+(8)      Leaving function classDef::getName()
+(8)      Checking conversion operators...
+(8)    Leaving function classDef::operator>=(const classDef &isEqual)
+(8)    Entering function classDef::operator>=(const classDef &isEqual)
+(8)      Entering function classDef::getName()
+(8)      Leaving function classDef::getName()
+(8)      Checking >= on class float and (8)      Entering function classDef::getName()
+(8)      Leaving function classDef::getName()
+bool
+(8)      Checking the names...
+(8)      Entering function classDef::getName()
+(8)      Leaving function classDef::getName()
+(8)      Checking conversion operators...
+(8)    Leaving function classDef::operator>=(const classDef &isEqual)
+(8)    Entering function classDef::operator>=(const classDef &isEqual)
+(8)      Entering function classDef::getName()
+(8)      Leaving function classDef::getName()
+(8)      Checking >= on class float and (8)      Entering function classDef::getName()
+(8)      Leaving function classDef::getName()
+char
+(8)      Checking the names...
+(8)      Entering function classDef::getName()
+(8)      Leaving function classDef::getName()
+(8)      Checking conversion operators...
+(8)    Leaving function classDef::operator>=(const classDef &isEqual)
+(8)    Entering function classDef::operator>=(const classDef &isEqual)
+(8)      Entering function classDef::getName()
+(8)      Leaving function classDef::getName()
+(8)      Checking >= on class float and (8)      Entering function classDef::getName()
+(8)      Leaving function classDef::getName()
+bool
+(8)      Checking the names...
+(8)      Entering function classDef::getName()
+(8)      Leaving function classDef::getName()
+(8)      Checking conversion operators...
+(8)    Leaving function classDef::operator>=(const classDef &isEqual)
+(8)      NO INT, CHAR OPTIONS CREATED!
+(9)    Entering function random::randRange(int64 low, int64 high)
+(9)      Random value to check: 521898898
+(9)      Found valid value!
+(9)    Leaving function random::randRange(int64 low, int64 high)
+(9)    Setting a variable...
+(9)    Entering function random::randRange(int64 low, int64 high)
+(9)      Random value to check: 1231564338
+(9)      Found valid value!
+(9)    Leaving function random::randRange(int64 low, int64 high)
+(9)    Entering function classDef::operator>=(const classDef &isEqual)
+(9)      Entering function classDef::getName()
+(9)      Leaving function classDef::getName()
+(9)      Checking >= on class bool and (9)      Entering function classDef::getName()
+(9)      Leaving function classDef::getName()
+float
+(9)      Checking the names...
+(9)      Entering function classDef::getName()
+(9)      Leaving function classDef::getName()
+(9)      Checking conversion operators...
+(9)    Leaving function classDef::operator>=(const classDef &isEqual)
+(9)    Entering function classDef::operator>=(const classDef &isEqual)
+(9)      Entering function classDef::getName()
+(9)      Leaving function classDef::getName()
+(9)      Checking >= on class bool and (9)      Entering function classDef::getName()
+(9)      Leaving function classDef::getName()
+bool
+(9)      Checking the names...
+(9)      Entering function classDef::getName()
+(9)      Leaving function classDef::getName()
+(9)    Leaving function classDef::operator>=(const classDef &isEqual)
+(9)    Entering function classDef::operator>=(const classDef &isEqual)
+(9)      Entering function classDef::getName()
+(9)      Leaving function classDef::getName()
+(9)      Checking >= on class bool and (9)      Entering function classDef::getName()
+(9)      Leaving function classDef::getName()
+char
+(9)      Checking the names...
+(9)      Entering function classDef::getName()
+(9)      Leaving function classDef::getName()
+(9)      Checking conversion operators...
+(9)    Leaving function classDef::operator>=(const classDef &isEqual)
+(9)    Entering function classDef::operator>=(const classDef &isEqual)
+(9)      Entering function classDef::getName()
+(9)      Leaving function classDef::getName()
+(9)      Checking >= on class bool and (9)      Entering function classDef::getName()
+(9)      Leaving function classDef::getName()
+bool
+(9)      Checking the names...
+(9)      Entering function classDef::getName()
+(9)      Leaving function classDef::getName()
+(9)    Leaving function classDef::operator>=(const classDef &isEqual)
+(9)    Entering function classDef::operator>=(const classDef &isEqual)
+(9)      Entering function classDef::getName()
+(9)      Leaving function classDef::getName()
+(9)      Checking >= on class bool and (9)      Entering function classDef::getName()
+(9)      Leaving function classDef::getName()
+bool
+(9)      Checking the names...
+(9)      Entering function classDef::getName()
+(9)      Leaving function classDef::getName()
+(9)    Leaving function classDef::operator>=(const classDef &isEqual)
+(9)    Entering function classDef::operator>=(const classDef &isEqual)
+(9)      Entering function classDef::getName()
+(9)      Leaving function classDef::getName()
+(9)      Checking >= on class bool and (9)      Entering function classDef::getName()
+(9)      Leaving function classDef::getName()
+char
+(9)      Checking the names...
+(9)      Entering function classDef::getName()
+(9)      Leaving function classDef::getName()
+(9)      Checking conversion operators...
+(9)    Leaving function classDef::operator>=(const classDef &isEqual)
+(9)    Entering function classDef::operator>=(const classDef &isEqual)
+(9)      Entering function classDef::getName()
+(9)      Leaving function classDef::getName()
+(9)      Checking >= on class bool and (9)      Entering function classDef::getName()
+(9)      Leaving function classDef::getName()
+bool
+(9)      Checking the names...
+(9)      Entering function classDef::getName()
+(9)      Leaving function classDef::getName()
+(9)    Leaving function classDef::operator>=(const classDef &isEqual)
+(9)      Adding bool options...
+(9)      NO INT, CHAR OPTIONS CREATED!
+(9)    Entering function random::randRange(int64 low, int64 high)
+(9)      Random value to check: 1454438980
+(9)      Found valid value!
+(9)    Leaving function random::randRange(int64 low, int64 high)
+(9)    Entering function random::randRange(int64 low, int64 high)
+(9)      Random value to check: 2097066706
+(9)      Found valid value!
+(9)    Leaving function random::randRange(int64 low, int64 high)
+(10)    Entering function random::randRange(int64 low, int64 high)
+(10)      Random value to check: 898513178
+(10)      Found valid value!
+(10)    Leaving function random::randRange(int64 low, int64 high)
+(10)    Creating a variable...
+(10)    Entering function random::randRange(int64 low, int64 high)
+(10)      Random value to check: 205976942
+(10)      Found valid value!
+(10)    Leaving function random::randRange(int64 low, int64 high)
+(10)    Entering function classDef::getName()
+(10)    Leaving function classDef::getName()
+(10)    Entering function genName::get(const string& type, const vector<classDef::variable>& v)
+(10)      Entering function genName::get(const string&
+(10)        Getting name of type float
+(10)        Entering function random::randRange(int64 low, int64 high)
+(10)          Random value to check: 110825230
+(10)          Found valid value!
+(10)        Leaving function random::randRange(int64 low, int64 high)
+(10)        Entering function random::randRange(int64 low, int64 high)
+(10)          Random value to check: 771318661
+(10)          Found valid value!
+(10)        Leaving function random::randRange(int64 low, int64 high)
+(10)        Entering function random::randRange(int64 low, int64 high)
+(10)          Random value to check: 1341442135
+(10)          Found valid value!
+(10)        Leaving function random::randRange(int64 low, int64 high)
+(10)        Entering function random::randRange(int64 low, int64 high)
+(10)          Random value to check: 1334636739
+(10)          Found valid value!
+(10)        Leaving function random::randRange(int64 low, int64 high)
+(10)        Entering function random::randRange(int64 low, int64 high)
+(10)          Random value to check: 772979458
+(10)          Found valid value!
+(10)        Leaving function random::randRange(int64 low, int64 high)
+(10)        Entering function random::randRange(int64 low, int64 high)
+(10)          Random value to check: 1337169903
+(10)          Found valid value!
+(10)        Leaving function random::randRange(int64 low, int64 high)
+(10)        Entering function random::randRange(int64 low, int64 high)
+(10)          Random value to check: 398193866
+(10)          Found valid value!
+(10)        Leaving function random::randRange(int64 low, int64 high)
+(10)        Entering function random::randRange(int64 low, int64 high)
+(10)          Random value to check: 885261810
+(10)          Found valid value!
+(10)        Leaving function random::randRange(int64 low, int64 high)
+(10)        Entering function random::randRange(int64 low, int64 high)
+(10)          Random value to check: 828534254
+(10)          Found valid value!
+(10)        Leaving function random::randRange(int64 low, int64 high)
+(10)        Entering function random::randRange(int64 low, int64 high)
+(10)          Random value to check: 891239830
+(10)          Found valid value!
+(10)        Leaving function random::randRange(int64 low, int64 high)
+(10)        Entering function random::randRange(int64 low, int64 high)
+(10)          Random value to check: 369384985
+(10)          Found valid value!
+(10)        Leaving function random::randRange(int64 low, int64 high)
+(10)        Entering function random::randRange(int64 low, int64 high)
+(10)          Random value to check: 2025703065
+(10)          Found valid value!
+(10)        Leaving function random::randRange(int64 low, int64 high)
+(10)        Entering function random::randRange(int64 low, int64 high)
+(10)          Random value to check: 1933157564
+(10)          Found valid value!
+(10)        Leaving function random::randRange(int64 low, int64 high)
+(10)        Entering function random::randRange(int64 low, int64 high)
+(10)          Random value to check: 1299082685
+(10)          Found valid value!
+(10)        Leaving function random::randRange(int64 low, int64 high)
+(10)        Entering function random::randRange(int64 low, int64 high)
+(10)          Random value to check: 216447746
+(10)          Found valid value!
+(10)        Leaving function random::randRange(int64 low, int64 high)
+(10)        Entering function random::randRange(int64 low, int64 high)
+(10)          Random value to check: 2147452651
+(10)          Found valid value!
+(10)        Leaving function random::randRange(int64 low, int64 high)
+(10)        Entering function random::randRange(int64 low, int64 high)
+(10)          Random value to check: 1626533875
+(10)          Found valid value!
+(10)        Leaving function random::randRange(int64 low, int64 high)
+(10)        Entering function random::randRange(int64 low, int64 high)
+(10)          Random value to check: 1835494462
+(10)          Found valid value!
+(10)        Leaving function random::randRange(int64 low, int64 high)
+(10)        Entering function random::randRange(int64 low, int64 high)
+(10)          Random value to check: 552833679
+(10)          Found valid value!
+(10)        Leaving function random::randRange(int64 low, int64 high)
+(10)        Entering function random::randRange(int64 low, int64 high)
+(10)          Random value to check: 1461386031
+(10)          Found valid value!
+(10)        Leaving function random::randRange(int64 low, int64 high)
+(10)        Entering function random::randRange(int64 low, int64 high)
+(10)          Random value to check: 744552278
+(10)          Found valid value!
+(10)        Leaving function random::randRange(int64 low, int64 high)
+(10)        Name found: jhhersecavjaritfwvbc
+(10)      Leaving function genName::get(const string&)
+(10)    Leaving function genName::get(const string& type, const vector<classDef::variable>& v)
+(10)    Entering function classDef::getName()
+(10)    Leaving function classDef::getName()
+(10)    Entering function classDef::getName()
+(10)    Leaving function classDef::getName()
+(11)    Variable initialization failed - does not check constructors. 
+(11)    Entering function random::randRange(int64 low, int64 high)
+(11)      Random value to check: 302925277
+(11)      Found valid value!
+(11)    Leaving function random::randRange(int64 low, int64 high)
+(11)    Setting a variable...
+(11)    Entering function random::randRange(int64 low, int64 high)
+(11)      Random value to check: 1728887149
+(11)      Found valid value!
+(11)    Leaving function random::randRange(int64 low, int64 high)
+(11)    Entering function classDef::operator>=(const classDef &isEqual)
+(11)      Entering function classDef::getName()
+(11)      Leaving function classDef::getName()
+(11)      Checking >= on class bool and (11)      Entering function classDef::getName()
+(11)      Leaving function classDef::getName()
+float
+(11)      Checking the names...
+(11)      Entering function classDef::getName()
+(11)      Leaving function classDef::getName()
+(11)      Checking conversion operators...
+(11)    Leaving function classDef::operator>=(const classDef &isEqual)
+(11)    Entering function classDef::operator>=(const classDef &isEqual)
+(11)      Entering function classDef::getName()
+(11)      Leaving function classDef::getName()
+(11)      Checking >= on class bool and (11)      Entering function classDef::getName()
+(11)      Leaving function classDef::getName()
+bool
+(11)      Checking the names...
+(11)      Entering function classDef::getName()
+(11)      Leaving function classDef::getName()
+(11)    Leaving function classDef::operator>=(const classDef &isEqual)
+(11)    Entering function classDef::operator>=(const classDef &isEqual)
+(11)      Entering function classDef::getName()
+(11)      Leaving function classDef::getName()
+(11)      Checking >= on class bool and (11)      Entering function classDef::getName()
+(11)      Leaving function classDef::getName()
+char
+(11)      Checking the names...
+(11)      Entering function classDef::getName()
+(11)      Leaving function classDef::getName()
+(11)      Checking conversion operators...
+(11)    Leaving function classDef::operator>=(const classDef &isEqual)
+(11)    Entering function classDef::operator>=(const classDef &isEqual)
+(11)      Entering function classDef::getName()
+(11)      Leaving function classDef::getName()
+(11)      Checking >= on class bool and (11)      Entering function classDef::getName()
+(11)      Leaving function classDef::getName()
+bool
+(11)      Checking the names...
+(11)      Entering function classDef::getName()
+(11)      Leaving function classDef::getName()
+(11)    Leaving function classDef::operator>=(const classDef &isEqual)
+(11)    Entering function classDef::operator>=(const classDef &isEqual)
+(11)      Entering function classDef::getName()
+(11)      Leaving function classDef::getName()
+(11)      Checking >= on class bool and (11)      Entering function classDef::getName()
+(11)      Leaving function classDef::getName()
+bool
+(11)      Checking the names...
+(11)      Entering function classDef::getName()
+(11)      Leaving function classDef::getName()
+(11)    Leaving function classDef::operator>=(const classDef &isEqual)
+(11)    Entering function classDef::operator>=(const classDef &isEqual)
+(11)      Entering function classDef::getName()
+(11)      Leaving function classDef::getName()
+(11)      Checking >= on class bool and (11)      Entering function classDef::getName()
+(11)      Leaving function classDef::getName()
+char
+(11)      Checking the names...
+(11)      Entering function classDef::getName()
+(11)      Leaving function classDef::getName()
+(11)      Checking conversion operators...
+(11)    Leaving function classDef::operator>=(const classDef &isEqual)
+(11)    Entering function classDef::operator>=(const classDef &isEqual)
+(11)      Entering function classDef::getName()
+(11)      Leaving function classDef::getName()
+(11)      Checking >= on class bool and (11)      Entering function classDef::getName()
+(11)      Leaving function classDef::getName()
+float
+(11)      Checking the names...
+(11)      Entering function classDef::getName()
+(11)      Leaving function classDef::getName()
+(11)      Checking conversion operators...
+(11)    Leaving function classDef::operator>=(const classDef &isEqual)
+(11)    Entering function classDef::operator>=(const classDef &isEqual)
+(11)      Entering function classDef::getName()
+(11)      Leaving function classDef::getName()
+(11)      Checking >= on class bool and (11)      Entering function classDef::getName()
+(11)      Leaving function classDef::getName()
+bool
+(11)      Checking the names...
+(11)      Entering function classDef::getName()
+(11)      Leaving function classDef::getName()
+(11)    Leaving function classDef::operator>=(const classDef &isEqual)
+(11)      Adding bool options...
+(11)      NO INT, CHAR OPTIONS CREATED!
+(11)    Entering function random::randRange(int64 low, int64 high)
+(11)      Random value to check: 1952569333
+(11)      Found valid value!
+(11)    Leaving function random::randRange(int64 low, int64 high)
+(11)    Entering function random::randRange(int64 low, int64 high)
+(11)      Random value to check: 1135169924
+(11)      Found valid value!
+(11)    Leaving function random::randRange(int64 low, int64 high)
+(12)    Entering function random::randRange(int64 low, int64 high)
+(12)      Random value to check: 556192720
+(12)      Found valid value!
+(12)    Leaving function random::randRange(int64 low, int64 high)
+(12)    Setting a variable...
+(12)    Entering function random::randRange(int64 low, int64 high)
+(12)      Random value to check: 2082213296
+(12)      Found valid value!
+(12)    Leaving function random::randRange(int64 low, int64 high)
+(12)    Entering function classDef::operator>=(const classDef &isEqual)
+(12)      Entering function classDef::getName()
+(12)      Leaving function classDef::getName()
+(12)      Checking >= on class float and (12)      Entering function classDef::getName()
+(12)      Leaving function classDef::getName()
+bool
+(12)      Checking the names...
+(12)      Entering function classDef::getName()
+(12)      Leaving function classDef::getName()
+(12)      Checking conversion operators...
+(12)    Leaving function classDef::operator>=(const classDef &isEqual)
+(12)    Entering function classDef::operator>=(const classDef &isEqual)
+(12)      Entering function classDef::getName()
+(12)      Leaving function classDef::getName()
+(12)      Checking >= on class float and (12)      Entering function classDef::getName()
+(12)      Leaving function classDef::getName()
+char
+(12)      Checking the names...
+(12)      Entering function classDef::getName()
+(12)      Leaving function classDef::getName()
+(12)      Checking conversion operators...
+(12)    Leaving function classDef::operator>=(const classDef &isEqual)
+(12)    Entering function classDef::operator>=(const classDef &isEqual)
+(12)      Entering function classDef::getName()
+(12)      Leaving function classDef::getName()
+(12)      Checking >= on class float and (12)      Entering function classDef::getName()
+(12)      Leaving function classDef::getName()
+bool
+(12)      Checking the names...
+(12)      Entering function classDef::getName()
+(12)      Leaving function classDef::getName()
+(12)      Checking conversion operators...
+(12)    Leaving function classDef::operator>=(const classDef &isEqual)
+(12)    Entering function classDef::operator>=(const classDef &isEqual)
+(12)      Entering function classDef::getName()
+(12)      Leaving function classDef::getName()
+(12)      Checking >= on class float and (12)      Entering function classDef::getName()
+(12)      Leaving function classDef::getName()
+bool
+(12)      Checking the names...
+(12)      Entering function classDef::getName()
+(12)      Leaving function classDef::getName()
+(12)      Checking conversion operators...
+(12)    Leaving function classDef::operator>=(const classDef &isEqual)
+(12)    Entering function classDef::operator>=(const classDef &isEqual)
+(12)      Entering function classDef::getName()
+(12)      Leaving function classDef::getName()
+(12)      Checking >= on class float and (12)      Entering function classDef::getName()
+(12)      Leaving function classDef::getName()
+bool
+(12)      Checking the names...
+(12)      Entering function classDef::getName()
+(12)      Leaving function classDef::getName()
+(12)      Checking conversion operators...
+(12)    Leaving function classDef::operator>=(const classDef &isEqual)
+(12)    Entering function classDef::operator>=(const classDef &isEqual)
+(12)      Entering function classDef::getName()
+(12)      Leaving function classDef::getName()
+(12)      Checking >= on class float and (12)      Entering function classDef::getName()
+(12)      Leaving function classDef::getName()
+char
+(12)      Checking the names...
+(12)      Entering function classDef::getName()
+(12)      Leaving function classDef::getName()
+(12)      Checking conversion operators...
+(12)    Leaving function classDef::operator>=(const classDef &isEqual)
+(12)    Entering function classDef::operator>=(const classDef &isEqual)
+(12)      Entering function classDef::getName()
+(12)      Leaving function classDef::getName()
+(12)      Checking >= on class float and (12)      Entering function classDef::getName()
+(12)      Leaving function classDef::getName()
+float
+(12)      Checking the names...
+(12)      Entering function classDef::getName()
+(12)      Leaving function classDef::getName()
+(12)    Leaving function classDef::operator>=(const classDef &isEqual)
+(12)    Entering function classDef::operator>=(const classDef &isEqual)
+(12)      Entering function classDef::getName()
+(12)      Leaving function classDef::getName()
+(12)      Checking >= on class float and (12)      Entering function classDef::getName()
+(12)      Leaving function classDef::getName()
+bool
+(12)      Checking the names...
+(12)      Entering function classDef::getName()
+(12)      Leaving function classDef::getName()
+(12)      Checking conversion operators...
+(12)    Leaving function classDef::operator>=(const classDef &isEqual)
+(12)      NO INT, CHAR OPTIONS CREATED!
+(12)    Entering function random::randRange(int64 low, int64 high)
+(12)      Random value to check: 365354360
+(12)      Found valid value!
+(12)    Leaving function random::randRange(int64 low, int64 high)
+(12)    Entering function random::randRange(int64 low, int64 high)
+(12)      Random value to check: 854981747
+(12)      Found valid value!
+(12)    Leaving function random::randRange(int64 low, int64 high)
+(13)    Entering function classDef::operator!=(const classDef& isEqual)
+(13)    Leaving function classDef::operator!=(const classDef& isEqual)
+(13)    Entering function classDef::operator==(const classDef& isEqual
+(13)    Leaving function classDef::operator==(const classDef& isEqual)
+(13)    Entering function classDef::getName()
+(13)    Leaving function classDef::getName()
+(14)  Leaving function functionScope::generate()
+(14)  Function finished!
+(14)  Entering function functionScope::~functionScope()
+(14)  Leaving function functionScope::~functionScope(), returning void.
+(14)  Finished all classes and functions. Generating main
+(16)  Entering function classDef::getName()
+(16)  Leaving function classDef::getName()
+(16)  Entering function classDef::getName()
+(16)  Leaving function classDef::getName()
+(19)Leaving function globalNamespace::generate(int32 length), returning void.
+(19)Entering function globalNamespace::~globalNamespace()
+(19)Leaving function globalNamespace::~globalNamespace, returning void.
+Closing log...

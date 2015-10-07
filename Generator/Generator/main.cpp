@@ -11,32 +11,26 @@ using std::cin;
 using std::endl;
 
 
-int main() {
-    
-    logger::init("Name generator");
-    genName::init();
-
-#ifdef TEST_NAME_GEN
-    while (true) {
-        cout << "Enter name type: ";
-        string s;
-        cin >> s;
-        cout << genName::get(s) << endl;
+int main(int32 len, char** args) {
+    if (len != 3) {
+        cout << "Invalid number of arguments." << endl;
+        cout << "  Required arguments (in order): namefile-path outputfile-path length" << endl;
+        cin.get();
+        exit(-1);
     }
-#else
-    globalNamespace g;
-    int length;
-    cout << "How much code to generate?" << endl;
-    cin >> length;
-    if (length > 10) {
-        cout << "That's too long. 1 to 10 please." << endl;
-        length = 10;
-    } else if (length <= 0) {
-        cout << "Please actually ask to generate code. 10 to 10 please." << endl;
-        exit(0);
-    }
-    g.generate(length);
-#endif
     
+    string namePath = args[1];
+    string outPath = args[0];
+    int32 generateLength;
+    cout << "Enter generation length: ";
+    cin >> generateLength;
+    
+    logger::init(outPath);
+    
+    genName::init(namePath);
+    {
+        globalNamespace g;
+        g.generate(generateLength);
+    }
     logger::close();
 }

@@ -33,9 +33,11 @@ const classDef* classScope::generate()
     LOG("Creating private variables..." )
     while (randRange(0, 10) != 10) {
         // Choose random type.
+        LOG("Finding variable type...")
         const classDef* type = types[randRange(1, types.size() - 1)];
         
         // Choose name.
+        LOG("Finding variable name...")
         string name = genName::get(type->getName(), variables);
         
         // Print it out.
@@ -58,10 +60,9 @@ const classDef* classScope::generate()
         functions.push_back(func);
         
         
-        //Delete...
+        // Create destroyer.
         destructor<const function>* d = new destructor<const function>(func);
-
-        
+        death.push_back(d);
     }
     
     LOG("Creating public variables...")
@@ -75,7 +76,9 @@ const classDef* classScope::generate()
     // Create public variables.
     while(randRange(0, 10) != 10) {
         // Create variable parameters.
+        LOG("Getting variable type...")
         const classDef* type = types[randRange(1, types.size() - 1)];
+        LOG("Getting variable name...")
         string varName = genName::get(type->getName(), variables);
         
         // Create variable and add it.
@@ -107,10 +110,7 @@ const classDef* classScope::generate()
     // Create constructor...
     // We only have one now. Just basic constructor.
     CODE(name << "() {}")
-    // Cheese function. Just name and return of void.
-    function* constructor = new function(name, vector<const classDef*>(), types[0]);
-    ret->addFunction(constructor);
-    
+     
     // Remove tab.
     logger::code_pre.pop_back();
     CODE("};")

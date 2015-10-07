@@ -10,11 +10,11 @@ std::map<string, std::vector<string> > genName::lines;
 
 using namespace std;
 
-void genName::init() {
-    ENTER_FUNC("genName::init()")
-
+void genName::init(string file) {
+    ENTER_FUNC("genName::init(string file)")
+    LOG("File name: " << file)
     ifstream infile;
-    infile.open("names.txt");
+    infile.open(file);
     string lineInfo ;
     // For what vector to add the info to.
     string varKey;
@@ -205,7 +205,7 @@ string genName::get(const string& type){
         
     } // End if/else.
     
-    
+    LOG("Name found: " << name)
     LEAVE_FUNC("genName::get(const string&)", name)
 }
 

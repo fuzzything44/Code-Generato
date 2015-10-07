@@ -13,10 +13,7 @@ using std::string;
 // globalNamespace
 globalNamespace::globalNamespace()
 {
-    ENTER_FUNC("globalNamespace::globalNamespace()")
-    // Start logging
-    logger::init("generator");
-    
+    ENTER_FUNC("globalNamespace::globalNamespace()")    
     
     LOG("Creating basic data types" << std::endl)
     // Initialize basic data types.

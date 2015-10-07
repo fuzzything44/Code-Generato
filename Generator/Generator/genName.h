@@ -9,7 +9,7 @@
 
 class genName{
 public:
-    static void init();
+    static void init(std::string file = "names.txt");
     static std::string get(const std::string& type, const std::vector<classDef::variable>& v);
     static std::string get(const std::string& type);
     static std::string get(const std::string& type, const std::vector<const classDef*>& v);
